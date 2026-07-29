@@ -327,8 +327,16 @@
 
   if (searchInput) {
     searchInput.addEventListener("input", (e) => {
+      const wasEmpty = query.trim() === "";
       query = e.target.value;
       renderGrid();
+      // Results render in the Repository section, well below the hero —
+      // jump there the moment someone starts typing so it's obvious the
+      // search actually did something, without re-scrolling on every
+      // keystroke after that.
+      if (wasEmpty && query.trim() !== "") {
+        document.getElementById("repository")?.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
     });
   }
 
