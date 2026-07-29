@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D.V.C.I. — Dictionary of Very Curious Idioms</title>
+  <meta name="description" content="The real origins of common British expressions — sourced, verified, and myth-busted. A growing dictionary of very curious idioms." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="mark">D.V.C.I.</span>
+        <span class="full">Dictionary of Very Curious Idioms</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="index.html#repository">Repository</a>
+        <a href="about.html">About</a>
+        <a class="social-pill" href="#" target="_blank" rel="noopener">Follow @dvci ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="eyebrow">Est. 2026 &middot; A Living Dictionary</div>
+      <h1>The Dictionary of Very Curious Idioms</h1>
+      <p class="lede">
+        You say these things every day without a second thought. Here's where
+        they actually came from — the documented history, the leading
+        theories where nobody's sure, and the popular myths that turn out to
+        be nonsense.
+      </p>
+      <div class="search-wrap">
+        <input type="text" id="search-input" placeholder="Search an idiom, e.g. &quot;cat&quot;, &quot;bullet&quot;, &quot;thunder&quot;…" aria-label="Search idioms" />
+      </div>
+    </div>
+  </section>
+
+  <section class="featured">
+    <div class="container">
+      <div class="featured-card" id="featured-slot">
+        <!-- Filled by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <section class="repo-section" id="repository">
+    <div class="container">
+      <h2>The Repository</h2>
+      <p class="sub">Every idiom we've researched so far, sorted honestly by how well we actually know the answer.</p>
+      <div class="chips" id="chips"></div>
+      <div class="count-line" id="count-line"></div>
+      <div class="grid" id="repo-grid"></div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container">
+      <h2>Get one curious idiom a week</h2>
+      <p>A short, well-sourced email — one expression, its real backstory, and whether the story you've heard is true. No spam, unsubscribe anytime.</p>
+      <form id="newsletter-form">
+        <input type="email" id="newsletter-email" placeholder="you@example.com" required aria-label="Email address" />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p class="success-msg" id="newsletter-success"></p>
+      <p class="note">Signup is a preview for now — no messages are sent yet while we set up the mailing list. Your email isn't stored anywhere except your own browser.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-row">
+        <a href="#" target="_blank" rel="noopener">TikTok</a>
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+      <p>&copy; 2026 Dictionary of Very Curious Idioms. Researched with care; corrections welcome.</p>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true">
+    <div class="modal">
+      <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/script.js"></script>
+</body>
+</html>
