@@ -1,8 +1,8 @@
-/* D.V.C.I. — Dictionary of Very Curious Idioms
+/* D.V.C.I.: Dictionary of Very Curious Idioms
    Entry data. Each entry is a good-faith summary of the leading etymological
    research (OED, Phrase Finder, Brewer's Dictionary of Phrase & Fable, etc.).
-   Where scholars disagree or the popular story doesn't hold up, we say so —
-   that honesty is the whole point of this project. */
+   Where scholars disagree or the popular story doesn't hold up, we say so.
+   That honesty is the whole point of this project. */
 
 const IDIOMS = [
   {
@@ -12,8 +12,8 @@ const IDIOMS = [
     category: "Theatre & Performance",
     verdict: "well-documented",
     verdictLabel: "Well Documented",
-    story: `In 1704 the playwright John Dennis invented a new stage device — a
-    "mustard bowl" of wooden balls rolled together backstage — to simulate the
+    story: `In 1704 the playwright John Dennis invented a new stage device, a
+    "mustard bowl" of wooden balls rolled together backstage, to simulate the
     sound of thunder for his play <em>Appius and Virginia</em>. The play flopped
     and closed almost immediately. Soon after, Dennis discovered the same
     theatre using his thunder technique for a production of <em>Macbeth</em>.
@@ -30,7 +30,7 @@ const IDIOMS = [
     category: "Law & Government",
     verdict: "well-documented",
     verdictLabel: "Well Documented",
-    story: `This one isn't a metaphor at all — it's a literal law. The Riot Act
+    story: `This one isn't a metaphor at all. It's a literal law. The Riot Act
     of 1714 gave British authorities the power to declare any gathering of
     twelve or more people unlawful. An official had to read a specific,
     formally worded proclamation aloud; if the crowd didn't disperse within an
@@ -47,7 +47,7 @@ const IDIOMS = [
     verdict: "disputed",
     verdictLabel: "Likely Origin (Disputed)",
     story: `The leading theory dates to medieval England, where peasants were
-    legally permitted to gather firewood from common land — but only deadwood
+    legally permitted to gather firewood from common land, but only deadwood
     they could reach and pull down using a billhook (a curved cutting tool) or
     a shepherd's crook. Anything they could pull down "by hook or by crook"
     was theirs to keep. It's a tidy story with real supporting evidence from
@@ -66,8 +66,8 @@ const IDIOMS = [
     verdictLabel: "Well Documented",
     story: `The best-supported explanation comes from the English Civil War.
     Coventry was a stronghold of Parliamentary support, and captured Royalist
-    soldiers were sometimes sent there to be held. Local residents — hostile
-    to the Royalist cause — refused to speak to or associate with the
+    soldiers were sometimes sent there to be held. Local residents, hostile
+    to the Royalist cause, refused to speak to or associate with the
     prisoners at all. The historian Edward Hyde, Earl of Clarendon, records
     something very close to this practice in his 17th-century account of the
     rebellion.`,
@@ -83,12 +83,12 @@ const IDIOMS = [
     verdictLabel: "Likely Origin (Disputed)",
     story: `Sir Walter Scott is the first writer we can find using this phrase
     in print, in his 1816 novel <em>The Antiquary</em>. The idea is that an
-    unwelcome guest would be served a cold shoulder of mutton — a cheap,
-    unceremonious leftover — instead of a hot meal, as a not-so-subtle hint
+    unwelcome guest would be served a cold shoulder of mutton, a cheap,
+    unceremonious leftover, instead of a hot meal, as a not-so-subtle hint
     that they'd overstayed their welcome. It's often repeated as settled fact,
     but historians have never found documentary proof that this was an actual
     dining custom rather than an image Scott simply invented for effect.`,
-    mythVsFact: "It's frequently stated as historical fact that this was a real, widespread custom. In truth, Scott's novel is the earliest evidence we have — he may have been drawing on a genuine practice, or he may have coined a vivid figure of speech that later got mistaken for social history.",
+    mythVsFact: "It's frequently stated as historical fact that this was a real, widespread custom. In truth, Scott's novel is the earliest evidence we have. He may have been drawing on a genuine practice, or he may have coined a vivid figure of speech that later got mistaken for social history.",
     source: "Sir Walter Scott, The Antiquary (1816)."
   },
   {
@@ -99,8 +99,8 @@ const IDIOMS = [
     verdict: "well-documented",
     verdictLabel: "Well Documented",
     story: `This one comes from Scots law. From at least the 15th century,
-    "red hand" appears in Scottish legal texts describing a criminal — usually
-    a poacher or a murderer — caught with blood literally still on their
+    "red hand" appears in Scottish legal texts describing a criminal (usually
+    a poacher or a murderer) caught with blood literally still on their
     hands, which was treated as decisive proof of guilt. The phrase moved into
     general English usage in the 19th century, most notably popularised by
     Sir Walter Scott (again) in his 1819 novel <em>Ivanhoe</em>.`,
@@ -117,7 +117,7 @@ const IDIOMS = [
     story: `This is a fantastic example of a phrase mutating through
     mishearing. It comes from a 14th-century French satirical poem, the
     <em>Roman de Fauvel</em>, about a cunning, corrupt chestnut-coloured horse
-    named Fauvel. To "curry Fauvel" — literally, to groom the horse — became a
+    named Fauvel. To "curry Fauvel," literally to groom the horse, became a
     figure of speech for sucking up to a powerful but flawed authority.
     "Fauvel" doesn't mean anything on its own in English, so over time
     English speakers reshaped it into a word that did: "favour."`,
@@ -133,7 +133,7 @@ const IDIOMS = [
     verdictLabel: "Well Documented",
     story: `A rare case of an idiom with a completely literal, mechanical
     origin. On a pipe organ, "stops" are knobs that control which ranks of
-    pipes are allowed to sound — pushed in, they silence a set of pipes;
+    pipes are allowed to sound: pushed in, they silence a set of pipes, and
     pulled out, they let them play. Pulling out every stop unleashes the
     organ's full volume and every tonal colour it has. The metaphorical use
     for giving something everything you've got dates to the mid-1800s.`,
@@ -148,11 +148,11 @@ const IDIOMS = [
     verdict: "disputed",
     verdictLabel: "Likely Origin (Disputed)",
     story: `"Pale" here means a fence made of wooden stakes (from the Latin
-    <em>palus</em>, a stake) — it's the same root as "impale." "The Pale" was
+    <em>palus</em>, a stake), the same root as "impale." "The Pale" was
     used as a name for several real English-controlled territories with a
     boundary fence or ditch, most famously the area around Dublin under
     English rule in the late medieval and Tudor periods. To be "beyond the
-    pale" meant being outside that zone of English law and control — and, to
+    pale" meant being outside that zone of English law and control, and to
     the English who coined the phrase, outside civilisation as they saw it.
     Historians debate exactly which "Pale" (Ireland, or the English-held Pale
     of Calais) the idiom first referred to.`,
@@ -169,12 +169,12 @@ const IDIOMS = [
     story: `The story everyone tells is that battlefield surgeons, lacking
     anaesthetic, gave wounded soldiers a bullet to clench between their teeth
     during amputations. It's vivid, but there's essentially no historical
-    evidence for it — surgical accounts from the era describe leather straps
+    evidence for it: surgical accounts from the era describe leather straps
     or wooden gags, not bullets, and biting down on a metal bullet during
     surgery would risk cracking teeth for no real benefit. The earliest solid
     citation is Rudyard Kipling's 1891 novel <em>The Light That Failed</em>,
     used in a general sense of stoic endurance, not a specific medical scene.
-    A related, older phrase — "chew a bullet" — shows up around 1796 with a
+    A related, older phrase, "chew a bullet," shows up around 1796 with a
     similar meaning, suggesting the image was always more figurative than
     literal.`,
     mythVsFact: "The battlefield-amputation story is almost certainly folklore built backward from the phrase, not a documented practice.",
@@ -193,7 +193,7 @@ const IDIOMS = [
     typesetters needing to mind the difference between mirror-image lowercase
     "p" and "q" blocks; and French dancing masters telling students to watch
     their "pieds" (feet) and "queues" (wigs). The earliest known print use is
-    from 1779, in a general sense of "mind your manners" — with no explanation
+    from 1779, in a general sense of "mind your manners," with no explanation
     attached, which is exactly the problem. Take any confident answer you hear
     with a large pinch of salt.`,
     mythVsFact: "Every explanation you've probably heard is a guess, including the printer's-type one, which is the most commonly repeated but has no documentary backing.",
@@ -209,13 +209,13 @@ const IDIOMS = [
     story: `A genuine etymological mystery, and one of the most-asked-about
     idioms in English. You may have heard that in 17th-century towns, poor
     drainage meant heavy rain would wash the bodies of dead animals through
-    the streets, making it look like it had "rained" cats and dogs — this
+    the streets, making it look like it had "rained" cats and dogs. This
     image does appear in Jonathan Swift's satirical writing, but as a
     description of a flood's aftermath, not as an explanation of the phrase's
     origin. Other theories point to Norse mythology (cats influencing weather,
     dogs accompanying storm gods) or a mangled version of the obsolete Greek
     word "catadupe," meaning waterfall. None has ever been confirmed.`,
-    mythVsFact: "The 'dead animals in the street' story is often told as the definitive origin. It isn't — it's a vivid image from a related but separate piece of 18th-century writing, not a documented etymology.",
+    mythVsFact: "The 'dead animals in the street' story is often told as the definitive origin. It isn't. It's a vivid image from a related but separate piece of 18th-century writing, not a documented etymology.",
     source: "Jonathan Swift, 'A Description of a City Shower' (1710) and Complete Collection of Genteel and Ingenious Conversation (1738)."
   },
   {
@@ -226,15 +226,15 @@ const IDIOMS = [
     verdict: "myth",
     verdictLabel: "Popular Myth (Probably)",
     story: `The popular story is wonderfully specific: at the Battle of
-    Copenhagen in 1801, Admiral Horatio Nelson — blind in one eye — was signalled
+    Copenhagen in 1801, Admiral Horatio Nelson, blind in one eye, was signalled
     by his superior to withdraw. He supposedly raised his telescope to his
     blind eye, said "I really do not see the signal," and pressed on to
     victory. It's a great anecdote, and it may contain a kernel of truth, but
     the phrase itself isn't recorded in general use until decades after
     Nelson's death, and the earliest detailed tellings of the story read more
     like embellished naval legend than contemporary reporting.`,
-    mythVsFact: "The Nelson anecdote is widely repeated as the origin, but the timeline doesn't hold up well — general use of the idiom postdates the alleged event by a wide enough margin that historians treat the connection as unproven, flattering folklore rather than settled fact.",
-    source: "Robert Southey, The Life of Nelson (1813), the earliest well-known telling — written 12 years after the battle it describes."
+    mythVsFact: "The Nelson anecdote is widely repeated as the origin, but the timeline doesn't hold up well: general use of the idiom postdates the alleged event by a wide enough margin that historians treat the connection as unproven, flattering folklore rather than settled fact.",
+    source: "Robert Southey, The Life of Nelson (1813), the earliest well-known telling, written 12 years after the battle it describes."
   },
   {
     id: "cat-out-of-the-bag",
@@ -246,12 +246,12 @@ const IDIOMS = [
     story: `Two competing legends explain this one, and neither has solid
     proof behind it. The market-fraud theory says dishonest traders would
     sell a sack supposedly containing a piglet, but secretly swap in a
-    worthless cat — the fraud exposed the moment the bag was opened (this
+    worthless cat, with the fraud exposed the moment the bag was opened (this
     theory also tries to explain "a pig in a poke"). The naval theory points
     to the cat o' nine tails whip being kept in a cloth bag aboard ship, with
     "letting the cat out of the bag" meaning a punishment was about to be
     revealed. The earliest recorded use, from 1760, is a book review
-    complaining that the ending had been given away — already a fairly
+    complaining that the ending had been given away, already a fairly
     abstract, secret-revealing sense, with no mention of literal cats, pigs,
     or whips.`,
     mythVsFact: "Both the market-fraud and naval-whip stories are frequently presented as fact. Neither is backed by evidence from the period; the earliest real citation is purely figurative.",
@@ -266,7 +266,7 @@ const IDIOMS = [
     verdictLabel: "Likely Origin (Disputed)",
     story: `A popular and grim theory holds that "cat" here refers to the cat
     o' nine tails, the multi-tailed whip used for punishment in the Royal
-    Navy — a full swing of the lash needed real clearance, hard to come by
+    Navy. A full swing of the lash needed real clearance, hard to come by
     belowdecks. It's a plausible story given how many cramped-ship idioms
     exist, but there's no direct documentary link tying this specific phrase
     to that specific object; it may equally be a simple, literal image of a
@@ -321,12 +321,12 @@ const IDIOMS = [
     verdictLabel: "Popular Myth",
     story: `A widely shared explanation claims that old rope-strung beds
     needed their ropes tightened periodically for a firm, comfortable sleep
-    surface — hence "sleep tight." It's a charming image, but etymologists
+    surface, hence "sleep tight." It's a charming image, but etymologists
     have found no supporting evidence connecting the phrase to bed maintenance.
     Far more likely: "tight" is simply an old adverbial use meaning "soundly"
     or "properly" (as in "hold tight" or "sit tight"), applied to sleep the
     same way it was applied to lots of other 19th-century verbs.`,
-    mythVsFact: "The rope-bed explanation is one of the most-repeated idiom origin stories online and in classrooms. It has no documented basis — 'tight' meaning 'soundly' already explains the phrase without needing a literal bed-rope story at all.",
+    mythVsFact: "The rope-bed explanation is one of the most-repeated idiom origin stories online and in classrooms. It has no documented basis. The word 'tight' meaning 'soundly' already explains the phrase without needing a literal bed-rope story at all.",
     source: "Oxford English Dictionary, adverbial sense of 'tight' meaning 'soundly, properly'; earliest 'sleep tight' citations from 19th-century American diaries, later adopted into British usage."
   },
   {
@@ -339,9 +339,9 @@ const IDIOMS = [
     story: `One of the older idioms here, and one of the best sourced.
     Shakespeare used it directly in <em>The Tempest</em> (1610), when King
     Alonso asks the drunken jester Trinculo, "How camest thou in this
-    pickle?" The image comes from the Dutch phrase "in de pekel zitten" —
+    pickle?" The image comes from the Dutch phrase "in de pekel zitten,"
     literally "to sit in the pickling brine," a sharp, vinegary liquid used
-    for preserving food — extended metaphorically to describe being stuck in
+    for preserving food, extended metaphorically to describe being stuck in
     a sour, unpleasant situation.`,
     mythVsFact: null,
     source: "William Shakespeare, The Tempest (1610), Act V Scene I; Dutch idiom 'in de pekel zitten' cited by the Oxford English Dictionary."
@@ -357,7 +357,7 @@ const IDIOMS = [
     and coal-exporting industry from at least the 16th century onward,
     shipping coal to London and beyond. Bringing coal to a city that already
     produced and exported enormous quantities of it was the definition of a
-    wasted errand — the phrase is recorded in print from the 1600s and
+    wasted errand. The phrase is recorded in print from the 1600s and
     needed no explaining even then, since Newcastle's coal trade was common
     knowledge across England.`,
     mythVsFact: null,
@@ -371,7 +371,7 @@ const IDIOMS = [
     verdict: "well-documented",
     verdictLabel: "Well Documented",
     story: `"Colours" is an old nautical term for a ship's national flag.
-    Ships — privateers and naval vessels especially — would sometimes fly a
+    Ships, privateers and naval vessels especially, would sometimes fly a
     false flag to approach a target without alarming it, only hoisting their
     real, or "true," colours at the last moment before attacking. The trick
     was such a well-known piece of naval deception that it produced a
@@ -387,11 +387,11 @@ const IDIOMS = [
     category: "Sailing & the Sea",
     verdict: "well-documented",
     verdictLabel: "Well Documented",
-    story: `A "sheet" on a sailing ship isn't a sail — it's a rope that
+    story: `A "sheet" on a sailing ship isn't a sail. It's a rope that
     controls the angle of a sail. If a sheet comes loose ("to the wind"),
     that sail flaps freely and the ship lists and lurches unpredictably.
     With three sheets loose at once, a ship would stagger about exactly like
-    a person struggling to walk in a straight line — a comparison sailors
+    a person struggling to walk in a straight line, a comparison sailors
     were already making by the early 1800s.`,
     mythVsFact: null,
     source: "Early 19th-century nautical slang, cited in the Oxford English Dictionary's entry for 'sheet, n.'"
@@ -404,7 +404,7 @@ const IDIOMS = [
     verdict: "well-documented",
     verdictLabel: "Well Documented",
     story: `A ship's jib is a triangular sail set at the front of the
-    vessel, and its particular shape — its "cut" — varied noticeably between
+    vessel, and its particular shape, its "cut," varied noticeably between
     different nations' shipbuilders. Experienced sailors could identify a
     ship's origin, and guess whether it was friendly or hostile, just by
     studying the cut of its jib from a distance, long before the vessel was
@@ -421,7 +421,7 @@ const IDIOMS = [
     verdict: "well-documented",
     verdictLabel: "Well Documented",
     story: `Thought to come from the literal, communal effort of launching a
-    boat — pushing a beached vessel out into the water took a group effort,
+    boat: pushing a beached vessel out into the water took a group effort,
     and it became customary for whoever's boat it was to stand the group a
     round of drinks afterwards in thanks. By the early 20th century,
     "pushing the boat out" had become general British slang for spending
@@ -439,7 +439,7 @@ const IDIOMS = [
     story: `Before icebreaker ships, frozen harbours and rivers could
     completely cut off a town from trade and travel. Small boats specially
     reinforced to break a path through surface ice were sent ahead to open
-    the way for other vessels — a literal "breaking of the ice" that let
+    the way for other vessels, a literal "breaking of the ice" that let
     normal business resume. Writers were using it figuratively, for
     smoothing over the "frozen" awkwardness of a first meeting, as early as
     the late 1500s.`,
@@ -461,7 +461,7 @@ const IDIOMS = [
     and an old card game called "Monte." The phrase only shows up clearly in
     print from the 1980s–90s, well after any of these possible sources,
     which makes tracing the true root very difficult.`,
-    mythVsFact: "There is no confirmed link to Montague Burton or Field Marshal Montgomery, however often those stories are repeated as settled fact — the Oxford English Dictionary lists the origin as unknown.",
+    mythVsFact: "There is no confirmed link to Montague Burton or Field Marshal Montgomery, however often those stories are repeated as settled fact. The Oxford English Dictionary lists the origin as unknown.",
     source: "Oxford English Dictionary, entry for 'monty, n.', origin listed as uncertain."
   },
   {
@@ -476,8 +476,8 @@ const IDIOMS = [
     appointed his own nephew Arthur Balfour to a string of prestigious
     political posts, prompting cynics to joke that having "Bob as your
     uncle" was all it took to succeed. It's a great story about nepotism,
-    but the phrase isn't actually recorded in print until the 1930s —
-    decades after the alleged event — so historians can't confirm the
+    but the phrase isn't actually recorded in print until the 1930s,
+    decades after the alleged event, so historians can't confirm the
     political scandal is genuinely where it came from, rather than being a
     later folk explanation attached to an already-existing phrase.`,
     mythVsFact: "The Robert Cecil/Arthur Balfour nepotism story is told as definite fact very often. The multi-decade gap between the 1887 event and the phrase's first recorded use makes that link unproven.",
@@ -513,7 +513,7 @@ const IDIOMS = [
     Worshipful Company of Skinners argued so fiercely over which guild should
     rank sixth and which seventh in the City of London's official order of
     precedence that the Lord Mayor had to intervene, eventually ruling that
-    the two companies would alternate the two positions annually — an
+    the two companies would alternate the two positions annually, an
     arrangement that continues to this day. It's a wonderful story, but the
     phrase "at six and seven" already existed before 1484 (Chaucer used a
     version of it in the 1380s) with a similar sense of confusion or risk,
@@ -529,12 +529,12 @@ const IDIOMS = [
     category: "Popular Myths",
     verdict: "myth",
     verdictLabel: "Popular Myth",
-    story: `The most commonly repeated explanation — someone kicking away a
-    bucket they were standing on to hang themselves — has no solid
+    story: `The most commonly repeated explanation, someone kicking away a
+    bucket they were standing on to hang themselves, has no solid
     historical backing as the phrase's actual origin. A more credible theory,
     favoured by Brewer's Dictionary of Phrase and Fable, points to an old
     regional (East Anglian) use of "bucket" for the wooden beam or yoke from
-    which slaughtered pigs were hung up by their feet — the animal's death
+    which slaughtered pigs were hung up by their feet. The animal's death
     spasms would cause it to visibly "kick the bucket." Either way, the
     phrase is recorded from the 1700s, well documented in general use, even
     if the precise picture behind it isn't settled.`,
@@ -573,7 +573,7 @@ const IDIOMS = [
     shortened to just its first word, turning "Mickey Bliss" into simply
     "Mickey" or "the mickey," giving speakers a way to say the same thing
     without the crude original. It's a well-supported theory given how
-    rhyming slang typically behaves, though — as with a lot of slang —
+    rhyming slang typically behaves, though, as with a lot of slang,
     nobody wrote down the exact moment it was coined.`,
     mythVsFact: null,
     source: "Cockney rhyming slang pattern documented in Partridge's Dictionary of Slang and Unconventional English; 'Mickey Bliss' cited as the rhyming source for 'mickey.'"

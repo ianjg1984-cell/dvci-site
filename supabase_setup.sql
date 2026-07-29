@@ -10,8 +10,8 @@ create table if not exists reaction_counts (
 
 alter table reaction_counts enable row level security;
 
--- Anyone (anon) can read counts, but cannot write to the table directly —
--- writes only happen through the controlled function below.
+-- Anyone (anon) can read counts, but cannot write to the table directly.
+-- Writes only happen through the controlled function below.
 create policy "public can read reaction counts"
   on reaction_counts for select
   using (true);
@@ -56,8 +56,8 @@ create policy "public can read approved comments"
   on comments for select
   using (approved = true);
 
--- The public can submit new comments, but only ever as unapproved —
--- there is no policy letting anon set approved = true, or update/delete
+-- The public can submit new comments, but only ever as unapproved.
+-- There is no policy letting anon set approved = true, or update/delete
 -- anything, so moderation can only happen from your own Supabase dashboard.
 create policy "public can insert pending comments"
   on comments for insert
@@ -70,7 +70,7 @@ revoke update, delete on comments from anon, authenticated;
 -- and either tick "approved" to true on ones you want live, or delete
 -- rows you don't want at all.
 
--- D.V.C.I. tap-to-approve links (no secrets in this part — safe to run
+-- D.V.C.I. tap-to-approve links (no secrets in this part, safe to run
 -- and safe to keep in the repo). Pairs with a separate, NOT-committed
 -- script that wires up the Discord notification itself, since that one
 -- contains your private webhook URL.
@@ -79,7 +79,7 @@ create extension if not exists pgcrypto;
 
 alter table comments add column if not exists approval_token uuid not null default gen_random_uuid();
 
--- Approves a pending comment, but only if the token matches — the token
+-- Approves a pending comment, but only if the token matches. The token
 -- is a random UUID emailed/messaged only to the site owner, so this is
 -- safe to expose to anon even though anyone technically has "permission"
 -- to call it: without the right token for the right row, it's a no-op.
@@ -117,7 +117,7 @@ $$;
 grant execute on function approve_comment_by_token(bigint, uuid) to anon, authenticated;
 grant execute on function reject_comment_by_token(bigint, uuid) to anon, authenticated;
 
--- D.V.C.I. newsletter signups (no secrets in this part — safe to run and
+-- D.V.C.I. newsletter signups (no secrets in this part, safe to run and
 -- keep in the repo). Pairs with a separate, NOT-committed script that
 -- forwards new signups to Beehiiv, since that one holds a private API key.
 
@@ -130,8 +130,8 @@ create table if not exists newsletter_signups (
 alter table newsletter_signups enable row level security;
 
 -- Anyone can submit their email to subscribe. Nobody (not even a signed-in
--- user) can read the list back out through the public API — moderation/
--- export only happens from your own Supabase dashboard or via Beehiiv.
+-- user) can read the list back out through the public API. Moderation and
+-- export only happen from your own Supabase dashboard or via Beehiiv.
 create policy "public can subscribe"
   on newsletter_signups for insert
   with check (true);

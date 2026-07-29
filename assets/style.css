@@ -1,7 +1,7 @@
-/* D.V.C.I. — Dictionary of Very Curious Idioms
-   Shared styles for all pages. "Moody Curiosity Cabinet" theme —
+/* D.V.C.I.: Dictionary of Very Curious Idioms
+   Shared styles for all pages. "Moody Curiosity Cabinet" theme:
    deep jewel tones on near-black, gold-leaf accents. Deliberately a
-   single fixed palette (no light/dark flip) — this is meant to always
+   single fixed palette (no light/dark flip). This is meant to always
    read as a dim, dramatic museum cabinet, not brighten in daylight. */
 
 :root {
@@ -607,8 +607,8 @@ nav.main-nav a.active {
 
 /* ---------- Newsletter ---------- */
 
-/* A deliberately distinct, richer band — emerald rather than the page's
-   near-black — so it reads as a "step into the next cabinet" moment. */
+/* A deliberately distinct, richer band: emerald rather than the page's
+   near-black, so it reads as a "step into the next cabinet" moment. */
 .newsletter {
   background: linear-gradient(160deg, #123328, #0c261d);
   color: var(--ivory);

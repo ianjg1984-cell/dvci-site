@@ -1,4 +1,4 @@
-/* D.V.C.I. — Dictionary of Very Curious Idioms
+/* D.V.C.I.: Dictionary of Very Curious Idioms
    Repository rendering, search/filter, modal, idiom-of-the-day, newsletter UI. */
 
 (function () {
@@ -82,7 +82,7 @@
 
     grid.innerHTML = filtered.length
       ? filtered.map(cardHTML).join("")
-      : `<div class="no-results" style="grid-column: 1/-1;">No idioms match that search yet. Try a different word, or check back — new entries are added regularly.</div>`;
+      : `<div class="no-results" style="grid-column: 1/-1;">No idioms match that search yet. Try a different word, or check back later. New entries get added regularly.</div>`;
 
     grid.querySelectorAll(".card").forEach((card) => {
       card.addEventListener("click", () => openModal(card.dataset.id));
@@ -90,7 +90,7 @@
 
     // While a search or category filter is active, the "Idiom of the Day"
     // card is just dead space between the search box and the actual
-    // results (especially on mobile) — hide it, and jump to the results
+    // results (especially on mobile). Hide it, and jump to the results
     // the moment filtering starts so they're immediately visible.
     const filterActive = q !== "" || activeCategory !== "All";
     if (featuredWrap) featuredWrap.classList.toggle("is-hidden", filterActive);
@@ -168,7 +168,7 @@
         });
       });
     } catch (err) {
-      // Network hiccup or Supabase not reachable — fail silently, buttons stay usable.
+      // Network hiccup or Supabase not reachable. Fail silently, buttons stay usable.
     }
   }
 
@@ -193,7 +193,7 @@
         body: JSON.stringify({ p_idiom_id: idiomId, p_emoji: emoji })
       });
     } catch (err) {
-      // If the request fails, the optimistic count stays — a harmless
+      // If the request fails, the optimistic count stays. A harmless
       // over-count is preferable to fighting the UI back down.
     }
   }
@@ -237,7 +237,7 @@
       );
       const rows = await res.json();
       if (!Array.isArray(rows) || rows.length === 0) {
-        list.innerHTML = `<p class="comments-note">No comments yet — be the first.</p>`;
+        list.innerHTML = `<p class="comments-note">No comments yet. Be the first.</p>`;
         return;
       }
       list.innerHTML = rows
@@ -299,13 +299,13 @@
           })
         });
         if (res.ok) {
-          statusEl.textContent = "Thanks — your comment will show up once it's been checked.";
+          statusEl.textContent = "Thanks! Your comment will show up once it's been checked.";
           textEl.value = "";
         } else {
-          statusEl.textContent = "Something went wrong posting that — please try again.";
+          statusEl.textContent = "Something went wrong posting that. Please try again.";
         }
       } catch (err) {
-        statusEl.textContent = "Something went wrong posting that — please try again.";
+        statusEl.textContent = "Something went wrong posting that. Please try again.";
       } finally {
         submitBtn.disabled = false;
       }
@@ -369,7 +369,7 @@
   renderGrid();
   renderFeatured();
 
-  // Newsletter signup — stores the email in Supabase; a database trigger
+  // Newsletter signup: stores the email in Supabase. A database trigger
   // (configured separately, holds a private API key so it isn't in this
   // file) forwards new signups to Beehiiv, which sends the welcome email.
   const newsletterForm = document.getElementById("newsletter-form");
@@ -383,7 +383,7 @@
       if (!email) return;
 
       if (!SUPABASE_READY) {
-        successMsg.textContent = "Signups aren't switched on yet — check back soon.";
+        successMsg.textContent = "Signups aren't switched on yet. Check back soon.";
         successMsg.classList.add("show");
         return;
       }
@@ -401,17 +401,17 @@
           body: JSON.stringify({ email })
         });
         if (res.ok || res.status === 409) {
-          // 409 means this email is already subscribed — treat it the
+          // 409 means this email is already subscribed. Treat it the
           // same as success rather than exposing that distinction.
-          successMsg.textContent = `Thanks — check ${email} for a welcome email.`;
+          successMsg.textContent = `Thanks! Check ${email} for a welcome email.`;
           successMsg.classList.add("show");
           emailInput.value = "";
         } else {
-          successMsg.textContent = "Something went wrong signing you up — please try again.";
+          successMsg.textContent = "Something went wrong signing you up. Please try again.";
           successMsg.classList.add("show");
         }
       } catch (err) {
-        successMsg.textContent = "Something went wrong signing you up — please try again.";
+        successMsg.textContent = "Something went wrong signing you up. Please try again.";
         successMsg.classList.add("show");
       } finally {
         submitBtn.disabled = false;
