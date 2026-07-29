@@ -510,6 +510,83 @@ nav.main-nav a.active {
   margin: 0 0 0.8rem;
 }
 
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.comment-form .hp-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.comment-name,
+.comment-text {
+  font-family: inherit;
+  font-size: 0.95rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--parchment-dark);
+  color: var(--ink);
+}
+
+.comment-text {
+  resize: vertical;
+  min-height: 4.5em;
+}
+
+.comment-form button[type="submit"] {
+  align-self: flex-start;
+  background: var(--burgundy);
+  color: #fff;
+  border: none;
+  padding: 0.55rem 1.2rem;
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.comment-form button[type="submit"]:hover { background: var(--burgundy-dark); }
+.comment-form button[type="submit"]:disabled { opacity: 0.6; cursor: default; }
+
+.comment-status {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin: 0;
+  min-height: 1.1em;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.comment-item {
+  border-left: 2px solid var(--line);
+  padding-left: 0.8rem;
+}
+
+.comment-author {
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.comment-body {
+  margin: 0.2rem 0 0;
+  font-size: 0.92rem;
+  color: var(--ink-soft);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
 /* ---------- Newsletter ---------- */
 
 .newsletter {

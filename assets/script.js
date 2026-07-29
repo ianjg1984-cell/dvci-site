@@ -2,23 +2,12 @@
    Repository rendering, search/filter, modal, idiom-of-the-day, newsletter UI. */
 
 (function () {
-  // Giscus (GitHub Discussions-backed comments + emoji reactions).
-  // TODO: replace these two placeholders with the real values from
-  // https://giscus.app once Discussions is enabled and the giscus app is
-  // installed on ianjg1984-cell/dvci-site — enter the repo there and it
-  // generates both IDs for you.
-  const GISCUS_REPO = "ianjg1984-cell/dvci-site";
-  const GISCUS_REPO_ID = "R_kgDOTm-xrg";
-  const GISCUS_CATEGORY = "General";
-  const GISCUS_CATEGORY_ID = "DIC_kwDOTm-xrs4DCO0J";
-  const GISCUS_READY = Boolean(GISCUS_REPO_ID && GISCUS_CATEGORY_ID);
-
   // Anonymous emoji-reaction bar, backed by Supabase (no login required).
   // TODO: replace these two placeholders once the Supabase project + SQL
   // setup described in the project notes are done.
   const SUPABASE_URL = "https://sntdlmadodjvjuevkqxc.supabase.co";
   const SUPABASE_ANON_KEY = "sb_publishable_LCtvm2fyl6efrxK8RMYv5A_ruZxs-fE";
-  const REACTIONS_READY =
+  const SUPABASE_READY =
     SUPABASE_URL !== "REPLACE_WITH_SUPABASE_PROJECT_URL" &&
     SUPABASE_ANON_KEY !== "REPLACE_WITH_SUPABASE_ANON_PUBLIC_KEY";
   const REACTION_EMOJIS = [
@@ -130,16 +119,23 @@
         <h4>Quick react <span class="no-login-note">(no login needed)</span></h4>
         ${reactionBarHTML(entry)}
       </div>
-      <div class="comments-section">
-        <h4>Discuss</h4>
-        <p class="comments-note">Full comments are powered by GitHub Discussions — signing in with a (free) GitHub account is required to post.</p>
-        <div id="giscus-container"></div>
+      <div class="comments-section" data-idiom-id="${entry.id}">
+        <h4>Discuss <span class="no-login-note">(no login needed)</span></h4>
+        <form class="comment-form" data-idiom-id="${entry.id}" data-loaded-at="${Date.now()}">
+          <input type="text" name="name" class="comment-name" maxlength="60" placeholder="Your name (optional)" autocomplete="off" />
+          <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <textarea name="comment" class="comment-text" maxlength="500" placeholder="Share a thought about this one..." required></textarea>
+          <button type="submit">Post comment</button>
+          <p class="comment-status"></p>
+        </form>
+        <p class="comments-note">New comments are held for a quick check before they show up here.</p>
+        <div class="comment-list" data-idiom-id="${entry.id}"><p class="comments-note">Loading comments…</p></div>
       </div>
     `;
   }
 
   async function loadReactionCounts(idiomId) {
-    if (!REACTIONS_READY) {
+    if (!SUPABASE_READY) {
       document.querySelectorAll(`.reaction-bar[data-idiom-id="${idiomId}"] .reaction-count`).forEach((el) => {
         el.textContent = "";
       });
@@ -168,7 +164,7 @@
   }
 
   async function sendReaction(idiomId, emoji, countEl) {
-    if (!REACTIONS_READY) return;
+    if (!SUPABASE_READY) return;
     if (localStorage.getItem(reactedKey(idiomId, emoji))) return;
     localStorage.setItem(reactedKey(idiomId, emoji), "1");
     const current = parseInt(countEl.textContent, 10) || 0;
@@ -205,31 +201,102 @@
     loadReactionCounts(idiomId);
   }
 
-  function loadComments(entry) {
-    const container = document.getElementById("giscus-container");
-    if (!container) return;
-    container.innerHTML = "";
-    if (!GISCUS_READY) {
-      container.innerHTML = `<p class="comments-note">Comments aren't switched on yet.</p>`;
+  function escapeHTML(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  async function loadCommentList(idiomId) {
+    const list = document.querySelector(`.comment-list[data-idiom-id="${idiomId}"]`);
+    if (!list) return;
+    if (!SUPABASE_READY) {
+      list.innerHTML = `<p class="comments-note">Comments aren't switched on yet.</p>`;
       return;
     }
-    const script = document.createElement("script");
-    script.src = "https://giscus.app/client.js";
-    script.async = true;
-    script.crossOrigin = "anonymous";
-    script.setAttribute("data-repo", GISCUS_REPO);
-    script.setAttribute("data-repo-id", GISCUS_REPO_ID);
-    script.setAttribute("data-category", GISCUS_CATEGORY);
-    script.setAttribute("data-category-id", GISCUS_CATEGORY_ID);
-    script.setAttribute("data-mapping", "specific");
-    script.setAttribute("data-term", entry.id);
-    script.setAttribute("data-strict", "0");
-    script.setAttribute("data-reactions-enabled", "0");
-    script.setAttribute("data-emit-metadata", "0");
-    script.setAttribute("data-input-position", "top");
-    script.setAttribute("data-theme", "preferred_color_scheme");
-    script.setAttribute("data-lang", "en");
-    container.appendChild(script);
+    try {
+      const res = await fetch(
+        `${SUPABASE_URL}/rest/v1/comments?idiom_id=eq.${encodeURIComponent(idiomId)}&approved=eq.true&select=name,comment,created_at&order=created_at.asc`,
+        { headers: { apikey: SUPABASE_ANON_KEY, Authorization: `Bearer ${SUPABASE_ANON_KEY}` } }
+      );
+      const rows = await res.json();
+      if (!Array.isArray(rows) || rows.length === 0) {
+        list.innerHTML = `<p class="comments-note">No comments yet — be the first.</p>`;
+        return;
+      }
+      list.innerHTML = rows
+        .map(
+          (r) => `
+            <div class="comment-item">
+              <span class="comment-author">${escapeHTML(r.name || "Anonymous")}</span>
+              <p class="comment-body">${escapeHTML(r.comment)}</p>
+            </div>`
+        )
+        .join("");
+    } catch (err) {
+      list.innerHTML = `<p class="comments-note">Couldn't load comments right now.</p>`;
+    }
+  }
+
+  function wireCommentForm(idiomId) {
+    const form = document.querySelector(`.comment-form[data-idiom-id="${idiomId}"]`);
+    if (!form) return;
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const statusEl = form.querySelector(".comment-status");
+      const nameEl = form.querySelector(".comment-name");
+      const hpEl = form.querySelector(".hp-field");
+      const textEl = form.querySelector(".comment-text");
+      const loadedAt = parseInt(form.dataset.loadedAt, 10) || 0;
+
+      if (!SUPABASE_READY) {
+        statusEl.textContent = "Comments aren't switched on yet.";
+        return;
+      }
+      // Honeypot: real visitors never see or fill this field.
+      if (hpEl.value) return;
+      // Anything submitted within 3s of the form appearing is almost
+      // certainly a bot filling the form instantly, not a person typing.
+      if (Date.now() - loadedAt < 3000) {
+        statusEl.textContent = "Please try again in a moment.";
+        return;
+      }
+      const commentText = textEl.value.trim();
+      if (!commentText) return;
+
+      const submitBtn = form.querySelector("button[type=submit]");
+      submitBtn.disabled = true;
+      statusEl.textContent = "Posting…";
+      try {
+        const res = await fetch(`${SUPABASE_URL}/rest/v1/comments`, {
+          method: "POST",
+          headers: {
+            apikey: SUPABASE_ANON_KEY,
+            Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+            "Content-Type": "application/json",
+            Prefer: "return=minimal"
+          },
+          body: JSON.stringify({
+            idiom_id: idiomId,
+            name: nameEl.value.trim() || "Anonymous",
+            comment: commentText.slice(0, 500)
+          })
+        });
+        if (res.ok) {
+          statusEl.textContent = "Thanks — your comment will show up once it's been checked.";
+          textEl.value = "";
+        } else {
+          statusEl.textContent = "Something went wrong posting that — please try again.";
+        }
+      } catch (err) {
+        statusEl.textContent = "Something went wrong posting that — please try again.";
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
   }
 
   function openModal(id) {
@@ -238,7 +305,8 @@
     modalBody.innerHTML = modalHTML(entry);
     modalBackdrop.classList.add("open");
     document.body.style.overflow = "hidden";
-    loadComments(entry);
+    loadCommentList(entry.id);
+    wireCommentForm(entry.id);
     wireReactionBar(entry.id);
   }
 

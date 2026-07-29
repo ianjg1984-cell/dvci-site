@@ -36,3 +36,36 @@ $$;
 grant select on reaction_counts to anon, authenticated;
 grant execute on function increment_reaction(text, text) to anon, authenticated;
 revoke insert, update, delete on reaction_counts from anon, authenticated;
+
+-- D.V.C.I. no-login comments (name + text, held for approval)
+-- Run this in the same project, same SQL Editor, as a second query.
+
+create table if not exists comments (
+  id bigint generated always as identity primary key,
+  idiom_id text not null,
+  name text not null default 'Anonymous' check (char_length(name) <= 60),
+  comment text not null check (char_length(comment) >= 1 and char_length(comment) <= 500),
+  created_at timestamptz not null default now(),
+  approved boolean not null default false
+);
+
+alter table comments enable row level security;
+
+-- The public can only ever see comments you've approved.
+create policy "public can read approved comments"
+  on comments for select
+  using (approved = true);
+
+-- The public can submit new comments, but only ever as unapproved —
+-- there is no policy letting anon set approved = true, or update/delete
+-- anything, so moderation can only happen from your own Supabase dashboard.
+create policy "public can insert pending comments"
+  on comments for insert
+  with check (approved = false);
+
+grant select, insert on comments to anon, authenticated;
+revoke update, delete on comments from anon, authenticated;
+
+-- To moderate: open the "comments" table in Supabase's Table Editor,
+-- and either tick "approved" to true on ones you want live, or delete
+-- rows you don't want at all.
