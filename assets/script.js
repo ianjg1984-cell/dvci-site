@@ -383,11 +383,13 @@
             apikey: SUPABASE_ANON_KEY,
             Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
             "Content-Type": "application/json",
-            Prefer: "return=minimal,resolution=ignore-duplicates"
+            Prefer: "return=minimal"
           },
           body: JSON.stringify({ email })
         });
-        if (res.ok) {
+        if (res.ok || res.status === 409) {
+          // 409 means this email is already subscribed — treat it the
+          // same as success rather than exposing that distinction.
           successMsg.textContent = `Thanks — check ${email} for a welcome email.`;
           successMsg.classList.add("show");
           emailInput.value = "";
