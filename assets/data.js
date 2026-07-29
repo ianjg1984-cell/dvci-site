@@ -328,6 +328,255 @@ const IDIOMS = [
     same way it was applied to lots of other 19th-century verbs.`,
     mythVsFact: "The rope-bed explanation is one of the most-repeated idiom origin stories online and in classrooms. It has no documented basis — 'tight' meaning 'soundly' already explains the phrase without needing a literal bed-rope story at all.",
     source: "Oxford English Dictionary, adverbial sense of 'tight' meaning 'soundly, properly'; earliest 'sleep tight' citations from 19th-century American diaries, later adopted into British usage."
+  },
+  {
+    id: "in-a-pickle",
+    phrase: "In a pickle",
+    meaning: "In a difficult, awkward, or messy situation.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `One of the older idioms here, and one of the best sourced.
+    Shakespeare used it directly in <em>The Tempest</em> (1610), when King
+    Alonso asks the drunken jester Trinculo, "How camest thou in this
+    pickle?" The image comes from the Dutch phrase "in de pekel zitten" —
+    literally "to sit in the pickling brine," a sharp, vinegary liquid used
+    for preserving food — extended metaphorically to describe being stuck in
+    a sour, unpleasant situation.`,
+    mythVsFact: null,
+    source: "William Shakespeare, The Tempest (1610), Act V Scene I; Dutch idiom 'in de pekel zitten' cited by the Oxford English Dictionary."
+  },
+  {
+    id: "coals-to-newcastle",
+    phrase: "Taking coals to Newcastle",
+    meaning: "Doing something pointless or superfluous.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Newcastle-upon-Tyne sat at the centre of England's coal-mining
+    and coal-exporting industry from at least the 16th century onward,
+    shipping coal to London and beyond. Bringing coal to a city that already
+    produced and exported enormous quantities of it was the definition of a
+    wasted errand — the phrase is recorded in print from the 1600s and
+    needed no explaining even then, since Newcastle's coal trade was common
+    knowledge across England.`,
+    mythVsFact: null,
+    source: "Recorded from the 17th century; referenced in period trade writing about Newcastle's coal exports, cited in the Oxford English Dictionary."
+  },
+  {
+    id: "true-colours",
+    phrase: "Show your true colours",
+    meaning: "To reveal your real character or intentions, especially after hiding them.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `"Colours" is an old nautical term for a ship's national flag.
+    Ships — privateers and naval vessels especially — would sometimes fly a
+    false flag to approach a target without alarming it, only hoisting their
+    real, or "true," colours at the last moment before attacking. The trick
+    was such a well-known piece of naval deception that it produced a
+    general-purpose idiom for someone who has been concealing their real
+    intentions.`,
+    mythVsFact: null,
+    source: "Documented naval practice from the 17th–18th centuries; cited in maritime history and the Oxford English Dictionary's entry for 'colour, n.'"
+  },
+  {
+    id: "three-sheets-to-the-wind",
+    phrase: "Three sheets to the wind",
+    meaning: "Very drunk.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A "sheet" on a sailing ship isn't a sail — it's a rope that
+    controls the angle of a sail. If a sheet comes loose ("to the wind"),
+    that sail flaps freely and the ship lists and lurches unpredictably.
+    With three sheets loose at once, a ship would stagger about exactly like
+    a person struggling to walk in a straight line — a comparison sailors
+    were already making by the early 1800s.`,
+    mythVsFact: null,
+    source: "Early 19th-century nautical slang, cited in the Oxford English Dictionary's entry for 'sheet, n.'"
+  },
+  {
+    id: "cut-of-your-jib",
+    phrase: "I don't like the cut of your jib",
+    meaning: "To dislike (or like) someone based on their general appearance or manner.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A ship's jib is a triangular sail set at the front of the
+    vessel, and its particular shape — its "cut" — varied noticeably between
+    different nations' shipbuilders. Experienced sailors could identify a
+    ship's origin, and guess whether it was friendly or hostile, just by
+    studying the cut of its jib from a distance, long before the vessel was
+    close enough to show its flag. Lord Byron used the phrase figuratively
+    in print in the 1820s, and it stuck.`,
+    mythVsFact: null,
+    source: "Lord Byron, Don Juan (1823); nautical usage documented in the Oxford English Dictionary's entry for 'jib, n.'"
+  },
+  {
+    id: "push-the-boat-out",
+    phrase: "Push the boat out",
+    meaning: "To spend generously, especially to celebrate something.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Thought to come from the literal, communal effort of launching a
+    boat — pushing a beached vessel out into the water took a group effort,
+    and it became customary for whoever's boat it was to stand the group a
+    round of drinks afterwards in thanks. By the early 20th century,
+    "pushing the boat out" had become general British slang for spending
+    freely on a celebration, whether or not any actual boat was involved.`,
+    mythVsFact: null,
+    source: "Documented in British nautical and colloquial slang dictionaries from the early-to-mid 20th century."
+  },
+  {
+    id: "break-the-ice",
+    phrase: "Break the ice",
+    meaning: "To ease initial social tension or awkwardness, especially between strangers.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Before icebreaker ships, frozen harbours and rivers could
+    completely cut off a town from trade and travel. Small boats specially
+    reinforced to break a path through surface ice were sent ahead to open
+    the way for other vessels — a literal "breaking of the ice" that let
+    normal business resume. Writers were using it figuratively, for
+    smoothing over the "frozen" awkwardness of a first meeting, as early as
+    the late 1500s.`,
+    mythVsFact: null,
+    source: "Figurative use documented from the late 16th century, cited in the Oxford English Dictionary's entry for 'ice, n.'"
+  },
+  {
+    id: "full-monty",
+    phrase: "The full Monty",
+    meaning: "The whole thing; everything, with nothing left out.",
+    category: "Slang & Everyday Speech",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `A favourite of etymologists precisely because nobody can settle
+    it. Leading candidates include: Montague Burton, the tailoring chain,
+    where ordering "the full Monty" meant buying a complete three-piece suit
+    rather than just a jacket; Field Marshal Bernard Montgomery's reported
+    insistence on a full English breakfast during WWII military campaigns;
+    and an old card game called "Monte." The phrase only shows up clearly in
+    print from the 1980s–90s, well after any of these possible sources,
+    which makes tracing the true root very difficult.`,
+    mythVsFact: "There is no confirmed link to Montague Burton or Field Marshal Montgomery, however often those stories are repeated as settled fact — the Oxford English Dictionary lists the origin as unknown.",
+    source: "Oxford English Dictionary, entry for 'monty, n.', origin listed as uncertain."
+  },
+  {
+    id: "bobs-your-uncle",
+    phrase: "Bob's your uncle",
+    meaning: "There you go; it's as simple as that.",
+    category: "Slang & Everyday Speech",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The popular story is deliciously specific: in 1887, British
+    Prime Minister Robert ("Bob") Cecil, 3rd Marquess of Salisbury,
+    appointed his own nephew Arthur Balfour to a string of prestigious
+    political posts, prompting cynics to joke that having "Bob as your
+    uncle" was all it took to succeed. It's a great story about nepotism,
+    but the phrase isn't actually recorded in print until the 1930s —
+    decades after the alleged event — so historians can't confirm the
+    political scandal is genuinely where it came from, rather than being a
+    later folk explanation attached to an already-existing phrase.`,
+    mythVsFact: "The Robert Cecil/Arthur Balfour nepotism story is told as definite fact very often. The multi-decade gap between the 1887 event and the phrase's first recorded use makes that link unproven.",
+    source: "Earliest citation from the 1930s, per the Oxford English Dictionary; the Salisbury/Balfour anecdote is widely repeated but undocumented as the actual coining event."
+  },
+  {
+    id: "gone-for-a-burton",
+    phrase: "Gone for a Burton",
+    meaning: "Lost, broken, ruined, or (originally) killed.",
+    category: "War & Conflict",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `This piece of British slang is best documented in Royal Air
+    Force use during the Second World War, where it grimly meant a pilot had
+    been killed or a plane destroyed. Where "Burton" itself comes from is
+    genuinely unresolved. One theory ties it to adverts for Burton beer,
+    brewed in Burton-upon-Trent, implying the missing man had simply "gone to
+    the pub." Another points to Burton's, the menswear chain, on the dark
+    joke that a dead airman had effectively "gone for" (been measured for)
+    his last suit. No wartime source pins down which, if either, is correct.`,
+    mythVsFact: null,
+    source: "RAF slang documented from World War II service records and slang dictionaries; the specific 'Burton' reference remains unconfirmed."
+  },
+  {
+    id: "sixes-and-sevens",
+    phrase: "At sixes and sevens",
+    meaning: "In a state of confusion or disarray.",
+    category: "Medieval Life",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `London has a genuinely documented dispute that fits this phrase
+    perfectly: in 1484, the Worshipful Company of Merchant Taylors and the
+    Worshipful Company of Skinners argued so fiercely over which guild should
+    rank sixth and which seventh in the City of London's official order of
+    precedence that the Lord Mayor had to intervene, eventually ruling that
+    the two companies would alternate the two positions annually — an
+    arrangement that continues to this day. It's a wonderful story, but the
+    phrase "at six and seven" already existed before 1484 (Chaucer used a
+    version of it in the 1380s) with a similar sense of confusion or risk,
+    likely from dice games, so the guild dispute may have reinforced an
+    existing phrase rather than created it.`,
+    mythVsFact: null,
+    source: "Livery company precedence dispute documented in City of London records, 1484; earlier Chaucerian usage in Troilus and Criseyde (c.1380s) cited in the Oxford English Dictionary."
+  },
+  {
+    id: "kick-the-bucket",
+    phrase: "Kick the bucket",
+    meaning: "To die.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `The most commonly repeated explanation — someone kicking away a
+    bucket they were standing on to hang themselves — has no solid
+    historical backing as the phrase's actual origin. A more credible theory,
+    favoured by Brewer's Dictionary of Phrase and Fable, points to an old
+    regional (East Anglian) use of "bucket" for the wooden beam or yoke from
+    which slaughtered pigs were hung up by their feet — the animal's death
+    spasms would cause it to visibly "kick the bucket." Either way, the
+    phrase is recorded from the 1700s, well documented in general use, even
+    if the precise picture behind it isn't settled.`,
+    mythVsFact: "The 'suicide by kicking away a bucket' story is treated as obvious fact by a lot of people, but it's folklore rather than documented history. The slaughterhouse-beam theory has more circumstantial support, though it too isn't proven beyond doubt.",
+    source: "Brewer's Dictionary of Phrase and Fable, entry for 'kick the bucket'; earliest print citations from the 18th century."
+  },
+  {
+    id: "on-the-fiddle",
+    phrase: "On the fiddle",
+    meaning: "Engaged in petty cheating, fraud, or dishonest dealing, especially for small personal gain.",
+    category: "Slang & Everyday Speech",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `There's no single confirmed source for this one. One theory
+    ties it to naval life: a "fiddle" was a small raised rail around a
+    mess-table at sea meant to stop plates and cutlery sliding off in rough
+    weather, and sailors trying to fit more food onto their plate than the
+    fiddle's edge should really allow gave rise to a general sense of
+    "getting a bit extra you're not entitled to." Others link it simply to
+    the older use of "fiddle" in thieves' slang to mean a small swindle or
+    scam, recorded from the 1700s onward, independent of anything nautical.
+    Both are plausible; neither is proven.`,
+    mythVsFact: null,
+    source: "18th-century thieves' cant and naval slang both use 'fiddle' in related senses; no single definitive origin has been established, per slang dictionaries including Partridge's Dictionary of Slang."
+  },
+  {
+    id: "taking-the-mickey",
+    phrase: "Taking the mickey",
+    meaning: "To mock, tease, or make fun of someone, often gently.",
+    category: "Slang & Everyday Speech",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Generally believed to be a softened version of the cruder
+    "taking the piss," itself thought to come from Cockney rhyming slang,
+    where "Mickey Bliss" rhymes with "piss." Rhyming slang regularly got
+    shortened to just its first word, turning "Mickey Bliss" into simply
+    "Mickey" or "the mickey," giving speakers a way to say the same thing
+    without the crude original. It's a well-supported theory given how
+    rhyming slang typically behaves, though — as with a lot of slang —
+    nobody wrote down the exact moment it was coined.`,
+    mythVsFact: null,
+    source: "Cockney rhyming slang pattern documented in Partridge's Dictionary of Slang and Unconventional English; 'Mickey Bliss' cited as the rhyming source for 'mickey.'"
   }
 ];
 
