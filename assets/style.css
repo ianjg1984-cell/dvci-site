@@ -436,6 +436,23 @@ nav.main-nav a.active {
   margin-top: 1rem;
 }
 
+.comments-section {
+  border-top: 2px double var(--line);
+  margin-top: 1.5rem;
+  padding-top: 1.2rem;
+}
+
+.comments-section h4 {
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+}
+
+.comments-note {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin: 0 0 0.8rem;
+}
+
 /* ---------- Newsletter ---------- */
 
 .newsletter {

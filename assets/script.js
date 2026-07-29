@@ -2,6 +2,19 @@
    Repository rendering, search/filter, modal, idiom-of-the-day, newsletter UI. */
 
 (function () {
+  // Giscus (GitHub Discussions-backed comments + emoji reactions).
+  // TODO: replace these two placeholders with the real values from
+  // https://giscus.app once Discussions is enabled and the giscus app is
+  // installed on ianjg1984-cell/dvci-site — enter the repo there and it
+  // generates both IDs for you.
+  const GISCUS_REPO = "ianjg1984-cell/dvci-site";
+  const GISCUS_REPO_ID = "REPLACE_WITH_REPO_ID_FROM_GISCUS_APP";
+  const GISCUS_CATEGORY = "General";
+  const GISCUS_CATEGORY_ID = "REPLACE_WITH_CATEGORY_ID_FROM_GISCUS_APP";
+  const GISCUS_READY =
+    GISCUS_REPO_ID !== "REPLACE_WITH_REPO_ID_FROM_GISCUS_APP" &&
+    GISCUS_CATEGORY_ID !== "REPLACE_WITH_CATEGORY_ID_FROM_GISCUS_APP";
+
   const grid = document.getElementById("repo-grid");
   const chipsWrap = document.getElementById("chips");
   const searchInput = document.getElementById("search-input");
@@ -85,7 +98,39 @@
           : ""
       }
       <div class="source-line"><strong>Sources:</strong> ${entry.source}</div>
+      <div class="comments-section">
+        <h4>React &amp; discuss</h4>
+        <p class="comments-note">Comments and reactions are powered by GitHub Discussions — signing in with a (free) GitHub account is required to react or post.</p>
+        <div id="giscus-container"></div>
+      </div>
     `;
+  }
+
+  function loadComments(entry) {
+    const container = document.getElementById("giscus-container");
+    if (!container) return;
+    container.innerHTML = "";
+    if (!GISCUS_READY) {
+      container.innerHTML = `<p class="comments-note">Comments aren't switched on yet.</p>`;
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = "https://giscus.app/client.js";
+    script.async = true;
+    script.crossOrigin = "anonymous";
+    script.setAttribute("data-repo", GISCUS_REPO);
+    script.setAttribute("data-repo-id", GISCUS_REPO_ID);
+    script.setAttribute("data-category", GISCUS_CATEGORY);
+    script.setAttribute("data-category-id", GISCUS_CATEGORY_ID);
+    script.setAttribute("data-mapping", "specific");
+    script.setAttribute("data-term", entry.id);
+    script.setAttribute("data-strict", "0");
+    script.setAttribute("data-reactions-enabled", "1");
+    script.setAttribute("data-emit-metadata", "0");
+    script.setAttribute("data-input-position", "top");
+    script.setAttribute("data-theme", "preferred_color_scheme");
+    script.setAttribute("data-lang", "en");
+    container.appendChild(script);
   }
 
   function openModal(id) {
@@ -94,6 +139,7 @@
     modalBody.innerHTML = modalHTML(entry);
     modalBackdrop.classList.add("open");
     document.body.style.overflow = "hidden";
+    loadComments(entry);
   }
 
   function closeModal() {
