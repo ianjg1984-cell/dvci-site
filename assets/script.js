@@ -38,7 +38,7 @@
         <span class="badge ${verdictClass(entry.verdict)}">${entry.verdictLabel}</span>
         <h3>${entry.phrase}</h3>
         <p class="meaning">"${entry.meaning}"</p>
-        <span style="font-size:0.8rem; color: var(--ink-soft);">${entry.category}</span>
+        <span style="font-size:0.8rem; color: var(--ivory-soft);">${entry.category}</span>
       </button>
     `;
   }
