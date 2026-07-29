@@ -207,6 +207,10 @@ nav.main-nav a.active {
   padding: 2.5rem 0;
 }
 
+.is-hidden {
+  display: none !important;
+}
+
 .featured-card {
   border: 2px solid var(--gold);
   background: linear-gradient(160deg, var(--panel), var(--panel-2));

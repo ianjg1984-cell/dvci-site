@@ -24,9 +24,11 @@
   const modalBackdrop = document.getElementById("modal-backdrop");
   const modalBody = document.getElementById("modal-body");
   const featuredSlot = document.getElementById("featured-slot");
+  const featuredWrap = document.getElementById("featured-wrap");
 
   let activeCategory = "All";
   let query = "";
+  let wasFilterActive = false;
 
   function verdictClass(verdict) {
     return { "well-documented": "well-documented", "disputed": "disputed", "mystery": "mystery", "myth": "myth" }[verdict] || "disputed";
@@ -85,6 +87,17 @@
     grid.querySelectorAll(".card").forEach((card) => {
       card.addEventListener("click", () => openModal(card.dataset.id));
     });
+
+    // While a search or category filter is active, the "Idiom of the Day"
+    // card is just dead space between the search box and the actual
+    // results (especially on mobile) — hide it, and jump to the results
+    // the moment filtering starts so they're immediately visible.
+    const filterActive = q !== "" || activeCategory !== "All";
+    if (featuredWrap) featuredWrap.classList.toggle("is-hidden", filterActive);
+    if (filterActive && !wasFilterActive) {
+      document.getElementById("repository")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    wasFilterActive = filterActive;
   }
 
   function reactionBarHTML(entry) {
@@ -327,16 +340,8 @@
 
   if (searchInput) {
     searchInput.addEventListener("input", (e) => {
-      const wasEmpty = query.trim() === "";
       query = e.target.value;
       renderGrid();
-      // Results render in the Repository section, well below the hero —
-      // jump there the moment someone starts typing so it's obvious the
-      // search actually did something, without re-scrolling on every
-      // keystroke after that.
-      if (wasEmpty && query.trim() !== "") {
-        document.getElementById("repository")?.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
     });
   }
 
