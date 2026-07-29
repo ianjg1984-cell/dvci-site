@@ -356,20 +356,51 @@
   renderGrid();
   renderFeatured();
 
-  // Newsletter form — front-end only for now. No email provider is connected
-  // yet, so this just confirms the input and stores it locally as a stub.
-  // Wire the <form id="newsletter-form"> up to a real provider (Mailchimp,
-  // Beehiiv, ConvertKit, Substack, etc.) once one is chosen.
+  // Newsletter signup — stores the email in Supabase; a database trigger
+  // (configured separately, holds a private API key so it isn't in this
+  // file) forwards new signups to Beehiiv, which sends the welcome email.
   const newsletterForm = document.getElementById("newsletter-form");
   if (newsletterForm) {
-    newsletterForm.addEventListener("submit", (e) => {
+    newsletterForm.addEventListener("submit", async (e) => {
       e.preventDefault();
       const emailInput = document.getElementById("newsletter-email");
       const successMsg = document.getElementById("newsletter-success");
-      if (!emailInput.value) return;
-      successMsg.textContent = `Thanks — we'll be in touch at ${emailInput.value} once the newsletter launches.`;
-      successMsg.classList.add("show");
-      emailInput.value = "";
+      const submitBtn = newsletterForm.querySelector("button[type=submit]");
+      const email = emailInput.value.trim();
+      if (!email) return;
+
+      if (!SUPABASE_READY) {
+        successMsg.textContent = "Signups aren't switched on yet — check back soon.";
+        successMsg.classList.add("show");
+        return;
+      }
+
+      submitBtn.disabled = true;
+      try {
+        const res = await fetch(`${SUPABASE_URL}/rest/v1/newsletter_signups`, {
+          method: "POST",
+          headers: {
+            apikey: SUPABASE_ANON_KEY,
+            Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+            "Content-Type": "application/json",
+            Prefer: "return=minimal,resolution=ignore-duplicates"
+          },
+          body: JSON.stringify({ email })
+        });
+        if (res.ok) {
+          successMsg.textContent = `Thanks — check ${email} for a welcome email.`;
+          successMsg.classList.add("show");
+          emailInput.value = "";
+        } else {
+          successMsg.textContent = "Something went wrong signing you up — please try again.";
+          successMsg.classList.add("show");
+        }
+      } catch (err) {
+        successMsg.textContent = "Something went wrong signing you up — please try again.";
+        successMsg.classList.add("show");
+      } finally {
+        submitBtn.disabled = false;
+      }
     });
   }
 })();

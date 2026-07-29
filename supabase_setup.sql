@@ -116,3 +116,25 @@ $$;
 
 grant execute on function approve_comment_by_token(bigint, uuid) to anon, authenticated;
 grant execute on function reject_comment_by_token(bigint, uuid) to anon, authenticated;
+
+-- D.V.C.I. newsletter signups (no secrets in this part — safe to run and
+-- keep in the repo). Pairs with a separate, NOT-committed script that
+-- forwards new signups to Beehiiv, since that one holds a private API key.
+
+create table if not exists newsletter_signups (
+  id bigint generated always as identity primary key,
+  email text not null unique check (email ~* '^[^@\s]+@[^@\s]+\.[^@\s]+$'),
+  created_at timestamptz not null default now()
+);
+
+alter table newsletter_signups enable row level security;
+
+-- Anyone can submit their email to subscribe. Nobody (not even a signed-in
+-- user) can read the list back out through the public API — moderation/
+-- export only happens from your own Supabase dashboard or via Beehiiv.
+create policy "public can subscribe"
+  on newsletter_signups for insert
+  with check (true);
+
+grant insert on newsletter_signups to anon, authenticated;
+revoke select, update, delete on newsletter_signups from anon, authenticated;
