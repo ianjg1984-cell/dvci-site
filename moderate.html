@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Moderate a comment — D.V.C.I.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="mark">D.V.C.I.</span>
+        <span class="full">Dictionary of Very Curious Idioms</span>
+      </a>
+    </div>
+  </header>
+
+  <section class="page-content" style="text-align: center;">
+    <h1 id="mod-heading">Working…</h1>
+    <p id="mod-message">One moment.</p>
+  </section>
+
+  <script>
+    (async function () {
+      const SUPABASE_URL = "https://sntdlmadodjvjuevkqxc.supabase.co";
+      const SUPABASE_ANON_KEY = "sb_publishable_LCtvm2fyl6efrxK8RMYv5A_ruZxs-fE";
+
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+      const token = params.get("token");
+      const action = params.get("action");
+      const heading = document.getElementById("mod-heading");
+      const message = document.getElementById("mod-message");
+
+      if (!id || !token || (action !== "approve" && action !== "reject")) {
+        heading.textContent = "Invalid link";
+        message.textContent = "This moderation link is missing information it needs.";
+        return;
+      }
+
+      const fn = action === "approve" ? "approve_comment_by_token" : "reject_comment_by_token";
+
+      try {
+        const res = await fetch(`${SUPABASE_URL}/rest/v1/rpc/${fn}`, {
+          method: "POST",
+          headers: {
+            apikey: SUPABASE_ANON_KEY,
+            Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ p_id: Number(id), p_token: token })
+        });
+        const ok = await res.json();
+        if (ok === true) {
+          heading.textContent = action === "approve" ? "Comment approved" : "Comment rejected";
+          message.textContent =
+            action === "approve"
+              ? "It's now live on the site."
+              : "It's been deleted and won't show on the site.";
+        } else {
+          heading.textContent = "Already handled";
+          message.textContent = "This comment was already approved or rejected, or the link has expired.";
+        }
+      } catch (err) {
+        heading.textContent = "Something went wrong";
+        message.textContent = "Please try again in a moment.";
+      }
+    })();
+  </script>
+
+</body>
+</html>

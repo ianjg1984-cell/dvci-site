@@ -69,3 +69,50 @@ revoke update, delete on comments from anon, authenticated;
 -- To moderate: open the "comments" table in Supabase's Table Editor,
 -- and either tick "approved" to true on ones you want live, or delete
 -- rows you don't want at all.
+
+-- D.V.C.I. tap-to-approve links (no secrets in this part — safe to run
+-- and safe to keep in the repo). Pairs with a separate, NOT-committed
+-- script that wires up the Discord notification itself, since that one
+-- contains your private webhook URL.
+
+create extension if not exists pgcrypto;
+
+alter table comments add column if not exists approval_token uuid not null default gen_random_uuid();
+
+-- Approves a pending comment, but only if the token matches — the token
+-- is a random UUID emailed/messaged only to the site owner, so this is
+-- safe to expose to anon even though anyone technically has "permission"
+-- to call it: without the right token for the right row, it's a no-op.
+create or replace function approve_comment_by_token(p_id bigint, p_token uuid)
+returns boolean
+language plpgsql
+security definer
+as $$
+declare
+  affected integer;
+begin
+  update comments
+  set approved = true
+  where id = p_id and approval_token = p_token and approved = false;
+  get diagnostics affected = row_count;
+  return affected > 0;
+end;
+$$;
+
+create or replace function reject_comment_by_token(p_id bigint, p_token uuid)
+returns boolean
+language plpgsql
+security definer
+as $$
+declare
+  affected integer;
+begin
+  delete from comments
+  where id = p_id and approval_token = p_token and approved = false;
+  get diagnostics affected = row_count;
+  return affected > 0;
+end;
+$$;
+
+grant execute on function approve_comment_by_token(bigint, uuid) to anon, authenticated;
+grant execute on function reject_comment_by_token(bigint, uuid) to anon, authenticated;
