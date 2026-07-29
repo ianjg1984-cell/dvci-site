@@ -8,9 +8,9 @@
   // installed on ianjg1984-cell/dvci-site — enter the repo there and it
   // generates both IDs for you.
   const GISCUS_REPO = "ianjg1984-cell/dvci-site";
-  const GISCUS_REPO_ID = "REPLACE_WITH_REPO_ID_FROM_GISCUS_APP";
+  const GISCUS_REPO_ID = "R_kgDOTm-xrg";
   const GISCUS_CATEGORY = "General";
-  const GISCUS_CATEGORY_ID = "REPLACE_WITH_CATEGORY_ID_FROM_GISCUS_APP";
+  const GISCUS_CATEGORY_ID = "DIC_kwDOTm-xrs4DCO0J";
   const GISCUS_READY =
     GISCUS_REPO_ID !== "REPLACE_WITH_REPO_ID_FROM_GISCUS_APP" &&
     GISCUS_CATEGORY_ID !== "REPLACE_WITH_CATEGORY_ID_FROM_GISCUS_APP";
