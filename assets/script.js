@@ -16,8 +16,8 @@
   // Anonymous emoji-reaction bar, backed by Supabase (no login required).
   // TODO: replace these two placeholders once the Supabase project + SQL
   // setup described in the project notes are done.
-  const SUPABASE_URL = "REPLACE_WITH_SUPABASE_PROJECT_URL";
-  const SUPABASE_ANON_KEY = "REPLACE_WITH_SUPABASE_ANON_PUBLIC_KEY";
+  const SUPABASE_URL = "https://sntdlmadodjvjuevkqxc.supabase.co";
+  const SUPABASE_ANON_KEY = "sb_publishable_LCtvm2fyl6efrxK8RMYv5A_ruZxs-fE";
   const REACTIONS_READY =
     SUPABASE_URL !== "REPLACE_WITH_SUPABASE_PROJECT_URL" &&
     SUPABASE_ANON_KEY !== "REPLACE_WITH_SUPABASE_ANON_PUBLIC_KEY";
