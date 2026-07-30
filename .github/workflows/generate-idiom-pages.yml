@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name "dvci-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add idioms/ sitemap.xml a-z.html
+          git add idioms/ categories/ sitemap.xml a-z.html
           if git diff --cached --quiet; then
             echo "No changes to generated pages."
           else

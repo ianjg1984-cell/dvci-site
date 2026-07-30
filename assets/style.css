@@ -292,12 +292,15 @@ nav.main-nav a.active:not(.social-pill) {
 }
 
 .chip {
+  display: inline-flex;
+  align-items: center;
   border: 1px solid var(--line);
   background: transparent;
   color: var(--ivory-soft);
   padding: 0.4rem 0.9rem;
   border-radius: 999px;
   font-size: 0.85rem;
+  text-decoration: none;
   cursor: pointer;
   font-family: inherit;
   transition: border-color 0.15s ease, color 0.15s ease, background 0.15s ease;
@@ -447,12 +450,19 @@ nav.main-nav a.active:not(.social-pill) {
   line-height: 1;
 }
 
-.modal .category-tag {
+.category-tag {
+  display: inline-block;
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--gold-bright);
+  text-decoration: none;
   margin-bottom: 0.5rem;
+}
+
+.category-tag:hover {
+  text-decoration: underline;
+  color: var(--gold);
 }
 
 .modal h2 {

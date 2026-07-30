@@ -34,6 +34,14 @@
     return { "well-documented": "well-documented", "disputed": "disputed", "mystery": "mystery", "myth": "myth" }[verdict] || "disputed";
   }
 
+  function categorySlug(category) {
+    return category
+      .toLowerCase()
+      .replace(/&/g, "and")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
   function cardHTML(entry) {
     return `
       <a class="card" href="idioms/${entry.id}.html" data-id="${entry.id}" aria-haspopup="dialog">
@@ -83,13 +91,14 @@
     if (!chipsWrap) return;
     const cats = ["All", ...CATEGORIES];
     chipsWrap.innerHTML = cats
-      .map(
-        (c) =>
-          `<button class="chip${c === activeCategory ? " active" : ""}" data-cat="${c}">${c}</button>`
-      )
+      .map((c) => {
+        const href = c === "All" ? "index.html#repository" : `categories/${categorySlug(c)}.html`;
+        return `<a class="chip${c === activeCategory ? " active" : ""}" href="${href}" data-cat="${c}">${c}</a>`;
+      })
       .join("");
     chipsWrap.querySelectorAll(".chip").forEach((btn) => {
-      btn.addEventListener("click", () => {
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
         activeCategory = btn.dataset.cat;
         renderChips();
         renderGrid();
@@ -154,7 +163,7 @@
 
   function modalHTML(entry) {
     return `
-      <div class="category-tag">${entry.category}</div>
+      <a class="category-tag" href="categories/${categorySlug(entry.category)}.html">${entry.category}</a>
       <span class="badge ${verdictClass(entry.verdict)}">${entry.verdictLabel}</span>
       <h2>${entry.phrase}</h2>
       <p class="meaning">"${entry.meaning}"</p>

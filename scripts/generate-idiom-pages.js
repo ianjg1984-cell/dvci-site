@@ -15,7 +15,42 @@ const os = require("os");
 const ROOT = path.join(__dirname, "..");
 const DATA_PATH = path.join(ROOT, "assets", "data.js");
 const OUT_DIR = path.join(ROOT, "idioms");
+const CATEGORIES_DIR = path.join(ROOT, "categories");
 const SITE_URL = "https://dvci.com";
+
+// Hand-written intros for categories that exist today. Anything not
+// listed here (e.g. a brand new category from a future research batch)
+// falls back to a plain generated description — see categoryBlurb().
+const CATEGORY_BLURBS = {
+  "Sailing & the Sea": "English picked up a huge number of everyday phrases from centuries of naval and merchant seafaring life. Every idiom here has a nautical origin.",
+  "Slang & Everyday Speech": "Not every idiom comes from a single grand event. Plenty are just old slang that stuck around, rooted in ordinary spoken English rather than a documented incident.",
+  "Popular Myths": "Every idiom on this page shares one thing: a popular origin story that turns out to be wrong, unproven, or invented well after the fact. Here's what's actually documented instead.",
+  "Still Unsolved": "Genuine etymological mysteries. Nobody, including professional lexicographers, actually knows for certain where these came from.",
+  "Trade & Industry": "Idioms rooted in the trades, crafts, and industries that shaped everyday English.",
+  "Sport & Military": "Idioms with roots on the parade ground, the playing field, or somewhere in between.",
+  "Law & Government": "Idioms that trace back to real laws, courts, or acts of government.",
+  "History & Empire": "Idioms shaped by real historical events and the machinery of empire.",
+  "Food & Dining": "Idioms that came out of the kitchen, the dinner table, or the pub.",
+  "War & Conflict": "Idioms forged in wartime, from the English Civil War to the 20th century.",
+  "Language Itself": "Idioms that are really about language changing shape over time: mishearings, puns, and words drifting from their original meaning.",
+  "Medieval Life": "Idioms rooted in the customs, disputes, and everyday life of medieval England.",
+  "Music": "Idioms borrowed from musical instruments and performance.",
+  "Literature": "Idioms that trace back to specific, identifiable works of literature.",
+  "Theatre & Performance": "Idioms with roots backstage or on the boards.",
+  "Health & Medicine": "Idioms rooted in real, and sometimes alarming, medical history."
+};
+
+function categorySlug(category) {
+  return category
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function categoryBlurb(category) {
+  return CATEGORY_BLURBS[category] || `Every idiom in the repository filed under "${category}", each with its origin honestly rated.`;
+}
 
 const REACTION_EMOJIS = [
   { emoji: "🤯", label: "Mind blown" },
@@ -116,7 +151,7 @@ function pageHTML(entry) {
   </header>
 
   <section class="page-content">
-    <div class="category-tag">${escapeHtml(entry.category)}</div>
+    <a class="category-tag" href="../categories/${categorySlug(entry.category)}.html">${escapeHtml(entry.category)}</a>
     <span class="badge ${verdictClass(entry.verdict)}">${escapeHtml(entry.verdictLabel)}</span>
     <h1>${escapeHtml(entry.phrase)}</h1>
     <p class="meaning">"${escapeHtml(entry.meaning)}"</p>
@@ -162,6 +197,99 @@ function pageHTML(entry) {
   <script src="../assets/data.js"></script>
   <script>window.DVCI_STANDALONE_IDIOM_ID = "${entry.id}";</script>
   <script src="../assets/script.js"></script>
+</body>
+</html>
+`;
+}
+
+function categoryPageHTML(category, idiomsInCategory, allCategories) {
+  const slug = categorySlug(category);
+  const count = idiomsInCategory.length;
+  const title = `${escapeHtml(category)} Idioms | D.V.C.I.`;
+  const description = escapeAttr(
+    `${count} idiom${count === 1 ? "" : "s"} filed under "${category}" in the Dictionary of Very Curious Idioms, each with a real, honestly-rated origin.`
+  );
+  const url = `${SITE_URL}/categories/${slug}.html`;
+
+  const cardsHtml = idiomsInCategory
+    .map(
+      (e) => `
+      <a class="card" href="../idioms/${e.id}.html">
+        <span class="badge ${verdictClass(e.verdict)}">${escapeHtml(e.verdictLabel)}</span>
+        <h3>${escapeHtml(e.phrase)}</h3>
+        <p class="meaning">"${escapeHtml(e.meaning)}"</p>
+      </a>`
+    )
+    .join("");
+
+  const otherCategoriesHtml = allCategories
+    .filter((c) => c !== category)
+    .map((c) => `<a class="chip" href="${categorySlug(c)}.html">${escapeHtml(c)}</a>`)
+    .join("\n        ");
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${title}</title>
+  <meta name="description" content="${description}" />
+  <link rel="canonical" href="${url}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="D.V.C.I." />
+  <meta property="og:title" content="${title}" />
+  <meta property="og:description" content="${description}" />
+  <meta property="og:url" content="${url}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="../index.html">
+        <span class="mark">D.V.C.I.</span>
+        <span class="full">Dictionary of Very Curious Idioms</span>
+      </a>
+      <nav class="main-nav">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#repository">Repository</a>
+        <a href="../a-z.html">A-Z</a>
+        <a href="../about.html">About</a>
+        <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
+        <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="repo-section">
+    <div class="container">
+      <h1>${escapeHtml(category)}</h1>
+      <p class="sub">${categoryBlurb(category)}</p>
+      <p class="count-line">${count} idiom${count === 1 ? "" : "s"} in this category</p>
+      <div class="grid">${cardsHtml}
+      </div>
+
+      <h2 style="margin-top: 3rem; color: var(--gold-bright); text-align: center;">Browse other categories</h2>
+      <div class="chips">
+        <a class="chip" href="../index.html#repository">All</a>
+        ${otherCategoriesHtml}
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-row">
+        <a href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
+      </div>
+      <p>&copy; 2026 Dictionary of Very Curious Idioms. Researched with care; corrections welcome.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
 `;
@@ -264,11 +392,12 @@ function azIndexHTML(idioms) {
 `;
 }
 
-function sitemapXML(idioms) {
+function sitemapXML(idioms, categories) {
   const urls = [
     `${SITE_URL}/`,
     `${SITE_URL}/about.html`,
     `${SITE_URL}/a-z.html`,
+    ...categories.map((c) => `${SITE_URL}/categories/${categorySlug(c)}.html`),
     ...idioms.map((e) => `${SITE_URL}/idioms/${e.id}.html`)
   ];
   const body = urls.map((u) => `  <url><loc>${u}</loc></url>`).join("\n");
@@ -278,6 +407,7 @@ function sitemapXML(idioms) {
 function main() {
   const idioms = loadIdioms();
   fs.mkdirSync(OUT_DIR, { recursive: true });
+  fs.mkdirSync(CATEGORIES_DIR, { recursive: true });
 
   const existingFiles = new Set(fs.readdirSync(OUT_DIR).filter((f) => f.endsWith(".html")));
   const expectedFiles = new Set(idioms.map((e) => `${e.id}.html`));
@@ -294,10 +424,34 @@ function main() {
     }
   }
 
-  fs.writeFileSync(path.join(ROOT, "a-z.html"), azIndexHTML(idioms));
-  fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemapXML(idioms));
+  const categories = [...new Set(idioms.map((e) => e.category))].sort();
+  const byCategory = new Map();
+  for (const entry of idioms) {
+    if (!byCategory.has(entry.category)) byCategory.set(entry.category, []);
+    byCategory.get(entry.category).push(entry);
+  }
 
-  console.log(`Generated ${idioms.length} idiom pages, a-z.html, and sitemap.xml.`);
+  const existingCategoryFiles = new Set(fs.readdirSync(CATEGORIES_DIR).filter((f) => f.endsWith(".html")));
+  const expectedCategoryFiles = new Set(categories.map((c) => `${categorySlug(c)}.html`));
+
+  for (const category of categories) {
+    const slug = categorySlug(category);
+    const html = categoryPageHTML(category, byCategory.get(category), categories);
+    fs.writeFileSync(path.join(CATEGORIES_DIR, `${slug}.html`), html);
+  }
+
+  for (const file of existingCategoryFiles) {
+    if (!expectedCategoryFiles.has(file)) {
+      fs.unlinkSync(path.join(CATEGORIES_DIR, file));
+    }
+  }
+
+  fs.writeFileSync(path.join(ROOT, "a-z.html"), azIndexHTML(idioms));
+  fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemapXML(idioms, categories));
+
+  console.log(
+    `Generated ${idioms.length} idiom pages, ${categories.length} category pages, a-z.html, and sitemap.xml.`
+  );
 }
 
 main();
