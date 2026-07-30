@@ -73,6 +73,7 @@ function pageHTML(entry) {
   const title = `${escapeHtml(entry.phrase)} | D.V.C.I.`;
   const description = escapeAttr(`${entry.meaning} The real, honestly-rated origin.`);
   const url = `${SITE_URL}/idioms/${entry.id}.html`;
+  const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -118,7 +119,10 @@ function pageHTML(entry) {
     <span class="badge ${verdictClass(entry.verdict)}">${escapeHtml(entry.verdictLabel)}</span>
     <h1>${escapeHtml(entry.phrase)}</h1>
     <p class="meaning">"${escapeHtml(entry.meaning)}"</p>
-    <button class="share-btn" type="button">Share this idiom</button>
+    <div class="share-row">
+      <button class="share-btn copy-link-btn" type="button">Copy Link</button>
+      <a class="share-btn" href="${facebookShareUrl}" target="_blank" rel="noopener">Share on Facebook</a>
+    </div>
     <div class="story"><p>${entry.story}</p></div>
     ${entry.mythVsFact ? `<div class="myth-box"><strong>Myth vs. Fact</strong>${entry.mythVsFact}</div>` : ""}
     <div class="source-line"><strong>Sources:</strong> ${entry.source}</div>

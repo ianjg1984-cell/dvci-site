@@ -424,6 +424,13 @@ nav.main-nav a.active {
   margin-bottom: 1rem;
 }
 
+.share-row {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+
 .share-btn {
   display: inline-flex;
   align-items: center;
@@ -435,8 +442,8 @@ nav.main-nav a.active {
   border-radius: 999px;
   font-family: inherit;
   font-size: 0.85rem;
+  text-decoration: none;
   cursor: pointer;
-  margin-bottom: 1.2rem;
   transition: background 0.15s ease, color 0.15s ease;
 }
 

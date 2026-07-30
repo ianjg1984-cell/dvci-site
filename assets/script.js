@@ -49,30 +49,33 @@
     return `${window.location.origin}/idioms/${id}.html`;
   }
 
-  async function shareIdiom(entry, btn) {
+  function facebookShareUrl(id) {
+    return `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(idiomUrl(id))}`;
+  }
+
+  function shareRowHTML(entry) {
+    return `
+      <div class="share-row">
+        <button class="share-btn copy-link-btn" type="button">Copy Link</button>
+        <a class="share-btn" href="${facebookShareUrl(entry.id)}" target="_blank" rel="noopener">Share on Facebook</a>
+      </div>
+    `;
+  }
+
+  async function copyIdiomLink(entry, btn) {
     const url = idiomUrl(entry.id);
-    const shareData = { title: `${entry.phrase} | D.V.C.I.`, text: entry.meaning, url };
-    if (navigator.share) {
-      try {
-        await navigator.share(shareData);
-      } catch (err) {
-        // User backed out of the share sheet, or the share failed. No-op.
+    if (!navigator.clipboard) return;
+    try {
+      await navigator.clipboard.writeText(url);
+      if (btn) {
+        const original = btn.textContent;
+        btn.textContent = "Link copied!";
+        setTimeout(() => {
+          btn.textContent = original;
+        }, 2000);
       }
-      return;
-    }
-    if (navigator.clipboard) {
-      try {
-        await navigator.clipboard.writeText(url);
-        if (btn) {
-          const original = btn.textContent;
-          btn.textContent = "Link copied!";
-          setTimeout(() => {
-            btn.textContent = original;
-          }, 2000);
-        }
-      } catch (err) {
-        // Clipboard write failed (e.g. permissions). Nothing more to do.
-      }
+    } catch (err) {
+      // Clipboard write failed (e.g. permissions). Nothing more to do.
     }
   }
 
@@ -155,7 +158,7 @@
       <span class="badge ${verdictClass(entry.verdict)}">${entry.verdictLabel}</span>
       <h2>${entry.phrase}</h2>
       <p class="meaning">"${entry.meaning}"</p>
-      <button class="share-btn" type="button">Share this idiom</button>
+      ${shareRowHTML(entry)}
       <div class="story"><p>${entry.story}</p></div>
       ${
         entry.mythVsFact
@@ -356,7 +359,7 @@
     loadCommentList(entry.id);
     wireCommentForm(entry.id);
     wireReactionBar(entry.id);
-    modalBody.querySelector(".share-btn")?.addEventListener("click", (e) => shareIdiom(entry, e.currentTarget));
+    modalBody.querySelector(".copy-link-btn")?.addEventListener("click", (e) => copyIdiomLink(entry, e.currentTarget));
   }
 
   function closeModal() {
@@ -419,8 +422,8 @@
       wireCommentForm(standaloneEntry.id);
       loadCommentList(standaloneEntry.id);
       document
-        .querySelector(".share-btn")
-        ?.addEventListener("click", (e) => shareIdiom(standaloneEntry, e.currentTarget));
+        .querySelector(".copy-link-btn")
+        ?.addEventListener("click", (e) => copyIdiomLink(standaloneEntry, e.currentTarget));
     }
   }
 
