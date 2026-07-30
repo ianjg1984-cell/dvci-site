@@ -804,6 +804,31 @@ nav.main-nav a.active:not(.social-pill) {
   background: var(--panel);
 }
 
+.contact-cta {
+  margin: 1.8rem 0;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--burgundy);
+  color: var(--gold-bright);
+  border: 1px solid var(--gold);
+  padding: 0.8rem 1.6rem;
+  border-radius: var(--radius);
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  text-decoration: none;
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.contact-btn:hover {
+  background: var(--burgundy-bright);
+  box-shadow: var(--shadow-gold);
+}
+
 /* ---------- A-Z index ---------- */
 
 .az-page {

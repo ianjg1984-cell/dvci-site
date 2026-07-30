@@ -144,6 +144,7 @@ function pageHTML(entry) {
         <a href="../index.html#repository">Repository</a>
         <a href="../a-z.html">A-Z</a>
         <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
         <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
       </nav>
@@ -258,6 +259,7 @@ function categoryPageHTML(category, idiomsInCategory, allCategories) {
         <a href="../index.html#repository">Repository</a>
         <a href="../a-z.html">A-Z</a>
         <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
         <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
       </nav>
@@ -361,6 +363,7 @@ function azIndexHTML(idioms) {
         <a href="index.html#repository">Repository</a>
         <a href="a-z.html" class="active">A-Z</a>
         <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
         <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
       </nav>
@@ -396,6 +399,7 @@ function sitemapXML(idioms, categories) {
   const urls = [
     `${SITE_URL}/`,
     `${SITE_URL}/about.html`,
+    `${SITE_URL}/contact.html`,
     `${SITE_URL}/a-z.html`,
     ...categories.map((c) => `${SITE_URL}/categories/${categorySlug(c)}.html`),
     ...idioms.map((e) => `${SITE_URL}/idioms/${e.id}.html`)
