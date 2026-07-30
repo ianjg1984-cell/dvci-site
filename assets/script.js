@@ -244,7 +244,8 @@
       }
       btn.addEventListener("click", () => {
         if (localStorage.getItem(reactedKey(idiomId, emoji))) return;
-        btn.classList.add("reacted");
+        btn.classList.add("reacted", "pop");
+        setTimeout(() => btn.classList.remove("pop"), 400);
         const countEl = btn.querySelector(`[data-emoji-count="${CSS.escape(emoji)}"]`);
         sendReaction(idiomId, emoji, countEl);
       });
