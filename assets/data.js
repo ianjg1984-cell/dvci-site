@@ -577,6 +577,158 @@ const IDIOMS = [
     nobody wrote down the exact moment it was coined.`,
     mythVsFact: null,
     source: "Cockney rhyming slang pattern documented in Partridge's Dictionary of Slang and Unconventional English; 'Mickey Bliss' cited as the rhyming source for 'mickey.'"
+  },
+  {
+    id: "codswallop",
+    phrase: "Codswallop",
+    meaning: "Nonsense; rubbish talk.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `A widely repeated origin story credits Hiram Codd, who in 1872
+    patented a fizzy-drink bottle sealed with a glass marble (the
+    "Codd-neck bottle"), and claims that beer drinkers dismissively called
+    soft drinks "Codd's wallop" ("wallop" being old slang for beer),
+    meaning weak, watered-down nonsense by comparison. It's a wonderfully
+    specific story, but there's no documented evidence connecting Codd's
+    bottle to the phrase at all. "Codswallop" isn't recorded anywhere in
+    print until the 1950s and 60s, roughly eighty years after Codd's
+    bottle had already gone out of fashion, which makes the tidy origin
+    story very hard to believe.`,
+    mythVsFact: "The Hiram Codd/fizzy-bottle story circulates as though it's settled etymology, complete with a specific inventor and date. In reality, the multi-decade gap between Codd's bottle and the phrase's actual first recorded use makes the connection almost certainly folk etymology invented after the fact.",
+    source: "Oxford English Dictionary, entry for 'codswallop,' earliest citations from the 1950s-60s; no documented link to Hiram Codd's 1872 bottle patent."
+  },
+  {
+    id: "mad-as-a-hatter",
+    phrase: "Mad as a hatter",
+    meaning: "Completely crazy or eccentric.",
+    category: "Health & Medicine",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one has a genuinely grim, well-documented medical
+    explanation. From the 18th through the 19th centuries, hat makers used
+    mercury nitrate to treat felt in the "carroting" process, working with
+    the toxic compound in poorly ventilated workshops for years on end.
+    Chronic mercury exposure causes real neurological damage: tremors,
+    slurred speech, and irritability, symptoms so associated with the
+    trade that "mad as a hatter" and "hatter's shakes" entered common
+    usage to describe hat workers. Lewis Carroll's Mad Hatter character in
+    <em>Alice in Wonderland</em> (1865) popularised the phrase well after
+    it was already established, rather than inventing it.`,
+    mythVsFact: null,
+    source: "Documented occupational mercury poisoning among hatters, cited in medical and occupational-history literature; phrase recorded in print from the 1830s, predating Lewis Carroll's Alice in Wonderland (1865)."
+  },
+  {
+    id: "elbow-grease",
+    phrase: "Elbow grease",
+    meaning: "Hard physical effort, especially manual scrubbing or polishing.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `One of the oldest idioms in the repository. The phrase appears
+    in print as early as 1672, in John Ray's collection of English
+    proverbs, in the form "Elbow grease is the best cure for the rust."
+    The joke is straightforward: the only "grease" that will properly
+    clean or polish something is the effort of your own arm, not any
+    actual lubricant. The image has stayed almost entirely unchanged in
+    meaning for over 350 years.`,
+    mythVsFact: null,
+    source: "John Ray, A Collection of English Proverbs (1672); cited in the Oxford English Dictionary's entry for 'elbow grease.'"
+  },
+  {
+    id: "donkeys-years",
+    phrase: "Donkey's years",
+    meaning: "A very long time.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one is a pun stacked on a pun. It plays on "donkey's
+    ears," which are famously long, and relies on the fact that in
+    British non-rhotic pronunciation "ears" and "years" sound close
+    enough to swap. It's reinforced by the folk belief that donkeys are
+    unusually long-lived animals. The wordplay is recorded in print from
+    the 1910s, and the spelling shifted from "ears" to "years" early on,
+    cementing the pun as the phrase's permanent form.`,
+    mythVsFact: null,
+    source: "Earliest citations from the 1910s-20s, cited in the Oxford English Dictionary's entry for 'donkey, n.'"
+  },
+  {
+    id: "at-a-loose-end",
+    phrase: "At a loose end",
+    meaning: "Having nothing to do; idle.",
+    category: "Sailing & the Sea",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The leading theory is nautical: sailing ships were held
+    together by a huge amount of rigging, and any rope end left untied or
+    "loose" was both untidy and a safety hazard. Keeping crews busy
+    re-splicing and whipping loose rope ends was reportedly standard
+    practice for idle hands aboard ship, giving officers a ready-made task
+    whenever there was nothing else to do. It's a plausible, well-fitting
+    story for a language already thick with nautical idioms, though firm
+    documentary proof tying the phrase's coining specifically to this
+    shipboard task, rather than a more general image of a dangling,
+    unfinished rope end, is thin.`,
+    mythVsFact: null,
+    source: "Nautical usage cited in slang and phrase dictionaries; general figurative use documented in English from the 19th century."
+  },
+  {
+    id: "take-the-biscuit",
+    phrase: "Take the biscuit",
+    meaning: "To be an extreme or most remarkable example of something, usually bad behaviour.",
+    category: "Food & Dining",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `This is the British sibling of the more international "take
+    the cake," and like its cousin, it likely descends from the ancient
+    Greek custom of awarding a cake as a prize for endurance or wit, an
+    image that resurfaced in various European languages over the
+    centuries. Why English speakers in Britain specifically shifted from
+    "cake" to "biscuit" isn't documented anywhere; it may simply reflect
+    that biscuits were the more everyday teatime item in British
+    households. The phrase is recorded in British use from the late 19th
+    century, without any surviving explanation of the swap.`,
+    mythVsFact: null,
+    source: "Recorded in British use from the late 19th century, cited in slang and phrase dictionaries; no documented explanation survives for the cake-to-biscuit substitution."
+  },
+  {
+    id: "bog-standard",
+    phrase: "Bog standard",
+    meaning: "Ordinary, basic, without any special features.",
+    category: "Slang & Everyday Speech",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A genuine puzzle of British engineering slang, first recorded
+    in the 1960s. The leading theory is that it's a corruption of "box
+    standard," referring to the standard specification sheet kept in a
+    box of technical drawings for a piece of machinery, though no
+    documentary trail actually connects the two phrases. A less
+    flattering rival theory suggests it simply piggybacks on "bog,"
+    British slang for a toilet, implying "as basic as it gets." Neither
+    theory has solid supporting evidence, and the Oxford English
+    Dictionary lists the origin as unknown.`,
+    mythVsFact: "The 'box standard' engineering explanation is often repeated as though confirmed, but there's no documented link between the two phrases. It's one of several guesses, not a settled origin.",
+    source: "Oxford English Dictionary, entry for 'bog-standard,' origin listed as unknown; earliest citations from British engineering slang in the 1960s."
+  },
+  {
+    id: "over-the-moon",
+    phrase: "Over the moon",
+    meaning: "Delighted; extremely pleased.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The image traces back to the old English nursery rhyme "Hey
+    Diddle Diddle," in which a cow famously jumps over the moon, and
+    general figurative use meaning "delighted" is recorded in English
+    from the 19th century, well before its most famous modern
+    association. That association came from British football culture:
+    from the 1970s onward, TV pundits and players used "over the moon"
+    (paired with its gloomy opposite, "sick as a parrot") so relentlessly
+    in post-match interviews that both phrases became a running joke
+    about footballing cliche, even though neither one originated in
+    football at all.`,
+    mythVsFact: null,
+    source: "General figurative use documented in English from the 19th century, referencing the nursery rhyme 'Hey Diddle Diddle'; football-commentary association documented from the 1970s onward in British sports journalism."
   }
 ];
 
