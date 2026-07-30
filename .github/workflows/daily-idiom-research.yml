@@ -1,8 +1,13 @@
 name: Daily idiom research
 
+# Paused: no ANTHROPIC_API_KEY secret is set up yet (this calls the API
+# directly, which costs real money per run, unlike the rest of the site's
+# infrastructure). The schedule trigger is commented out on purpose so
+# this doesn't run — and fail — every day for no reason. To resume: add
+# the ANTHROPIC_API_KEY repo secret, then uncomment the schedule below.
 on:
-  schedule:
-    - cron: "0 6 * * *"
+  # schedule:
+  #   - cron: "0 6 * * *"
   workflow_dispatch: {}
 
 permissions:
