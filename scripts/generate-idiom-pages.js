@@ -107,6 +107,7 @@ function pageHTML(entry) {
       <nav class="main-nav">
         <a href="../index.html">Home</a>
         <a href="../index.html#repository">Repository</a>
+        <a href="../a-z.html">A-Z</a>
         <a href="../about.html">About</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
         <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
@@ -166,8 +167,110 @@ function pageHTML(entry) {
 `;
 }
 
+function azIndexHTML(idioms) {
+  const sorted = [...idioms].sort((a, b) => a.phrase.localeCompare(b.phrase, "en", { sensitivity: "base" }));
+  const groups = new Map();
+  for (const entry of sorted) {
+    const letter = entry.phrase.charAt(0).toUpperCase();
+    if (!groups.has(letter)) groups.set(letter, []);
+    groups.get(letter).push(entry);
+  }
+  const letters = [...groups.keys()].sort();
+
+  const jumpNav = letters.map((l) => `<a href="#letter-${l}">${l}</a>`).join("\n        ");
+  const groupsHtml = letters
+    .map(
+      (l) => `
+      <div class="az-group" id="letter-${l}">
+        <h2>${l}</h2>
+        <ul>
+          ${groups
+            .get(l)
+            .map(
+              (e) =>
+                `<li><a href="idioms/${e.id}.html">${escapeHtml(e.phrase)}</a><span class="az-meaning">${escapeHtml(e.meaning)}</span></li>`
+            )
+            .join("\n          ")}
+        </ul>
+      </div>`
+    )
+    .join("\n");
+
+  const title = "A-Z Index | D.V.C.I.";
+  const description = escapeAttr(
+    `Every idiom in the Dictionary of Very Curious Idioms, listed alphabetically (${idioms.length} so far).`
+  );
+  const url = `${SITE_URL}/a-z.html`;
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${title}</title>
+  <meta name="description" content="${description}" />
+  <link rel="canonical" href="${url}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="D.V.C.I." />
+  <meta property="og:title" content="${title}" />
+  <meta property="og:description" content="${description}" />
+  <meta property="og:url" content="${url}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="mark">D.V.C.I.</span>
+        <span class="full">Dictionary of Very Curious Idioms</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#repository">Repository</a>
+        <a href="a-z.html" class="active">A-Z</a>
+        <a href="about.html">About</a>
+        <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
+        <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-content az-page">
+    <h1>A-Z Index</h1>
+    <p>Every idiom in the repository so far (${idioms.length} and counting), listed alphabetically. Tap a letter to jump straight there.</p>
+    <nav class="az-jump">
+        ${jumpNav}
+    </nav>
+    <div class="az-groups">${groupsHtml}
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-row">
+        <a href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
+      </div>
+      <p>&copy; 2026 Dictionary of Very Curious Idioms. Researched with care; corrections welcome.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+`;
+}
+
 function sitemapXML(idioms) {
-  const urls = [`${SITE_URL}/`, `${SITE_URL}/about.html`, ...idioms.map((e) => `${SITE_URL}/idioms/${e.id}.html`)];
+  const urls = [
+    `${SITE_URL}/`,
+    `${SITE_URL}/about.html`,
+    `${SITE_URL}/a-z.html`,
+    ...idioms.map((e) => `${SITE_URL}/idioms/${e.id}.html`)
+  ];
   const body = urls.map((u) => `  <url><loc>${u}</loc></url>`).join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
 }
@@ -191,9 +294,10 @@ function main() {
     }
   }
 
+  fs.writeFileSync(path.join(ROOT, "a-z.html"), azIndexHTML(idioms));
   fs.writeFileSync(path.join(ROOT, "sitemap.xml"), sitemapXML(idioms));
 
-  console.log(`Generated ${idioms.length} idiom pages and sitemap.xml.`);
+  console.log(`Generated ${idioms.length} idiom pages, a-z.html, and sitemap.xml.`);
 }
 
 main();

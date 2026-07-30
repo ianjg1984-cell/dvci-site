@@ -739,6 +739,84 @@ nav.main-nav a.active {
   background: var(--panel);
 }
 
+/* ---------- A-Z index ---------- */
+
+.az-page {
+  max-width: 900px;
+}
+
+.az-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.5rem 0 2rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 0.8rem 0;
+}
+
+.az-jump a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--gold-bright);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.az-jump a:hover {
+  border-color: var(--gold);
+  background: var(--panel);
+}
+
+.az-group {
+  margin-bottom: 2.2rem;
+  scroll-margin-top: 5rem;
+}
+
+.az-group h2 {
+  color: var(--gold-bright);
+  font-size: 1.7rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.3rem;
+  margin: 0 0 0.9rem;
+}
+
+.az-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.az-group li {
+  break-inside: avoid;
+  margin-bottom: 0.9rem;
+}
+
+.az-group a {
+  font-weight: 600;
+  display: block;
+}
+
+.az-meaning {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--ivory-soft);
+  font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .az-group ul {
+    columns: 1;
+  }
+}
+
 /* ---------- Footer ---------- */
 
 .site-footer {
