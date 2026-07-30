@@ -110,7 +110,7 @@ nav.main-nav {
   flex-wrap: wrap;
 }
 
-nav.main-nav a {
+nav.main-nav a:not(.social-pill) {
   text-decoration: none;
   color: var(--ivory-soft);
   font-size: 0.95rem;
@@ -119,8 +119,8 @@ nav.main-nav a {
   border-bottom: 1px solid transparent;
 }
 
-nav.main-nav a:hover,
-nav.main-nav a.active {
+nav.main-nav a:not(.social-pill):hover,
+nav.main-nav a.active:not(.social-pill) {
   border-bottom-color: var(--gold);
   color: var(--gold-bright);
 }
