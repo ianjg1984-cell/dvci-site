@@ -36,13 +36,44 @@
 
   function cardHTML(entry) {
     return `
-      <button class="card" data-id="${entry.id}" aria-haspopup="dialog">
+      <a class="card" href="idioms/${entry.id}.html" data-id="${entry.id}" aria-haspopup="dialog">
         <span class="badge ${verdictClass(entry.verdict)}">${entry.verdictLabel}</span>
         <h3>${entry.phrase}</h3>
         <p class="meaning">"${entry.meaning}"</p>
         <span style="font-size:0.8rem; color: var(--ivory-soft);">${entry.category}</span>
-      </button>
+      </a>
     `;
+  }
+
+  function idiomUrl(id) {
+    return `${window.location.origin}/idioms/${id}.html`;
+  }
+
+  async function shareIdiom(entry, btn) {
+    const url = idiomUrl(entry.id);
+    const shareData = { title: `${entry.phrase} | D.V.C.I.`, text: entry.meaning, url };
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+      } catch (err) {
+        // User backed out of the share sheet, or the share failed. No-op.
+      }
+      return;
+    }
+    if (navigator.clipboard) {
+      try {
+        await navigator.clipboard.writeText(url);
+        if (btn) {
+          const original = btn.textContent;
+          btn.textContent = "Link copied!";
+          setTimeout(() => {
+            btn.textContent = original;
+          }, 2000);
+        }
+      } catch (err) {
+        // Clipboard write failed (e.g. permissions). Nothing more to do.
+      }
+    }
   }
 
   function renderChips() {
@@ -85,7 +116,10 @@
       : `<div class="no-results" style="grid-column: 1/-1;">No idioms match that search yet. Try a different word, or check back later. New entries get added regularly.</div>`;
 
     grid.querySelectorAll(".card").forEach((card) => {
-      card.addEventListener("click", () => openModal(card.dataset.id));
+      card.addEventListener("click", (e) => {
+        e.preventDefault();
+        openModal(card.dataset.id);
+      });
     });
 
     // While a search or category filter is active, the "Idiom of the Day"
@@ -121,6 +155,7 @@
       <span class="badge ${verdictClass(entry.verdict)}">${entry.verdictLabel}</span>
       <h2>${entry.phrase}</h2>
       <p class="meaning">"${entry.meaning}"</p>
+      <button class="share-btn" type="button">Share this idiom</button>
       <div class="story"><p>${entry.story}</p></div>
       ${
         entry.mythVsFact
@@ -321,6 +356,7 @@
     loadCommentList(entry.id);
     wireCommentForm(entry.id);
     wireReactionBar(entry.id);
+    modalBody.querySelector(".share-btn")?.addEventListener("click", (e) => shareIdiom(entry, e.currentTarget));
   }
 
   function closeModal() {
@@ -368,6 +404,25 @@
   renderChips();
   renderGrid();
   renderFeatured();
+
+  // Standalone idiom pages are generated per-entry (see
+  // scripts/generate-idiom-pages.js) so each idiom has its own real,
+  // shareable URL with correct link-preview info. They set this global
+  // before loading script.js, then just need reactions/comments/share
+  // wired up directly, no modal involved.
+  if (window.DVCI_STANDALONE_IDIOM_ID) {
+    const standaloneEntry = IDIOMS.find((e) => e.id === window.DVCI_STANDALONE_IDIOM_ID);
+    if (standaloneEntry) {
+      const form = document.querySelector(`.comment-form[data-idiom-id="${standaloneEntry.id}"]`);
+      if (form) form.dataset.loadedAt = Date.now();
+      wireReactionBar(standaloneEntry.id);
+      wireCommentForm(standaloneEntry.id);
+      loadCommentList(standaloneEntry.id);
+      document
+        .querySelector(".share-btn")
+        ?.addEventListener("click", (e) => shareIdiom(standaloneEntry, e.currentTarget));
+    }
+  }
 
   // Newsletter signup: stores the email in Supabase. A database trigger
   // (configured separately, holds a private API key so it isn't in this
