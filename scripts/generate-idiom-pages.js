@@ -207,7 +207,8 @@ function pageHTML(entry) {
 function categoryPageHTML(category, idiomsInCategory, allCategories) {
   const slug = categorySlug(category);
   const count = idiomsInCategory.length;
-  const title = `${escapeHtml(category)} Idioms | D.V.C.I.`;
+  const titleSuffix = /expressions|speech|idioms/i.test(category) ? "" : " Idioms";
+  const title = `${escapeHtml(category)}${titleSuffix} | D.V.C.I.`;
   const description = escapeAttr(
     `${count} idiom${count === 1 ? "" : "s"} filed under "${category}" in the Dictionary of Very Curious Idioms, each with a real, honestly-rated origin.`
   );
