@@ -1234,6 +1234,555 @@ const IDIOMS = [
     astonishment is, honestly, anyone's guess.`,
     mythVsFact: "Popular family folklore says the phrase began with someone shouting big news up the stairs to the rest of the house. It's a genuinely plausible story and matches the phrase's meaning, but it isn't attested in any dialect dictionary or etymological source. The documented history only goes back as far as a 1939 short story and Tommy Handley's radio use soon after, both of which already treat it as an established saying rather than a brand new coinage.",
     source: "Earliest identified use in Peter Chamberlain's 1939 short story 'Shrimps' (Under Thirty: An Anthology); popularised via Tommy Handley's BBC radio programme ITMA (1939-1949); documented as a Northern English exclamation in regional dialect scholarship, with the specific staircase metaphor's origin unconfirmed."
+  },
+  {
+    id: "barking-up-the-wrong-tree",
+    phrase: "Barking Up the Wrong Tree",
+    meaning: "To pursue a mistaken assumption or the wrong course of action entirely.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A literal image from American frontier raccoon hunting. Hunting
+    dogs would chase their quarry up a tree, then stand at the base barking
+    to alert their owner, except raccoons are agile enough to leap between
+    trees, so the dog was sometimes barking at an empty tree while the
+    raccoon had already escaped through the branches overhead. The phrase
+    is recorded in American English from the early 1830s and crossed into
+    everyday figurative use soon after.`,
+    mythVsFact: null,
+    source: "Recorded in American English from the early 1830s; documented in etymological dictionaries as originating in raccoon-hunting practice."
+  },
+  {
+    id: "spill-the-beans",
+    phrase: "Spill the Beans",
+    meaning: "To reveal a secret, often prematurely or accidentally.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth (Probably)",
+    story: `The story everyone repeats involves ancient Greek voting, where
+    citizens supposedly dropped a white or black bean into a jar to cast a
+    yes or no vote, and knocking the jar over would spill the result before
+    it was meant to be revealed. It's a vivid, tidy explanation, and it gets
+    repeated constantly, but the actual documented history of the English
+    phrase doesn't reach back anywhere near that far. The earliest recorded
+    use found so far is from 1902, in American slang connected to horse
+    racing, roughly two thousand years after the Greek voting practice it's
+    supposedly named for.`,
+    mythVsFact: "The Greek bean-voting story is the most widely repeated explanation, but language historians who've actually checked find no evidence connecting it to the English phrase, and the huge gap between the ancient practice and the phrase's real 1902 debut makes the connection very unlikely.",
+    source: "Earliest documented use traced to 1902 American horse-racing slang; Greek voting theory assessed as unsupported folk etymology by etymologists including Laurel Brinton (University of British Columbia)."
+  },
+  {
+    id: "rule-of-thumb",
+    phrase: "Rule of Thumb",
+    meaning: "A broadly practical, approximate method or guideline rather than an exact, tested rule.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `The genuine, documented origin is refreshingly simple: the top
+    joint of an adult thumb is roughly an inch long, and tradesmen used it
+    for centuries as a rough-and-ready measuring tool when no ruler was
+    handy. The phrase is recorded from 1692 in exactly that practical
+    sense. A much darker explanation began circulating widely in the
+    1970s and 80s, claiming English common law once permitted a husband
+    to beat his wife with a stick no wider than his thumb. No such law,
+    and no genuine record of any judge ever ruling that, has ever been
+    found.`,
+    mythVsFact: "The wife-beating law story is widely believed and often stated as historical fact, but it traces back to an unverified rumour about an 18th-century judge, satirised in an unflattering 1782 cartoon, and only became attached to the phrase itself in the 1970s. No legal record supports it.",
+    source: "Oxford English Dictionary (measurement sense recorded from 1692); wife-beating myth traced and debunked in legal-history research including Henry Ansgar Kelly's work for the Journal of Legal Education."
+  },
+  {
+    id: "let-sleeping-dogs-lie",
+    phrase: "Let Sleeping Dogs Lie",
+    meaning: "Don't disturb a settled situation, or you may provoke new trouble.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `One of the oldest proverbs still in everyday English use. Geoffrey
+    Chaucer included an early version of it in <em>Troilus and Criseyde</em>
+    in the 1380s: "it is nought good a sleeping hound to wake." The logic is
+    plain enough that versions of the same warning appear across several
+    old European languages, but the English wording traces cleanly back to
+    Chaucer and has barely changed shape in over six hundred years.`,
+    mythVsFact: null,
+    source: "Geoffrey Chaucer, Troilus and Criseyde (c.1380s); cited as the earliest English form in the Oxford English Dictionary."
+  },
+  {
+    id: "rock-and-a-hard-place",
+    phrase: "Between a Rock and a Hard Place",
+    meaning: "Caught in a difficult situation where every available option is bad.",
+    category: "History & Empire",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Word researchers at the American Dialect Society traced the
+    phrase's specific American coinage to 1917, in newspaper coverage of a
+    bitter Arizona copper miners' dispute, where workers were described as
+    stuck "between a rock and a hard place" over demands they couldn't
+    accept and a company that wouldn't budge. Older idioms expressing the
+    exact same no-win idea, like being caught "between the devil and the
+    deep blue sea" or facing "Scylla and Charybdis," had existed for
+    centuries already, so whether 1917 marks a genuine new coinage or
+    simply the first written record of an older spoken pattern isn't fully
+    settled.`,
+    mythVsFact: null,
+    source: "American Dialect Society research (Barry Popik, Fred Shapiro); 1917 Arizona copper-strike newspaper citations."
+  },
+  {
+    id: "bakers-dozen",
+    phrase: "Baker's Dozen",
+    meaning: "Thirteen, one more than a standard dozen.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A direct result of medieval English law. The Assize of Bread
+    and Ale, enacted in 1266, set strict weight standards for loaves sold
+    to the public, with severe fines, or worse, for bakers caught selling
+    underweight bread. Since it was hard to guarantee every loaf's exact
+    weight by hand, bakers routinely threw in a thirteenth loaf, sometimes
+    called the "vantage loaf," free of charge, as a buffer against being
+    caught short and punished.`,
+    mythVsFact: null,
+    source: "Assize of Bread and Ale (1266); documented in economic and legal histories of medieval English bread regulation."
+  },
+  {
+    id: "break-a-leg",
+    phrase: "Break a Leg",
+    meaning: "A traditional way to wish a performer good luck right before they go on stage.",
+    category: "Theatre & Performance",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Genuinely one of the hardest idioms to pin down. The earliest
+    confirmed use in print comes from American writer Edna Ferber's 1939
+    memoir, and anecdotal accounts suggest actors were already saying it
+    in the 1920s and 30s, but nobody has found where it started. Leading
+    theories include a superstition that wishing someone luck directly
+    would jinx them, so an ironic, backwards-sounding phrase was used
+    instead, and a possible echo of the German theatrical phrase "Hals-
+    und Beinbruch" (neck and leg break). A popular story linking it to
+    John Wilkes Booth breaking his leg after assassinating Abraham Lincoln
+    on a theatre stage in 1865 is almost certainly false, since the phrase
+    isn't recorded anywhere until decades later.`,
+    mythVsFact: "The Lincoln assassination story is the one people love to repeat, since Booth genuinely was an actor and genuinely did break his leg leaping from the presidential box. But the phrase has no documented use until the late 1930s, over seventy years later, which makes a direct connection extremely unlikely.",
+    source: "Edna Ferber, A Peculiar Treasure (1939); phrase-origin research summarised by World Wide Words and multiple etymological dictionaries, none reaching a confirmed conclusion."
+  },
+  {
+    id: "under-the-weather",
+    phrase: "Under the Weather",
+    meaning: "Feeling slightly unwell or in low spirits.",
+    category: "Sailing & the Sea",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The leading nautical theory holds that sailors who fell ill were
+    sent below deck, away from the weather side of the ship where storms
+    and rough conditions hit hardest, to recover out of the elements,
+    literally under the weather. It's a widely repeated explanation in
+    maritime phrase glossaries and fits the phrase neatly, but not every
+    etymologist is convinced it's the whole story rather than a plausible
+    tale attached after the fact to a simpler, more general use of "under"
+    to mean oppressed or affected by something.`,
+    mythVsFact: null,
+    source: "Maritime phrase glossaries and naval history sources; treated as a plausible but not fully confirmed origin in major phrase-reference works."
+  },
+  {
+    id: "loose-cannon",
+    phrase: "Loose Cannon",
+    meaning: "An unpredictable person prone to causing damage if left unchecked.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A real and genuinely terrifying shipboard hazard. Heavy cannons
+    on wooden warships were lashed down with rope, and in rough seas a
+    cannon that broke free could roll violently across the deck with
+    enough force to crush crew members or smash through the hull itself.
+    The figurative sense, an unpredictable person capable of real damage,
+    was powerfully cemented by a dramatic early scene in Victor Hugo's
+    1874 novel <em>Ninety-Three</em>, in which a loose cannon rampages
+    across a ship's deck during a storm.`,
+    mythVsFact: null,
+    source: "Victor Hugo, Ninety-Three (1874); documented as a genuine naval hazard in maritime history sources."
+  },
+  {
+    id: "son-of-a-gun",
+    phrase: "Son of a Gun",
+    meaning: "A mild, often affectionate term for a rascal or someone remarkable.",
+    category: "Sailing & the Sea",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `A vivid naval legend claims that when women were permitted
+    aboard Royal Navy ships on long voyages, a child born at sea with
+    disputed parentage would be entered in the ship's log as a "son of the
+    gun," referring to the space between cannons on the gun deck where
+    births reportedly sometimes took place. A 19th-century admiral even
+    claimed it happened to him. Modern linguists are less convinced, and
+    lean instead toward the phrase simply being a rhyming, softer stand-in
+    for a much cruder insult. The phrase is documented from 1708, but its
+    true origin remains unresolved.`,
+    mythVsFact: "The gun-deck birth story is colourful and often told as settled fact, complete with a first-hand admiral's testimony, but there's little hard evidence behind it, and most linguists now consider it more likely the phrase is simply a euphemism that gained a naval legend afterward.",
+    source: "Admiral William Henry Smyth, The Sailor's Word-Book (1867); linguistic analysis favouring the euphemism theory over the naval birth story."
+  },
+  {
+    id: "cut-to-the-chase",
+    phrase: "Cut to the Chase",
+    meaning: "To get straight to the point, skipping unnecessary detail.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Born in early Hollywood. Silent films frequently built toward an
+    exciting chase sequence as their climax, and when a film's earlier
+    scenes dragged, screenwriters and editors were literally instructed to
+    cut to the chase, skipping the slow buildup and getting to the exciting
+    part. The phrase is documented in film industry trade press from the
+    1920s before spreading into general use.`,
+    mythVsFact: null,
+    source: "Documented in 1920s American film industry trade usage; cited in major etymological dictionaries as originating in screenwriting instructions."
+  },
+  {
+    id: "white-elephant",
+    phrase: "White Elephant",
+    meaning: "A possession that's costly or troublesome to maintain, disproportionate to its actual usefulness.",
+    category: "History & Empire",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The often-repeated story holds that the kings of Siam would
+    gift a rare, sacred albino elephant to a courtier who had fallen out
+    of favour. The animal couldn't be worked or killed, since it was
+    considered sacred, but it was ruinously expensive to feed and house,
+    making it a beautiful, deliberately punishing burden disguised as an
+    honour. The phrase enters documented English usage from 1851, and the
+    Siamese custom is repeated across many reputable phrase histories, but
+    no single verified historical instance of a king actually doing this
+    has ever been pinned down.`,
+    mythVsFact: null,
+    source: "Documented in English usage from 1851; the Siamese royal gift custom is widely repeated in phrase-origin scholarship without a confirmed named historical instance."
+  },
+  {
+    id: "bury-the-hatchet",
+    phrase: "Bury the Hatchet",
+    meaning: "To formally end a conflict and restore peace.",
+    category: "History & Empire",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Rooted in genuine peacemaking traditions among northeastern
+    Native American nations, including the Haudenosaunee (Iroquois)
+    Confederacy, where physically burying a tomahawk or war club marked
+    the formal end of hostilities between parties. Colonial-era English
+    writers documented the custom directly, and the phrase entered English
+    from the late 1600s as both a literal description of the ceremony and,
+    increasingly, a figurative one for making peace of any kind.`,
+    mythVsFact: null,
+    source: "Documented in colonial American writings from the 1680s onward, including Samuel Sewall's diary; Haudenosaunee peacemaking traditions recorded by early ethnographers."
+  },
+  {
+    id: "chip-on-your-shoulder",
+    phrase: "Chip on Your Shoulder",
+    meaning: "To carry a grudge or a persistent, defensive resentment, as if spoiling for a fight.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traces to a genuine 19th-century American custom, especially
+    recorded in New England, where a boy looking to pick a fight would
+    balance a wood chip on his shoulder and dare anyone to knock it off. If
+    someone did, a fight was considered fair and already agreed to. The
+    literal practice faded, but the figurative sense, someone visibly
+    primed for a confrontation, stuck around. It's documented in American
+    newspapers from the 1830s.`,
+    mythVsFact: null,
+    source: "Documented in American newspaper usage from the 1830s, including the Long Island Telegraph (1830); cited in major etymological dictionaries."
+  },
+  {
+    id: "cold-turkey",
+    phrase: "Cold Turkey",
+    meaning: "To stop a habit or addiction abruptly and completely, without weaning off gradually.",
+    category: "Health & Medicine",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The popular explanation pictures withdrawal-induced goosebumps
+    and pale, clammy skin resembling a plucked, refrigerated turkey. It's
+    a vivid image, but it doesn't line up with the timeline. The earliest
+    known uses of "cold turkey" predate its addiction-specific meaning
+    entirely, and researchers now think it more likely grew from combining
+    "cold," meaning blunt or unprepared, with the older expression "talk
+    turkey," meaning to speak plainly. The phrase was first tied
+    specifically to drug withdrawal in a Canadian newspaper in 1921.`,
+    mythVsFact: "The plucked-turkey-skin theory is the one most people know, but it doesn't fit the evidence: the phrase already existed with unrelated, non-addiction meanings before it was ever applied to withdrawal.",
+    source: "The Daily Colonist (Victoria, Canada), October 1921; earlier general use of 'cold' and 'talk turkey' documented from the early 1900s."
+  },
+  {
+    id: "diehard",
+    phrase: "Diehard",
+    meaning: "Someone stubbornly loyal to a cause or belief, refusing to give up even against the odds.",
+    category: "War & Conflict",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Coined in the most literal way possible, on the battlefield.
+    At the Battle of Albuera in 1811, during the Peninsular War,
+    Lieutenant-Colonel William Inglis of the 57th (West Middlesex)
+    Regiment of Foot was badly wounded by canister shot but refused to
+    leave the field, reportedly urging his men on with the words "Die
+    hard, 57th, die hard!" The regiment held its ground despite
+    devastating losses, roughly 422 of its 570 soldiers killed or wounded,
+    and earned the permanent nickname "The Die-Hards."`,
+    mythVsFact: null,
+    source: "Regimental history of the 57th (West Middlesex) Regiment of Foot; Battle of Albuera dispatches, 1811."
+  },
+  {
+    id: "skin-of-your-teeth",
+    phrase: "By the Skin of Your Teeth",
+    meaning: "To narrowly escape or achieve something, by the smallest possible margin.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traces directly to the Book of Job in the Bible: "My bone
+    cleaveth to my skin and to my flesh, and I am escaped with the skin of
+    my teeth" (Job 19:20). It's a deliberately absurd image, since teeth
+    famously have no skin at all, meant to convey having survived with
+    literally nothing left to spare. The phrase entered English through
+    the Geneva Bible in 1560 and was carried forward into the King James
+    Version in 1611, from which it passed into everyday speech.`,
+    mythVsFact: null,
+    source: "Book of Job 19:20, Geneva Bible (1560) and King James Version (1611)."
+  },
+  {
+    id: "green-eyed-monster",
+    phrase: "The Green-Eyed Monster",
+    meaning: "Jealousy, personified as a destructive force.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Coined by Shakespeare. Its most famous appearance is in
+    <em>Othello</em> (c.1603), where Iago warns, "O, beware, my lord, of
+    jealousy; It is the green-eyed monster which doth mock The meat it
+    feeds on." Shakespeare had already used a related image, "green-eyed
+    jealousy," a few years earlier in <em>The Merchant of Venice</em>
+    (c.1596), suggesting he was developing the metaphor across more than
+    one play before it fully crystallised.`,
+    mythVsFact: null,
+    source: "William Shakespeare, Othello (c.1603), Act 3 Scene 3; The Merchant of Venice (c.1596)."
+  },
+  {
+    id: "catch-22",
+    phrase: "Catch-22",
+    meaning: "A no-win situation created by contradictory rules, where the only solution is blocked by the problem itself.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Coined outright by American novelist Joseph Heller as the title
+    of his 1961 satirical war novel. In the book, a fictional military
+    regulation allows a pilot to be excused from dangerous combat missions
+    on grounds of insanity, but only if he requests the exemption himself,
+    and wanting to avoid deadly missions is, by definition, proof of a
+    perfectly sane mind. The invented rule, and the phrase describing it,
+    escaped the novel entirely and became everyday shorthand for any
+    such self-defeating bind.`,
+    mythVsFact: null,
+    source: "Joseph Heller, Catch-22 (1961)."
+  },
+  {
+    id: "curiosity-killed-the-cat",
+    phrase: "Curiosity Killed the Cat",
+    meaning: "A warning that being too inquisitive can lead to trouble.",
+    category: "Language Itself",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The proverb didn't start out about curiosity at all. Its
+    earliest form was "care killed the cat," recorded in English plays
+    from the 1590s, including Ben Jonson's <em>Every Man in His Humour</em>
+    (1598), where "care" meant worry or sorrow rather than nosiness.
+    Sometime around the turn of the 20th century, "care" was swapped for
+    "curiosity," quietly changing what the proverb actually warns against,
+    though nobody has identified exactly when or why the substitution
+    happened.`,
+    mythVsFact: null,
+    source: "Ben Jonson, Every Man in His Humour (1598); 'curiosity' version documented in print from the 1870s-1900s."
+  },
+  {
+    id: "cwtch",
+    phrase: "Cwtch",
+    meaning: "A hug or cuddle that carries a sense of safety and warmth, or a small cupboard.",
+    category: "Regional Expressions",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `A distinctly Welsh word, often described as impossible to
+    translate cleanly into English, since "hug" or "cuddle" only capture
+    part of what it means. Its second sense is a small cupboard or
+    cubbyhole, often the space under the stairs. Because cwtch has no
+    matching word in any other Celtic language, most linguists believe
+    it's a loanword, likely from the Old French "coucher" ("to lay
+    something down"), introduced following the Norman presence in Wales,
+    and ultimately from the Latin "collocare" (to place together). It has
+    since become something of an unofficial ambassador for Welsh
+    identity, even as its own deep roots remain a "believed" theory
+    rather than a settled one.`,
+    mythVsFact: null,
+    source: "Documented in Welsh dialect and linguistic scholarship; Old French loanword theory discussed in academic analysis of Welsh-English language contact."
+  },
+  {
+    id: "bairn",
+    phrase: "Bairn",
+    meaning: "A child, especially a baby or young son or daughter.",
+    category: "Regional Expressions",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Shares a common root in both Old English ("bearn") and Old
+    Norse ("barn"), both descending from a shared Germanic word meaning,
+    quite simply, "that which is borne," carried and brought into the
+    world. The word was once used freely across the whole of England, but
+    by around 1700 it had receded to become mainly a Scottish and North
+    East English word, particularly strong in Geordie and Mackem dialect,
+    while the rest of the country settled on "child" instead. Shakespeare
+    still used it, and it remains everyday speech in Newcastle,
+    Sunderland, and across Scotland today.`,
+    mythVsFact: null,
+    source: "Recorded in Old English from the 9th century onward; documented narrowing to Scotland and North East England from c.1700 in historical dialect scholarship."
+  },
+  {
+    id: "radgie",
+    phrase: "Radgie",
+    meaning: "An aggressive, hot-tempered person, or a fit of temper itself.",
+    category: "Regional Expressions",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A Geordie word, strongest in and around Newcastle, for someone
+    quick to anger, "gannin' radgie" being to properly lose your temper.
+    Both "radge" and "radgie" derive straightforwardly from "rage,"
+    recorded in print since at least the mid-1800s, though almost
+    certainly spoken locally well before that was ever written down. An
+    1894 glossary of Northumberland dialect words records an older, now
+    obsolete sense of the word meaning "lewd" or "wanton," showing the
+    meaning has drifted over time even while the "rage" root itself
+    stayed constant.`,
+    mythVsFact: null,
+    source: "Documented in an 1894 glossary of Northumberland Words; regional usage recorded in North East England dialect scholarship."
+  },
+  {
+    id: "wazzock",
+    phrase: "Wazzock",
+    meaning: "A foolish or annoying person, said with a certain amount of affection.",
+    category: "Regional Expressions",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A firmly Yorkshire and Northern English word for an idiot, used
+    the way Yorkshire specialises in, more exasperated fondness than
+    genuine cruelty. Despite being a favourite of Northern comedians and
+    commentators, its actual origin is genuinely unresolved. Competing
+    theories include a link to "wiseacre" (an old word for a know-it-all),
+    a connection to "wassock" (an obscure regional word for a lump or
+    blockhead), and a colourful folk story about offal cooked in linen
+    "wazz socks" in West Yorkshire and East Lancashire kitchens. The
+    Oxford English Dictionary's earliest confirmed use only dates to
+    1976, surprisingly recent for a word that feels far older.`,
+    mythVsFact: "The 'wazz sock' offal story is a memorably specific explanation, but there's no documented evidence tying that culinary practice to the insult, and it has the hallmarks of an explanation invented after the fact rather than a traceable origin.",
+    source: "Oxford English Dictionary (earliest evidence 1976); competing theories discussed in regional dialect scholarship without consensus."
+  },
+  {
+    id: "gadgie",
+    phrase: "Gadgie",
+    meaning: "A man, especially an older bloke, sometimes used for any adult male.",
+    category: "Regional Expressions",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Widely used across North East England, especially in Newcastle's
+    Geordie dialect, to mean a man or bloke. It traces to Romani "gadje"
+    (plural of "gadjo"), the word Romani people traditionally use for
+    anyone outside their community, a non-Romani person. The word entered
+    Northern English and Scots through centuries of contact with Romani
+    and Traveller communities, and appears in numerous spelling variants,
+    including gadgie, gadjee, gadgy, and gaugie, across different regional
+    records.`,
+    mythVsFact: null,
+    source: "Recorded from Romani gaʒe/gaʒo via Traveller cant; documented among the Gipsies of Kirk Yetholm, Scotland, from the early 20th century, and in North East England dialect glossaries."
+  },
+  {
+    id: "scran",
+    phrase: "Scran",
+    meaning: "Food, especially a meal.",
+    category: "Regional Expressions",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Heard widely across Northern England and Scotland, and long
+    embedded in British Army and Royal Navy slang for rations. Its
+    earliest recorded sense, from the early 1700s, actually referred to a
+    tavern bill or reckoning rather than food itself, and by the early
+    1800s it had shifted to mean food, typically scrappy leftovers or
+    odds and ends rather than a proper spread. Most etymologists trace it
+    to Old Norse "skran," meaning junk or rubbish, though a competing
+    theory points instead to Dutch "schranzen."`,
+    mythVsFact: "A frequently repeated claim is that SCRAN is a naval acronym for 'Sultanas, Currants, Raisins And Nuts.' It isn't. There's no documentary evidence for the acronym at all, and the word was already in use, in its food sense, more than a century before anyone suggested it stood for anything.",
+    source: "Documented in early 18th-century tavern-bill usage and 19th-century military slang; Old Norse 'skran' root discussed in etymological scholarship."
+  },
+  {
+    id: "ginnel",
+    phrase: "Ginnel",
+    meaning: "A narrow alleyway or passage running between buildings, usually terraced houses.",
+    category: "Regional Expressions",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `An everyday word across Yorkshire and Lancashire for the tight
+    passages running between rows of terraced houses (called a "snicket,"
+    "twitten," or "jitty" elsewhere in England, depending entirely on
+    which county you're standing in). Recorded in Northern texts as far
+    back as 1613. One theory traces it to Old English "gin" (an opening
+    or gap) with a diminutive ending attached; the Oxford English
+    Dictionary instead floats a possible, admittedly vague, connection to
+    the French "chenelle," an old form of "channel." Neither has been
+    confirmed as the definite root.`,
+    mythVsFact: null,
+    source: "Earliest documented use traced to 1613 in Northern English texts; competing Old English and French-derived theories discussed in the Oxford English Dictionary and regional dialect scholarship."
+  },
+  {
+    id: "nowt-and-owt",
+    phrase: "Nowt and Owt",
+    meaning: "\"Nowt\" means nothing and \"owt\" means anything, as in 'there's nowt so queer as folk' or 'have you got owt for us?'",
+    category: "Regional Expressions",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Two of the most instantly recognisable words in Northern
+    English dialect, especially across Yorkshire, both direct descendants
+    of Old English. "Nowt" comes from "nāwiht," a compound of "nā" (not)
+    and "wiht" (thing, or "wight"), while "owt" comes from the related
+    Old English "āwiht" (anything, literally "ever a thing"). Both words
+    simply wore down through centuries of everyday speech into their
+    clipped modern forms, surviving in the North long after the rest of
+    England smoothed them into "nothing" and "anything."`,
+    mythVsFact: null,
+    source: "Old English 'nāwiht' and 'āwiht' documented in historical dialect scholarship and the Middle English Dictionary."
+  },
+  {
+    id: "jiggered",
+    phrase: "Jiggered",
+    meaning: "Utterly exhausted, or, as an exclamation ('well, I'll be jiggered!'), astonished.",
+    category: "Regional Expressions",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Heard widely across Northern England, used to describe being
+    worn out or, shouted as an exclamation, genuine surprise. It works as
+    a euphemism, standing in for a much blunter word, in the same family
+    as saying "I'll be blowed!" instead of something ruder. The word
+    "jigger" itself is recorded from the 1820s in a completely unrelated
+    sense, referring to an illicit distillery, and nobody has convincingly
+    connected that meaning to the exhausted or astonished sense of
+    "jiggered," which is recorded separately from the 1830s. Its real
+    origin remains unclear.`,
+    mythVsFact: null,
+    source: "Recorded in English regional dialect glossaries from the 1830s; unrelated 'jigger' (illicit still) sense recorded from the 1820s, with no confirmed link between the two."
+  },
+  {
+    id: "mither",
+    phrase: "Mither",
+    meaning: "To pester, nag, or make an unnecessary fuss.",
+    category: "Regional Expressions",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Closely associated with Manchester and the wider North West,
+    used for someone going on and on until they've become a genuine
+    nuisance ("stop mithering me"). Recorded since the 1840s, it's
+    treated by the Oxford English Dictionary as a variant of the older
+    word "moider," a chiefly Irish, Manx, and Northern English word
+    meaning to confuse, bewilder, or wear someone out. "Moider" itself is
+    of uncertain origin, possibly from Irish "modartha" (dark or murky),
+    which leaves "mither" resting on an etymology that's already a guess
+    one layer down.`,
+    mythVsFact: null,
+    source: "Oxford English Dictionary (earliest evidence 1847, James Halliwell's dictionary); 'moider' root discussed in Irish and Northern English dialect scholarship."
   }
 ];
 
