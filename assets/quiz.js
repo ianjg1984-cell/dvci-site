@@ -22,7 +22,24 @@
     return copy;
   }
 
-  let questions = shuffled(QUIZ_QUESTIONS);
+  const QUESTIONS_PER_ROUND = 10;
+
+  // Randomises which option is "A", "B", "C" too, so the same question
+  // doesn't always show its answer in the same slot round to round.
+  function withShuffledOptions(q) {
+    const order = shuffled(q.options.map((_, i) => i));
+    return {
+      ...q,
+      options: order.map((i) => q.options[i]),
+      correctIndex: order.indexOf(q.correctIndex)
+    };
+  }
+
+  function newRound() {
+    return shuffled(QUIZ_QUESTIONS).slice(0, QUESTIONS_PER_ROUND).map(withShuffledOptions);
+  }
+
+  let questions = newRound();
   let currentIndex = 0;
   let score = 0;
   let answered = false;
@@ -146,7 +163,7 @@
       </div>
     `;
     document.getElementById("quiz-play-again").addEventListener("click", () => {
-      questions = shuffled(QUIZ_QUESTIONS);
+      questions = newRound();
       currentIndex = 0;
       score = 0;
       renderQuestion();

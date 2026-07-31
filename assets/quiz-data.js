@@ -106,5 +106,185 @@ const QUIZ_QUESTIONS = [
       "American horse-racing slang"
     ],
     correctIndex: 2
+  },
+  {
+    idiomId: "white-elephant",
+    question: "What's the popular (though never actually confirmed) story behind calling something a \"white elephant\"?",
+    options: [
+      "Siamese kings gifted rare sacred elephants to courtiers as a ruinously expensive \"honour\"",
+      "A circus elephant painted white escaped and caused chaos in London",
+      "It's named after a real pub called The White Elephant"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "bury-the-hatchet",
+    question: "\"Bury the hatchet\" comes from a genuine historical peacemaking custom. Whose custom?",
+    options: [
+      "Viking raiding parties",
+      "Native American nations, including the Haudenosaunee (Iroquois) Confederacy",
+      "Medieval English trade guilds"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "loose-cannon",
+    question: "What made a \"loose cannon\" such a vivid, literal danger on old warships?",
+    options: [
+      "A cannon breaking free of its lashings could roll across the deck and kill crew or smash the hull",
+      "Cannons were nicknamed after unpredictable ship captains",
+      "Loose gunpowder occasionally ignited on damp decks"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "son-of-a-gun",
+    question: "A colourful, if shaky, naval legend claims \"son of a gun\" comes from what?",
+    options: [
+      "Gunners who fired their cannon without waiting for orders",
+      "Sailors nicknamed after their cannon's calibre",
+      "Children reportedly born on a ship's gun deck"
+    ],
+    correctIndex: 2
+  },
+  {
+    idiomId: "break-a-leg",
+    question: "Which popular story about \"break a leg\" is almost certainly false, since the phrase isn't recorded until decades later?",
+    options: [
+      "That it comes from ballet dancers bowing so low a knee cracked",
+      "That it comes from John Wilkes Booth breaking his leg after assassinating Lincoln on a theatre stage",
+      "That it comes from Shakespearean-era stagehands"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "rule-of-thumb",
+    question: "The wife-beating law myth attached to \"rule of thumb\" traces back to what?",
+    options: [
+      "A genuine clause in a 19th-century act of Parliament",
+      "A misquote from a Charles Dickens novel",
+      "An unverified rumour about an 18th-century judge, with no actual legal record behind it"
+    ],
+    correctIndex: 2
+  },
+  {
+    idiomId: "wazzock",
+    question: "How recent is the earliest confirmed written use of \"wazzock,\" according to the Oxford English Dictionary?",
+    options: [
+      "1976, surprisingly recent for a word that feels far older",
+      "1876",
+      "1576"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "scran",
+    question: "A popular claim says SCRAN is a naval acronym for \"Sultanas, Currants, Raisins And Nuts.\" What's the truth?",
+    options: [
+      "It's confirmed in Royal Navy supply records",
+      "It was coined during WWII rationing",
+      "There's no evidence for the acronym at all, the word predates it by over a century"
+    ],
+    correctIndex: 2
+  },
+  {
+    idiomId: "ginnel",
+    question: "What does a \"ginnel\" mean in Yorkshire and Lancashire dialect?",
+    options: [
+      "A narrow alleyway between terraced houses",
+      "A cup of strong tea",
+      "A telling-off from a parent"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "bairn",
+    question: "\"Bairn\" (meaning child) survives mainly in which regions today?",
+    options: [
+      "Cornwall and Devon",
+      "East Anglia",
+      "Scotland and North East England"
+    ],
+    correctIndex: 2
+  },
+  {
+    idiomId: "mither",
+    question: "What does \"mither\" mean in Manchester dialect?",
+    options: [
+      "To pester, nag, or make an unnecessary fuss",
+      "To celebrate loudly",
+      "To feel very cold"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "gadgie",
+    question: "The Geordie word \"gadgie\" (meaning a bloke) traces back to which language?",
+    options: [
+      "Old Norse",
+      "Romani",
+      "Latin"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "under-the-weather",
+    question: "The leading nautical theory for \"under the weather\" involves what?",
+    options: [
+      "Ships delayed in port by storms",
+      "Sick sailors sent below deck, away from rough conditions topside",
+      "Sailors paid less during winter voyages"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "curiosity-killed-the-cat",
+    question: "The proverb didn't start out about curiosity at all. What was the original version?",
+    options: [
+      "\"Mischief killed the cat\"",
+      "\"Pride killed the cat\"",
+      "\"Care killed the cat,\" recorded from the 1590s"
+    ],
+    correctIndex: 2
+  },
+  {
+    idiomId: "green-eyed-monster",
+    question: "Who coined \"the green-eyed monster\" to mean jealousy?",
+    options: [
+      "Charles Dickens",
+      "Shakespeare, in Othello",
+      "Geoffrey Chaucer"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "skin-of-your-teeth",
+    question: "\"By the skin of your teeth\" comes from where?",
+    options: [
+      "A medieval dentistry manual",
+      "An old sailors' proverb",
+      "The Book of Job in the Bible"
+    ],
+    correctIndex: 2
+  },
+  {
+    idiomId: "chip-on-your-shoulder",
+    question: "The literal 19th-century American custom behind \"chip on your shoulder\" involved what?",
+    options: [
+      "Carrying a chipped coin as a sign of unpaid debt",
+      "Balancing a wood chip on your shoulder and daring someone to knock it off",
+      "Wearing a splinter of ship's timber as a badge of honour"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "cold-turkey",
+    question: "The popular \"plucked turkey skin\" theory for \"cold turkey\" doesn't hold up. Why not?",
+    options: [
+      "Turkeys weren't farmed in Britain until the 20th century",
+      "The phrase was actually coined by a poultry company",
+      "The phrase already existed with unrelated meanings before it was ever tied to withdrawal"
+    ],
+    correctIndex: 2
   }
 ];
