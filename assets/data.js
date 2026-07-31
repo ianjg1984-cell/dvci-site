@@ -1208,6 +1208,32 @@ const IDIOMS = [
     in some regions and not others.`,
     mythVsFact: null,
     source: "Recorded in regional dialect glossaries of Northern England; no documented origin story survives for the specific coining."
+  },
+  {
+    id: "foot-of-our-stairs",
+    phrase: "Well, I'll Go to the Foot of Our Stairs",
+    meaning: "An exclamation of surprise or disbelief, roughly 'well, I never!'",
+    category: "Regional Expressions",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A classic Northern English exclamation of astonishment,
+    strongly associated with Yorkshire and also heard across
+    Lancashire and the wider North. The earliest documented use found
+    so far is from 1939, in Peter Chamberlain's short story "Shrimps,"
+    where a barman exclaims: "Well, I'll go to our 'ouse! You don't
+    say? Shrimps! Well, I'll go to the foot of our stairs." The phrase
+    was popularised nationally soon after by Tommy Handley on the BBC
+    radio comedy <em>ITMA</em> during the 1940s. Some families,
+    including plenty in Yorkshire, tell a charming explanation for it:
+    that the phrase comes from hearing news so exciting you'd need to
+    go to the bottom of the staircase to shout it up to the rest of
+    the household. It's a lovely story, and it fits the meaning
+    perfectly, but no dialectologist or etymologist has ever traced it
+    back to an actual incident or a documented first use that
+    confirms it. Why a staircase specifically became shorthand for
+    astonishment is, honestly, anyone's guess.`,
+    mythVsFact: "Popular family folklore says the phrase began with someone shouting big news up the stairs to the rest of the house. It's a genuinely plausible story and matches the phrase's meaning, but it isn't attested in any dialect dictionary or etymological source. The documented history only goes back as far as a 1939 short story and Tommy Handley's radio use soon after, both of which already treat it as an established saying rather than a brand new coinage.",
+    source: "Earliest identified use in Peter Chamberlain's 1939 short story 'Shrimps' (Under Thirty: An Anthology); popularised via Tommy Handley's BBC radio programme ITMA (1939-1949); documented as a Northern English exclamation in regional dialect scholarship, with the specific staircase metaphor's origin unconfirmed."
   }
 ];
 
