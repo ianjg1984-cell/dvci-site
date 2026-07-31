@@ -22,8 +22,6 @@
     return copy;
   }
 
-  const QUESTIONS_PER_ROUND = 10;
-
   // Randomises which option is "A", "B", "C" too, so the same question
   // doesn't always show its answer in the same slot round to round.
   function withShuffledOptions(q) {
@@ -36,7 +34,7 @@
   }
 
   function newRound() {
-    return shuffled(QUIZ_QUESTIONS).slice(0, QUESTIONS_PER_ROUND).map(withShuffledOptions);
+    return shuffled(QUIZ_QUESTIONS).map(withShuffledOptions);
   }
 
   let questions = newRound();
