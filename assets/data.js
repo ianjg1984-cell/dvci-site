@@ -1078,6 +1078,136 @@ const IDIOMS = [
     what it meant four hundred years ago.`,
     mythVsFact: null,
     source: "William Shakespeare, King John (1595); recorded usage cited in the Oxford English Dictionary's entry for 'elbow, n.'"
+  },
+  {
+    id: "fair-clemmed",
+    phrase: "Fair clemmed",
+    meaning: "Very hungry.",
+    category: "Regional Expressions",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `"Clem" or "clemmed" is old English dialect for suffering
+    from hunger, historically widespread across the north of England
+    and the Midlands, and still very much alive today in places like
+    St Helens and the wider Lancashire and Merseyside area, as well as
+    the Black Country. It likely traces back to an old Germanic root
+    related to pinching or squeezing, similar to the German "klemmen,"
+    meaning to pinch or jam, evoking the physical sensation of hunger
+    gripping the stomach. "Fair" here is simply the common Northern
+    English intensifier meaning "really" or "very," the same one heard
+    in "fair knackered," stacked onto "clemmed" for extra emphasis.`,
+    mythVsFact: null,
+    source: "Recorded in Joseph Wright's English Dialect Dictionary (1898-1905); documented regional use across Lancashire, Merseyside, Yorkshire, and the West Midlands (Black Country)."
+  },
+  {
+    id: "nesh",
+    phrase: "Nesh",
+    meaning: "Overly sensitive to cold weather; soft or feeble.",
+    category: "Regional Expressions",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `One of the oldest words in this whole repository. "Nesh"
+    descends directly from the Old English word "hnesce," meaning weak,
+    soft, or delicate, and has survived essentially unbroken for well
+    over a thousand years in the dialects of the English Midlands and
+    North, Staffordshire, Derbyshire, and Yorkshire among them. Someone
+    described as "nesh" is thought to feel the cold more than they
+    reasonably should, unable to cope with weather everyone else shrugs
+    off.`,
+    mythVsFact: null,
+    source: "From Old English 'hnesce'; recorded in Joseph Wright's English Dialect Dictionary and the Oxford English Dictionary's entry for 'nesh, adj.'"
+  },
+  {
+    id: "gan-canny",
+    phrase: "Gan canny",
+    meaning: "Take care; go carefully.",
+    category: "Regional Expressions",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A piece of Geordie (Tyneside, Newcastle-area) dialect built
+    from two words with their own long histories. "Gan," meaning "go,"
+    comes from Old English and Old Norse forms of the verb, reflecting
+    the heavy Scandinavian influence on North East England from
+    centuries of Viking settlement. "Canny" has a much broader and
+    older sense in Northern English and Scots than its modern meaning
+    of "shrewd" suggests, historically covering "careful," "nice,"
+    "pleasant," and "good," among other senses. Put together, "gan
+    canny" is simply a warm send-off telling someone to go carefully.`,
+    mythVsFact: null,
+    source: "Recorded in dialect dictionaries of North East England; 'canny' documented with its broader Northern English and Scots senses in the Oxford English Dictionary."
+  },
+  {
+    id: "ey-up",
+    phrase: "Ey up",
+    meaning: "Hello; also used as an exclamation of surprise or to draw attention.",
+    category: "Regional Expressions",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `A staple greeting across Yorkshire and parts of the East
+    Midlands, and one etymologists like to argue about. The leading
+    theory ties it to Old Norse, likely "se upp," meaning "look up" or
+    "watch out," a plausible root given how heavily Yorkshire was
+    settled by Scandinavian Vikings during the Danelaw period, leaving
+    a lasting Norse imprint on the region's dialect. It's a strong,
+    well-supported theory rather than a wild guess, but a direct,
+    unbroken documentary trail from Old Norse all the way to the modern
+    greeting hasn't been definitively established.`,
+    mythVsFact: null,
+    source: "Norse-influence theory discussed in regional dialect scholarship on Yorkshire English; general use documented in 20th-century dialect dictionaries."
+  },
+  {
+    id: "mardy",
+    phrase: "Mardy",
+    meaning: "Sulky, moody, or irritable.",
+    category: "Regional Expressions",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A beloved piece of East Midlands dialect, especially
+    associated with Nottinghamshire and Derbyshire, describing someone
+    in a sulk or a strop. It likely derives from an older dialectal use
+    of "mard," related to "marred," in the sense of a child spoiled or
+    ruined by over-indulgent treatment, whose sulking became shorthand
+    for the word itself. The word reached a much wider national
+    audience via Sheffield band Arctic Monkeys' 2006 song "Mardy Bum,"
+    though the dialect word long predates the song.`,
+    mythVsFact: null,
+    source: "Recorded in Joseph Wright's English Dialect Dictionary; East Midlands regional usage documented in dialect scholarship."
+  },
+  {
+    id: "bostin",
+    phrase: "Bostin",
+    meaning: "Excellent; great.",
+    category: "Regional Expressions",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `A cornerstone of Black Country dialect (the industrial area
+    around Dudley, Wolverhampton, and Walsall) used to describe
+    something brilliant or first-rate. One theory connects it to
+    "bursting," in the sense of something so good it's "bursting" with
+    quality, while another ties it to older dialectal senses of "boss,"
+    meaning superior or excellent. Both are plausible, and Black
+    Country dialect enthusiasts and linguists alike don't agree on a
+    single confirmed root.`,
+    mythVsFact: null,
+    source: "Documented in Black Country dialect glossaries and regional dialect scholarship; competing 'bursting' and 'boss' origin theories both discussed without a settled conclusion."
+  },
+  {
+    id: "ta-ra",
+    phrase: "Ta-ra",
+    meaning: "Goodbye.",
+    category: "Regional Expressions",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A casual farewell heard widely across Northern England,
+    especially strongly in Liverpool and the wider Merseyside area, as
+    well as much of the Midlands. It's often assumed to be a simple
+    doubling-up of "ta" (itself a shortened, informal "thank you," from
+    "thank ye"), turned into a breezy send-off, but no dialectologist
+    has ever pinned down exactly when or how "ta-ra" first came
+    together in that specific form, or why the reduplication took hold
+    in some regions and not others.`,
+    mythVsFact: null,
+    source: "Recorded in regional dialect glossaries of Northern England; no documented origin story survives for the specific coining."
   }
 ];
 

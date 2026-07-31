@@ -37,7 +37,8 @@ const CATEGORY_BLURBS = {
   "Music": "Idioms borrowed from musical instruments and performance.",
   "Literature": "Idioms that trace back to specific, identifiable works of literature.",
   "Theatre & Performance": "Idioms with roots backstage or on the boards.",
-  "Health & Medicine": "Idioms rooted in real, and sometimes alarming, medical history."
+  "Health & Medicine": "Idioms rooted in real, and sometimes alarming, medical history.",
+  "Regional Expressions": "Not every entry here is a nationwide idiom. These are living dialect words and phrases tied to specific parts of Britain, still spoken today, not relics from a history book."
 };
 
 function categorySlug(category) {
