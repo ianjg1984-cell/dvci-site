@@ -33,8 +33,13 @@
     };
   }
 
+  // Pool covers every idiom in the repository (98 and growing), but each
+  // playthrough only serves a random slice of it, so a full pass takes a
+  // handful of plays rather than one very long quiz.
+  const QUESTIONS_PER_ROUND = 10;
+
   function newRound() {
-    return shuffled(QUIZ_QUESTIONS).map(withShuffledOptions);
+    return shuffled(QUIZ_QUESTIONS).slice(0, QUESTIONS_PER_ROUND).map(withShuffledOptions);
   }
 
   let questions = newRound();
