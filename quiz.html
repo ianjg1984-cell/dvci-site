@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | D.V.C.I.</title>
-  <meta name="description" content="Get in touch with the Dictionary of Very Curious Idioms: corrections, suggestions, or just a chat." />
+  <title>Idiom Quiz | D.V.C.I.</title>
+  <meta name="description" content="Test yourself against the real, honestly-rated origins of British idioms. Guess right or wrong, then see the actual story." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet" />
@@ -22,37 +22,19 @@
         <a href="index.html">Home</a>
         <a href="index.html#repository">Repository</a>
         <a href="a-z.html">A-Z</a>
-        <a href="quiz.html">Quiz</a>
+        <a href="quiz.html" class="active">Quiz</a>
         <a href="about.html">About</a>
-        <a href="contact.html" class="active">Contact</a>
+        <a href="contact.html">Contact</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
         <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
       </nav>
     </div>
   </header>
 
-  <section class="page-content">
-    <h1>Straight From the Horse's Mouth</h1>
-    <p>
-      We don't like to beat around the bush, and we haven't got any
-      <a href="idioms/skeleton-in-the-cupboard.html">skeletons in the cupboard</a>:
-      every origin story on this site lists exactly where it came from. If
-      you think we've got one wrong, you've spotted a curious idiom we
-      haven't covered yet, or you just fancy a chat, don't bite your tongue.
-      Get in touch, straight from the horse's mouth.
-    </p>
-
-    <div class="contact-cta">
-      <a class="contact-btn" href="mailto:hello@dvci.com">Email hello@dvci.com</a>
-    </div>
-
-    <p>
-      Prefer social? Find us on
-      <a href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
-      or
-      <a href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>.
-    </p>
-    <p class="comments-note">We read every message, though replies might take a day or two.</p>
+  <section class="page-content quiz-page">
+    <h1>Idiom Quiz</h1>
+    <p class="quiz-intro">Guess what's actually behind each idiom. Right or wrong, you'll get the real, honestly-rated story straight after.</p>
+    <div id="quiz-root"></div>
   </section>
 
   <footer class="site-footer">
@@ -65,5 +47,8 @@
     </div>
   </footer>
 
+  <script src="assets/data.js"></script>
+  <script src="assets/quiz-data.js"></script>
+  <script src="assets/quiz.js"></script>
 </body>
 </html>

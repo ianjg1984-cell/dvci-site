@@ -822,6 +822,214 @@ nav.main-nav a.active:not(.social-pill) {
   box-shadow: var(--shadow-gold);
 }
 
+/* ---------- Quiz ---------- */
+
+.quiz-page {
+  max-width: 720px;
+}
+
+.quiz-intro {
+  color: var(--ivory-soft);
+}
+
+.quiz-progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  color: var(--ivory-faint);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.quiz-score {
+  color: var(--gold-bright);
+  font-weight: 600;
+}
+
+.quiz-question-card {
+  border: 2px solid var(--gold);
+  background: linear-gradient(160deg, var(--panel), var(--panel-2));
+  border-radius: var(--radius);
+  padding: 1.8rem;
+  box-shadow: var(--shadow), var(--shadow-gold);
+}
+
+.quiz-question {
+  font-size: 1.4rem;
+  margin: 0 0 1.3rem;
+}
+
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.quiz-option {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  text-align: left;
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+  color: var(--ivory);
+  padding: 0.85rem 1.1rem;
+  border-radius: var(--radius);
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, transform 0.1s ease;
+}
+
+.quiz-option:hover:not(:disabled) {
+  border-color: var(--gold-bright);
+  transform: translateY(-1px);
+}
+
+.quiz-option:disabled {
+  cursor: default;
+}
+
+.quiz-option-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  flex-shrink: 0;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--gold-bright);
+}
+
+.quiz-option.correct {
+  border-color: var(--emerald-bright);
+  background: rgba(0, 217, 163, 0.16);
+}
+
+.quiz-option.correct .quiz-option-letter {
+  border-color: var(--emerald-bright);
+  color: var(--emerald-bright);
+}
+
+.quiz-option.incorrect {
+  border-color: var(--burgundy-bright);
+  background: rgba(255, 92, 122, 0.14);
+}
+
+.quiz-option.incorrect .quiz-option-letter {
+  border-color: var(--burgundy-bright);
+  color: var(--burgundy-bright);
+}
+
+.quiz-feedback {
+  margin-top: 1.3rem;
+  padding: 0.8rem 1.1rem;
+  border-radius: var(--radius);
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.quiz-feedback.correct {
+  background: rgba(0, 217, 163, 0.16);
+  border: 1px solid var(--emerald-bright);
+  color: var(--emerald-bright);
+}
+
+.quiz-feedback.incorrect {
+  background: rgba(255, 92, 122, 0.14);
+  border: 1px solid var(--burgundy-bright);
+  color: var(--burgundy-bright);
+}
+
+.quiz-reveal-card {
+  margin-top: 1.5rem;
+  border-top: 2px double var(--line);
+  padding-top: 1.3rem;
+}
+
+.quiz-reveal-card h3 {
+  margin: 0.6rem 0 0.3rem;
+  font-size: 1.4rem;
+}
+
+.quiz-reveal-card .meaning {
+  font-style: italic;
+  color: var(--ivory-soft);
+}
+
+.quiz-reveal-card .story p { margin: 0 0 1rem; }
+
+.quiz-full-entry-link {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.88rem;
+}
+
+.quiz-next-slot {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.quiz-next-btn {
+  background: var(--burgundy);
+  color: var(--gold-bright);
+  border: 1px solid var(--gold);
+  padding: 0.75rem 1.8rem;
+  border-radius: var(--radius);
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.quiz-next-btn:hover {
+  background: var(--burgundy-bright);
+  box-shadow: var(--shadow-gold);
+}
+
+.quiz-end-card {
+  border: 2px solid var(--gold);
+  background: linear-gradient(160deg, var(--panel), var(--panel-2));
+  border-radius: var(--radius);
+  padding: 2.5rem 1.8rem;
+  text-align: center;
+  box-shadow: var(--shadow), var(--shadow-gold);
+}
+
+.quiz-end-card h2 {
+  margin: 0 0 0.5rem;
+}
+
+.quiz-end-score {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 3rem;
+  color: var(--gold-bright);
+  margin: 0.3rem 0;
+  text-shadow: 0 0 24px rgba(201, 162, 39, 0.3);
+}
+
+.quiz-end-message {
+  color: var(--ivory-soft);
+  margin-bottom: 1.5rem;
+}
+
+.quiz-end-actions {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /* ---------- A-Z index ---------- */
 
 .az-page {

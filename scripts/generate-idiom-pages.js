@@ -144,6 +144,7 @@ function pageHTML(entry) {
         <a href="../index.html">Home</a>
         <a href="../index.html#repository">Repository</a>
         <a href="../a-z.html">A-Z</a>
+        <a href="../quiz.html">Quiz</a>
         <a href="../about.html">About</a>
         <a href="../contact.html">Contact</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
@@ -260,6 +261,7 @@ function categoryPageHTML(category, idiomsInCategory, allCategories) {
         <a href="../index.html">Home</a>
         <a href="../index.html#repository">Repository</a>
         <a href="../a-z.html">A-Z</a>
+        <a href="../quiz.html">Quiz</a>
         <a href="../about.html">About</a>
         <a href="../contact.html">Contact</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
@@ -364,6 +366,7 @@ function azIndexHTML(idioms) {
         <a href="index.html">Home</a>
         <a href="index.html#repository">Repository</a>
         <a href="a-z.html" class="active">A-Z</a>
+        <a href="quiz.html">Quiz</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
@@ -403,6 +406,7 @@ function sitemapXML(idioms, categories) {
     `${SITE_URL}/about.html`,
     `${SITE_URL}/contact.html`,
     `${SITE_URL}/a-z.html`,
+    `${SITE_URL}/quiz.html`,
     ...categories.map((c) => `${SITE_URL}/categories/${categorySlug(c)}.html`),
     ...idioms.map((e) => `${SITE_URL}/idioms/${e.id}.html`)
   ];
