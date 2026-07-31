@@ -545,13 +545,6 @@ nav.main-nav a.active:not(.social-pill) {
   font-size: 1.05rem;
 }
 
-.no-login-note {
-  font-weight: 400;
-  font-size: 0.8rem;
-  color: var(--ivory-faint);
-  text-transform: none;
-}
-
 .reaction-bar {
   display: flex;
   gap: 0.6rem;

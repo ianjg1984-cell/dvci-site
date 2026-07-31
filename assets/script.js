@@ -176,16 +176,16 @@
       }
       <div class="source-line"><strong>Sources:</strong> ${entry.source}</div>
       <div class="react-section">
-        <h4>Quick react <span class="no-login-note">(no login needed)</span></h4>
+        <h4>Quick react</h4>
         ${reactionBarHTML(entry)}
       </div>
       <div class="comments-section" data-idiom-id="${entry.id}">
-        <h4>Discuss <span class="no-login-note">(no login needed)</span></h4>
+        <h4>Discuss</h4>
         <form class="comment-form" data-idiom-id="${entry.id}" data-loaded-at="${Date.now()}">
           <input type="text" name="name" class="comment-name" maxlength="60" placeholder="Your name (optional)" autocomplete="off" />
           <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
           <textarea name="comment" class="comment-text" maxlength="500" placeholder="Share a thought about this one..." required></textarea>
-          <button type="submit">Post comment</button>
+          <button type="submit">Submit for Approval</button>
           <p class="comment-status"></p>
         </form>
         <p class="comments-note">New comments are held for a quick check before they show up here.</p>
