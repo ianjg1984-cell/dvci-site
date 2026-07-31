@@ -729,6 +729,355 @@ const IDIOMS = [
     football at all.`,
     mythVsFact: null,
     source: "General figurative use documented in English from the 19th century, referencing the nursery rhyme 'Hey Diddle Diddle'; football-commentary association documented from the 1970s onward in British sports journalism."
+  },
+  {
+    id: "over-the-top",
+    phrase: "Over the top",
+    meaning: "Excessive, exaggerated, or overdone.",
+    category: "War & Conflict",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The phrase comes directly from First World War trench
+    warfare. "Going over the top" meant literally climbing up and out of
+    the trenches to advance across no man's land toward enemy lines, an
+    extremely dangerous manoeuvre that exposed soldiers to machine gun
+    and artillery fire. By the 1930s, the literal wartime phrase had
+    shifted into general use for anything reckless, extreme, or
+    excessive.`,
+    mythVsFact: null,
+    source: "Documented in First World War military accounts from 1914 to 1918; figurative use recorded from the 1930s, cited in the Oxford English Dictionary."
+  },
+  {
+    id: "not-cricket",
+    phrase: "That's not cricket",
+    meaning: "That's not fair or proper conduct.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Cricket has long carried a reputation in England as the model
+    of fair play and gentlemanly conduct, governed by an unwritten code
+    of sportsmanship as much as its formal rules. By the 19th century,
+    "it isn't cricket" was already being used to describe behaviour, on
+    or off the pitch, that violated that sense of fairness, extending
+    the game's own ethos into a general-purpose idiom for unsporting or
+    underhand conduct.`,
+    mythVsFact: null,
+    source: "Recorded in figurative use from the mid-to-late 19th century, cited in the Oxford English Dictionary's entry for 'cricket, n.'"
+  },
+  {
+    id: "fit-as-a-fiddle",
+    phrase: "Fit as a fiddle",
+    meaning: "In excellent health or condition.",
+    category: "Music",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one is older than it looks, and "fit" originally didn't
+    mean healthy at all. The phrase is recorded as early as 1616 as "as
+    fine as a fiddle," using "fine" and later "fit" in their older sense
+    of well-suited, well-arranged, or in good working order, the same
+    sense that describes a well-tuned instrument. Over the following
+    centuries the phrase narrowed specifically to physical health, its
+    current meaning.`,
+    mythVsFact: null,
+    source: "Earliest recorded form 'as fine as a fiddle' from 1616, cited in the Oxford English Dictionary's entry for 'fiddle, n.'"
+  },
+  {
+    id: "splice-the-mainbrace",
+    phrase: "Splice the mainbrace",
+    meaning: "To have a drink, especially to celebrate.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A literal, physically demanding piece of Royal Navy work.
+    The mainbrace was a crucial rope controlling the mainsail, and
+    repairing or "splicing" it after damage in battle or bad weather was
+    one of the most difficult jobs aboard a sailing warship. Crews who
+    completed the repair were traditionally rewarded with an extra
+    ration of rum, and the order to "splice the mainbrace" eventually
+    became naval shorthand for authorising a drink, regardless of
+    whether any actual rope was involved.`,
+    mythVsFact: null,
+    source: "Documented Royal Navy custom from at least the 18th century, cited in naval history and slang dictionaries."
+  },
+  {
+    id: "show-a-leg",
+    phrase: "Show a leg",
+    meaning: "Get out of bed; get moving.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A genuine Royal Navy wake-up call. When women were permitted
+    to stay aboard ship while docked in port, the boatswain's morning
+    call for the crew to rise became a problem: a female visitor was
+    allowed to remain in the hammock while the men had to get up and
+    begin work. "Show a leg" let the watch tell at a glance whose leg
+    was poking out, smooth and stockinged meant stay put, hairy and bare
+    meant get moving, without an argument at dawn.`,
+    mythVsFact: null,
+    source: "Documented Royal Navy custom from the 18th and 19th centuries, cited in naval history and slang dictionaries."
+  },
+  {
+    id: "cut-and-run",
+    phrase: "Cut and run",
+    meaning: "To leave quickly, especially to escape a difficult situation.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Another literal piece of sailing-ship practice. A ship's
+    anchor was normally hauled up slowly, but in an emergency, an
+    approaching enemy vessel, a sudden storm, there wasn't always time.
+    Crews would simply cut the anchor cable and sail away immediately,
+    sacrificing the anchor to make a fast escape. The phrase carried
+    that same sense of abandoning something valuable to get away
+    quickly into general English.`,
+    mythVsFact: null,
+    source: "Documented nautical usage from the 17th and 18th centuries, cited in the Oxford English Dictionary's entry for 'cut, v.'"
+  },
+  {
+    id: "batten-down-the-hatches",
+    phrase: "Batten down the hatches",
+    meaning: "To prepare for a difficulty or crisis.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A straightforwardly literal piece of seamanship. Before a
+    storm, a ship's hatches, the openings in the deck, were sealed with
+    wooden strips called battens and waterproof tarpaulins to stop waves
+    from flooding the compartments below. The order to "batten down the
+    hatches" prepared the ship for whatever was coming, and the phrase
+    carried that same brace-for-impact meaning into everyday use.`,
+    mythVsFact: null,
+    source: "Documented nautical usage from the 19th century, cited in the Oxford English Dictionary's entry for 'batten, v.'"
+  },
+  {
+    id: "devil-and-the-deep-blue-sea",
+    phrase: "Between the devil and the deep blue sea",
+    meaning: "Stuck between two equally bad or difficult choices.",
+    category: "Sailing & the Sea",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `A popular nautical explanation claims that "the devil" was
+    sailors' nickname for a particular seam in a wooden ship's hull, an
+    awkward one near the waterline that was especially difficult and
+    dangerous to caulk while at sea, leaving a sailor working on it
+    trapped between that seam and the ocean itself. It's a vivid,
+    plausible-sounding story, but there's no solid documentary evidence
+    that shipbuilders or sailors actually used "the devil" as a
+    technical term for any specific seam. The phrase may simply be a
+    general figurative pairing of two dreaded things, without a literal
+    nautical object behind it at all.`,
+    mythVsFact: "The 'devil seam' explanation is widely repeated as settled maritime fact, but no period shipbuilding or nautical source has been found actually using 'the devil' as a name for a hull seam. It's treated by most etymologists as an appealing but unproven folk explanation.",
+    source: "General figurative use documented from the 17th century onward; the 'devil seam' theory is discussed, and disputed, in nautical phrase histories and the Oxford English Dictionary."
+  },
+  {
+    id: "cock-and-bull-story",
+    phrase: "A cock and bull story",
+    meaning: "An elaborate, implausible tale.",
+    category: "Still Unsolved",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `One theory ties this directly to Stony Stratford, an English
+    coaching town on the old London-to-Holyhead road, where two rival
+    coaching inns, The Cock and The Bull, were supposedly the source of
+    exaggerated traveller's gossip that grew taller with every retelling
+    between the two. A competing, older theory points to a general folk
+    tradition of fables featuring talking animals, cocks and bulls among
+    them, as a byword for fantastical nonsense long before the Stony
+    Stratford inns existed. Both theories have real supporting evidence,
+    and etymologists remain divided on which came first.`,
+    mythVsFact: null,
+    source: "Recorded in English from the early 17th century; both the Stony Stratford inn-rivalry theory and the older fable-tradition theory are discussed in phrase-history references including Brewer's Dictionary of Phrase and Fable."
+  },
+  {
+    id: "gordon-bennett",
+    phrase: "Gordon Bennett!",
+    meaning: "An exclamation of surprise, frustration, or exasperation.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Nobody can say for certain who, or what, this "Gordon
+    Bennett" actually refers to. One theory points to James Gordon
+    Bennett Jr., a real, famously flamboyant and scandal-prone American
+    newspaper publisher of the late 19th century, whose outrageous
+    public behaviour supposedly made his name a byword for exclaiming at
+    something outrageous. Another theory treats it as simply a
+    euphemistic, rhyming substitute for an oath ("gorblimey" or
+    something cruder), invented to avoid actual swearing rather than
+    referring to any real person at all. The exclamation is recorded
+    from the early 20th century, without a documented explanation
+    attached.`,
+    mythVsFact: "The James Gordon Bennett Jr. story is often repeated as though confirmed, but there is no direct documentary link between the real publisher and the British exclamation. It remains one of several plausible guesses, not a settled origin.",
+    source: "Earliest citations from the early-to-mid 20th century, cited in slang dictionaries including Partridge's Dictionary of Slang; no attributed origin story survives from the period."
+  },
+  {
+    id: "chuffed-to-bits",
+    phrase: "Chuffed to bits",
+    meaning: "Extremely pleased or delighted.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `This one hides a genuinely contradictory history. In some
+    regional English dialects, "chuffed" meant pleased or satisfied,
+    while in others, recorded just as early, it meant precisely the
+    opposite: annoyed or offended. Both senses coexisted in British
+    dialect for generations before the positive meaning won out and
+    became standard in the mid-20th century. Exactly why the word could
+    mean two opposite things, and why the pleased sense eventually took
+    over, has never been satisfactorily explained.`,
+    mythVsFact: null,
+    source: "Documented dual dialectal senses cited in the Oxford English Dictionary's entry for 'chuffed, adj.'; standard positive usage established by the mid-20th century."
+  },
+  {
+    id: "argy-bargy",
+    phrase: "Argy-bargy",
+    meaning: "A heated argument or dispute.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A Scots dialect reduplication, a pair of rhyming or
+    near-rhyming words stuck together for emphasis, in the same family
+    as phrases like "hocus-pocus." The original 19th-century form was
+    "argle-bargle," itself likely built from "argle," an old dialectal
+    variant of "argue," paired with "bargle" purely for the rhyme. Over
+    time, "argle-bargle" softened into the more familiar "argy-bargy"
+    without changing its meaning.`,
+    mythVsFact: null,
+    source: "Recorded from Scots dialect in the 19th century as 'argle-bargle,' cited in the Oxford English Dictionary's entry for 'argy-bargy, n.'"
+  },
+  {
+    id: "give-it-some-welly",
+    phrase: "Give it some welly",
+    meaning: "To put in more effort or power, especially when driving or exerting physical force.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `British motoring slang referencing Wellington boots, named
+    after the Duke of Wellington and a wardrobe staple for generations
+    of British drivers and manual workers. "Giving it some welly"
+    pictured a driver pressing the accelerator pedal hard with a booted
+    foot, and the phrase spread from the road into general use for
+    putting in extra physical effort of any kind.`,
+    mythVsFact: null,
+    source: "Recorded in British motoring and general slang from the mid-20th century, cited in slang dictionaries including Partridge's Dictionary of Slang."
+  },
+  {
+    id: "not-the-full-shilling",
+    phrase: "Not the full shilling",
+    meaning: "Not very intelligent, or not quite right in the head.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A pre-decimal currency joke. Under the old system, a
+    shilling was worth twelve pence, and being handed a coin, or a
+    person, that came up short implied something was missing that
+    should have been there. "Not the full shilling" used that everyday
+    image of being short-changed to describe someone thought to be
+    lacking in wits, and the phrase has outlived the coin itself by
+    decades.`,
+    mythVsFact: null,
+    source: "Recorded in British slang from the mid-20th century, cited in slang dictionaries including Partridge's Dictionary of Slang."
+  },
+  {
+    id: "talk-hind-legs-off-donkey",
+    phrase: "Talk the hind legs off a donkey",
+    meaning: "To talk incessantly or excessively.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `The image is vivid, someone talking so relentlessly they
+    could supposedly persuade an animal to give up its own legs, but no
+    one has ever pinned down exactly where or when it was first said, or
+    why a donkey specifically rather than any other animal. The phrase
+    is well attested in English from the 19th century onward, always
+    used in more or less its current sense, with the exaggeration doing
+    all the work and no documented backstory behind it.`,
+    mythVsFact: null,
+    source: "Recorded in English from the 19th century, cited in phrase-history references including Brewer's Dictionary of Phrase and Fable; no documented origin story survives."
+  },
+  {
+    id: "bits-and-bobs",
+    phrase: "Bits and bobs",
+    meaning: "A miscellaneous collection of small items.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A very ordinary-sounding British phrase with a surprisingly
+    undocumented past. "Bits" plainly means small pieces or items, but
+    why "bobs" specifically, rather than any other rhyming word, isn't
+    explained anywhere in the historical record. One loose theory ties
+    it to "bob," old slang for a shilling, implying a jumble of small
+    odds and ends worth about that much, but there's no real evidence
+    connecting the two senses beyond the shared word.`,
+    mythVsFact: null,
+    source: "Recorded in British English from the 20th century, cited in slang and phrase dictionaries; no documented origin story survives for the specific pairing."
+  },
+  {
+    id: "chin-wag",
+    phrase: "Have a chin wag",
+    meaning: "To have a chat, especially a long or gossipy one.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A straightforwardly visual piece of slang. Your chin, and by
+    extension your jaw, moves up and down as you talk, "wagging" the
+    same way a dog's tail does. "Chin wag" simply names that motion and
+    turns it into a noun for the conversation itself, recorded in
+    British slang from the late 19th century onward with barely any
+    change in meaning since.`,
+    mythVsFact: null,
+    source: "Recorded in British slang from the 1870s onward, cited in the Oxford English Dictionary's entry for 'chin-wag, n.'"
+  },
+  {
+    id: "bricking-it",
+    phrase: "Bricking it",
+    meaning: "To be extremely frightened or nervous.",
+    category: "Slang & Everyday Speech",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A widely used piece of modern British slang for acute fear,
+    but its exact origin has never been pinned down. It surfaces in
+    British English from the later 20th century onward, already in its
+    current form and meaning, without any documented explanation of why
+    "bricks" specifically became the image for fear rather than any
+    other object. Most slang dictionaries record the phrase itself
+    without venturing a confident origin story.`,
+    mythVsFact: null,
+    source: "Recorded in British slang from the later 20th century, cited in slang dictionaries including Partridge's Dictionary of Slang; no documented origin story survives."
+  },
+  {
+    id: "cost-a-bomb",
+    phrase: "Cost a bomb",
+    meaning: "To be very expensive.",
+    category: "Slang & Everyday Speech",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `British slang using "a bomb" as shorthand for a large sum of
+    money, in the same family as related phrases like "make a bomb."
+    Exactly why an explosive became slang for a large quantity of cash
+    isn't documented anywhere, though it may simply echo the sense of
+    sudden, forceful impact, a bomb going off, applied figuratively to a
+    price that hits hard. The phrase is well attested in British use
+    from the mid-20th century, without a confirmed origin story behind
+    the choice of word.`,
+    mythVsFact: null,
+    source: "Recorded in British slang from the mid-20th century, cited in slang dictionaries including Partridge's Dictionary of Slang; no documented origin story survives for the specific image."
+  },
+  {
+    id: "elbow-room",
+    phrase: "Elbow room",
+    meaning: "Enough space to move or act freely.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A literal image turned permanent fixture of English: room
+    enough to move your elbows without bumping into someone or
+    something. The phrase is recorded from the 17th century, appearing
+    in Shakespeare's <em>King John</em> (1595) in a closely related
+    sense, and has needed no updating since; the everyday sense of
+    having enough physical or figurative space to operate is exactly
+    what it meant four hundred years ago.`,
+    mythVsFact: null,
+    source: "William Shakespeare, King John (1595); recorded usage cited in the Oxford English Dictionary's entry for 'elbow, n.'"
   }
 ];
 
