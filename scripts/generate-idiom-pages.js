@@ -201,6 +201,7 @@ function pageHTML(entry) {
   <script src="../assets/data.js"></script>
   <script>window.DVCI_STANDALONE_IDIOM_ID = "${entry.id}";</script>
   <script src="../assets/script.js"></script>
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "298330214869446984ccb7eb7a0d2c89"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 `;
@@ -298,6 +299,7 @@ function categoryPageHTML(category, idiomsInCategory, allCategories) {
     </div>
   </footer>
 
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "298330214869446984ccb7eb7a0d2c89"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 `;
@@ -398,6 +400,7 @@ function azIndexHTML(idioms) {
     </div>
   </footer>
 
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "298330214869446984ccb7eb7a0d2c89"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 `;
