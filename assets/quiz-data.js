@@ -986,5 +986,345 @@ const QUIZ_QUESTIONS = [
       "An old nautical rank"
     ],
     correctIndex: 0
+  },
+  {
+    idiomId: "brass-monkey",
+    question: "The popular story behind \"cold enough to freeze the balls off a brass monkey\" involves a naval cannonball tray. What's the problem with it?",
+    options: [
+      "No such brass tray has ever been found among the Navy's preserved equipment",
+      "It's actually confirmed by 18th-century Royal Navy inventories",
+      "The tray was real, but never actually used at sea"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "whole-nine-yards",
+    question: "The popular WWII fighter-plane ammunition-belt story for \"the whole nine yards\" is disproven by what?",
+    options: [
+      "Fighter planes never carried exactly nine yards of ammunition",
+      "The phrase is documented in print decades before WWII, in 1907",
+      "The phrase was actually coined by the US Navy, not the Air Force"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "arm-and-a-leg",
+    question: "The popular story that \"cost an arm and a leg\" comes from portrait painters charging by limb is:",
+    options: [
+      "Confirmed by surviving 18th-century painters' price lists",
+      "Unsupported; the phrase itself dates only from around 1949",
+      "True, but only for Royal portrait commissions"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "paint-the-town-red",
+    question: "A real 1837 vandalism spree by the Marquess of Waterford is often credited as the source of \"paint the town red.\" What's the issue?",
+    options: [
+      "The phrase itself isn't recorded in print until 1883, decades later",
+      "The Marquess actually used blue paint, not red",
+      "The incident took place in Scotland, not England"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "burn-your-bridges",
+    question: "Julius Caesar and Hernan Cortes are both credited with inspiring \"burn your bridges.\" What did they actually do?",
+    options: [
+      "Caesar crossed a river and Cortes had his ships scuttled, neither burned a bridge",
+      "Both men literally burned bridges after crossing them",
+      "Neither Caesar nor Cortes is connected to the phrase at all"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "barking-mad",
+    question: "The theory that \"barking mad\" comes from a medieval asylum in Barking, Essex fails for what reason?",
+    options: [
+      "There was never any asylum associated with Barking Abbey",
+      "The phrase isn't recorded until 1933, centuries after any medieval asylum",
+      "The phrase is actually much older, dating to the 1500s"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "cat-got-your-tongue",
+    question: "Which theory about \"cat got your tongue?\" actually has real historical evidence behind it?",
+    options: [
+      "The Royal Navy's cat o' nine tails whip",
+      "None of them; the real origin remains unknown",
+      "Ancient Egyptians feeding cats the tongues of liars"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "dressed-to-the-nines",
+    question: "Which theory for \"dressed to the nines\" actually has documentary evidence behind it?",
+    options: [
+      "None of them; the number nine doesn't seem to refer to anything specific",
+      "A specific regiment's elaborate dress uniform",
+      "The exact yardage of fabric needed for a fine outfit"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "bees-knees",
+    question: "\"The bee's knees\" emerged in the 1920s alongside which other nonsense slang?",
+    options: [
+      "\"The cat's pyjamas\" and \"the cat's whiskers\"",
+      "\"The dog's dinner\" and \"the fox's socks\"",
+      "\"The bird's word\" and \"the fish's wish\""
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "cut-the-mustard",
+    question: "One theory for \"cut the mustard\" claims it's a corruption of a military phrase, \"cut the muster.\" What's the problem?",
+    options: [
+      "\"Cut the muster\" has never actually been found in use anywhere",
+      "\"Cut the muster\" is confirmed but means something different",
+      "The military never used the word \"muster\""
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "know-your-onions",
+    question: "The theory that \"know your onions\" honours lexicographer C. T. Onions is:",
+    options: [
+      "Confirmed; Onions himself claimed credit for the phrase",
+      "Coincidence; there's no real link between the man and the phrase",
+      "Confirmed by his own Oxford English Dictionary entry"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "cheesed-off",
+    question: "What does the Oxford English Dictionary say about the origin of \"cheesed off\"?",
+    options: [
+      "It's listed as uncertain",
+      "It's confirmed to come from \"cheese it,\" meaning to stop",
+      "It's confirmed to come from rationed cheese in WWII"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "dogs-breakfast",
+    question: "\"A dog's breakfast,\" meaning a complete mess, was first written down in which reference work?",
+    options: [
+      "Samuel Johnson's 1755 Dictionary of the English Language",
+      "Eric Partridge's 1937 Dictionary of Slang and Unconventional English",
+      "The 1928 first edition of the Oxford English Dictionary"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "cock-a-hoop",
+    question: "Etymologists describe \"cock-a-hoop\" as having one of the most tangled histories in English. What's the earliest documented form?",
+    options: [
+      "\"To set cock a hoop,\" of genuinely unknown meaning",
+      "\"To crow like a cockerel,\" a straightforward rooster metaphor",
+      "\"To hoop and holler,\" an old fairground cheer"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "elephant-in-the-room",
+    question: "An 1814 Russian fable about a man who fails to notice an elephant in a museum is often linked to \"the elephant in the room.\" What's true about that connection?",
+    options: [
+      "It's confirmed; the fable was translated into English specifically to create the idiom",
+      "Whether it's actually connected to the English idiom has never been established",
+      "It's disproven; the fable doesn't mention an elephant at all"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "cloud-nine",
+    question: "The popular theory that \"cloud nine\" refers to an 1896 cloud classification system has what problem?",
+    options: [
+      "The 1896 cloud atlas didn't actually include a ninth category",
+      "No evidence anyone used \"cloud nine\" that way before the idiom appeared",
+      "The atlas was published in 1996, not 1896"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "pull-your-leg",
+    question: "The theory that \"pull your leg\" comes from 19th-century thieves tripping victims before robbing them is:",
+    options: [
+      "Confirmed by London police records from the 1880s",
+      "Colourful, but unsupported, and the details shift with every telling",
+      "Confirmed, but the practice was actually in Victorian Liverpool, not London"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "whole-shebang",
+    question: "\"Shebang\" first appeared in American English during which period, in Walt Whitman's own diary?",
+    options: [
+      "The Civil War era",
+      "The California Gold Rush",
+      "The First World War"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "tickled-pink",
+    question: "The leading theory for \"tickled pink\" pictures what?",
+    options: [
+      "A face flushing pink with laughter or pleasure",
+      "A pink ribbon awarded to happy children",
+      "The colour of a blush described in an old medical text"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "at-loggerheads",
+    question: "\"At loggerheads\" has two competing, both plausible, theories. What are they?",
+    options: [
+      "An old word for a fool, and a heated iron tool used in disputes",
+      "A card game term, and a specific 1670s court case",
+      "A type of turtle, and a naval knot"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "at-the-drop-of-a-hat",
+    question: "The leading theories for \"at the drop of a hat\" both involve what?",
+    options: [
+      "A hat used as a starting signal for a race or a fight",
+      "A hat passed around to collect money quickly",
+      "A magician's trick involving a disappearing hat"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "real-mccoy",
+    question: "The most credible theory for \"the real McCoy\" traces it to what?",
+    options: [
+      "A Scottish whisky brand, \"the real MacKay\"",
+      "An American boxer nicknamed \"Kid McCoy\"",
+      "A Canadian inventor's patented lubricator"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "mad-as-a-march-hare",
+    question: "\"Mad as a March hare\" is based on a real, observable behaviour. What is it?",
+    options: [
+      "Hares boxing and chasing each other during their spring breeding season",
+      "Hares supposedly howling at the full moon in March",
+      "Hares changing colour unpredictably in early spring"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "eat-humble-pie",
+    question: "\"Eat humble pie\" comes from a pun on which older dish?",
+    options: [
+      "\"Umble pie,\" made from deer's edible innards",
+      "\"Rumble pie,\" a rustic peasant stew",
+      "\"Trouble pie,\" served to disgraced servants"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "flash-in-the-pan",
+    question: "\"A flash in the pan\" describes a real mechanical failure. What was it?",
+    options: [
+      "A flintlock musket's priming powder flaring up without firing the shot",
+      "A blacksmith's forge flaring unexpectedly during casting",
+      "A cook's pan catching fire before the meal was ready"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "world-is-your-oyster",
+    question: "\"The world is your oyster\" was coined by Shakespeare. What did the line originally mean?",
+    options: [
+      "A willingness to use force to get what you're owed",
+      "Boundless, gentle opportunity, same as today",
+      "A warning against greed and ambition"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "run-the-gauntlet",
+    question: "\"Run the gauntlet\" describes a real military punishment. What did it involve?",
+    options: [
+      "Running between two rows of soldiers who struck you as you passed",
+      "Wearing an iron glove as a mark of disgrace",
+      "Running laps of a fort as a disciplinary drill"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "writing-on-the-wall",
+    question: "\"The writing on the wall\" comes from the Bible. What happens in the original story?",
+    options: [
+      "A disembodied hand writes a doom-laden message at a king's feast",
+      "A prophet carves a warning into a temple wall",
+      "An angel writes a message in the sand outside a city gate"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "proof-of-the-pudding",
+    question: "\"The proof is in the pudding\" is actually a shortened, less logical version of what original saying?",
+    options: [
+      "\"The proof of the pudding is in the eating\"",
+      "\"The proof of the pudding is in the making\"",
+      "\"The pudding proves itself in the tasting\""
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "close-but-no-cigar",
+    question: "\"Close, but no cigar\" comes from a real prize custom. Where?",
+    options: [
+      "American carnival and fairground games of skill",
+      "Victorian music hall talent competitions",
+      "English pub darts tournaments"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "know-the-ropes",
+    question: "\"Know the ropes\" comes from a sailor needing to master what?",
+    options: [
+      "A ship's rigging",
+      "Knot-tying for cargo nets",
+      "Signal flags for communicating between ships"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "beat-around-the-bush",
+    question: "\"Beat around the bush\" comes from a real medieval hunting practice. Why did beaters strike around a bush rather than into it?",
+    options: [
+      "Going in directly risked disturbing something dangerous, like a boar or a wasp nest",
+      "It was considered bad luck to touch the bush itself",
+      "The bushes were often too thorny to strike directly"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "bite-your-tongue",
+    question: "\"Bite your tongue\" was a favourite of which playwright, who used it in three separate plays?",
+    options: [
+      "Christopher Marlowe",
+      "William Shakespeare",
+      "Ben Jonson"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "straight-from-the-horses-mouth",
+    question: "The leading theory for \"straight from the horse's mouth\" traces it to which world?",
+    options: [
+      "British horse racing, where tips from those closest to the horse were most trusted",
+      "Veterinary medicine, where a horse's mouth reveals its true health",
+      "Farming, where a horse's appetite signalled the quality of its feed"
+    ],
+    correctIndex: 0
   }
 ];

@@ -1845,6 +1845,694 @@ const IDIOMS = [
     racing-tip theory, though it doesn't fully rule out the other.`,
     mythVsFact: null,
     source: "Bell's Life in London and Sporting Chronicle (22 September 1861); both racing-tip and teeth-examination theories discussed in phrase-history references including World Wide Words."
+  },
+  {
+    id: "brass-monkey",
+    phrase: "Cold Enough to Freeze the Balls Off a Brass Monkey",
+    meaning: "An exaggerated way of saying it's extremely cold.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `The persistent explanation claims that Royal Navy warships
+    stacked cannonballs in pyramids on a brass tray called a "monkey," and
+    that in freezing weather the brass would contract faster than the iron
+    cannonballs, causing them to fall off, hence cold enough to "freeze the
+    balls off a brass monkey." It's a wonderfully specific piece of naval
+    engineering trivia. It's also almost certainly false. No such brass
+    cannonball trays have ever turned up among the Royal Navy's extensively
+    preserved historical equipment, contemporary records show cannonballs
+    were actually stored in wooden racks called "shot garlands," and the
+    real difference in how brass and iron contract in the cold isn't
+    anywhere near large enough to make the story work physically. Some
+    etymologists believe the "cannonball tray" explanation is a relatively
+    recent invention, possibly from as late as the 1980s. Earlier versions
+    of the joke about a "brass monkey" losing its tail, nose, or whiskers
+    to the cold suggest the phrase was always a flexible, rhetorical
+    exaggeration rather than a literal reference to any specific naval
+    object.`,
+    mythVsFact: "The cannonball-tray story is repeated constantly, often with real-sounding technical detail about thermal contraction, but no genuine 'monkey' cannonball rack has ever been found, period naval sources describe a completely different storage method, and the physics doesn't actually check out. Earlier variants of the joke targeting a brass monkey's tail or whiskers rather than anything more anatomically specific suggest the phrase was always just a colourful exaggeration.",
+    source: "Naval Historical Society of Australia; Royal Navy shot-storage records describing wooden 'shot garlands' from at least 1769; phrase-origin analysis via World Wide Words and the Lake Champlain Maritime Museum."
+  },
+  {
+    id: "whole-nine-yards",
+    phrase: "The Whole Nine Yards",
+    meaning: "Everything; the full amount, with nothing held back.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `A favourite among word-detectives precisely because the
+    popular explanation is so confidently wrong. The most commonly
+    repeated story claims it refers to the length of a machine-gun
+    ammunition belt on a World War II fighter plane, so a pilot who'd
+    "given the whole nine yards" had fired everything he had. It's a
+    satisfying military image, and it's also impossible: the phrase is
+    documented in print as early as 1907, decades before any WWII fighter
+    existed, in an entirely non-military context. An earlier form, "the
+    whole six yards," was already circulating in the rural American South
+    by 1912. Despite enormous effort by professional etymologists,
+    comparing theories about sailing-ship yards, cement-mixer capacity, and
+    tailoring fabric lengths, nobody has found a version of the story that
+    actually fits the timeline. The genuine origin remains unknown.`,
+    mythVsFact: "The WWII ammunition-belt story is the version almost everyone has heard, and it's completely disproven by the timeline: the phrase was already in use, in unrelated contexts, decades before the Second World War began.",
+    source: "Earliest citation traced to 1907 by etymologist Fred Shapiro; 'the whole six yards' documented in the rural American South from 1912; myth debunked in research summarised by Snopes and the Oxford English Dictionary."
+  },
+  {
+    id: "arm-and-a-leg",
+    phrase: "Cost an Arm and a Leg",
+    meaning: "To be extremely expensive.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `A popular story claims that 18th and 19th-century portrait
+    painters charged customers extra for each limb included in a painting,
+    so a full-length portrait with both arms and both legs visible "cost
+    an arm and a leg" more than a cheaper head-and-shoulders version.
+    Painters certainly did charge more for larger, more elaborate
+    portraits, but there's no actual evidence they billed by individual
+    limb. The phrase itself is a much more recent American coinage, first
+    appearing in print around 1949, roughly a century after the
+    portrait-pricing custom it's supposedly describing had already fallen
+    out of fashion. It likely grew out of two older, separate expressions:
+    "I'd give my right arm" (a 17th-century way of saying something would
+    cost you dearly) and later wartime slang about the devastating cost, in
+    the most literal sense, of losing limbs in combat.`,
+    mythVsFact: "The portrait-painter pricing story is charming and widely repeated, but nobody has found a single receipt, ledger, or contemporary account backing it up, and the phrase itself doesn't appear until the mid-20th century, long after the supposed painting custom would have ended.",
+    source: "Earliest documented use from c.1949, cited in etymological dictionaries; portrait-pricing theory assessed as unsupported folklore in phrase-history research including Grammarist and Phrase Finder."
+  },
+  {
+    id: "paint-the-town-red",
+    phrase: "Paint the Town Red",
+    meaning: "To go out and celebrate in a wild, unrestrained way.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `A genuinely real historical event gets the credit for this
+    one, even though the dates don't actually line up. On the night of 6
+    April 1837, Henry Beresford, the 3rd Marquess of Waterford, went on a
+    drunken rampage through Melton Mowbray with a group of aristocratic
+    friends, smashing windows, assaulting a tollkeeper, and literally
+    painting doors, window shutters, and a tollhouse with red paint. It's
+    a wonderfully well-documented night of vandalism. The trouble is,
+    "paint the town red" doesn't show up in print as an idiom until 1883,
+    roughly 46 years later, and its earliest known appearance is in an
+    American newspaper, not a British one. A real riotous night in Melton
+    Mowbray almost certainly happened. Whether it's actually where the
+    phrase comes from is much harder to prove.`,
+    mythVsFact: "The Marquess of Waterford's 1837 spree of literally painting things red is a real, documented event, which makes it an unusually tempting origin story. But the nearly fifty-year gap before the phrase itself appears in print, and its first appearance being American rather than British, makes a direct link very hard to confirm.",
+    source: "Contemporary accounts of the 1837 Melton Mowbray incident; earliest documented use of the idiom from 1883 in American press, cited in phrase-history research including Mental Floss and Phrase Finder."
+  },
+  {
+    id: "burn-your-bridges",
+    phrase: "Burn Your Bridges",
+    meaning: "To destroy any possibility of retreating or going back to a previous situation.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `Two famous historical commanders are regularly credited with
+    inventing this idea: Julius Caesar, who crossed the Rubicon river into
+    Italy in 49 BC in an act of open rebellion with no way back, and the
+    Spanish conquistador Hernan Cortes, who supposedly burned his ships in
+    1519 so his men couldn't retreat to Cuba. Both stories are dramatic,
+    and both are slightly wrong in the telling. Caesar never actually
+    burned a bridge; the "point of no return" was the river crossing
+    itself, not any bridge-burning. Cortes, meanwhile, had his ships
+    deliberately scuttled (sunk), not burned, according to the more
+    reliable historical accounts. The broader military tactic of
+    destroying your own retreat route to force an army forward is
+    genuinely ancient and well documented, from Muslim forces in
+    8th-century Spain to Chinese general Xiang Yu in 207 BC, but the
+    English idiom itself only entered figurative use in the 19th century,
+    long removed from any single specific incident.`,
+    mythVsFact: "Caesar and Cortes are the two names people reach for first, but neither actually burned a bridge: Caesar crossed a river, and Cortes had his ships scuttled rather than set alight. The general tactic is real and very old, but pinning the English phrase to one specific historical moment doesn't hold up.",
+    source: "Historical accounts of Caesar's Rubicon crossing (49 BC) and Cortes's 1519 landing in Mexico; figurative English usage documented from the 19th century, discussed in phrase-history references including Grammarist."
+  },
+  {
+    id: "barking-mad",
+    phrase: "Barking Mad",
+    meaning: "Completely crazy or irrational.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `A frequently repeated story claims this phrase comes from
+    Barking, a town in Essex now part of East London, home to a medieval
+    asylum attached to Barking Abbey where the mentally ill were supposedly
+    sent, so someone acting strangely was said to be fit for "Barking."
+    It's a tidy, place-name-based explanation. It's also almost certainly
+    untrue: the phrase simply isn't recorded anywhere near the medieval
+    period. The Oxford English Dictionary's earliest citation is from
+    1933, in a novel by Christine Pakenham, Countess of Longford, a full
+    six hundred years after the supposed asylum connection would have
+    taken hold. The much more mundane and much better supported
+    explanation is that "barking" simply describes a person acting
+    deranged enough to bark like a mad dog, in the same family as the
+    older, well-established phrase "mad as a March hare."`,
+    mythVsFact: "The Barking, Essex asylum story is a satisfying explanation because it neatly matches the place name to the phrase, but there's a six-hundred-year gap between the supposed medieval origin and the phrase's actual first appearance in print in 1933, which makes the connection essentially impossible.",
+    source: "Oxford English Dictionary (earliest citation 1933, Christine Pakenham, Mr Jiggins of Jigginstown); asylum myth investigated and dismissed by Michael Quinion, World Wide Words."
+  },
+  {
+    id: "cat-got-your-tongue",
+    phrase: "Cat Got Your Tongue?",
+    meaning: "A question asked to someone who has suddenly gone quiet or is unable to speak.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A phrase with more than one gruesome-sounding backstory
+    attached to it, none of which actually holds up. One theory points to
+    the Royal Navy's cat o' nine tails whip, the punishment supposedly
+    leaving sailors too shocked to speak, but there's no solid documentary
+    evidence linking the whip specifically to this phrase. A darker theory
+    claims ancient Egyptians cut out the tongues of liars and fed them to
+    cats, a story repeated online with total confidence and zero
+    supporting archaeological or textual evidence. A third theory ties it
+    to medieval witchcraft trials and cats as a witch's familiar, but the
+    phrase doesn't appear in writing until 1881, in an American magazine,
+    long after the European witch trials had ended. The honest answer is
+    that nobody has found a convincing origin for any of it. It may be
+    nothing more sinister than a simple, slightly odd question adults have
+    long asked shy children.`,
+    mythVsFact: null,
+    source: "Earliest documented use from 1881, in Ballou's Monthly Magazine; competing whip, ancient-Egyptian, and witchcraft theories all assessed as unsupported in etymological research summarised by History.com and All That's Interesting."
+  },
+  {
+    id: "dressed-to-the-nines",
+    phrase: "Dressed to the Nines",
+    meaning: "Dressed extremely smartly or elaborately, making a real effort.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `One of English's oldest unsolved etymological puzzles. The
+    earliest known appearance is in a 1719 poem by the Scottish writer
+    William Hamilton, though not yet specifically about clothing. Guesses
+    about where "nine" comes from range widely: some point to the number
+    of yards of fine fabric needed for an elaborate outfit, others to the
+    uniform of a specific 18th-century regiment, and one 19th-century
+    lexicographer speculated it might be a corruption of "to thine eyne"
+    (to your eyes). None of these has ever been backed up with real
+    evidence. The most likely explanation etymologists offer is also the
+    least satisfying: in several old "nines" phrases, the number nine
+    doesn't refer to anything specific at all, it's simply an old, vague
+    way of saying "a great deal," the way modern English uses "a hundred
+    percent."`,
+    mythVsFact: null,
+    source: "William Hamilton, Epistle to Ramsay (1719); fabric-yardage, regimental-uniform, and 'to thine eyne' theories all discussed and left unresolved in etymological research including wordhistories.net and Mental Floss."
+  },
+  {
+    id: "bees-knees",
+    phrase: "The Bee's Knees",
+    meaning: "Something or someone considered excellent, the best.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `First recorded with its modern "excellent" meaning in a
+    Buffalo, New York newspaper in February 1922, right in the middle of a
+    1920s fad for nonsense animal-based slang: "the cat's pyjamas," "the
+    cat's whiskers," "the monkey's eyebrows," and plenty more, most of
+    which have since faded out of use. There doesn't appear to be any deep
+    logical connection between bees, knees, and excellence; the appeal was
+    almost certainly just the jaunty rhyme. A once-popular theory claiming
+    the phrase honours 1920s dancer Bee Jackson doesn't work, since the
+    phrase was already in print two years before she became famous.
+    Confusingly, a much older, unrelated use of "bee's knee" from 1797
+    meant something tiny and insignificant, the exact opposite of today's
+    meaning, showing the phrase was recycled rather than invented from
+    scratch.`,
+    mythVsFact: null,
+    source: "The Buffalo Times (February 1922), cited by etymonline.com; Bee Jackson theory dated and dismissed; 1920s nonsense-animal-slang pattern (cat's pyjamas, cat's whiskers) discussed in Wiktionary and Phrase Finder."
+  },
+  {
+    id: "cut-the-mustard",
+    phrase: "Cut the Mustard",
+    meaning: "To succeed, or to meet the required standard.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Recorded from the early 20th century, with an early confirmed
+    use by the American writer O. Henry in 1907: "I looked around and
+    found a proposition that exactly cut the mustard." Where the specific
+    wording comes from is genuinely unresolved. One theory suggests it's a
+    corrupted form of the military phrase "cut the muster," but nobody has
+    ever found an actual example of "cut the muster" being used, which
+    rather undermines the theory. Another points to mustard's older
+    figurative use as a symbol of sharpness, zest, and enthusiasm, as in
+    the much older phrase "keen as mustard," recorded from the late
+    1600s. A literal theory involving harvesting mustard plants has also
+    been floated, again without supporting evidence. All of it remains
+    guesswork.`,
+    mythVsFact: null,
+    source: "O. Henry, Heart of the West (1907); 'cut the muster' theory assessed as unsupported by World Wide Words; 'keen as mustard' figurative usage documented from the late 17th century."
+  },
+  {
+    id: "know-your-onions",
+    phrase: "Know Your Onions",
+    meaning: "To be knowledgeable and experienced about a subject.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A tempting but false theory credits this to C. T. Onions, a
+    genuinely respected lexicographer who worked on the Oxford English
+    Dictionary and later edited the Oxford Dictionary of English
+    Etymology. The timing lines up just well enough to make the story
+    attractive, but it's pure coincidence: there's no actual link between
+    the real Mr Onions and the phrase. "Know your onions" is American in
+    origin, first appearing in the early 20th century as just one of a
+    whole grocery aisle's worth of similar expressions from the same era,
+    including "know your oats," "know your apples," and "know your
+    beans." Nearly all of them have vanished from use; "know your onions"
+    is simply the one that happened to stick.`,
+    mythVsFact: "C. T. Onions was a real, distinguished Oxford English Dictionary lexicographer active at roughly the right time, which makes the connection feel almost too perfect. Etymologists are clear that it's coincidence rather than causation; there's no documented link between the man and the phrase.",
+    source: "Documented American origin in the early 20th century; C. T. Onions theory investigated and dismissed by Michael Quinion, World Wide Words; sibling phrases ('know your oats,' 'know your apples') discussed in wordhistories.net."
+  },
+  {
+    id: "cheesed-off",
+    phrase: "Cheesed Off",
+    meaning: "Annoyed, fed up, or irritated.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `British military slang, first recorded in 1942 during the
+    Second World War, alongside its close cousin "browned off," meaning
+    much the same thing. Exactly why "cheese" became attached to
+    irritation isn't documented anywhere. One loose theory connects it to
+    the older slang phrase "cheese it," meaning to stop or clear off;
+    another ties it to "hard cheese," an old expression for bad luck. The
+    Oxford English Dictionary is honest about it: the origin is simply
+    listed as uncertain, and no wartime source explains why servicemen
+    settled on cheese specifically, rather than any other food, as their
+    image for fed-up frustration.`,
+    mythVsFact: null,
+    source: "Oxford English Dictionary (earliest evidence 1942); 'cheese it' and 'hard cheese' theories discussed without resolution in phrase-history references including Culture: The Word on Cheese."
+  },
+  {
+    id: "dogs-breakfast",
+    phrase: "A Dog's Breakfast",
+    meaning: "A complete mess or muddle.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Recorded in British slang since at least the 1930s, first
+    written down in Eric Partridge's landmark 1937 Dictionary of Slang and
+    Unconventional English. The obvious logic is that dogs will eat
+    whatever chaotic mixture of scraps they're given, making a "dog's
+    breakfast" of leftovers a natural symbol for any messy jumble. Beyond
+    that reasonable guess, though, nobody recorded exactly why this
+    particular meal, rather than any other, became the go-to image for a
+    muddle. A closely related but distinct phrase, "dog's dinner," emerged
+    around the same period but took on an almost opposite meaning,
+    describing someone dressed in an ostentatiously showy way ("done up
+    like a dog's dinner"), which only adds to the puzzle of how the two
+    near-identical phrases ended up pointing in such different
+    directions.`,
+    mythVsFact: null,
+    source: "Eric Partridge, Dictionary of Slang and Unconventional English (1937); 'dog's dinner' divergence in meaning discussed in wordhistories.net."
+  },
+  {
+    id: "cock-a-hoop",
+    phrase: "Cock-a-Hoop",
+    meaning: "Extremely and openly pleased, especially about a success.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Recorded since the mid-1500s, and widely regarded by
+    etymologists as one of the most tangled word histories in English. The
+    Oxford English Dictionary traces it to an older phrase, "to set cock a
+    hoop," of genuinely unknown meaning, possibly describing the action of
+    opening a tap to let drink flow freely at a celebration. A
+    17th-century writer guessed that "cock" referred to a barrel's
+    spigot; others have suggested "hoop" comes from the French word for a
+    cockerel's crest, tying the phrase to a triumphantly crowing rooster
+    instead. A later spelling, "cock-a-whoop," muddied the waters further
+    by suggesting the rooster theory even more strongly, without actually
+    proving it. After several centuries of effort, etymologists have
+    simply never landed on one satisfying answer.`,
+    mythVsFact: null,
+    source: "Oxford English Dictionary (earliest evidence 1560s); competing spigot and cockerel-crest theories, along with the 'cock-a-whoop' spelling variant, discussed in World Wide Words."
+  },
+  {
+    id: "elephant-in-the-room",
+    phrase: "The Elephant in the Room",
+    meaning: "An obvious problem or difficult topic that everyone is avoiding discussing.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `The image of something impossible to miss that everyone
+    somehow ignores has a genuinely old literary ancestor: an 1814 Russian
+    fable by Ivan Krylov, "The Inquisitive Man," about a museum visitor
+    who notices every tiny curiosity on display while completely failing
+    to notice the elephant. The fable became proverbial in Russian, and
+    Dostoevsky even referenced it directly in his novel Demons. Whether
+    that fable is actually where the English idiom comes from is a
+    separate question nobody has answered. The English phrase itself is
+    American, and its precise origin is unclear; the earliest confirmed
+    print use in something close to its current sense is from 1959 in the
+    New York Times, though a strikingly similar phrase turns up decades
+    earlier, in 1915, in a British education journal, without any obvious
+    connection between the two.`,
+    mythVsFact: null,
+    source: "Ivan Krylov, 'The Inquisitive Man' (1814); earliest confirmed close-sense citation in The New York Times (20 June 1959); earlier 1915 British Journal of Education citation discussed in Phrase Finder without a confirmed link."
+  },
+  {
+    id: "cloud-nine",
+    phrase: "On Cloud Nine",
+    meaning: "Extremely happy; euphoric.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A phrase with a specific, satisfying-sounding explanation that
+    turns out not to hold up well. The most repeated theory ties it to the
+    1896 International Cloud Atlas, which classified ten types of cloud,
+    with cloud number nine (cumulonimbus) being the tallest and puffiest.
+    It's a nice image, but there's no documented evidence anyone was
+    actually calling it "cloud nine" in that meteorological context before
+    the idiom appeared. The earliest real trail instead leads through
+    1930s American slang, where "cloud eight" meant being drunk, later
+    apparently drifting upward, numerically and figuratively, into "cloud
+    nine" for blissful happiness by the 1950s, possibly popularised by
+    jazz musicians describing a feeling of being pleasantly "high." A
+    separate theory linking it to Buddhist stages of enlightenment has
+    even less supporting evidence behind it.`,
+    mythVsFact: "The weather-classification story, that cloud nine specifically refers to the tallest cloud type in an 1896 atlas, is the version most commonly repeated, but no one has found actual period slang using the phrase that way. The trail through 1930s drunkenness slang is much better documented, even if the reasoning behind the specific number nine is still unclear.",
+    source: "Albin Pollock, The Underworld Speaks (1935), earliest documented related use ('cloud eight'); International Cloud Atlas theory assessed as unsupported by etymonline.com and World Wide Words."
+  },
+  {
+    id: "pull-your-leg",
+    phrase: "Pull Your Leg",
+    meaning: "To tease someone, especially by telling them something untrue as a joke.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `The genuine origin of this one has simply never been found,
+    despite the phrase feeling old and folksy. The earliest reliable
+    printed record is from 1883, and no version from before roughly 1821
+    has ever turned up. Two competing theories get repeated constantly:
+    that London thieves would literally pull at a victim's leg to trip
+    them before robbing them once they were down, or that it relates
+    somehow to public hangings at Tyburn, where an executioner or
+    bystander pulling on a hanged person's legs supposedly hastened their
+    death. Both stories are colourful. Neither has any real supporting
+    evidence, the details shift depending on who's telling it, and no
+    historian has managed to connect either practice convincingly to this
+    specific, much gentler phrase about teasing.`,
+    mythVsFact: "The thief-tripping and Tyburn-hanging theories both get repeated with great confidence, right down to specific dates and locations, but neither is backed by genuine documentary evidence, and the story tends to change in the retelling, a classic sign of invented rather than traceable folklore.",
+    source: "Earliest reliable citation from 1883; thief and hangman theories both assessed as unsupported speculation in etymological research including wordhistories.net and Today I Found Out."
+  },
+  {
+    id: "whole-shebang",
+    phrase: "The Whole Shebang",
+    meaning: "Everything; the entire thing, with all its parts included.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Both the Oxford English Dictionary and Merriam-Webster openly
+    describe this one's origin as obscure. "Shebang" first shows up in
+    American English during the Civil War era, including in Walt
+    Whitman's own diary entries, where it seems to have meant a crude hut
+    or shelter. By the 1860s it had broadened out on the American
+    frontier to mean almost any kind of establishment, a store, a house, a
+    shop, even a type of vehicle, as Mark Twain used it in Roughing It
+    (1872). The specific phrase "the whole shebang" is recorded from
+    1869, but exactly how a word for a rough shelter or a cart came to
+    mean "everything" isn't explained anywhere in the record. It may
+    simply be that "shebang" had already been stretched to cover so many
+    different things that "the whole" of it naturally came to mean
+    absolutely everything.`,
+    mythVsFact: null,
+    source: "Walt Whitman's Civil War-era diary entries; Mark Twain, Roughing It (1872); earliest use of 'the whole shebang' from 1869, origin listed as unknown by the Oxford English Dictionary and Merriam-Webster."
+  },
+  {
+    id: "tickled-pink",
+    phrase: "Tickled Pink",
+    meaning: "Extremely pleased or delighted.",
+    category: "Slang & Everyday Speech",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Builds on the much older use of "tickled" to mean delighted,
+    which Shakespeare himself used in Coriolanus ("tickled with good
+    success"). The "pink" half is newer, dating to the late 19th or early
+    20th century, and the leading theory holds that it pictures someone's
+    face flushing a happy shade of pink from laughing or blushing with
+    pleasure, similar to the older phrase "in the pink," meaning in good
+    health. It's a well-supported, plausible theory rather than a wild
+    guess, but the exact link between "pink" and happiness specifically,
+    rather than just health or good condition generally, isn't fully
+    nailed down by any single documented source.`,
+    mythVsFact: null,
+    source: "Early citation from The Daily Review (Illinois, 1910); figurative 'tickled' usage traced to Shakespeare's Coriolanus (c.1608); pink-flush theory discussed in Grammarist and Idiom Origins."
+  },
+  {
+    id: "at-loggerheads",
+    phrase: "At Loggerheads",
+    meaning: "In serious dispute or conflict with someone.",
+    category: "Trade & Industry",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Recorded from the 1670s, and built from an older word,
+    "loggerhead," which by Shakespeare's time already meant a blockhead or
+    fool (he used it that way in Love's Labour's Lost and The Taming of
+    the Shrew). One theory says the phrase simply grew from that
+    "quarrelling idiot" sense. A second, more specific theory points to
+    an actual 17th-century tool: a "loggerhead" was an iron ball on a long
+    wooden handle, heated and used to melt pitch and tar for shipbuilding,
+    which could also double as an improvised weapon when tempers flared
+    between workers or sailors. Both explanations are genuinely plausible
+    and both have real supporting evidence from the period; etymologists
+    haven't settled definitively on which one, if either alone, is the
+    true root.`,
+    mythVsFact: null,
+    source: "William Shakespeare, Love's Labour's Lost (c.1598) and The Taming of the Shrew (c.1592), 'loggerhead' as blockhead; tool-based theory documented in etymonline.com and the Oxford English Dictionary, entry for 'loggerhead.'"
+  },
+  {
+    id: "at-the-drop-of-a-hat",
+    phrase: "At the Drop of a Hat",
+    meaning: "Immediately, without any hesitation or need for persuasion.",
+    category: "Sport & Military",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `American in origin, with a documented use as early as 1837,
+    well before the phrase became common in everyday speech. The leading
+    theory ties it to 19th-century sporting customs, particularly in
+    Ireland and the American frontier, where dropping a hat was a simple,
+    visible way to signal the instant start of a horse race or a foot race
+    to competitors who might be spread out and unable to hear a shout. A
+    closely related theory points to fairground boxing booths, where a
+    challenger would throw his own hat into the ring as a signal that he
+    wanted to fight the resident champion. Both theories point to the
+    same basic idea, a hat as a quick, unmistakable starting signal, and
+    both have reasonable period support, without one being definitively
+    proven over the other.`,
+    mythVsFact: null,
+    source: "Earliest citation from 1837 (US Congressional record); racing-signal and fairground-boxing theories both discussed in World Wide Words and Grammarist."
+  },
+  {
+    id: "real-mccoy",
+    phrase: "The Real McCoy",
+    meaning: "The genuine, authentic thing, not an imitation.",
+    category: "Slang & Everyday Speech",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The most widely accepted theory traces this back to Scotland,
+    as a corruption of an earlier phrase, "the real MacKay," first
+    recorded in an 1856 Glasgow poem. A Glasgow whisky company, A. & M.
+    Mackay, used "the real MacKay" as an advertising slogan from 1870
+    onward, and the phrase became especially popular in North America
+    during Prohibition as a way of distinguishing genuine imported whisky
+    from bootleg imitations. A much more famous rival story credits
+    American boxer "Kid McCoy," supposedly proving his identity to a
+    barroom doubter by knocking him out, but this tale is almost certainly
+    invented after the fact, since it postdates the phrase's earliest
+    documented use. The Scottish whisky theory has the strongest
+    supporting evidence, though even that connection isn't considered
+    fully proven.`,
+    mythVsFact: "The boxer 'Kid McCoy' story is the one told most often and with the most colourful detail, but it's chronologically impossible: the phrase was already circulating before Kid McCoy's supposed barroom incident could have happened. The whisky-brand theory has real 19th-century advertising evidence behind it, though it's still short of definitive proof.",
+    source: "'The real MacKay' recorded in a Glasgow poem (1856); A. & M. Mackay whisky advertising slogan documented from 1870; Kid McCoy theory dated and dismissed in research summarised by Snopes and World Wide Words."
+  },
+  {
+    id: "mad-as-a-march-hare",
+    phrase: "Mad as a March Hare",
+    meaning: "Completely wild, crazy, or eccentric.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A genuinely observed piece of natural history turned into
+    idiom. Hares are usually shy, solitary animals, but during their
+    spring breeding season, roughly centred on March, they engage in
+    dramatic "boxing" matches, leaping, chasing, and striking each other
+    with their front paws, most often females fending off overeager
+    males. To anyone watching without knowing why, it looks exactly like
+    sudden madness. The comparison is recorded from around 1500, in the
+    poem Blowbol's Test, and was already established enough to be
+    included in John Heywood's collection of English proverbs in 1546.
+    Lewis Carroll's March Hare character in Alice in Wonderland (1865)
+    drew directly on this already-centuries-old phrase.`,
+    mythVsFact: null,
+    source: "Blowbol's Test (c.1500); John Heywood, A Dialogue Conteinyng the Nomber in Effect of All the Prouerbes in the Englishe Tongue (1546); Lewis Carroll, Alice in Wonderland (1865)."
+  },
+  {
+    id: "eat-humble-pie",
+    phrase: "Eat Humble Pie",
+    meaning: "To be forced to admit you were wrong and apologise, often humiliatingly.",
+    category: "Food & Dining",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A genuine piece of medieval cooking hiding behind a pun. The
+    original dish was "umble pie," made from the "umbles," the edible
+    innards, particularly of deer, that were considered low-status food
+    fit mainly for servants and huntsmen, while the lord of the manor ate
+    the prized venison meat itself. "Umble" comes from the Old French
+    "nombles," meaning deer's innards. Because the "h" in "humble" wasn't
+    originally pronounced, "umble pie" and "humble pie" sounded identical,
+    and English speakers gradually merged the two, since eating the
+    servants' offal pie while your betters ate well already carried an
+    obvious sting of social humiliation. "Umble pie" is recorded from the
+    1640s; the modern "humble pie" spelling and its figurative sense of
+    forced apology followed by 1830.`,
+    mythVsFact: null,
+    source: "Middle French 'nombles' (deer's innards); 'umble pie' recorded from the 1640s; figurative 'humble pie' from 1830, cited in etymonline.com and the Oxford English Dictionary."
+  },
+  {
+    id: "flash-in-the-pan",
+    phrase: "A Flash in the Pan",
+    meaning: "Something that shows early promise but quickly fails or fizzles out.",
+    category: "War & Conflict",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A literal mechanical failure from the age of flintlock
+    firearms. A flintlock musket ignited its main charge by first
+    sparking a small amount of gunpowder held in a metal "pan" beside the
+    barrel; that spark was meant to travel through a small touch-hole and
+    set off the main charge, firing the shot. Sometimes the priming
+    powder in the pan would flare up in a bright flash without ever
+    igniting the main charge, producing a dramatic burst of light, smoke,
+    and noise but no actual shot fired, all promise and no result. The
+    phrase is recorded in this literal sense from the 1680s, with
+    figurative use for disappointing false starts following by the early
+    1800s.`,
+    mythVsFact: null,
+    source: "Elkanah Settle, Reflections on Several of Mr. Dryden's Plays (1687); figurative use documented from the early 19th century, cited in Merriam-Webster and Mental Floss."
+  },
+  {
+    id: "world-is-your-oyster",
+    phrase: "The World Is Your Oyster",
+    meaning: "You have complete freedom and opportunity to make of life whatever you want.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Coined by Shakespeare in The Merry Wives of Windsor (c.1602).
+    When Falstaff refuses to lend him money, the character Pistol
+    replies, "Why then the world's mine oyster, which I with sword will
+    open," meaning he's prepared to use force, cracking the world open
+    the way you'd prise open an oyster shell, to get what he's owed,
+    likely a pearl of real value hidden inside. The line's original
+    meaning is considerably more violent and mercenary than its modern
+    use. Over the centuries the sword dropped out of the phrase entirely,
+    and "the world is your oyster" softened into today's much gentler
+    sense of boundless opportunity.`,
+    mythVsFact: null,
+    source: "William Shakespeare, The Merry Wives of Windsor (c.1602), Act II Scene II."
+  },
+  {
+    id: "run-the-gauntlet",
+    phrase: "Run the Gauntlet",
+    meaning: "To face a barrage of criticism, danger, or difficulty from multiple directions at once.",
+    category: "War & Conflict",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A real, brutal military punishment, not a metaphor to begin
+    with. Soldiers found guilty of an offence were forced to run between
+    two facing rows of their fellow troops, who struck them with sticks
+    or knotted ropes as they passed. The word itself comes from the
+    Swedish "gatlopp" (from "gata," lane, and "lopp," a running course),
+    borrowed into English in the 17th century, likely through English
+    soldiers fighting alongside Swedish forces during the Thirty Years'
+    War. The English spelling gradually shifted from the original
+    "gantlope" or "gantelope" toward "gauntlet," confused with the
+    unrelated word for an armoured glove, even though the two words share
+    no real connection.`,
+    mythVsFact: null,
+    source: "Swedish 'gatlopp,' borrowed into English via 17th-century Thirty Years' War military contact; spelling evolution documented in etymonline.com and Wikipedia's history of the punishment."
+  },
+  {
+    id: "writing-on-the-wall",
+    phrase: "The Writing on the Wall",
+    meaning: "A clear sign that something bad or disastrous is about to happen.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traces directly to the Book of Daniel in the Bible. At a
+    lavish feast, the Babylonian king Belshazzar drinks from sacred
+    goblets looted from Jerusalem's Temple, and a disembodied hand
+    suddenly appears and writes a mysterious message on the palace wall.
+    The prophet Daniel is brought in to interpret the words, "Mene, mene,
+    tekel, upharsin," explaining that Belshazzar has been weighed and
+    found wanting, and that his kingdom is about to be divided between
+    the Medes and Persians. Belshazzar is killed that same night. The
+    story is specific and vivid enough that "the writing on the wall"
+    passed straight into English as a byword for any unmistakable sign of
+    impending doom.`,
+    mythVsFact: null,
+    source: "Book of Daniel, chapter 5 (Belshazzar's Feast)."
+  },
+  {
+    id: "proof-of-the-pudding",
+    phrase: "The Proof of the Pudding Is in the Eating",
+    meaning: "The real value or success of something can only be judged by trying it or seeing the results.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `An old proverb, with maxims expressing a similar idea traced
+    back as far as the 1300s and the full phrase itself documented from
+    antiquarian William Camden's 1623 book Remains Concerning Britain. In
+    medieval English, "pudding" didn't mean a sweet dessert; it referred
+    to a dense savoury dish of meat, grains, fat, and spices, often
+    stuffed into an animal's intestine, and "proof" meant a test rather
+    than evidence. The only real way to judge whether a pudding had been
+    made well was to actually eat it. Over time the proverb got clipped
+    down in everyday speech to the shorter, much less logical "the proof
+    is in the pudding," a phrase that, taken literally, doesn't really
+    mean anything at all, since proof obviously isn't found inside a
+    pudding. The original, longer version is the one that actually makes
+    sense.`,
+    mythVsFact: null,
+    source: "William Camden, Remains Concerning Britain (1623); earlier related maxims traced to the 1300s; modern misquote discussed in Merriam-Webster and Mental Floss."
+  },
+  {
+    id: "close-but-no-cigar",
+    phrase: "Close, But No Cigar",
+    meaning: "A near success that still falls short of actually winning or succeeding.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Rooted in the real prize structure of American carnivals and
+    fairgrounds in the early 20th century, where cigars, rather than
+    stuffed toys, were a common prize for games of skill like the "high
+    striker," where a player swings a mallet to send a weight up a tower
+    to ring a bell. A stallholder watching a player narrowly miss the
+    target would call out "close, but no cigar" to explain the near-miss
+    without a prize. The earliest confirmed print citation is a 1929
+    newspaper headline in the Long Island Daily Press, though the
+    carnival-floor phrase was very likely already in casual, unrecorded
+    use before that.`,
+    mythVsFact: null,
+    source: "Long Island Daily Press, 'Close; But No Cigar' (18 May 1929); carnival prize-game custom documented in Today I Found Out and Cigar Country."
+  },
+  {
+    id: "know-the-ropes",
+    phrase: "Know the Ropes",
+    meaning: "To understand how something works, especially through experience.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A straightforward piece of nautical training turned idiom.
+    Sailing ships were controlled by an enormous, complicated web of
+    rigging, and one of the very first things a new sailor had to master
+    was which rope did what, and how to tie, splice, and handle each one
+    correctly. A crew member who genuinely understood the rigging "knew
+    the ropes"; one who didn't was a liability. The phrase appears in a
+    literal, nautical sense in Richard Henry Dana's sailing memoir Two
+    Years Before the Mast (1840), and had already shifted into general,
+    non-nautical figurative use by the late 19th century, describing
+    anyone who'd learned the practical details of a job.`,
+    mythVsFact: null,
+    source: "Richard Henry Dana Jr., Two Years Before the Mast (1840); figurative usage documented from the late 19th century, cited in Grammarphobia and Harbour Guides."
   }
 ];
 
