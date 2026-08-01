@@ -22,7 +22,7 @@ const QUIZ_QUESTIONS = [
     question: "\"Reading someone the riot act\" isn't just a figure of speech. What was it originally?",
     options: [
       "A punishment where offenders read court transcripts aloud in public",
-      "A real law that had to be read aloud to a crowd before police could forcibly disperse it",
+      "A real law that had to be read aloud to a crowd",
       "A badly-received play so notorious it caused actual riots"
     ],
     correctIndex: 1
@@ -92,7 +92,7 @@ const QUIZ_QUESTIONS = [
     question: "Besides \"hug,\" what's the second meaning of the Welsh word \"cwtch\"?",
     options: [
       "A traditional Welsh folk dance",
-      "A small cupboard or cubbyhole, often under the stairs",
+      "A small cupboard or cubbyhole",
       "A type of Welsh pastry"
     ],
     correctIndex: 1
@@ -183,7 +183,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "Confirmed in Royal Navy supply ledgers",
       "Coined specifically during WWII rationing",
-      "Unproven; the word is far older than the acronym claims"
+      "Unproven; far older than the acronym claims"
     ],
     correctIndex: 2
   },
@@ -211,7 +211,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "mither",
     question: "What does \"mither\" mean in Manchester dialect?",
     options: [
-      "To pester, nag, or make an unnecessary fuss",
+      "To pester or make a fuss",
       "To celebrate loudly",
       "To feel very cold"
     ],
@@ -232,7 +232,7 @@ const QUIZ_QUESTIONS = [
     question: "The leading nautical theory for \"under the weather\" involves what?",
     options: [
       "Ships delayed in port by storms",
-      "Sick sailors sent below deck, away from rough conditions topside",
+      "Sick sailors sent below deck",
       "Sailors paid less during winter voyages"
     ],
     correctIndex: 1
@@ -362,7 +362,7 @@ const QUIZ_QUESTIONS = [
     question: "The \"dead animals washed through flooded streets\" story for \"raining cats and dogs\" actually comes from where?",
     options: [
       "A confirmed 17th-century sanitation report",
-      "A separate piece of Jonathan Swift's writing about a flood's aftermath",
+      "A separate piece of Jonathan Swift's writing",
       "An old Norse saga"
     ],
     correctIndex: 1
@@ -412,7 +412,7 @@ const QUIZ_QUESTIONS = [
     question: "One theory behind \"a skeleton in the cupboard\" ties it to which 19th-century profession?",
     options: [
       "Undertakers quietly storing spare coffins",
-      "Doctors hiding a teaching skeleton, since dissection was restricted",
+      "Doctors hiding an actual teaching skeleton",
       "Lawyers hiding incriminating evidence"
     ],
     correctIndex: 1
@@ -491,7 +491,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "break-the-ice",
     question: "Before icebreaker ships existed, what were small reinforced boats sent ahead to do, giving us \"break the ice\"?",
     options: [
-      "Break a path through frozen harbours for other vessels",
+      "Break a path through frozen harbours",
       "Rescue sailors from shipwrecks",
       "Deliver urgent mail in winter"
     ],
@@ -541,7 +541,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "kick-the-bucket",
     question: "A theory favoured by Brewer's Dictionary links \"kick the bucket\" to what?",
     options: [
-      "An old East Anglian word for the beam pigs were hung from",
+      "An old East Anglian word for a slaughter beam",
       "A specific bucket used in public executions",
       "A children's game involving buckets"
     ],
@@ -612,7 +612,7 @@ const QUIZ_QUESTIONS = [
     question: "\"Take the biscuit\" is the British version of which more international phrase?",
     options: [
       "\"Take the crown\"",
-      "\"Take the cake,\" from an ancient Greek prize custom",
+      "\"Take the cake\"",
       "\"Take the trophy\""
     ],
     correctIndex: 1
@@ -723,7 +723,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "Coventry",
       "Canterbury",
-      "Stony Stratford, home to two rival coaching inns"
+      "Stony Stratford"
     ],
     correctIndex: 2
   },
@@ -863,7 +863,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "Old French",
       "Latin",
-      "Old Norse, possibly \"look up\" or \"watch out\""
+      "Old Norse"
     ],
     correctIndex: 2
   },
@@ -921,7 +921,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "barking-up-the-wrong-tree",
     question: "\"Barking up the wrong tree\" comes from which real American practice?",
     options: [
-      "Raccoon hunting, where dogs sometimes barked at an empty tree",
+      "Raccoon hunting",
       "Sheepdog training",
       "Fox hunting on horseback"
     ],
@@ -1191,7 +1191,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "at-the-drop-of-a-hat",
     question: "The leading theories for \"at the drop of a hat\" both involve what?",
     options: [
-      "A hat used as a starting signal for a race or a fight",
+      "A hat used as a starting signal",
       "A hat passed around to collect money quickly",
       "A magician's trick involving a disappearing hat"
     ],
@@ -1241,7 +1241,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "world-is-your-oyster",
     question: "\"The world is your oyster\" was coined by Shakespeare. What did the line originally mean?",
     options: [
-      "A willingness to use force to get what you're owed",
+      "A willingness to use force to get paid",
       "Boundless, gentle opportunity, same as today",
       "A warning against greed and ambition"
     ],
@@ -1381,7 +1381,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "as-right-as-rain",
     question: "What's genuinely unresolved about \"as right as rain\"?",
     options: [
-      "Why rain specifically joined an older pattern of \"right as ___\" comparisons",
+      "Why rain joined an older \"right as ___\" pattern",
       "Whether the phrase is British or American",
       "Whether it originally meant healthy or wealthy"
     ],
@@ -1551,7 +1551,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "go-down-in-flames",
     question: "\"Go down in flames\" is widely believed to come from which historical context?",
     options: [
-      "Military aviation in the First and Second World Wars",
+      "Military aviation in WWI and WWII",
       "Great fires in 17th-century London",
       "Naval battles involving fireships"
     ],
@@ -1791,7 +1791,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "call-it-a-day",
     question: "The earlier form of \"call it a day\" was \"call it half a day.\" What did that describe?",
     options: [
-      "Workers leaving before a full shift was up",
+      "Workers leaving before a shift ended",
       "A half-day public holiday",
       "A shortened working week"
     ],
