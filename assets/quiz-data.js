@@ -1,10 +1,10 @@
 /* D.V.C.I. Idiom Quiz: question data. Each question references an idiom's
    id in IDIOMS (assets/data.js) so the reveal card can pull the real story,
    badge, and sources straight from the single source of truth rather than
-   duplicating them here. This is the dry-run question set, ten questions
-   covering a mix of verdicts, deliberately including one "mystery" and one
-   "myth" so the honesty rating shows up in the quiz itself, not just the
-   repository. */
+   duplicating them here. Every question names the idiom being asked about
+   directly, and options are kept to roughly matched length and detail so
+   the correct answer doesn't stand out just from how it reads; the extra
+   explanatory detail lives in the reveal card, not the options. */
 
 const QUIZ_QUESTIONS = [
   {
@@ -109,11 +109,11 @@ const QUIZ_QUESTIONS = [
   },
   {
     idiomId: "white-elephant",
-    question: "What's the popular (though never actually confirmed) story behind calling something a \"white elephant\"?",
+    question: "What's the popular, though never actually confirmed, story behind calling something a \"white elephant\"?",
     options: [
-      "Siamese kings gifted rare sacred elephants to courtiers as a ruinously expensive \"honour\"",
-      "A circus elephant painted white escaped and caused chaos in London",
-      "It's named after a real pub called The White Elephant"
+      "Siamese kings gifted sacred white elephants to courtiers as a ruinous \"honour\"",
+      "A circus elephant escaped after being painted white for a Victorian show",
+      "The phrase is named after a real London pub called The White Elephant"
     ],
     correctIndex: 0
   },
@@ -121,9 +121,9 @@ const QUIZ_QUESTIONS = [
     idiomId: "bury-the-hatchet",
     question: "\"Bury the hatchet\" comes from a genuine historical peacemaking custom. Whose custom?",
     options: [
-      "Viking raiding parties",
-      "Native American nations, including the Haudenosaunee (Iroquois) Confederacy",
-      "Medieval English trade guilds"
+      "Viking raiding parties, marking a truce before shared feasting",
+      "Native American nations, including the Haudenosaunee Confederacy",
+      "Medieval English trade guilds, settling disputes between rival crafts"
     ],
     correctIndex: 1
   },
@@ -131,9 +131,9 @@ const QUIZ_QUESTIONS = [
     idiomId: "loose-cannon",
     question: "What made a \"loose cannon\" such a vivid, literal danger on old warships?",
     options: [
-      "A cannon breaking free of its lashings could roll across the deck and kill crew or smash the hull",
-      "Cannons were nicknamed after unpredictable ship captains",
-      "Loose gunpowder occasionally ignited on damp decks"
+      "A cannon breaking its lashings and rolling loose across the deck",
+      "Captains nicknamed after their ship's most temperamental gun",
+      "Damp gunpowder occasionally igniting without warning below deck"
     ],
     correctIndex: 0
   },
@@ -163,7 +163,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "A genuine clause in a 19th-century act of Parliament",
       "A misquote from a Charles Dickens novel",
-      "An unverified rumour about an 18th-century judge, with no actual legal record behind it"
+      "An unverified rumour about an 18th-century judge"
     ],
     correctIndex: 2
   },
@@ -171,7 +171,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "wazzock",
     question: "How recent is the earliest confirmed written use of \"wazzock,\" according to the Oxford English Dictionary?",
     options: [
-      "1976, surprisingly recent for a word that feels far older",
+      "1976",
       "1876",
       "1576"
     ],
@@ -179,11 +179,11 @@ const QUIZ_QUESTIONS = [
   },
   {
     idiomId: "scran",
-    question: "A popular claim says SCRAN is a naval acronym for \"Sultanas, Currants, Raisins And Nuts.\" What's the truth?",
+    question: "A popular claim says \"scran\" is a naval acronym for \"Sultanas, Currants, Raisins And Nuts.\" What's the truth?",
     options: [
-      "It's confirmed in Royal Navy supply records",
-      "It was coined during WWII rationing",
-      "There's no evidence for the acronym at all, the word predates it by over a century"
+      "Confirmed in Royal Navy supply ledgers",
+      "Coined specifically during WWII rationing",
+      "Unproven; the word is far older than the acronym claims"
     ],
     correctIndex: 2
   },
@@ -239,11 +239,11 @@ const QUIZ_QUESTIONS = [
   },
   {
     idiomId: "curiosity-killed-the-cat",
-    question: "The proverb didn't start out about curiosity at all. What was the original version?",
+    question: "The proverb \"curiosity killed the cat\" didn't start out about curiosity at all. What was the original version?",
     options: [
       "\"Mischief killed the cat\"",
       "\"Pride killed the cat\"",
-      "\"Care killed the cat,\" recorded from the 1590s"
+      "\"Care killed the cat\""
     ],
     correctIndex: 2
   },
@@ -272,7 +272,7 @@ const QUIZ_QUESTIONS = [
     question: "The literal 19th-century American custom behind \"chip on your shoulder\" involved what?",
     options: [
       "Carrying a chipped coin as a sign of unpaid debt",
-      "Balancing a wood chip on your shoulder and daring someone to knock it off",
+      "Balancing a wood chip on your shoulder as a fighting dare",
       "Wearing a splinter of ship's timber as a badge of honour"
     ],
     correctIndex: 1
@@ -283,7 +283,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "Turkeys weren't farmed in Britain until the 20th century",
       "The phrase was actually coined by a poultry company",
-      "The phrase already existed with unrelated meanings before it was ever tied to withdrawal"
+      "It already existed with unrelated meanings before drug use borrowed it"
     ],
     correctIndex: 2
   },
@@ -292,7 +292,7 @@ const QUIZ_QUESTIONS = [
     question: "\"Sent to Coventry\" likely originates from which historical conflict?",
     options: [
       "The Wars of the Roses",
-      "The English Civil War, when captured Royalist soldiers held there were refused all conversation by hostile locals",
+      "The English Civil War",
       "The Jacobite Rising of 1745"
     ],
     correctIndex: 1
@@ -301,9 +301,9 @@ const QUIZ_QUESTIONS = [
     idiomId: "cold-shoulder",
     question: "What's the popular, though unproven, explanation for \"the cold shoulder\"?",
     options: [
-      "Turning your literal shoulder away from someone at a dance",
-      "Serving an unwelcome guest a cold, cheap cut of mutton instead of a hot meal",
-      "A medieval punishment involving cold water"
+      "Turning your literal shoulder away from an unwanted guest at a dance",
+      "Serving an unwelcome guest a cold, cheap cut of mutton",
+      "Dousing an unwelcome guest with a bucket of cold water"
     ],
     correctIndex: 1
   },
@@ -313,7 +313,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "Roman law",
       "Maritime prize law",
-      "Scots law, describing a criminal caught with blood literally on their hands"
+      "Scots law"
     ],
     correctIndex: 2
   },
@@ -321,7 +321,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "pull-out-stops",
     question: "\"Pull out all the stops\" has a literal mechanical origin. Where?",
     options: [
-      "A pipe organ, where stops control which pipes sound",
+      "A pipe organ",
       "A steam locomotive's brake system",
       "A weaving loom"
     ],
@@ -333,16 +333,16 @@ const QUIZ_QUESTIONS = [
     options: [
       "A pale colour associated with cowardice",
       "An old word for a prison cell",
-      "A fence made of wooden stakes marking a controlled boundary"
+      "A boundary fence made of wooden stakes"
     ],
     correctIndex: 2
   },
   {
     idiomId: "bite-the-bullet",
-    question: "The vivid story of battlefield surgeons giving soldiers a bullet to bite during amputations is:",
+    question: "The vivid story that \"bite the bullet\" comes from battlefield surgeons giving soldiers a bullet to bite during amputations is:",
     options: [
       "Well documented in period surgical records",
-      "Essentially unsupported, real accounts describe leather straps or wooden gags instead",
+      "Unsupported; real accounts describe leather straps or wooden gags instead",
       "True, but only in the Royal Navy"
     ],
     correctIndex: 1
@@ -362,7 +362,7 @@ const QUIZ_QUESTIONS = [
     question: "The \"dead animals washed through flooded streets\" story for \"raining cats and dogs\" actually comes from where?",
     options: [
       "A confirmed 17th-century sanitation report",
-      "A separate piece of Jonathan Swift's writing describing a flood's aftermath, not an explanation of the phrase",
+      "A separate piece of Jonathan Swift's writing about a flood's aftermath",
       "An old Norse saga"
     ],
     correctIndex: 1
@@ -383,7 +383,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "A vivid tale about market traders swapping cats for piglets",
       "A description of a naval whip being revealed",
-      "A book review complaining an ending had been given away, with no literal cats mentioned"
+      "A book review complaining an ending had been given away"
     ],
     correctIndex: 2
   },
@@ -391,7 +391,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "swing-a-cat",
     question: "One theory for \"no room to swing a cat\" involves the Royal Navy's cat o' nine tails whip. What's the issue with it?",
     options: [
-      "There's no direct documentary link tying the phrase specifically to that object",
+      "No source directly ties the phrase to that specific object",
       "The cat o' nine tails was actually swung on land, not at sea",
       "It's confirmed as the definite origin by naval records"
     ],
@@ -403,7 +403,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "Runners lining up with toes at a starting line",
       "Soldiers on parade drilled to align their toes on a mark",
-      "MPs kept two sword-lengths apart by lines on the House of Commons floor"
+      "MPs kept two sword-lengths apart by lines on the Commons floor"
     ],
     correctIndex: 2
   },
@@ -411,9 +411,9 @@ const QUIZ_QUESTIONS = [
     idiomId: "skeleton-in-the-cupboard",
     question: "One theory behind \"a skeleton in the cupboard\" ties it to which 19th-century profession?",
     options: [
-      "Undertakers storing spare coffins",
-      "Doctors who had to hide an actual teaching skeleton, since dissection was unpopular and restricted",
-      "Lawyers hiding evidence"
+      "Undertakers quietly storing spare coffins",
+      "Doctors hiding a teaching skeleton, since dissection was restricted",
+      "Lawyers hiding incriminating evidence"
     ],
     correctIndex: 1
   },
@@ -422,7 +422,7 @@ const QUIZ_QUESTIONS = [
     question: "The charming story that \"sleep tight\" comes from tightening rope-strung beds is:",
     options: [
       "Confirmed by 19th-century furniture records",
-      "Unsupported; \"tight\" more likely just meant \"soundly,\" as in \"hold tight\"",
+      "Unsupported; \"tight\" likely just meant \"soundly\"",
       "True, but only for beds in America"
     ],
     correctIndex: 1
@@ -432,7 +432,7 @@ const QUIZ_QUESTIONS = [
     question: "\"In a pickle,\" used by Shakespeare in The Tempest, comes from which language's idiom?",
     options: [
       "French",
-      "Dutch, \"in de pekel zitten,\" to sit in pickling brine",
+      "Dutch",
       "Latin"
     ],
     correctIndex: 1
@@ -442,7 +442,7 @@ const QUIZ_QUESTIONS = [
     question: "Why was \"taking coals to Newcastle\" the definition of a pointless errand?",
     options: [
       "Newcastle banned coal imports by law",
-      "Newcastle was already a major coal-exporting centre from the 16th century onward",
+      "Newcastle was already a major coal-exporting centre",
       "Newcastle's coal was considered poor quality"
     ],
     correctIndex: 1
@@ -459,7 +459,7 @@ const QUIZ_QUESTIONS = [
   },
   {
     idiomId: "three-sheets-to-the-wind",
-    question: "On a sailing ship, what is a \"sheet\" actually?",
+    question: "In \"three sheets to the wind,\" what is a ship's \"sheet\" actually?",
     options: [
       "A sail itself",
       "A rope controlling a sail's angle",
@@ -469,11 +469,11 @@ const QUIZ_QUESTIONS = [
   },
   {
     idiomId: "cut-of-your-jib",
-    question: "A ship's \"jib\" is what, and why did its \"cut\" matter?",
+    question: "In \"I don't like the cut of your jib,\" what is a ship's \"jib,\" and why did its \"cut\" matter?",
     options: [
       "The captain's uniform, which signalled rank",
       "A carved wooden figurehead",
-      "A front sail whose shape varied by nation, letting sailors identify a ship from a distance"
+      "A front sail whose shape revealed a ship's nationality"
     ],
     correctIndex: 2
   },
@@ -482,16 +482,16 @@ const QUIZ_QUESTIONS = [
     question: "\"Push the boat out\" is thought to come from what communal custom?",
     options: [
       "Fishermen sharing their catch equally",
-      "Everyone helping launch a beached boat, with the owner then buying a round of drinks",
+      "Everyone helping launch a boat, then the owner buying a round",
       "Sailors pooling money for a leaving party"
     ],
     correctIndex: 1
   },
   {
     idiomId: "break-the-ice",
-    question: "Before icebreaker ships existed, what were small reinforced boats sent ahead to do?",
+    question: "Before icebreaker ships existed, what were small reinforced boats sent ahead to do, giving us \"break the ice\"?",
     options: [
-      "Break a path through frozen harbours so other vessels could pass",
+      "Break a path through frozen harbours for other vessels",
       "Rescue sailors from shipwrecks",
       "Deliver urgent mail in winter"
     ],
@@ -502,7 +502,7 @@ const QUIZ_QUESTIONS = [
     question: "What's actually true about the origin of \"the full Monty\"?",
     options: [
       "It's definitively traced to Montague Burton's tailoring chain",
-      "The Oxford English Dictionary lists it as origin unknown, despite several popular theories",
+      "The Oxford English Dictionary lists the origin as unknown",
       "It's definitively traced to Field Marshal Montgomery"
     ],
     correctIndex: 1
@@ -511,9 +511,9 @@ const QUIZ_QUESTIONS = [
     idiomId: "bobs-your-uncle",
     question: "The story that \"Bob's your uncle\" comes from PM Robert Cecil appointing his nephew Arthur Balfour is popular, but:",
     options: [
-      "It's confirmed by Cecil's own diaries",
-      "The phrase isn't recorded in print until the 1930s, decades after the alleged 1887 event",
-      "Balfour himself denied any connection"
+      "It's confirmed by Robert Cecil's own diaries",
+      "The phrase isn't recorded until the 1930s, decades later",
+      "Arthur Balfour himself denied any connection"
     ],
     correctIndex: 1
   },
@@ -521,8 +521,8 @@ const QUIZ_QUESTIONS = [
     idiomId: "gone-for-a-burton",
     question: "\"Gone for a Burton\" was RAF slang in WWII. What's genuinely unresolved about it?",
     options: [
-      "Whether \"Burton\" refers to a beer brand or a menswear chain, among other guesses",
-      "Whether the phrase originated in the RAF or the Navy",
+      "Whether \"Burton\" means a beer brand or a menswear chain",
+      "Whether the phrase started in the RAF or the Navy",
       "The exact date it was first used"
     ],
     correctIndex: 0
@@ -532,7 +532,7 @@ const QUIZ_QUESTIONS = [
     question: "A real 1484 London guild dispute fits \"at sixes and sevens\" perfectly. What was it about?",
     options: [
       "A tax dispute over sixpence and sevenpence",
-      "Two guilds arguing over which would rank sixth and which seventh in official precedence",
+      "Two guilds arguing over sixth and seventh place in precedence",
       "Six versus seven days in a working week"
     ],
     correctIndex: 1
@@ -541,7 +541,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "kick-the-bucket",
     question: "A theory favoured by Brewer's Dictionary links \"kick the bucket\" to what?",
     options: [
-      "A regional East Anglian word for the beam pigs were hung from during slaughter",
+      "An old East Anglian word for the beam pigs were hung from",
       "A specific bucket used in public executions",
       "A children's game involving buckets"
     ],
@@ -552,7 +552,7 @@ const QUIZ_QUESTIONS = [
     question: "One nautical theory for \"on the fiddle\" involves what shipboard object?",
     options: [
       "A stringed instrument played to distract guards",
-      "A raised rail around a mess-table meant to stop plates sliding in rough seas",
+      "A raised rail stopping plates sliding off a mess-table",
       "A ship's compass"
     ],
     correctIndex: 1
@@ -561,7 +561,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "taking-the-mickey",
     question: "\"Taking the mickey\" is generally believed to be a softened version of what, via Cockney rhyming slang?",
     options: [
-      "\"Taking the piss,\" through the rhyme \"Mickey Bliss\"",
+      "\"Taking the piss,\" via the rhyme \"Mickey Bliss\"",
       "An old Irish folk insult",
       "A reference to a cartoon mouse"
     ],
@@ -573,7 +573,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "Codd never actually invented a bottle",
       "\"Wallop\" never meant beer",
-      "The word isn't recorded in print until the 1950s-60s, roughly 80 years after Codd's bottle went out of fashion"
+      "The word isn't recorded until the 1950s-60s, decades later"
     ],
     correctIndex: 2
   },
@@ -581,8 +581,8 @@ const QUIZ_QUESTIONS = [
     idiomId: "elbow-grease",
     question: "\"Elbow grease,\" recorded as early as 1672, plays on which idea?",
     options: [
-      "That the only real \"grease\" for cleaning something is your own physical effort",
-      "That elbows produce natural oils useful for polishing",
+      "The only real \"grease\" for cleaning is your own effort",
+      "Elbows produce natural oils useful for polishing",
       "A specific brand of Victorian furniture polish"
     ],
     correctIndex: 0
@@ -592,7 +592,7 @@ const QUIZ_QUESTIONS = [
     question: "\"Donkey's years\" is a pun built on what?",
     options: [
       "A donkey's actual average lifespan",
-      "\"Donkey's ears\" (famously long), exploiting how \"ears\" and \"years\" sound alike in British pronunciation",
+      "\"Donkey's ears,\" since \"ears\" and \"years\" sound alike",
       "An old unit of farm labour time"
     ],
     correctIndex: 1
@@ -601,7 +601,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "at-a-loose-end",
     question: "The leading nautical theory for \"at a loose end\" involves what shipboard task?",
     options: [
-      "Re-splicing and tidying loose rope ends when there was nothing else to do",
+      "Re-splicing loose rope ends when there was nothing else to do",
       "Waiting for a loose sail to be repaired",
       "Untying a ship from harbour"
     ],
@@ -612,7 +612,7 @@ const QUIZ_QUESTIONS = [
     question: "\"Take the biscuit\" is the British version of which more international phrase?",
     options: [
       "\"Take the crown\"",
-      "\"Take the cake,\" both descending from an ancient Greek prize custom",
+      "\"Take the cake,\" from an ancient Greek prize custom",
       "\"Take the trophy\""
     ],
     correctIndex: 1
@@ -621,9 +621,9 @@ const QUIZ_QUESTIONS = [
     idiomId: "bog-standard",
     question: "The leading, though unconfirmed, theory for \"bog standard\" is that it's a corruption of what?",
     options: [
-      "\"Box standard,\" a specification sheet kept with technical drawings",
+      "\"Box standard,\" a technical specification sheet",
       "\"Bog Irish,\" an old ethnic slur",
-      "\"Log standard,\" a measurement of timber"
+      "\"Log standard,\" a timber measurement"
     ],
     correctIndex: 0
   },
@@ -632,7 +632,7 @@ const QUIZ_QUESTIONS = [
     question: "\"Over the moon\" (meaning delighted) actually predates its famous association with what?",
     options: [
       "Royal weddings",
-      "British football post-match interviews from the 1970s onward",
+      "British football post-match interviews",
       "The Apollo moon landings"
     ],
     correctIndex: 1
@@ -643,7 +643,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "Circus acrobatics",
       "Victorian theatre criticism",
-      "First World War trench warfare, literally climbing out to advance across no man's land"
+      "First World War trench warfare"
     ],
     correctIndex: 2
   },
@@ -662,7 +662,7 @@ const QUIZ_QUESTIONS = [
     question: "In \"fit as a fiddle\" (recorded from 1616), what did \"fit\" originally mean?",
     options: [
       "Physically healthy, same as today",
-      "Well-suited or in good working order, like a well-tuned instrument",
+      "Well-suited or in good working order",
       "Full of energy"
     ],
     correctIndex: 1
@@ -671,7 +671,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "splice-the-mainbrace",
     question: "\"Splice the mainbrace\" became naval shorthand for authorising a drink because of what?",
     options: [
-      "Crews were traditionally rewarded with extra rum after completing this difficult rope repair",
+      "Crews were rewarded with extra rum after this tough repair",
       "The mainbrace was made from fermented hemp fibres",
       "It rhymed with an old drinking toast"
     ],
@@ -682,7 +682,7 @@ const QUIZ_QUESTIONS = [
     question: "The Royal Navy custom behind \"show a leg\" solved what specific problem?",
     options: [
       "Telling which sailors were too seasick to work",
-      "Letting the watch see whose leg was poking from a hammock, since women visitors could stay in bed while the men had to rise",
+      "Letting the watch see whose leg poked from a hammock",
       "Checking sailors for injuries before duty"
     ],
     correctIndex: 1
@@ -691,7 +691,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "cut-and-run",
     question: "\"Cut and run\" comes from a real emergency sailing practice. What did crews cut?",
     options: [
-      "The anchor cable, sacrificing the anchor for a fast escape",
+      "The anchor cable, to make a fast escape",
       "The mainsail, to slow the ship down",
       "The ship's flag, to avoid identification"
     ],
@@ -709,10 +709,10 @@ const QUIZ_QUESTIONS = [
   },
   {
     idiomId: "devil-and-the-deep-blue-sea",
-    question: "A popular nautical story claims \"the devil\" in this phrase was sailors' nickname for what?",
+    question: "A popular nautical story claims that in \"between the devil and the deep blue sea,\" \"the devil\" was sailors' nickname for what?",
     options: [
       "A ship's captain",
-      "A particularly awkward, dangerous hull seam near the waterline",
+      "A dangerous hull seam near the waterline",
       "A storm cloud formation"
     ],
     correctIndex: 1
@@ -723,16 +723,16 @@ const QUIZ_QUESTIONS = [
     options: [
       "Coventry",
       "Canterbury",
-      "Stony Stratford, home to two rival coaching inns, The Cock and The Bull"
+      "Stony Stratford, home to two rival coaching inns"
     ],
     correctIndex: 2
   },
   {
     idiomId: "chuffed-to-bits",
-    question: "What's genuinely strange about the dialect history of \"chuffed\"?",
+    question: "What's genuinely strange about the dialect history behind \"chuffed,\" as in \"chuffed to bits\"?",
     options: [
       "It's always meant \"pleased,\" without exception",
-      "It once meant both \"pleased\" and its near-opposite, \"annoyed,\" in different regional dialects",
+      "It once meant both \"pleased\" and its opposite, \"annoyed\"",
       "It was originally a naval insult"
     ],
     correctIndex: 1
@@ -752,7 +752,7 @@ const QUIZ_QUESTIONS = [
     question: "\"Give it some welly\" pictures a driver doing what?",
     options: [
       "Revving the engine while parked",
-      "Pressing the accelerator hard with a booted foot, referencing Wellington boots",
+      "Pressing the accelerator hard with a booted foot",
       "Honking the horn repeatedly"
     ],
     correctIndex: 1
@@ -761,7 +761,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "not-the-full-shilling",
     question: "\"Not the full shilling\" uses which everyday image?",
     options: [
-      "Being handed a coin that comes up short of its proper value",
+      "Being handed a coin short of its proper value",
       "A tailor cutting fabric too short",
       "A clock losing time"
     ],
@@ -772,7 +772,7 @@ const QUIZ_QUESTIONS = [
     question: "What's genuinely undocumented about \"talk the hind legs off a donkey\"?",
     options: [
       "Whether it means talking too much or too little",
-      "Exactly where, when, or why it specifically became a donkey rather than any other animal",
+      "Exactly why it became a donkey and not another animal",
       "Which country it originated in"
     ],
     correctIndex: 1
@@ -791,7 +791,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "chin-wag",
     question: "\"Chin wag\" gets its name from what visual comparison?",
     options: [
-      "A chin moving up and down while talking, like a dog's tail wagging",
+      "A chin moving up and down, like a dog's tail wagging",
       "An old wig style called a \"wag\"",
       "A puppet show technique"
     ],
@@ -812,7 +812,7 @@ const QUIZ_QUESTIONS = [
     question: "\"Cost a bomb,\" meaning very expensive, is:",
     options: [
       "Confirmed to come from wartime rationing prices",
-      "Undocumented as to why an explosive became slang for money, though it may echo a sense of sudden impact",
+      "Undocumented; it may just echo a sense of sudden impact",
       "Traced to a specific 1960s advertising campaign"
     ],
     correctIndex: 1
@@ -852,7 +852,7 @@ const QUIZ_QUESTIONS = [
     question: "In Geordie \"gan canny,\" where does \"gan\" (meaning \"go\") come from?",
     options: [
       "A shortening of \"gang,\" a group of workers",
-      "Old English and Old Norse forms of the verb \"to go\"",
+      "Old English and Old Norse forms of \"to go\"",
       "French \"gagner\""
     ],
     correctIndex: 1
@@ -863,7 +863,7 @@ const QUIZ_QUESTIONS = [
     options: [
       "Old French",
       "Latin",
-      "Old Norse, possibly \"se upp,\" meaning \"look up\" or \"watch out\""
+      "Old Norse, possibly \"look up\" or \"watch out\""
     ],
     correctIndex: 2
   },
@@ -871,7 +871,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "mardy",
     question: "\"Mardy\" likely derives from an older dialectal use of which word?",
     options: [
-      "\"Mard,\" related to \"marred,\" describing an over-indulged, spoiled child",
+      "\"Mard,\" describing an over-indulged, spoiled child",
       "\"Mardi,\" French for Tuesday",
       "\"Marred,\" meaning physically injured"
     ],
@@ -902,7 +902,7 @@ const QUIZ_QUESTIONS = [
     question: "The family folk story that \"foot of our stairs\" comes from shouting exciting news up a staircase is:",
     options: [
       "Confirmed by a dialect dictionary",
-      "A charming, plausible story with no documented backing; the earliest confirmed use is a 1939 short story",
+      "A charming story with no documented backing",
       "Traced to a specific Yorkshire family in the 1800s"
     ],
     correctIndex: 1
@@ -921,7 +921,7 @@ const QUIZ_QUESTIONS = [
     idiomId: "barking-up-the-wrong-tree",
     question: "\"Barking up the wrong tree\" comes from which real American practice?",
     options: [
-      "Raccoon hunting, where a dog might bark at an empty tree after its quarry leapt to another",
+      "Raccoon hunting, where dogs sometimes barked at an empty tree",
       "Sheepdog training",
       "Fox hunting on horseback"
     ],
@@ -932,7 +932,7 @@ const QUIZ_QUESTIONS = [
     question: "The earliest English version of \"let sleeping dogs lie\" appears in the writing of which author?",
     options: [
       "William Shakespeare",
-      "Geoffrey Chaucer, in the 1380s",
+      "Geoffrey Chaucer",
       "Jonathan Swift"
     ],
     correctIndex: 1
@@ -952,7 +952,7 @@ const QUIZ_QUESTIONS = [
     question: "\"Cut to the chase\" was born in early Hollywood. What instruction did it originally describe?",
     options: [
       "Editing out an actor's mistakes",
-      "Skipping a film's slow build-up to reach its exciting chase scene",
+      "Skipping a film's slow build-up to reach the action",
       "Speeding up the film reel during action scenes"
     ],
     correctIndex: 1

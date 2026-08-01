@@ -1783,6 +1783,68 @@ const IDIOMS = [
     one layer down.`,
     mythVsFact: null,
     source: "Oxford English Dictionary (earliest evidence 1847, James Halliwell's dictionary); 'moider' root discussed in Irish and Northern English dialect scholarship."
+  },
+  {
+    id: "beat-around-the-bush",
+    phrase: "Beat around the bush",
+    meaning: "To avoid getting to the point, or to approach a difficult topic indirectly.",
+    category: "Medieval Life",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A literal survival technique from medieval hunting. Hunters hired
+    beaters to walk through undergrowth striking the bushes with long
+    sticks, flushing birds or game out into the open where the actual
+    hunters, waiting with nets or bows, could catch them. Beaters
+    deliberately struck around a bush rather than into it, since going in
+    directly risked disturbing something far more dangerous than the
+    intended quarry, a wild boar or a nest of bees among the obvious
+    hazards. The earliest written trace is the 1440 poem <em>Generydes</em>,
+    using the plain phrase "beat the bush"; the "around" version followed
+    by 1572, in George Gascoigne's writing. The figurative sense, circling
+    a difficult subject rather than confronting it directly, grew naturally
+    from that cautious, indirect approach.`,
+    mythVsFact: null,
+    source: "Generydes: A Romance in Seven-line Stanzas (1440); George Gascoigne, Works (1572); documented medieval hunting practice cited in phrase-history references."
+  },
+  {
+    id: "bite-your-tongue",
+    phrase: "Bite your tongue",
+    meaning: "To stop yourself from saying something, especially something you might regret.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A straightforwardly physical image turned idiom: literally
+    clamping your teeth down on your own tongue to physically stop
+    yourself from speaking. It's recorded from the 16th century, and
+    Shakespeare clearly liked it, using versions of the phrase in three
+    separate plays, including <em>Henry VI, Part 2</em> ("So York must sit
+    and fret and bite his tongue") and <em>Titus Andronicus</em>. The
+    meaning has stayed essentially unchanged for over four hundred years:
+    holding back words, usually out of tact, restraint, or
+    self-preservation, that you'd otherwise blurt out.`,
+    mythVsFact: null,
+    source: "William Shakespeare, Henry VI, Part 2 (c.1591), Henry VI, Part 3 (c.1591), and Titus Andronicus (c.1594); recorded usage from the 16th century cited in phrase-history references."
+  },
+  {
+    id: "straight-from-the-horses-mouth",
+    phrase: "Straight from the horse's mouth",
+    meaning: "Information from the most direct, authoritative source possible.",
+    category: "Sport & Military",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The leading theory traces this to British horse racing. Tips
+    about a horse's chances came from all sorts of people, trainers,
+    jockeys, stable boys, but the joke was that the only source more
+    reliable than the people closest to the horse would be the horse
+    itself. A competing theory points instead to the old practice of
+    judging a horse's age and health by directly examining its teeth,
+    since a seller's word about a horse could be flattering, but the
+    animal's own mouth couldn't lie. The earliest identified citation is
+    from a horse-racing publication, <em>Bell's Life in London and
+    Sporting Chronicle</em>, in 1861, which lends real weight to the
+    racing-tip theory, though it doesn't fully rule out the other.`,
+    mythVsFact: null,
+    source: "Bell's Life in London and Sporting Chronicle (22 September 1861); both racing-tip and teeth-examination theories discussed in phrase-history references including World Wide Words."
   }
 ];
 
