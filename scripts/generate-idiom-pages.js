@@ -194,6 +194,7 @@ function pageHTML(entry) {
         <a href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
       </div>
       <p>&copy; 2026 Dictionary of Very Curious Idioms. Researched with care; corrections welcome.</p>
+      <p><a href="../privacy.html">Privacy Policy</a></p>
     </div>
   </footer>
 
@@ -293,6 +294,7 @@ function categoryPageHTML(category, idiomsInCategory, allCategories) {
         <a href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
       </div>
       <p>&copy; 2026 Dictionary of Very Curious Idioms. Researched with care; corrections welcome.</p>
+      <p><a href="../privacy.html">Privacy Policy</a></p>
     </div>
   </footer>
 
@@ -392,6 +394,7 @@ function azIndexHTML(idioms) {
         <a href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
       </div>
       <p>&copy; 2026 Dictionary of Very Curious Idioms. Researched with care; corrections welcome.</p>
+      <p><a href="privacy.html">Privacy Policy</a></p>
     </div>
   </footer>
 
@@ -407,6 +410,7 @@ function sitemapXML(idioms, categories) {
     `${SITE_URL}/contact.html`,
     `${SITE_URL}/a-z.html`,
     `${SITE_URL}/quiz.html`,
+    `${SITE_URL}/privacy.html`,
     ...categories.map((c) => `${SITE_URL}/categories/${categorySlug(c)}.html`),
     ...idioms.map((e) => `${SITE_URL}/idioms/${e.id}.html`)
   ];
