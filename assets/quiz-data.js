@@ -1326,5 +1326,535 @@ const QUIZ_QUESTIONS = [
       "Farming, where a horse's appetite signalled the quality of its feed"
     ],
     correctIndex: 0
+  },
+  {
+    idiomId: "go-the-extra-mile",
+    question: "\"Go the extra mile\" comes from a real Roman law mentioned in the Bible. What did that law allow?",
+    options: [
+      "A Roman soldier could compel a civilian to carry his pack for one mile",
+      "A Roman soldier could demand a civilian walk beside him for protection",
+      "A Roman tax collector could demand an extra mile of travel as payment"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "keep-an-eye-on",
+    question: "What do etymologists actually know about the specific origin of \"keep an eye on\"?",
+    options: [
+      "It's a specific coinage credited to a named 19th-century writer",
+      "Nothing definite; no specific coining moment has ever been identified",
+      "It comes from a specific naval lookout order"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "hold-your-horses",
+    question: "The leading theory for \"hold your horses\" ties it to which specific 19th-century American setting?",
+    options: [
+      "Cattle drives on the Chisholm Trail",
+      "Horse-drawn barge teams on the Erie Canal towpath",
+      "Stagecoach relay stations in the Wild West"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "burn-the-midnight-oil",
+    question: "The phrase \"midnight oil\" was coined by which 17th-century poet?",
+    options: [
+      "Francis Quarles",
+      "John Milton",
+      "Andrew Marvell"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "on-the-ball",
+    question: "\"On the ball\" almost certainly comes from which sport?",
+    options: [
+      "Cricket",
+      "Baseball",
+      "Golf"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "as-right-as-rain",
+    question: "What's genuinely unresolved about \"as right as rain\"?",
+    options: [
+      "Why rain specifically joined an older pattern of \"right as ___\" comparisons",
+      "Whether the phrase is British or American",
+      "Whether it originally meant healthy or wealthy"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "walking-on-eggshells",
+    question: "\"Walking on eggshells\" likely draws on which older tradition?",
+    options: [
+      "The \"Egg Dance,\" hopping around scattered eggs without breaking any",
+      "An Easter custom of rolling eggs down a hill",
+      "A medieval trial by ordeal involving hot eggs"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "cut-corners",
+    question: "One leading theory for \"cut corners\" involves literally doing what?",
+    options: [
+      "Taking a diagonal shortcut across a corner instead of the proper route",
+      "Trimming the corners off a printed document to save paper",
+      "Cutting corner posts from a fence to save wood"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "sit-on-the-fence",
+    question: "\"Sit on the fence\" got a real boost from which 1884 American political episode?",
+    options: [
+      "The \"Mugwumps,\" Republicans who backed the opposing candidate",
+      "A Senate filibuster over a fence-building budget",
+      "A presidential veto of a land-fencing law"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "miss-the-boat",
+    question: "What's genuinely unclear about the history of \"miss the boat\"?",
+    options: [
+      "Whether it's British or Australian in origin",
+      "Exactly when the literal sense shifted into a figurative one for missed opportunity",
+      "Whether it originally referred to trains rather than boats"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "make-a-long-story-short",
+    question: "The English phrase \"make a long story short\" has a much older parallel used by which ancient writer?",
+    options: [
+      "Pacuvius, a Roman playwright",
+      "Homer, in the Odyssey",
+      "Aesop, in his fables"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "no-pain-no-gain",
+    question: "The modern catchy rhyme \"no pain, no gain\" owes its huge popularity to whom?",
+    options: [
+      "Jane Fonda's 1982 aerobics videos",
+      "A 1980s Nike advertising campaign",
+      "Arnold Schwarzenegger's bodybuilding memoirs"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "get-a-second-wind",
+    question: "\"Second wind\" describes a real event. What is it?",
+    options: [
+      "The body switching from anaerobic to more efficient aerobic respiration",
+      "A ship catching a fresh breeze after being becalmed",
+      "A runner's heart rate briefly slowing during a race"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "once-in-a-blue-moon",
+    question: "The earliest recorded use of \"once in a blue moon,\" from 1528, described what?",
+    options: [
+      "An obvious absurdity, like claiming the moon is made of cheese",
+      "A rare astronomical event observed by monks",
+      "A tax collected only once every several years"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "face-the-music",
+    question: "Which theory for \"face the music\" is considered the least convincing by etymologists?",
+    options: [
+      "The theatre theory, facing the orchestra pit despite stage fright",
+      "The military theory, disgraced soldiers drummed out to their own band",
+      "The church theory, 18th-century musicians facing gallery criticism"
+    ],
+    correctIndex: 2
+  },
+  {
+    idiomId: "jump-on-the-bandwagon",
+    question: "The word \"bandwagon\" originally just meant what?",
+    options: [
+      "The wagon that carried a circus band",
+      "A political rally stage on wheels",
+      "A wagon used to collect campaign donations"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "when-pigs-fly",
+    question: "An early English version of \"when pigs fly,\" from 1616, described pigs flying how?",
+    options: [
+      "With their tails forward",
+      "Upside down",
+      "In formation, like geese"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "ball-is-in-your-court",
+    question: "\"The ball is in your court\" is a literal image borrowed from which sport?",
+    options: [
+      "Tennis",
+      "Basketball",
+      "Squash"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "method-to-the-madness",
+    question: "\"A method to the madness\" was coined by Shakespeare. Who says the original line?",
+    options: [
+      "Polonius, about Hamlet",
+      "Hamlet, about Polonius",
+      "Ophelia, about Hamlet"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "head-over-heels",
+    question: "What was the original word order of \"head over heels,\" used for centuries before the modern form?",
+    options: [
+      "\"Heels over head\"",
+      "\"Head under heels\"",
+      "\"Heels above head\""
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "back-to-the-drawing-board",
+    question: "\"Back to the drawing board\" comes from a specific, precisely dated source. What is it?",
+    options: [
+      "A 1941 New Yorker cartoon caption by Peter Arno",
+      "A 1944 US Army engineering manual",
+      "A wartime BBC radio broadcast"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "burst-your-bubble",
+    question: "Which theory for \"burst your bubble\" is widely repeated online but entirely unproven?",
+    options: [
+      "That it comes from bubblegum or childhood soap bubbles",
+      "That it comes from 17th-century financial speculation schemes",
+      "That it comes from an 1810 magazine reference"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "go-down-in-flames",
+    question: "\"Go down in flames\" is widely believed to come from which historical context?",
+    options: [
+      "Military aviation in the First and Second World Wars",
+      "Great fires in 17th-century London",
+      "Naval battles involving fireships"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "cry-over-spilled-milk",
+    question: "The earliest documented form of \"cry over spilled milk\" (1659) used which word instead of \"spilled\"?",
+    options: [
+      "\"Shed\"",
+      "\"Wasted\"",
+      "\"Poured\""
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "throw-caution-to-the-wind",
+    question: "The general pattern of throwing something \"to the wind\" to mean discarding it is documented from when?",
+    options: [
+      "At least the 1400s",
+      "The 1700s",
+      "The 1900s"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "devils-advocate",
+    question: "\"Devil's advocate\" was a genuine, formal role. Who created it?",
+    options: [
+      "Pope Sixtus V, in 1587",
+      "The Spanish Inquisition, in 1492",
+      "A medieval English ecclesiastical court"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "add-insult-to-injury",
+    question: "The fable behind \"add insult to injury\" involves a bald man and what?",
+    options: [
+      "A fly landing on his head",
+      "A wig blowing away in the wind",
+      "A bee stinging his scalp"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "bend-over-backwards",
+    question: "The most popular theory for \"bend over backwards\" points to which performers?",
+    options: [
+      "Acrobats and contortionists",
+      "Ballet dancers",
+      "Circus strongmen"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "burning-the-candle-at-both-ends",
+    question: "\"Burning the candle at both ends\" was translated directly from which language?",
+    options: [
+      "French",
+      "Latin",
+      "Dutch"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hit-the-nail-on-the-head",
+    question: "The ancient Romans had a near-identical expression to \"hit the nail on the head.\" What did it involve?",
+    options: [
+      "Touching something with a needle",
+      "Striking a coin perfectly true",
+      "Splitting an arrow with another arrow"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "take-it-with-a-grain-of-salt",
+    question: "The Roman writer behind \"take it with a grain of salt\" used it in a recipe for what?",
+    options: [
+      "A poison antidote",
+      "A love potion",
+      "A preserved meat dish"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "taste-of-your-own-medicine",
+    question: "\"A taste of your own medicine\" comes from an Aesop fable about a cobbler posing as what?",
+    options: [
+      "A doctor",
+      "A priest",
+      "A judge"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "it-takes-two-to-tango",
+    question: "The exact modern phrase \"it takes two to tango\" comes from a specific 1952 what?",
+    options: [
+      "A song",
+      "A Supreme Court ruling",
+      "A dance instruction manual"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "every-cloud-has-a-silver-lining",
+    question: "The \"silver lining\" image was coined by which poet?",
+    options: [
+      "John Milton",
+      "William Wordsworth",
+      "Percy Bysshe Shelley"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "put-all-eggs-in-one-basket",
+    question: "\"Don't put all your eggs in one basket\" is usually credited to which novel?",
+    options: [
+      "Don Quixote",
+      "Robinson Crusoe",
+      "Gulliver's Travels"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "dont-judge-a-book-by-its-cover",
+    question: "The exact modern wording of \"don't judge a book by its cover\" is traced to which source?",
+    options: [
+      "A 1946 American mystery novel",
+      "A Victorian advertising slogan",
+      "A 1930s radio drama"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "kill-two-birds-with-one-stone",
+    question: "The earliest English use of \"kill two birds with one stone\" (1656) appears in the writing of which philosopher?",
+    options: [
+      "Thomas Hobbes",
+      "John Locke",
+      "Francis Bacon"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "bite-off-more-than-you-can-chew",
+    question: "\"Bite off more than you can chew\" is rooted in 19th-century American habits around what?",
+    options: [
+      "Chewing tobacco sold in solid cakes",
+      "Eating competitions at country fairs",
+      "Sharing meals on cattle drives"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "let-the-chips-fall-where-they-may",
+    question: "\"Let the chips fall where they may\" comes from a real 1880 speech nominating which president?",
+    options: [
+      "Ulysses S. Grant",
+      "Rutherford B. Hayes",
+      "James Garfield"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "actions-speak-louder-than-words",
+    question: "Which American president used the exact modern wording of \"actions speak louder than words\" in an 1856 speech?",
+    options: [
+      "Abraham Lincoln",
+      "Andrew Jackson",
+      "Theodore Roosevelt"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "birds-of-a-feather-flock-together",
+    question: "The underlying comparison in \"birds of a feather flock together\" appears as far back as which ancient text?",
+    options: [
+      "The biblical Book of Sirach",
+      "Homer's Iliad",
+      "Aesop's Fables"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hit-the-road",
+    question: "Which 1961 song cemented \"hit the road\" firmly in pop culture?",
+    options: [
+      "Ray Charles, \"Hit the Road Jack\"",
+      "Chuck Berry, \"Maybellene\"",
+      "Elvis Presley, \"Follow That Dream\""
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "piece-of-cake",
+    question: "The \"cakewalk\" theory for \"piece of cake\" runs into a problem. What is it?",
+    options: [
+      "The earliest confirmed use is British, replacing an unrelated American phrase",
+      "The cakewalk dance was never actually associated with a cake prize",
+      "The phrase is recorded a century before the cakewalk existed"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hit-the-sack",
+    question: "Old mattresses that gave us \"hit the sack\" were literally sacking cloth stuffed with what?",
+    options: [
+      "Hay or straw",
+      "Wool",
+      "Feathers"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "the-last-straw",
+    question: "Before the camel became standard, earlier versions of \"the last straw\" used which animal?",
+    options: [
+      "A horse",
+      "A donkey",
+      "An ox"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "jump-the-gun",
+    question: "\"Jump the gun\" was originally worded differently. What was the earlier form?",
+    options: [
+      "\"Beat the gun\"",
+      "\"Race the gun\"",
+      "\"Cheat the gun\""
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "call-it-a-day",
+    question: "The earlier form of \"call it a day\" was \"call it half a day.\" What did that describe?",
+    options: [
+      "Workers leaving before a full shift was up",
+      "A half-day public holiday",
+      "A shortened working week"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "throw-in-the-towel",
+    question: "\"Throw in the towel\" replaced an earlier, near-identical boxing custom. What was thrown before the towel?",
+    options: [
+      "A sweat-soaked sponge",
+      "A white flag",
+      "A glove"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "see-eye-to-eye",
+    question: "\"See eye to eye\" comes from the Book of Isaiah. What did it originally describe?",
+    options: [
+      "Watchmen literally seeing each other face to face",
+      "Two rival kings finally reconciling",
+      "A prophet's vision of the future"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "put-your-foot-down",
+    question: "Which sense of \"put your foot down\" only developed once cars became common?",
+    options: [
+      "Pressing the accelerator to speed up",
+      "Standing your ground in an argument",
+      "Standing firm in battle"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "out-of-the-blue",
+    question: "\"Out of the blue\" is a shortened form of which fuller phrase?",
+    options: [
+      "\"A bolt from the blue\"",
+      "\"A storm from the blue\"",
+      "\"A flash from the blue\""
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "in-the-same-boat",
+    question: "The earliest solidly documented use of \"in the same boat\" (1584) appears in an English translation of which work?",
+    options: [
+      "Du Bartas's Historie of Judith",
+      "Homer's Odyssey",
+      "A French naval memoir"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "keep-your-chin-up",
+    question: "\"Keep your chin up\" replaced an older British phrase. What was it?",
+    options: [
+      "\"Keep your pecker up\"",
+      "\"Keep your nose up\"",
+      "\"Keep your head up\""
+    ],
+    correctIndex: 0
   }
 ];

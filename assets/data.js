@@ -2533,6 +2533,1018 @@ const IDIOMS = [
     anyone who'd learned the practical details of a job.`,
     mythVsFact: null,
     source: "Richard Henry Dana Jr., Two Years Before the Mast (1840); figurative usage documented from the late 19th century, cited in Grammarphobia and Harbour Guides."
+  },
+  {
+    id: "go-the-extra-mile",
+    phrase: "Go the Extra Mile",
+    meaning: "To make a greater effort than is expected or required.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traces to the Sermon on the Mount in the Gospel of Matthew:
+    "And whosoever shall compel thee to go a mile, go with him twain"
+    (Matthew 5:41). It refers to a real Roman law of the time, which
+    allowed a Roman soldier to legally compel a local civilian to carry
+    his equipment for exactly one mile. Jesus's instruction to go a
+    second mile voluntarily, beyond what the law demanded, was a radical
+    call to respond to compulsion with generosity. The phrase existed in
+    this literal, biblical sense for centuries before "go the extra
+    mile" became a common English idiom for effort in general, only
+    catching on widely from the 1930s.`,
+    mythVsFact: null,
+    source: "Gospel of Matthew 5:41; Roman impressment law documented in classical history; modern idiomatic use traced to the 1930s."
+  },
+  {
+    id: "keep-an-eye-on",
+    phrase: "Keep an Eye On",
+    meaning: "To watch something or someone closely.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `One of the plainer entries in the repository, and an honest
+    reminder that not every idiom hides a dramatic backstory. "Eye" has
+    stood for watchfulness and attention in English for centuries, and
+    "keep an eye on" is documented from at least 1824, but no specific
+    coining moment, event, or writer has ever been credited with it. It
+    may simply be that a phrase this literal and this useful never
+    needed one.`,
+    mythVsFact: null,
+    source: "Oxford English Dictionary (citation from 1824); no specific origin story documented in phrase-history references."
+  },
+  {
+    id: "hold-your-horses",
+    phrase: "Hold Your Horses",
+    meaning: "Wait, slow down, or be patient.",
+    category: "Language Itself",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Almost certainly rooted in the literal difficulty of controlling
+    real horses, but exactly which horses is less clear. The earliest
+    documented form is American, written as "hold your hosses" ("hoss"
+    being period slang for horse) from 1843 onward. One popular theory
+    ties it specifically to New York's Erie Canal, where horse teams
+    towing barges along the towpath needed a shouted warning to manage
+    right of way when passing each other. It's a plausible, well-fitting
+    story for the period, but it's just as likely the phrase simply grew
+    from the everyday difficulty of controlling any horse, canal-side or
+    not.`,
+    mythVsFact: null,
+    source: "Earliest documented form 'hold your hosses' from 1843; Erie Canal theory discussed in phrase-history references including Wikipedia's entry on the idiom."
+  },
+  {
+    id: "burn-the-midnight-oil",
+    phrase: "Burn the Midnight Oil",
+    meaning: "To work or study late into the night.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A literal description of working by lamplight before electric
+    lighting existed. The specific phrase "midnight oil" was coined by
+    the poet Francis Quarles in his 1635 collection Emblems, describing
+    nocturnal labour, and the image of literally "burning" it, rather
+    than just using or consuming it, took hold by the 19th century. The
+    picture is simple and accurate: oil lamps needed refilling and
+    tending the later into the night you worked, so working late
+    genuinely meant burning through more oil.`,
+    mythVsFact: null,
+    source: "Francis Quarles, Emblems (1635); 'burning' variant documented from the 19th century in phrase-history references including wordhistories.net."
+  },
+  {
+    id: "on-the-ball",
+    phrase: "On the Ball",
+    meaning: "Alert, competent, and quick to respond.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `An early 20th-century American baseball phrase, most likely a
+    shortened form of "keep your eye on the ball," the constant
+    instruction to batters to track the pitch closely. Pitchers who
+    could make a ball do unpredictable things were said to have
+    something "on" it, and the same watchfulness demanded of hitters
+    gave the phrase its wider meaning: someone sharp, alert, and switched
+    on. By the 1930s it had become general figurative slang in America,
+    crossing to Britain by the mid-20th century. Rival theories crediting
+    watchmaker Webb C. Ball or the Greenwich Observatory's time ball have
+    been firmly dismissed by etymologists.`,
+    mythVsFact: "Stories crediting a watchmaker named Webb C. Ball or the Greenwich time-ball signal are repeated occasionally, but etymologists reject both; the baseball origin has much stronger documentary support.",
+    source: "Documented American baseball origin from the early 20th century; competing Webb Ball and Greenwich time-ball theories dismissed by World Wide Words."
+  },
+  {
+    id: "as-right-as-rain",
+    phrase: "As Right as Rain",
+    meaning: "In perfect health or good order.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Recorded in Britain from the late 19th century, first
+    appearing in the London newspaper The Weekly Dispatch in 1886 and
+    fully established by 1894. It follows a whole family of older "right
+    as ___" comparisons, including "right as a trivet," a reference to a
+    stable three-legged stand, used by Charles Dickens in The Pickwick
+    Papers (1837). Why rain specifically joined that pattern is genuinely
+    unclear. Guesses range from simple alliteration to rain's association
+    with fertile crops and prosperity, or its sheer reliability in
+    Britain's notoriously damp climate, but none has ever been confirmed.`,
+    mythVsFact: null,
+    source: "The Weekly Dispatch (1886); Charles Dickens, The Pickwick Papers (1837), for the related 'right as a trivet'; no confirmed explanation for the choice of 'rain' specifically."
+  },
+  {
+    id: "walking-on-eggshells",
+    phrase: "Walking on Eggshells",
+    meaning: "Being extremely cautious not to upset or offend someone.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Began as "walking on eggs," recorded from the late 16th
+    century, with the Oxford English Dictionary defining the older form
+    "tread on eggs" as walking warily, as on delicate ground. The
+    "eggshells" version took over by the mid-1800s, appearing in Wilkie
+    Collins's novel The Woman in White (1860). The image likely draws on
+    the much older "Egg Dance," a traditional entertainment dating to at
+    least the 15th century, in which performers hopped and danced around
+    eggs scattered on the floor without breaking any, a literal
+    demonstration of extreme care.`,
+    mythVsFact: null,
+    source: "Wilkie Collins, The Woman in White (1860); earlier 'tread on eggs' form and the Egg Dance tradition documented in the Oxford English Dictionary and grammarphobia.com."
+  },
+  {
+    id: "cut-corners",
+    phrase: "Cut Corners",
+    meaning: "To do something in the easiest or cheapest way, at the expense of quality.",
+    category: "Trade & Industry",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Recorded from the mid-19th century, with an early citation in
+    The Oxford Magazine and Church Advocate in 1863. The clearest theory
+    points to literally cutting a corner while travelling, taking a
+    diagonal shortcut across a square or junction instead of following
+    the proper right-angled path, saving distance at the cost of doing
+    it "properly." A competing theory traces it through the older term
+    "cater-corner" (diagonally across), which drifted through "catty-
+    corner" and "kitty-corner" before possibly influencing "cut corner."
+    Both theories point to the same diagonal-shortcut image, without
+    settling which came first.`,
+    mythVsFact: null,
+    source: "The Oxford Magazine and Church Advocate (October 1863); 'cater-corner' lineage discussed in phrase-history references including US Dictionary."
+  },
+  {
+    id: "sit-on-the-fence",
+    phrase: "Sit on the Fence",
+    meaning: "To avoid committing to either side of a decision or argument.",
+    category: "Still Unsolved",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Documented in American English from 1828, already used
+    figuratively rather than literally from its earliest appearances,
+    which makes pinning down a single originating incident difficult.
+    One theory pictures spectators literally sitting on a fence at a
+    fight or contest, refusing to back either side; another simply notes
+    that someone sitting on top of a fence can jump down on either side
+    with equal ease. The phrase got a real boost in 1884, when a group of
+    Republicans who backed the opposing Democratic candidate were
+    mockingly dubbed "Mugwumps," birds supposedly sitting on a fence with
+    their "mugs" on one side and their "wumps" on the other.`,
+    mythVsFact: null,
+    source: "Documented American usage from 1828, cited in the Online Etymology Dictionary; 1884 'Mugwumps' episode documented in American political history."
+  },
+  {
+    id: "miss-the-boat",
+    phrase: "Miss the Boat",
+    meaning: "To miss an opportunity, especially through delay.",
+    category: "Sailing & the Sea",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `An obviously literal image, the ship departing without you,
+    but its exact history is surprisingly murky. Some sources place the
+    literal sense as far back as the 18th century, while the earliest
+    confirmed figurative use, meaning a missed opportunity of any kind,
+    only shows up in the early 1900s, during the peak era of passenger
+    sea travel. It likely developed independently among English speakers
+    on both sides of the Atlantic, carried by sailors' everyday language
+    into wider public use, but no single confirmed coining moment has
+    ever been identified.`,
+    mythVsFact: null,
+    source: "Earliest confirmed figurative use from the early 1900s; literal maritime usage possibly older, per phrase-history references including Phrase Finder."
+  },
+  {
+    id: "make-a-long-story-short",
+    phrase: "Make a Long Story Short",
+    meaning: "To summarise or skip ahead to the point.",
+    category: "Language Itself",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `The impulse behind this phrase is ancient. The Roman writer
+    Pacuvius used a similar line around 160 BC, and the English version
+    is documented in print from 1857. Beyond that, its exact coining is
+    unrecorded. It's thought to come from oral storytelling, a narrator
+    signalling to their audience that they're about to skip the finer
+    details, and Henry David Thoreau captured the underlying irony
+    neatly in a letter: "Not that the story need be long, but it will
+    take a long time to make it short."`,
+    mythVsFact: null,
+    source: "Documented in print from 1857; Pacuvius's earlier Latin parallel (c.160 BC) and Thoreau's letter discussed in phrase-history references including Poem Analysis."
+  },
+  {
+    id: "no-pain-no-gain",
+    phrase: "No Pain, No Gain",
+    meaning: "Worthwhile results require difficult or uncomfortable effort.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `An idea with a genuinely ancient pedigree. The Greek
+    playwright Sophocles wrote "there's no success without pain" in his
+    play Electra in the 5th century BC, and the Jewish text Pirkei Avot
+    makes a very similar spiritual point. In English, the sentiment is
+    documented from the 1500s, appearing in John Ray's 1670 proverb
+    collection as "without pains, no gains," and in poet Robert Herrick's
+    Hesperides (1650). The catchy modern rhyming form owes its huge
+    popularity to American actress Jane Fonda, who used "no pain, no
+    gain" repeatedly throughout her hugely popular 1982 aerobics workout
+    videos.`,
+    mythVsFact: null,
+    source: "Sophocles, Electra (5th century BC); John Ray, A Collection of English Proverbs (1670); modern popularisation via Jane Fonda's 1982 workout videos."
+  },
+  {
+    id: "get-a-second-wind",
+    phrase: "Get a Second Wind",
+    meaning: "To recover energy and enthusiasm after a period of tiredness.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Describes a genuine, documented physiological event. "Wind"
+    meant breath in English as early as the 14th century, and the
+    specific phrase is recorded from the late 1800s, describing the
+    real experience of a runner's laboured breathing suddenly easing
+    during sustained exercise. That easing is a real physiological
+    shift, the body switching from anaerobic to more efficient aerobic
+    respiration, which happened to already have a name before science
+    fully explained the mechanism behind it. A popular nautical theory,
+    that it refers to a becalmed sailing ship suddenly catching a fresh
+    breeze, sounds plausible but has no historical evidence behind it.`,
+    mythVsFact: "The becalmed-ship theory is often repeated as a tidy nautical explanation, but no period sailing sources actually use the phrase that way; the athletic, breath-related origin is the one with real documentary support.",
+    source: "Documented from the late 19th century in an athletic sense; nautical theory assessed as unsupported in phrase-history references including Bloomsbury International."
+  },
+  {
+    id: "once-in-a-blue-moon",
+    phrase: "Once in a Blue Moon",
+    meaning: "Very rarely.",
+    category: "Still Unsolved",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Originally meant something closer to "never," in the same
+    family as claiming the moon is made of green cheese. Its earliest
+    recorded use is in a 1528 anti-clerical pamphlet by William Roy and
+    Jeremy Barlowe, using it as an example of an obvious absurdity. One
+    theory ties "blue" to the Middle English word "belewe," meaning
+    "betray," connecting it to an extra, calendar-disrupting full moon
+    that forced the medieval church to recalculate the dates of Lent and
+    Easter. The phrase only settled into its modern, much gentler
+    meaning, something rare rather than impossible, by 1821.`,
+    mythVsFact: null,
+    source: "William Roy and Jeremy Barlowe, anti-clerical pamphlet (1528); modern meaning documented from Pierce Egan, Real Life in London (1821)."
+  },
+  {
+    id: "face-the-music",
+    phrase: "Face the Music",
+    meaning: "To accept the unpleasant consequences of your actions.",
+    category: "Theatre & Performance",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `An American expression from the early 19th century, though a
+    British periodical uses a version of it as far back as 1774. No
+    single documented source explains where it comes from, though
+    several theories circulate. One points to theatre, performers
+    literally facing the orchestra pit while battling stage fright.
+    Another cites military tradition, disgraced soldiers "drummed out"
+    of their regiment to the sound of their own regimental band. A
+    third, less convincing theory involves 18th-century church
+    musicians facing public criticism from a gallery. None has been
+    confirmed over the others.`,
+    mythVsFact: null,
+    source: "Earliest citation from a British periodical (1774); theatre, military, and church-music theories all discussed without resolution in phrase-history references including World Wide Words."
+  },
+  {
+    id: "jump-on-the-bandwagon",
+    phrase: "Jump on the Bandwagon",
+    meaning: "To join a popular activity, movement, or trend.",
+    category: "History & Empire",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A genuinely documented piece of 19th-century American
+    campaigning. "Bandwagon" originally just meant the wagon that
+    carried a circus band, a term used by showman P. T. Barnum in his
+    1855 autobiography. In 1848, circus clown Dan Rice used his own
+    bandwagon to drive politicians through town while music drew a crowd
+    for campaign speeches. As candidates grew more popular, more
+    politicians wanted a visible seat on the bandwagon to share in the
+    momentum. The figurative sense of climbing aboard a winning cause
+    was fully established by the 1890s, with the exact phrase "jump on
+    the bandwagon" appearing in a letter by Theodore Roosevelt in 1899.`,
+    mythVsFact: null,
+    source: "P. T. Barnum's 1855 autobiography; Dan Rice's 1848 campaign bandwagons; Theodore Roosevelt's 1899 letter, cited in Today I Found Out."
+  },
+  {
+    id: "when-pigs-fly",
+    phrase: "When Pigs Fly",
+    meaning: "Used to say something will never happen.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A classic "adynaton," a deliberately absurd figure of speech
+    used to describe an impossibility, with roots that spread across
+    several centuries and countries rather than one clean origin. An
+    early English version appears in John Withals's 1616 dictionary as
+    "pigs fly with their tails forward," and the 16th-century French
+    writer Rabelais includes a vivid flying pig in Gargantua and
+    Pantagruel. Similar sayings are recorded in both German and Scottish
+    folk tradition. Nobody has pinned down which version came first, or
+    whether they developed independently.`,
+    mythVsFact: null,
+    source: "John Withals, A Shorte Dictionarie for Yonge Begynners (1616); François Rabelais, Gargantua and Pantagruel (16th century); German and Scottish parallels discussed in Wikipedia's entry on the idiom."
+  },
+  {
+    id: "ball-is-in-your-court",
+    phrase: "The Ball Is in Your Court",
+    meaning: "It's now your turn to act or make a decision.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A literal, clearly documented image borrowed from tennis: once
+    a player has hit the ball over the net, responsibility for the next
+    shot passes entirely to whoever's half of the court it lands in.
+    "Court" itself has a long pedigree, from the Latin "cohors" (an
+    enclosed yard) through Old French, originally describing a
+    sovereign's residence before narrowing to mean an enclosed play area.
+    The tennis image was used occasionally from the early 19th century,
+    but the fully figurative, everyday sense of passing responsibility
+    to someone else only became popular around the 1960s and 70s.`,
+    mythVsFact: null,
+    source: "Tennis origin documented in phrase-history references including Ludwig.guru; figurative popularisation dated to the 1960s-70s."
+  },
+  {
+    id: "method-to-the-madness",
+    phrase: "A Method to the Madness",
+    meaning: "A hidden purpose or logic behind behaviour that looks irrational.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Coined by Shakespeare in Hamlet (c.1600). Polonius, watching
+    Hamlet's strange behaviour and dialogue, mutters to himself, "Though
+    this be madness, yet there is method in't," concluding that Hamlet's
+    apparent insanity is calculated rather than genuine. In the play,
+    Hamlet is deliberately feigning madness to investigate his father's
+    murder without arousing suspicion, making Polonius's observation
+    exactly right, if for reasons Polonius himself never guesses. The
+    phrase has drifted slightly from "method in" to the modern "method
+    to" over the centuries.`,
+    mythVsFact: null,
+    source: "William Shakespeare, Hamlet (c.1600), Act II Scene II."
+  },
+  {
+    id: "head-over-heels",
+    phrase: "Head Over Heels",
+    meaning: "Completely and often suddenly in love, or in a state of reckless enthusiasm.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A rare idiom that used to make more literal sense than it
+    does now. It began in the 1300s as "heels over head," a
+    straightforward description of being upside down, and stayed in
+    that more logical order for centuries. The reversed "head over
+    heels" only appears from 1726, during the Georgian era, and somehow
+    became the standard form despite describing our normal, right-way-up
+    posture rather than being upside down. The romantic sense, tumbling
+    recklessly into love, is documented from a 1711 English translation
+    of the ancient Greek writer Lucian.`,
+    mythVsFact: null,
+    source: "Earliest 'heels over head' form from the 1300s; reversed 'head over heels' from 1726; romantic sense traced to an English translation of Lucian (1711)."
+  },
+  {
+    id: "back-to-the-drawing-board",
+    phrase: "Back to the Drawing Board",
+    meaning: "To start over after a plan or attempt has failed.",
+    category: "War & Conflict",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Unusually for an idiom, this one can be traced to a single,
+    precisely dated cartoon. On 1 March 1941, cartoonist Peter Arno
+    published a drawing in The New Yorker showing a crashed military
+    plane surrounded by ground crew, while an engineer calmly walks away
+    with a roll of blueprints under his arm, captioned "Well, back to the
+    old drawing board." The image resonated powerfully during the Second
+    World War, when so many wartime projects failed and had to be
+    redesigned from scratch, and the phrase was appearing regularly in
+    American newspapers by 1947.`,
+    mythVsFact: null,
+    source: "Peter Arno, cartoon caption, The New Yorker (1 March 1941); wartime popularisation documented in wordhistories.net."
+  },
+  {
+    id: "burst-your-bubble",
+    phrase: "Burst Your Bubble",
+    meaning: "To shatter someone's illusions, hopes, or fantasies.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `The image is old, a fragile bubble popping without warning,
+    but the phrase's specific history is tangled. An 1810 issue of The
+    Monthly Mirror uses "bubble" in a related sense, and a figurative
+    "burst someone's bubble," meaning to spoil their fun, is attested
+    from the mid-19th century, though the exact phrase most people use
+    today seems to have settled into place only in the mid-20th century.
+    Playful modern theories linking it to bubblegum or childhood soap
+    bubbles are widely repeated but entirely unproven, and a more
+    historical theory ties "bubble" to 17th and 18th-century speculative
+    financial schemes that famously collapsed, without solid proof
+    either.`,
+    mythVsFact: null,
+    source: "The Monthly Mirror (1810); mid-19th-century figurative use and competing bubblegum/financial-bubble theories discussed in grammarist.com without resolution."
+  },
+  {
+    id: "go-down-in-flames",
+    phrase: "Go Down in Flames",
+    meaning: "To fail dramatically and completely.",
+    category: "War & Conflict",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Widely believed to come from military aviation in the First
+    and Second World Wars, when aircraft built from wood, canvas, and
+    fabric would frequently catch fire and plummet after being hit in
+    combat, an unmistakably dramatic form of failure. The phrase is
+    documented in both American and British use during the 1940s,
+    fitting the aviation theory neatly. It isn't fully confirmed,
+    though, and some etymologists think it may simply describe any
+    catastrophic fire-related destruction rather than warplanes
+    specifically.`,
+    mythVsFact: null,
+    source: "Documented American and British use from the 1940s; aviation theory discussed, without full confirmation, in phrase-history references including The Content Authority."
+  },
+  {
+    id: "cry-over-spilled-milk",
+    phrase: "Cry Over Spilled Milk",
+    meaning: "To waste time being upset about something that can't be undone.",
+    category: "Food & Dining",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traceable through a clean chain of documented sources. Welsh
+    historian James Howell published the earliest known form, "no
+    weeping for shed milk," in his 1659 proverb collection. By 1738,
+    Jonathan Swift had reworked it into "'tis a folly to cry for spilled
+    milk" in his satirical essay Polite Conversation, and the modern
+    wording is closely matched in an 1888 book, Banking Under
+    Difficulties. The logic has never needed updating: spilled milk
+    genuinely cannot be scooped back into its container, making it a
+    perfect image for a loss too late to reverse.`,
+    mythVsFact: null,
+    source: "James Howell, Paramoigraphy (1659); Jonathan Swift, Polite Conversation (1738); George Ogilvy Preshaw, Banking Under Difficulties (1888)."
+  },
+  {
+    id: "throw-caution-to-the-wind",
+    phrase: "Throw Caution to the Wind",
+    meaning: "To act boldly, ignoring risk or restraint.",
+    category: "Sailing & the Sea",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Builds on a much older pattern, "to the wind(s)" meaning
+    utterly discarded or lost, documented since the 1600s. The specific
+    pairing with "caution" is newer, dating from the late 19th century.
+    Some sources propose a nautical origin, sailors deliberately
+    disregarding caution to catch maximum speed under sail, but the
+    exact evidence for that specific naval usage is thin, and the
+    general "thrown to the wind" pattern already existed for centuries
+    before "caution" was slotted into it.`,
+    mythVsFact: null,
+    source: "General 'to the wind(s)' pattern documented from the 1600s; 'throw caution to the wind(s)' specifically dated to the early 1900s, nautical theory unconfirmed."
+  },
+  {
+    id: "devils-advocate",
+    phrase: "Devil's Advocate",
+    meaning: "Someone who argues an opposing position, often just to test an idea.",
+    category: "Law & Government",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A genuine, formal role within the Roman Catholic Church, not
+    a metaphor to begin with. In 1587, Pope Sixtus V formally established
+    the office of "advocatus diaboli" (Latin for devil's advocate) as
+    part of the canonization process, an official whose specific job was
+    to argue skeptically against a candidate for sainthood, testing
+    claims of miracles and virtue for weaknesses or exaggeration. The
+    adversarial role deliberately strengthened the process by ensuring
+    every case could survive real scrutiny. The term moved into everyday
+    figurative English by the mid-1700s.`,
+    mythVsFact: null,
+    source: "Pope Sixtus V's 1587 establishment of the advocatus diaboli office, documented in Catholic Church records and Britannica; figurative use from the mid-18th century."
+  },
+  {
+    id: "add-insult-to-injury",
+    phrase: "Add Insult to Injury",
+    meaning: "To make an already bad situation worse.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traces to a fable by the Roman writer Phaedrus, in the 1st
+    century AD, about a bald man swatting at a fly that had landed on
+    his head. Missing the fly entirely, he strikes himself hard instead,
+    prompting the fly to mock him: "You wished to kill me for a touch.
+    What will you do to yourself since you have added insult to injury?"
+    The fable was translated and became well known in English, with the
+    phrase itself recorded from 1748, and the underlying image, making a
+    bad moment worse through a clumsy overreaction, has stayed exactly
+    intact ever since.`,
+    mythVsFact: null,
+    source: "Phaedrus, Fables (1st century AD); English usage documented from 1748, cited in Mental Floss and Phrase Finder."
+  },
+  {
+    id: "bend-over-backwards",
+    phrase: "Bend Over Backwards",
+    meaning: "To make an extreme effort to help or accommodate someone.",
+    category: "Sport & Military",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Draws an obvious comparison between a physically demanding
+    backbend and going to demanding lengths for someone else, but
+    sources disagree sharply on when it actually caught on, with dates
+    ranging from around 1920 in America to claims of related gymnastic
+    imagery being used as far back as the 10th century. The most
+    popular theory points to acrobats and contortionists, who bent
+    themselves into extraordinary positions to impress an audience and
+    keep working, mirroring the extreme effort the idiom now describes
+    figuratively.`,
+    mythVsFact: null,
+    source: "American usage dated variously to the 1900s-1920s across sources including Dictionary.com and Vocabulary.com; contortionist theory discussed without full resolution."
+  },
+  {
+    id: "burning-the-candle-at-both-ends",
+    phrase: "Burning the Candle at Both Ends",
+    meaning: "Exhausting yourself by overworking, especially by staying up late and rising early.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Translated directly from a 17th-century French phrase,
+    "brusler la chandelle par les deux bouts," recorded in a 1611
+    French-English dictionary. Candles were a genuine household expense,
+    and lighting one at both ends to work by, rather than just the top,
+    burned through it far faster, making the phrase's original meaning
+    closer to "wasteful" than "overworked." Over time "both ends" was
+    reinterpreted as the beginning and end of the day, rising before
+    dawn and working past dark, giving the phrase its modern sense of
+    self-imposed exhaustion. Poet Edna St. Vincent Millay popularised
+    the image further in her 1918 poem "First Fig."`,
+    mythVsFact: null,
+    source: "Randle Cotgrave, A Dictionarie of the French and English Tongues (1611); Edna St. Vincent Millay, 'First Fig' (1918)."
+  },
+  {
+    id: "hit-the-nail-on-the-head",
+    phrase: "Hit the Nail on the Head",
+    meaning: "To describe or identify something with complete accuracy.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A carpentry image with a long, well-documented history in
+    English. An early version appears around 1438 in The Book of Margery
+    Kempe, and the phrase in something close to its modern figurative
+    sense, meaning exactly right rather than literally accurate hammer
+    work, shows up in John Heywood's proverb collection in 1546. Hitting
+    a nail squarely, rather than at an angle that bends it or misses
+    entirely, takes real precision, making it a natural metaphor for
+    getting something exactly correct. The ancient Romans had a near
+    -identical expression, "rem acu tetigisti" ("you have touched the
+    thing with a needle").`,
+    mythVsFact: null,
+    source: "The Book of Margery Kempe (c.1438); John Heywood, A Dialogue Conteinyng the Nomber in Effect of All the Prouerbes in the Englishe Tongue (1546)."
+  },
+  {
+    id: "take-it-with-a-grain-of-salt",
+    phrase: "Take It With a Grain of Salt",
+    meaning: "To view a claim with healthy skepticism rather than accepting it fully.",
+    category: "History & Empire",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traces to the Roman writer Pliny the Elder, who in 77 AD
+    recorded an ancient poison antidote recipe, made from walnuts, figs,
+    and rue leaves, to "be taken fasting, plus a grain of salt." The
+    salt likely just made the unpleasant remedy easier to swallow,
+    literally. The figurative sense, treating a claim or story with a
+    pinch of skepticism rather than swallowing it whole, developed much
+    later among classically educated scholars and is recorded in English
+    from 1647.`,
+    mythVsFact: null,
+    source: "Pliny the Elder, Naturalis Historia (77 AD); figurative English usage recorded from 1647, cited in the Oxford English Dictionary."
+  },
+  {
+    id: "taste-of-your-own-medicine",
+    phrase: "A Taste of Your Own Medicine",
+    meaning: "To be treated the way you have treated others, especially badly.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traces to Aesop's fable "The Cobbler Turned Doctor." A cobbler
+    poses as a physician, prescribing a remedy that happens to cure one
+    patient but kills another with a different ailment entirely. When
+    the fraudulent cobbler-doctor himself falls ill, the townspeople
+    force him to take his own remedy, quite literally giving him a taste
+    of his own medicine, with fatal results in the original story.
+    Aesop's fables were translated into English in the mid-1600s,
+    seeding a number of idioms still in everyday use, this one among
+    them.`,
+    mythVsFact: null,
+    source: "Aesop, 'The Cobbler Turned Doctor'; Aesop's Fables translated into English from the mid-17th century."
+  },
+  {
+    id: "it-takes-two-to-tango",
+    phrase: "It Takes Two to Tango",
+    meaning: "Both people involved share responsibility for a situation, especially a conflict.",
+    category: "Music",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Unusually precisely dated for an idiom. The Latin American
+    tango itself became internationally popular in the 1920s, and the
+    obvious observation that the dance requires two willing partners was
+    already circulating as slang by the following decade. The exact
+    modern phrase, though, comes from a specific 1952 song, "Takes Two to
+    Tango," written by Al Hoffman and Dick Manning and popularised
+    through singer Pearl Bailey's recording that same year. An older,
+    related proverb, "it always takes two to make a bargain," appears
+    in English as far back as 1579.`,
+    mythVsFact: null,
+    source: "Al Hoffman and Dick Manning, 'Takes Two to Tango' (1952), recorded by Pearl Bailey; earlier proverb documented in John Lyly, Euphues (1579)."
+  },
+  {
+    id: "every-cloud-has-a-silver-lining",
+    phrase: "Every Cloud Has a Silver Lining",
+    meaning: "Even a difficult situation contains some hidden benefit or hope.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The core image was coined by John Milton in his 1634 masque
+    Comus: "Was I deceived, or did a sable cloud Turn forth her silver
+    lining on the night?" describing sunlight visibly rimming the edge
+    of a dark cloud. It took roughly two centuries for that poetic image
+    to solidify into the full proverb, appearing in recognisable form in
+    The Dublin Magazine in 1840. American writer Sara Payson Willis,
+    writing under the pen name Fanny Fern, cemented the now-familiar
+    wording as the opening line of her 1853 essay "Nil Desperandum."`,
+    mythVsFact: null,
+    source: "John Milton, Comus (1634); The Dublin Magazine (1840); Fanny Fern (Sara Payson Willis), 'Nil Desperandum' (1853)."
+  },
+  {
+    id: "put-all-eggs-in-one-basket",
+    phrase: "Don't Put All Your Eggs in One Basket",
+    meaning: "Don't risk everything on a single plan, investment, or option.",
+    category: "Literature",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Usually credited to Miguel de Cervantes, whose novel Don
+    Quixote (1605-1615) advises that a wise man shouldn't "venture all
+    his eggs in one basket." Cervantes almost certainly didn't invent the
+    saying himself, though; very similar proverbs appear in Italian
+    proverb collections of the same period, including Giovanni Torriano's
+    A Common Place of Italian Proverbs (1666), suggesting a shared
+    Spanish or Italian folk origin that Cervantes simply popularised in
+    print. The underlying logic is straightforwardly practical: a
+    dropped basket of eggs, all in one place, breaks the lot at once.`,
+    mythVsFact: null,
+    source: "Miguel de Cervantes, Don Quixote (1605-1615); Giovanni Torriano, A Common Place of Italian Proverbs and Proverbial Phrases (1666)."
+  },
+  {
+    id: "dont-judge-a-book-by-its-cover",
+    phrase: "Don't Judge a Book by Its Cover",
+    meaning: "Don't form an opinion about something or someone based only on outward appearance.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The underlying idea is ancient, expressed by the Roman poet
+    Juvenal around the 1st or 2nd century AD, warning against judging by
+    appearances alone. The specific book-and-cover imagery developed much
+    later in English: George Eliot's 1860 novel The Mill on the Floss
+    references a handsomely bound book in a related sense, and a
+    version of the modern proverb appeared as a newspaper headline by
+    1849. The exact wording used today is traced to a 1946 American
+    mystery novel, Murder in the Glass Room, which used the phrase "you
+    can never tell a book by its cover."`,
+    mythVsFact: null,
+    source: "George Eliot, The Mill on the Floss (1860); modern wording traced to Murder in the Glass Room (1946)."
+  },
+  {
+    id: "kill-two-birds-with-one-stone",
+    phrase: "Kill Two Birds With One Stone",
+    meaning: "To achieve two goals with a single action.",
+    category: "Language Itself",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `First documented in English in 1656, in philosopher Thomas
+    Hobbes's Questions Concerning Liberty, Necessity, and Chance, where
+    he writes of satisfying "two arguments with one answer." Similar
+    ideas may be considerably older; some etymologists point to
+    equivalent Latin expressions predating Hobbes, and others connect it
+    to the Greek myth of Daedalus supposedly killing two birds with one
+    stone to gather feathers for his and Icarus's wings, though that
+    mythological link has never been documented as the phrase's actual
+    source rather than a coincidental parallel.`,
+    mythVsFact: null,
+    source: "Thomas Hobbes, Questions Concerning Liberty, Necessity, and Chance (1656); Daedalus and Icarus theory discussed without confirmation in phrase-history references."
+  },
+  {
+    id: "bite-off-more-than-you-can-chew",
+    phrase: "Bite Off More Than You Can Chew",
+    meaning: "To take on more responsibility or work than you can actually handle.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Rooted in genuine 19th-century American habits around
+    chewing tobacco, which was commonly sold in solid pressed blocks or
+    "cakes." Someone greedily biting off a chunk larger than they could
+    comfortably chew created an obvious, relatable image of
+    over-ambition, first appearing in print in American publications
+    during the 1830s. The metaphorical sense, taking on more than you
+    can actually manage in any context, followed naturally and needed no
+    real updating over the following century and a half.`,
+    mythVsFact: null,
+    source: "Documented in American print from the 1830s; chewing-tobacco custom discussed in phrase-history references including Why Do They Say That."
+  },
+  {
+    id: "let-the-chips-fall-where-they-may",
+    phrase: "Let the Chips Fall Where They May",
+    meaning: "To accept whatever outcome results from doing the right thing, without trying to control it.",
+    category: "History & Empire",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traced to a specific speech: on 5 June 1880, US Senator
+    Roscoe Conkling nominated Ulysses S. Grant for a third presidential
+    term in Chicago, declaring that Grant "will hew to the line of right,
+    let the chips fall where they may." The "chips" are wood chips, not
+    poker or gambling chips as sometimes assumed, drawn from the image
+    of a woodcutter focused entirely on chopping cleanly and correctly,
+    unconcerned with where the resulting wood chips happen to scatter.
+    Conkling's line was widely quoted afterward and had become a cliche
+    by the mid-20th century.`,
+    mythVsFact: "The 'chips' are frequently assumed to be gambling chips, evoking a card table, but the phrase actually comes from woodcutting: wood chips scattering as a woodsman focuses on the cut itself.",
+    source: "Roscoe Conkling, nominating speech for Ulysses S. Grant, Chicago (5 June 1880), cited in Merriam-Webster."
+  },
+  {
+    id: "actions-speak-louder-than-words",
+    phrase: "Actions Speak Louder Than Words",
+    meaning: "What people do matters more than what they say.",
+    category: "Language Itself",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The underlying idea has been credited to the ancient Greeks,
+    the Romans, Confucius, the Bible, Saint Francis of Assisi, and
+    Benjamin Franklin at various points, which is a good sign that no
+    single source can honestly claim it. In English, MP John Pym used a
+    close version in Parliament in 1628 ("actions are more precious than
+    words"), and clergyman Thomas Manton's 1693 sermon collection uses
+    "speak louder." The exact modern wording is documented from 1736,
+    and Abraham Lincoln used it verbatim in an 1856 speech.`,
+    mythVsFact: null,
+    source: "John Pym's 1628 parliamentary speech; Thomas Manton's sermons (1693); exact modern wording documented from 1736, per Ludwig.guru."
+  },
+  {
+    id: "birds-of-a-feather-flock-together",
+    phrase: "Birds of a Feather Flock Together",
+    meaning: "People with similar interests or character tend to associate with each other.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Draws on the simple, observable fact that birds of the same
+    species genuinely do flock together. The underlying comparison
+    appears as far back as the apocryphal biblical Book of Sirach
+    (c.180-175 BC). In English, William Turner used an early version in
+    1545 ("Byrdes of on kynde and color flok and flye allwayes
+    together"), and the phrase settled into its modern, recognisable
+    wording by 1599, in John Minsheu's Spanish-English dictionary.`,
+    mythVsFact: null,
+    source: "Book of Sirach (c.180-175 BC); William Turner, The Rescuing of the Romish Fox (1545); John Minsheu, A Dictionarie in Spanish and English (1599)."
+  },
+  {
+    id: "hit-the-road",
+    phrase: "Hit the Road",
+    meaning: "To leave, or set off on a journey.",
+    category: "Slang & Everyday Speech",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Documented in American slang from 1873 with the closely
+    related "hit the trail," but exactly which literal image inspired it
+    is unsettled. One theory points to the sound of hooves, feet, or
+    wheels striking the road at the start of a journey. Another credits
+    travelling circus performers and musicians, packing up and moving to
+    the next town, for whom "hitting the road" meant resuming touring
+    life. Ray Charles's 1961 hit "Hit the Road Jack" later cemented the
+    phrase in pop culture, adding the now-common meaning of telling
+    someone bluntly to leave.`,
+    mythVsFact: null,
+    source: "Online Etymology Dictionary (documented from 1873); travelling-performer theory discussed in Why Do They Say That; Ray Charles, 'Hit the Road Jack' (1961)."
+  },
+  {
+    id: "piece-of-cake",
+    phrase: "Piece of Cake",
+    meaning: "Something very easy to do.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `The most commonly repeated theory ties this to the
+    "cakewalk," a competitive strutting dance performed by enslaved
+    Black Americans that mockingly imitated the formal manners of
+    plantation owners, with a cake awarded to the winning couple. It's a
+    compelling story, but it runs into a real problem: the earliest
+    confirmed print use of "piece of cake" is in the British edition of
+    Ogden Nash's 1936 book Primrose Path, where it directly replaces an
+    earlier American phrase, "everything is jake," undermining a purely
+    American cakewalk origin. Simpler theories, that cake is just
+    generally easy and pleasant to eat, remain just as plausible and
+    just as unproven.`,
+    mythVsFact: "The cakewalk-dance theory is the one most often repeated, but its American origins sit awkwardly with the phrase's earliest confirmed appearance being in a British publication, replacing an unrelated American phrase.",
+    source: "Ogden Nash, Primrose Path (1936, British edition); cakewalk theory discussed and complicated in Mental Floss."
+  },
+  {
+    id: "hit-the-sack",
+    phrase: "Hit the Sack",
+    meaning: "To go to bed.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A literal description of an old, uncomfortable-sounding
+    mattress. Before modern bedding, many mattresses really were sacking
+    cloth stuffed with hay or straw. The related phrase "hit the hay"
+    came first, documented before 1880 and originally describing
+    sleeping in a barn near the farm's actual hay store. "Hit the sack"
+    in its modern sense took hold in the 1940s, popularised by American
+    soldiers during the Second World War, who borrowed military slang
+    for a sleeping bag to describe turning in for the night.`,
+    mythVsFact: null,
+    source: "'Hit the hay' documented before 1880; 'hit the sack' popularised via WWII American military slang, cited in Grammarist and Mental Floss."
+  },
+  {
+    id: "the-last-straw",
+    phrase: "The Last Straw",
+    meaning: "The final, seemingly small event that causes a much larger reaction after a long buildup.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Shortened from the fuller proverb "the last straw that breaks
+    the camel's back," first recorded around 1755. Earlier versions of
+    the same idea used a horse rather than a camel; the camel only
+    became the standard beast of burden in the phrase by the late 18th
+    century. The precise wording, camel included, is documented in The
+    Edinburgh Advertiser in 1816, and Charles Dickens used the
+    now-familiar form in his 1846 novel Dombey and Son. English speakers
+    eventually dropped the camel from everyday use entirely, since the
+    shorter "the last straw" already implies the rest of the story.`,
+    mythVsFact: null,
+    source: "The Edinburgh Advertiser (May 1816); Charles Dickens, Dombey and Son (1846)."
+  },
+  {
+    id: "jump-the-gun",
+    phrase: "Jump the Gun",
+    meaning: "To act prematurely, before the proper or agreed time.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Comes from track and field athletics, where a starter pistol
+    signals the beginning of a race, and an over-eager runner who
+    bursts forward at the slightest sound before the shot is fired is
+    disqualified for a false start. The phrase was originally "beat the
+    gun," with "jump" replacing "beat" as the figurative, non-athletic
+    use spread. The earliest confirmed citation, from an Iowa farming
+    publication in 1921, is already figurative rather than describing an
+    actual race, suggesting the athletic image had already become
+    common shorthand by that point.`,
+    mythVsFact: null,
+    source: "Earliest citation from The Iowa Homestead (November 1921); earlier 'beat the gun' form documented in phrase-history references including Rolls off the Tongue."
+  },
+  {
+    id: "call-it-a-day",
+    phrase: "Call It a Day",
+    meaning: "To stop working or doing something, usually because enough has been done for now.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Grew out of daily-wage labour practices in the UK and US.
+    The earlier form, "call it half a day," is documented from 1838,
+    describing workers who left before a full day's shift was up, with
+    their pay or attendance record adjusted accordingly. "Call it a day"
+    itself, meaning the working day is entirely finished, is recorded
+    from 1919, with "call it a night" following in 1938. The phrase
+    later broadened well beyond paid work to describe stopping any
+    activity once enough has been done.`,
+    mythVsFact: null,
+    source: "'Call it half a day' documented from 1838; 'call it a day' from 1919, cited in etymonline.com."
+  },
+  {
+    id: "throw-in-the-towel",
+    phrase: "Throw in the Towel",
+    meaning: "To give up or admit defeat.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A literal boxing surrender signal, still used today. A
+    fighter's corner team would throw a towel into the ring to stop the
+    fight and protect their boxer from further punishment or a
+    knockout, a gesture documented in print by 1913. It replaced an
+    earlier, near-identical custom: literally throwing a sweat-soaked
+    sponge into the ring, recorded as "throw up the sponge" from 1871.
+    The towel version overtook the sponge version by the early 1900s and
+    quickly spread into everyday figurative use for giving up on
+    anything.`,
+    mythVsFact: null,
+    source: "The Fort Wayne Journal-Gazette (1913); earlier 'throw up the sponge' form documented from 1871, cited in Mental Floss."
+  },
+  {
+    id: "see-eye-to-eye",
+    phrase: "See Eye to Eye",
+    meaning: "To agree completely with someone.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traces to the Book of Isaiah in the Bible: "Thy watchmen
+    shall lift up the voice; with the voice together shall they sing:
+    for they shall see eye to eye when the Lord shall bring again Zion"
+    (Isaiah 52:8, King James Version). In its original context, the
+    phrase describes watchmen literally seeing each other face to face
+    once Jerusalem's exiles finally return, not agreement in the modern
+    sense at all. Over the centuries the phrase's meaning drifted from
+    that literal, physical image toward its now-standard sense of shared
+    opinion or agreement.`,
+    mythVsFact: null,
+    source: "Book of Isaiah 52:8, King James Version; meaning shift discussed in phrase-history references including Writing Tips."
+  },
+  {
+    id: "put-your-foot-down",
+    phrase: "Put Your Foot Down",
+    meaning: "To assert authority firmly, refusing to allow something.",
+    category: "Language Itself",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `A phrase with several genuinely different meanings layered
+    on top of each other over time, all stemming from the same physical
+    image of a firmly planted foot. The sense of standing your ground,
+    as in battle, is documented from 1662. A later, broader figurative
+    sense, standing firm on an issue or refusing to budge, developed by
+    the mid-1800s. A third, much more literal sense followed in the
+    early 20th century once cars became common: putting your foot down
+    on the accelerator pedal to speed up. All three senses coexist
+    today, which makes the phrase's single "true" origin hard to pin
+    down.`,
+    mythVsFact: null,
+    source: "Oxford English Dictionary (battle sense from 1662); figurative and motoring senses documented in phrase-history references including Idiom Origins."
+  },
+  {
+    id: "out-of-the-blue",
+    phrase: "Out of the Blue",
+    meaning: "Suddenly and without warning.",
+    category: "Literature",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Shortened from the fuller "a bolt from the blue," the image
+    of lightning striking from a clear blue sky rather than the dark
+    storm clouds it normally comes from, making it a natural symbol for
+    a completely unforeseen event. Scottish writer Thomas Carlyle
+    recorded the fuller phrase in his history The French Revolution
+    (1837), likely drawing on the classical Roman poet Horace, whom
+    Carlyle had studied closely. The shortened "out of the blue" followed
+    in 1879, in the magazine The Spectator. A separate, less-supported
+    theory connects the phrase instead to a crossbow bolt fired from an
+    unseen distance.`,
+    mythVsFact: null,
+    source: "Thomas Carlyle, The French Revolution (1837); shortened form in The Spectator (1879); Horace connection and crossbow theory discussed in wordhistories.net."
+  },
+  {
+    id: "in-the-same-boat",
+    phrase: "In the Same Boat",
+    meaning: "Facing the same difficult situation or circumstances as someone else.",
+    category: "Sailing & the Sea",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The most solidly documented early use is in Thomas Hudson's
+    1584 English translation of Du Bartas's Historie of Judith, already
+    used metaphorically rather than literally. Some sources claim a much
+    older origin among the ancient Greeks, describing passengers who
+    shared the same risk aboard a small vessel at sea, but that classical
+    connection has never been documented with a specific source. The
+    underlying logic needs no embellishment either way: once a boat has
+    set sail, everyone aboard shares exactly the same fate, like it or
+    not.`,
+    mythVsFact: null,
+    source: "Thomas Hudson, translation of Du Bartas's Historie of Judith (1584); claimed ancient Greek origin undocumented, per phrase-history references including US Dictionary."
+  },
+  {
+    id: "keep-your-chin-up",
+    phrase: "Keep Your Chin Up",
+    meaning: "Stay positive and optimistic, even in a difficult situation.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `An American phrase from the late 1800s to early 1900s,
+    documented in a Pennsylvania newspaper, The Evening Democrat, from
+    that period, though it only became genuinely popular from the 1940s
+    onward, likely boosted by its heavy use during the Second World War.
+    It draws directly on boxing, where a fighter who keeps their chin
+    raised, rather than dropping their guard, signals confidence and
+    refusal to be beaten. It replaced an older British version, "keep
+    your pecker up," current since the 1840s, when "pecker" simply meant
+    courage or resolve, before the word picked up different connotations
+    in American English.`,
+    mythVsFact: null,
+    source: "The Evening Democrat (Pennsylvania, early 1900s); earlier British 'keep your pecker up' documented from the 1840s, cited in Grammarist."
   }
 ];
 
