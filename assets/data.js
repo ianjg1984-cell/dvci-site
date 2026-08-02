@@ -62,17 +62,19 @@ const IDIOMS = [
     phrase: "Sent to Coventry",
     meaning: "To be deliberately ignored or ostracised by a group.",
     category: "War & Conflict",
-    verdict: "well-documented",
-    verdictLabel: "Well Documented",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
     story: `The best-supported explanation comes from the English Civil War.
-    Coventry was a stronghold of Parliamentary support, and captured Royalist
-    soldiers were sometimes sent there to be held. Local residents, hostile
-    to the Royalist cause, refused to speak to or associate with the
-    prisoners at all. The historian Edward Hyde, Earl of Clarendon, records
-    something very close to this practice in his 17th-century account of the
-    rebellion.`,
-    mythVsFact: null,
-    source: "Edward Hyde, Earl of Clarendon, The History of the Rebellion and Civil Wars in England (1717 posthumous publication)."
+    Coventry was a stronghold of Parliamentary support, and Royalist soldiers
+    captured in Birmingham were marched there and held as prisoners. Local
+    residents, hostile to the Royalist cause, refused to speak to or
+    associate with them at all. The historian Edward Hyde, Earl of
+    Clarendon, records something very close to this practice in his account
+    of the rebellion, written in the 1640s-70s and published posthumously.
+    The idiom itself, though, isn't recorded in print until 1765, more than
+    a century after the events it supposedly describes.`,
+    mythVsFact: "The Clarendon connection is often repeated as if it settles the matter. In reality there's a real gap: the historical practice of shunning Royalist prisoners is well documented, but the phrase itself doesn't turn up in print until a century later, so we can't be certain one led directly to the other.",
+    source: "Edward Hyde, Earl of Clarendon, The History of the Rebellion and Civil Wars in England (written 1646-1671, first published posthumously 1702-1704); earliest citation of the idiom itself from 1765, per the Oxford English Dictionary."
   },
   {
     id: "cold-shoulder",
@@ -87,7 +89,11 @@ const IDIOMS = [
     unceremonious leftover, instead of a hot meal, as a not-so-subtle hint
     that they'd overstayed their welcome. It's often repeated as settled fact,
     but historians have never found documentary proof that this was an actual
-    dining custom rather than an image Scott simply invented for effect.`,
+    dining custom rather than an image Scott simply invented for effect.
+    A lesser-known rival theory ties it instead to a Biblical mistranslation,
+    a line in the Vulgate's Book of Nehemiah describing stubborn people who
+    "gave a stubborn shoulder," which some etymologists think fed into
+    English devotional writing well before Scott's novel.`,
     mythVsFact: "It's frequently stated as historical fact that this was a real, widespread custom. In truth, Scott's novel is the earliest evidence we have. He may have been drawing on a genuine practice, or he may have coined a vivid figure of speech that later got mistaken for social history.",
     source: "Sir Walter Scott, The Antiquary (1816)."
   },
@@ -151,13 +157,14 @@ const IDIOMS = [
     <em>palus</em>, a stake), the same root as "impale." "The Pale" was
     used as a name for several real English-controlled territories with a
     boundary fence or ditch, most famously the area around Dublin under
-    English rule in the late medieval and Tudor periods. To be "beyond the
-    pale" meant being outside that zone of English law and control, and to
-    the English who coined the phrase, outside civilisation as they saw it.
-    Historians debate exactly which "Pale" (Ireland, or the English-held Pale
-    of Calais) the idiom first referred to.`,
-    mythVsFact: null,
-    source: "Documented use of 'the English Pale' in Irish administrative records from the 14th–16th centuries."
+    English rule in the late medieval and Tudor periods, and it's often
+    assumed the idiom refers directly to stepping outside one of them,
+    disputed only over exactly which one (Ireland, or the English-held Pale
+    of Calais). But the timing is awkward: the phrase itself isn't recorded
+    in print until 1720, decades after the Irish Pale had ceased to exist as
+    an administrative boundary in 1541.`,
+    mythVsFact: "It's commonly stated as settled fact that the idiom refers to a specific historical Pale, with only the exact location up for debate. The Oxford English Dictionary takes a more skeptical view: the phrase's first recorded use comes too late to connect cleanly to any of the specific historical Pales, and it treats the geographic origin stories as a likely later rationalisation rather than the real source.",
+    source: "Oxford English Dictionary, entry for 'pale, n.2'; phrase first attested 1720, discussed alongside the disputed geographic theories."
   },
   {
     id: "bite-the-bullet",
@@ -646,11 +653,13 @@ const IDIOMS = [
     ears," which are famously long, and relies on the fact that in
     British non-rhotic pronunciation "ears" and "years" sound close
     enough to swap. It's reinforced by the folk belief that donkeys are
-    unusually long-lived animals. The wordplay is recorded in print from
-    the 1910s, and the spelling shifted from "ears" to "years" early on,
-    cementing the pun as the phrase's permanent form.`,
+    unusually long-lived animals. The wordplay is recorded in print as early
+    as 1876, in a Salisbury court report where a witness is quoted saying
+    "for years and years and donkey's years," and the spelling shifted from
+    "ears" to "years" early on, cementing the pun as the phrase's permanent
+    form.`,
     mythVsFact: null,
-    source: "Earliest citations from the 1910s-20s, cited in the Oxford English Dictionary's entry for 'donkey, n.'"
+    source: "The Salisbury Times, 1 July 1876, cited by the Oxford English Dictionary as the earliest known citation for 'donkey's years.'"
   },
   {
     id: "at-a-loose-end",
