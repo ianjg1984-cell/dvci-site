@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suggest an Idiom | D.V.C.I.</title>
+  <meta name="description" content="Know an idiom D.V.C.I. hasn't covered yet? Suggest it and we'll dig into where it really came from." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">
+        <span class="mark">D.V.C.I.</span>
+        <span class="full">Dictionary of Very Curious Idioms</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#repository">Repository</a>
+        <a href="a-z.html">A-Z</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="suggest.html" class="active">Suggest</a>
+        <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
+        <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-content">
+    <h1>Suggest an Idiom</h1>
+    <p>
+      Know a curious expression we haven't covered yet? A phrase from your
+      corner of the country, something you've always wondered about, or
+      just an idiom you like the sound of? Tell us and we'll dig into where
+      it really comes from, honestly rated, same as everything else here.
+    </p>
+    <p>
+      No login needed, and you don't have to leave your name.
+    </p>
+
+    <form class="comment-form suggest-form" id="suggest-form" data-loaded-at="">
+      <input type="text" name="phrase" id="suggest-phrase" class="comment-name" maxlength="200" placeholder="The idiom or phrase" autocomplete="off" required />
+      <textarea name="context" id="suggest-context" class="comment-text" maxlength="1000" placeholder="Anything else worth knowing: where you've heard it, what it means, why it's curious (optional)"></textarea>
+      <input type="text" name="submitted_by" id="suggest-name" class="comment-name" maxlength="60" placeholder="Your name (optional)" autocomplete="off" />
+      <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
+      <button type="submit">Send Suggestion</button>
+      <p class="comment-status" id="suggest-status"></p>
+    </form>
+    <p class="comments-note">We read every suggestion. Not all of them make the cut, but if it's got a real story behind it, it'll turn up in the repository eventually.</p>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social-row">
+        <a href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
+      </div>
+      <p>&copy; 2026 Dictionary of Very Curious Idioms. Researched with care; corrections welcome.</p>
+      <p><a href="privacy.html">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      const SUPABASE_URL = "https://sntdlmadodjvjuevkqxc.supabase.co";
+      const SUPABASE_ANON_KEY = "sb_publishable_LCtvm2fyl6efrxK8RMYv5A_ruZxs-fE";
+
+      const form = document.getElementById("suggest-form");
+      if (!form) return;
+      form.dataset.loadedAt = Date.now();
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const statusEl = document.getElementById("suggest-status");
+        const phraseEl = document.getElementById("suggest-phrase");
+        const contextEl = document.getElementById("suggest-context");
+        const nameEl = document.getElementById("suggest-name");
+        const hpEl = form.querySelector(".hp-field");
+        const loadedAt = parseInt(form.dataset.loadedAt, 10) || 0;
+
+        // Honeypot: real visitors never see or fill this field.
+        if (hpEl.value) return;
+        // Anything submitted within 3s of the form appearing is almost
+        // certainly a bot filling the form instantly, not a person typing.
+        if (Date.now() - loadedAt < 3000) {
+          statusEl.textContent = "Please try again in a moment.";
+          return;
+        }
+        const phrase = phraseEl.value.trim();
+        if (!phrase) return;
+
+        const submitBtn = form.querySelector("button[type=submit]");
+        submitBtn.disabled = true;
+        statusEl.textContent = "Sending…";
+        try {
+          const res = await fetch(`${SUPABASE_URL}/rest/v1/idiom_suggestions`, {
+            method: "POST",
+            headers: {
+              apikey: SUPABASE_ANON_KEY,
+              Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+              "Content-Type": "application/json",
+              Prefer: "return=minimal"
+            },
+            body: JSON.stringify({
+              phrase: phrase.slice(0, 200),
+              context: contextEl.value.trim().slice(0, 1000) || null,
+              submitted_by: nameEl.value.trim().slice(0, 60) || null
+            })
+          });
+          if (res.ok) {
+            statusEl.textContent = "Thanks! We'll take a look.";
+            form.reset();
+            form.dataset.loadedAt = Date.now();
+          } else {
+            statusEl.textContent = "Something went wrong sending that. Please try again.";
+          }
+        } catch (err) {
+          statusEl.textContent = "Something went wrong sending that. Please try again.";
+        } finally {
+          submitBtn.disabled = false;
+        }
+      });
+    })();
+  </script>
+
+  <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "298330214869446984ccb7eb7a0d2c89"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

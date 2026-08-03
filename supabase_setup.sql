@@ -138,3 +138,26 @@ create policy "public can subscribe"
 
 grant insert on newsletter_signups to anon, authenticated;
 revoke select, update, delete on newsletter_signups from anon, authenticated;
+
+-- D.V.C.I. "Suggest an Idiom" submissions (no secrets in this part, safe
+-- to run and keep in the repo). Same shape as newsletter_signups: anyone
+-- can submit, nobody (not even a signed-in user) can read the list back
+-- out through the public API. Review happens from your own Supabase
+-- dashboard's Table Editor.
+
+create table if not exists idiom_suggestions (
+  id bigint generated always as identity primary key,
+  phrase text not null check (char_length(phrase) >= 1 and char_length(phrase) <= 200),
+  context text check (char_length(context) <= 1000),
+  submitted_by text check (char_length(submitted_by) <= 60),
+  created_at timestamptz not null default now()
+);
+
+alter table idiom_suggestions enable row level security;
+
+create policy "public can submit idiom suggestions"
+  on idiom_suggestions for insert
+  with check (true);
+
+grant insert on idiom_suggestions to anon, authenticated;
+revoke select, update, delete on idiom_suggestions from anon, authenticated;

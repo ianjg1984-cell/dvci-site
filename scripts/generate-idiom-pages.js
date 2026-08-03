@@ -147,6 +147,7 @@ function pageHTML(entry) {
         <a href="../quiz.html">Quiz</a>
         <a href="../about.html">About</a>
         <a href="../contact.html">Contact</a>
+        <a href="../suggest.html">Suggest</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
         <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
       </nav>
@@ -266,6 +267,7 @@ function categoryPageHTML(category, idiomsInCategory, allCategories) {
         <a href="../quiz.html">Quiz</a>
         <a href="../about.html">About</a>
         <a href="../contact.html">Contact</a>
+        <a href="../suggest.html">Suggest</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
         <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
       </nav>
@@ -373,6 +375,7 @@ function azIndexHTML(idioms) {
         <a href="quiz.html">Quiz</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
+        <a href="suggest.html">Suggest</a>
         <a class="social-pill" href="https://www.instagram.com/dvci_com/" target="_blank" rel="noopener">Instagram</a>
         <a class="social-pill" href="https://www.facebook.com/profile.php?id=61592467116078" target="_blank" rel="noopener">Facebook</a>
       </nav>
