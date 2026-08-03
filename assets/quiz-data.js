@@ -1856,5 +1856,205 @@ const QUIZ_QUESTIONS = [
       "\"Keep your head up\""
     ],
     correctIndex: 0
+  },
+  {
+    idiomId: "achilles-heel",
+    question: "In the myth behind \"Achilles' heel,\" what made that one spot vulnerable?",
+    options: [
+      "Thetis held him there while dipping him in the River Styx",
+      "Zeus struck him there as punishment",
+      "He was born with a birthmark in that exact spot"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hoist-by-own-petard",
+    question: "In \"hoist by your own petard,\" what is a petard?",
+    options: [
+      "A small explosive device",
+      "A type of siege ladder",
+      "A ceremonial sword"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "red-herring",
+    question: "What does \"red herring\" actually come from, per the real historical record?",
+    options: [
+      "A method used to train hunting animals",
+      "A trick used by escaping prisoners",
+      "A slang term from Victorian fishmongers"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "sour-grapes",
+    question: "Where does \"sour grapes\" come from?",
+    options: [
+      "One of Aesop's fables",
+      "A line from Shakespeare",
+      "An old French proverb"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "lions-share",
+    question: "In the original Aesop fable, what did \"the lion's share\" actually mean?",
+    options: [
+      "Absolutely everything, not just the biggest part",
+      "Exactly half of the total catch",
+      "Whatever was left over after others took their cut"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "cry-wolf",
+    question: "What happens in the Aesop fable behind \"cry wolf\"?",
+    options: [
+      "A boy's false alarms mean nobody believes him later",
+      "A wolf disguises itself among sheep",
+      "A shepherd loses his flock in a storm"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "wolf-in-sheeps-clothing",
+    question: "Where does \"a wolf in sheep's clothing\" actually come from?",
+    options: [
+      "Jesus's Sermon on the Mount",
+      "One of Aesop's fables",
+      "A medieval English proverb collection"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "jack-of-all-trades",
+    question: "When \"jack of all trades\" was first recorded in 1612, how was it meant?",
+    options: [
+      "As a genuine compliment, with no insult intended",
+      "As a mocking put-down, same as today",
+      "As a legal term for an apprentice"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "red-tape",
+    question: "What does \"red tape\" literally refer to?",
+    options: [
+      "Strips of red cloth once used to bind official documents",
+      "A red carpet laid out for visiting officials",
+      "A red-inked stamp used to approve paperwork"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pie-in-the-sky",
+    question: "Who actually coined \"pie in the sky\"?",
+    options: [
+      "Labour organiser Joe Hill, in 1911",
+      "A 1920s American radio comedian",
+      "An anonymous Salvation Army hymn writer"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "saved-by-the-bell",
+    question: "What's the real origin of \"saved by the bell\"?",
+    options: [
+      "Boxing slang for the bell ending a round",
+      "Victorian safety coffins fitted with an alarm bell",
+      "A church bell warning of approaching danger"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hair-of-the-dog",
+    question: "What did \"hair of the dog\" originally refer to?",
+    options: [
+      "A folk remedy for treating dog bites",
+      "A recipe for brewing strong ale",
+      "A grooming ritual for hunting dogs"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "off-the-cuff",
+    question: "What's the popular, though disputed, story behind \"off the cuff\"?",
+    options: [
+      "Speakers scribbled last-minute notes on their shirt cuffs",
+      "Tailors measured customers without written notes",
+      "Card players hid notes in their sleeves"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pot-calling-the-kettle-black",
+    question: "Where does \"the pot calling the kettle black\" first appear in English?",
+    options: [
+      "Thomas Shelton's 1620 translation of Don Quixote",
+      "A 16th-century English proverb collection",
+      "A Victorian etiquette manual"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "rob-peter-pay-paul",
+    question: "What does the evidence say about the popular Westminster Abbey story behind \"rob Peter to pay Paul\"?",
+    options: [
+      "The phrase predates that event by about a century",
+      "It's the confirmed, documented origin",
+      "It only applies to the Scottish version of the phrase"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "up-to-scratch",
+    question: "In bare-knuckle boxing, what did \"up to scratch\" literally mean?",
+    options: [
+      "Being fit enough to reach a scratched line",
+      "Landing a scratch that drew first blood",
+      "Scratching a mark on your opponent's record"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "turn-over-a-new-leaf",
+    question: "In \"turn over a new leaf,\" what does \"leaf\" actually mean?",
+    options: [
+      "A page in a book",
+      "A fresh leaf of tea",
+      "A leaf-shaped seal on a document"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "mums-the-word",
+    question: "What does \"mum\" actually mean in \"mum's the word\"?",
+    options: [
+      "An old imitation of a sealed-lip sound",
+      "A shortened form of \"mummer\"",
+      "An old word for \"secret\""
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "throw-down-the-gauntlet",
+    question: "In medieval times, what did throwing down a gauntlet actually mean?",
+    options: [
+      "Formally challenging someone to a duel",
+      "Surrendering in battle",
+      "Announcing a knight's arrival at court"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "spick-and-span",
+    question: "What does the Oxford English Dictionary say about the popular \"new ship\" origin story for \"spick and span\"?",
+    options: [
+      "There's no real evidence connecting it to shipbuilding",
+      "It's the confirmed and accepted origin",
+      "It only applies to the older \"span-new\" version"
+    ],
+    correctIndex: 0
   }
 ];

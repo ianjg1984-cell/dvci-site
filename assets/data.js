@@ -3554,6 +3554,421 @@ const IDIOMS = [
     in American English.`,
     mythVsFact: null,
     source: "The Evening Democrat (Pennsylvania, early 1900s); earlier British 'keep your pecker up' documented from the 1840s, cited in Grammarist."
+  },
+  {
+    id: "achilles-heel",
+    phrase: "Achilles' Heel",
+    meaning: "A single point of weakness in someone or something otherwise strong.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `In Greek myth, the sea nymph Thetis tried to make her infant
+    son Achilles invincible by dipping him in the River Styx, the river
+    of the underworld. She held him by one heel to dip him in, and that
+    single spot, never touched by the water, stayed mortal. Achilles grew
+    into the greatest warrior of the Trojan War, unstoppable until an
+    arrow, some versions say fired by Paris and guided by the god Apollo,
+    struck him in exactly that heel and killed him. It's worth knowing
+    that Homer's <em>Iliad</em>, the oldest and most famous account of
+    the war, never mentions this vulnerability at all; the heel detail
+    first appears roughly a thousand years later, in the Roman poet
+    Statius's <em>Achilleid</em>.`,
+    mythVsFact: "It's easy to assume this detail goes all the way back to Homer, given how central Achilles is to the Iliad. It doesn't. Homer's Achilles has no special weak point; the heel story was added by a much later Roman writer and only became attached to the older legend over time.",
+    source: "Statius, Achilleid (1st century AD); absent from Homer's Iliad (8th century BC), noted in classical scholarship."
+  },
+  {
+    id: "hoist-by-own-petard",
+    phrase: "Hoist by Your Own Petard",
+    meaning: "To be undone by your own scheme or trick.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one is a direct Shakespeare coinage, from <em>Hamlet</em>:
+    "For 'tis the sport to have the engineer hoist with his own petard."
+    A petard was a real, primitive explosive device, a small bomb packed
+    into a metal or wooden case, used to blow open city gates and castle
+    walls. "Hoist" is an old form of "hoise," meaning lifted or blown
+    upward. Put together, the image is of a bomb-maker blown into the air
+    by his own bomb, close-in irony rather than distant misfortune.
+    There's also a buried joke: "petard" comes from French pétard,
+    ultimately from a Latin verb meaning "to break wind," so Shakespeare's
+    audience likely caught a second, cruder meaning too.`,
+    mythVsFact: null,
+    source: "William Shakespeare, Hamlet (c.1600), Act III, Scene IV; etymology of 'petard' traced through French and Latin in the Oxford English Dictionary."
+  },
+  {
+    id: "red-herring",
+    phrase: "Red Herring",
+    meaning: "A misleading clue or distraction from the real issue.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `The popular story is that escaping prisoners, or fox hunters
+    trying to spoil a hunt, would drag a smelly smoked ("red") herring
+    across their trail to throw pursuing dogs off the scent. It's a vivid
+    image, but historians of fox hunting have found no real evidence of
+    it being used that way. The actual source seems more mundane: a 1686
+    hunting manual by Nicholas Cox recommended dragging a dead cat or fox
+    to lay an artificial scent trail for training young hunting horses
+    and hounds, and suggested a strong-smelling red herring as a
+    substitute if a cat or fox wasn't available. By the 19th century,
+    that training method had been misremembered as a deliberate trick to
+    fool the hounds, and the figurative sense of "red herring" as a
+    deceptive distraction was born from the misunderstanding.`,
+    mythVsFact: "The idea of a criminal or saboteur dragging a fish to fool bloodhounds is repeated constantly, but it isn't what actually happened. The real practice was a normal training exercise for hunting animals, only later reinterpreted as trickery.",
+    source: "Nicholas Cox, The Gentleman's Recreation (1686 hunting manual); discussed in detail by etymologist Michael Quinion (World Wide Words)."
+  },
+  {
+    id: "sour-grapes",
+    phrase: "Sour Grapes",
+    meaning: "Disparaging something you couldn't have or achieve, to make yourself feel better about missing out.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This comes straight from one of Aesop's fables, traditionally
+    credited to a Greek storyteller who may have lived around the 6th
+    century BC. A fox spots a bunch of grapes hanging just out of reach
+    on a high vine, tries repeatedly to jump up and grab them, fails
+    every time, and finally struts off declaring that the grapes were
+    probably sour and not worth eating anyway. The phrase entered English
+    through William Caxton's 1484 translation of Aesop's fables, and the
+    psychological trick it describes, devaluing something the moment you
+    realise you can't have it, was so recognisable that the phrase has
+    stuck for over five centuries.`,
+    mythVsFact: null,
+    source: "Aesop, 'The Fox and the Grapes' (traditional attribution, c.6th century BC); earliest English use in William Caxton's 1484 translation of Aesop's Fables."
+  },
+  {
+    id: "lions-share",
+    phrase: "The Lion's Share",
+    meaning: "The largest part of something, often unfairly so.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Another Aesop's fable, and one with a harsher original meaning
+    than people usually assume. In the story, several animals hunt
+    together and agree beforehand to split whatever they catch equally.
+    Once the kill is made, the lion claims the first portion because he's
+    king, the second because he's a partner in the hunt, the third
+    because he's the strongest, and warns that anyone who touches the
+    fourth portion will regret it. In the original fable, "the lion's
+    share" doesn't mean the biggest slice, it means all of it, with
+    nothing left for anyone else. Like several other Aesop-derived
+    idioms, it reached English through William Caxton's 1484 translation,
+    and only softened over time into meaning "the majority" rather than
+    "everything."`,
+    mythVsFact: null,
+    source: "Aesop, 'The Lion's Share' (traditional attribution); William Caxton's 1484 English translation of Aesop's Fables."
+  },
+  {
+    id: "cry-wolf",
+    phrase: "Cry Wolf",
+    meaning: "To raise a false alarm, especially repeatedly, so that a real warning later gets ignored.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This is Aesop's fable of the shepherd boy who repeatedly
+    shouts that a wolf is attacking his flock purely to amuse himself,
+    watching the villagers come running each time only to find nothing
+    wrong. When a real wolf eventually shows up and he cries for help in
+    earnest, nobody believes him anymore, and the flock is lost. The
+    fable wasn't translated out of Greek and into wider European
+    circulation until the 15th century, appearing in Heinrich
+    Steinhöwel's collection of Aesop's fables, but the moral, that
+    habitual dishonesty destroys your credibility even when you're
+    finally telling the truth, has made the phrase durable across
+    languages.`,
+    mythVsFact: null,
+    source: "Aesop, 'The Boy Who Cried Wolf' (traditional attribution); Latin and vernacular circulation via Heinrich Steinhöwel's 15th-century fable collection."
+  },
+  {
+    id: "wolf-in-sheeps-clothing",
+    phrase: "A Wolf in Sheep's Clothing",
+    meaning: "Someone or something dangerous that's disguised as harmless or friendly.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one is straight out of the Bible, from Jesus's Sermon on
+    the Mount in the Gospel of Matthew: "Beware of false prophets, which
+    come to you in sheep's clothing, but inwardly they are ravening
+    wolves." It's a warning about people, especially religious teachers,
+    who present themselves as trustworthy while actually being harmful.
+    The image reached English through early Bible translations,
+    including John Wycliffe's 1382 version. A cluster of similar-sounding
+    Aesop's-fables-style stories about wolves disguising themselves in
+    sheepskins also exist, but none of them are genuinely ancient; the
+    earliest can only be traced to around the 12th century AD, more than
+    a thousand years after Aesop, and were falsely attributed to him
+    later.`,
+    mythVsFact: "Versions of this image are sometimes credited to Aesop, but no such fable exists from anywhere near his actual era. The real source is the Bible, and any 'Aesop' fable about it is a much later addition wrongly attached to his name.",
+    source: "Gospel of Matthew 7:15 (biblical); earliest English translation in John Wycliffe's 1382 Bible."
+  },
+  {
+    id: "jack-of-all-trades",
+    phrase: "Jack of All Trades, Master of None",
+    meaning: "Someone reasonably capable at many different things, but not a true expert in any single one.",
+    category: "Trade & Industry",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `"Jack" was such a common nickname for "John" in medieval
+    England that it became a stand-in term for an anonymous, everyday
+    man, the same instinct behind words like "jack-of-the-clock." "Jack
+    of all trades" as a phrase is recorded from 1612, in Geffray
+    Minshull's account of his time in prison, and it originally carried
+    no insult at all, simply describing someone broadly, usefully
+    skilled. The stinging second half, "master of none," is a much later
+    addition, generally dated to the 18th century, and it's this
+    addition that flipped the phrase from a compliment into a put-down.`,
+    mythVsFact: "People often assume the put-down was baked in from the start. It wasn't. For roughly a century and a half, being a 'jack of all trades' was simply a nice thing to be called.",
+    source: "Geffray Minshull, Essayes and Characters of a Prison and Prisoners (1612); 'master of none' addition dated to the 18th century per etymological sources."
+  },
+  {
+    id: "red-tape",
+    phrase: "Red Tape",
+    meaning: "Excessive, rigid bureaucracy and official procedure.",
+    category: "Law & Government",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one is pleasingly literal. From at least the 16th
+    century, English government officials and lawyers really did bind
+    their official documents and legal papers with strips of red cloth
+    tape, partly practical (keeping bundles of paper together) and
+    partly a visual marker that a document had been through the proper
+    process. A similar story is told about Charles V of Spain using red
+    tape to flag urgent paperwork a little earlier. Either way, the
+    sheer amount of paper-tying involved in getting anything done through
+    official channels became a byword for needless delay, with the
+    figurative sense of "red tape" meaning fussy bureaucracy recorded in
+    print by 1796.`,
+    mythVsFact: null,
+    source: "Documented English legal and government practice from the 16th century onward; figurative use recorded in The Pleader's Guide (1796)."
+  },
+  {
+    id: "pie-in-the-sky",
+    phrase: "Pie in the Sky",
+    meaning: "An unrealistic, overly optimistic promise or plan that will probably never happen.",
+    category: "Music",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one has an exact author and an exact motive.
+    Swedish-American labour organiser Joe Hill wrote the phrase into his
+    1911 song "The Preacher and the Slave," a parody of the Salvation
+    Army hymn "In the Sweet By-and-By." Hill was a member of the
+    Industrial Workers of the World (nicknamed the "Wobblies"), and the
+    song mocked preachers who told hungry, poorly paid workers to stop
+    worrying about their material conditions because they'd get their
+    reward in heaven: "You'll get pie in the sky when you die." The song
+    was printed in the IWW's <em>Little Red Songbook</em> and the phrase
+    quickly outgrew its original, very pointed political target.`,
+    mythVsFact: null,
+    source: "Joe Hill, 'The Preacher and the Slave' (1911), published in the Industrial Workers of the World's Little Red Songbook."
+  },
+  {
+    id: "saved-by-the-bell",
+    phrase: "Saved by the Bell",
+    meaning: "Rescued from a difficult situation at the very last moment.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `A popular and genuinely eerie story claims this phrase comes
+    from Victorian "safety coffins," fitted with a bell and string so
+    that anyone mistakenly buried alive could ring for help. It's a great
+    story for the era: premature burial was a real Victorian anxiety,
+    fuelled by writers like Edgar Allan Poe. The trouble is there's no
+    documented case of anyone actually being rescued this way, and no
+    evidence the phrase was ever used in that sense. The real, much less
+    dramatic origin is boxing slang from the second half of the 1800s: a
+    fighter in danger of being knocked out or losing a round is "saved"
+    by the bell signalling the round's end. The phrase only became widely
+    known once boxing commentary started being broadcast on the radio in
+    the 1920s.`,
+    mythVsFact: "The safety-coffin story gets repeated constantly because it's so vivid, but there's no actual evidence linking it to the phrase. This is straightforwardly boxing slang, popularised by 1920s radio, not a rescue from premature burial.",
+    source: "Boxing usage documented from the late 19th century, popularised via 1920s radio broadcasting; safety-coffin theory addressed and dismissed in etymological sources including World Wide Words."
+  },
+  {
+    id: "hair-of-the-dog",
+    phrase: "Hair of the Dog",
+    meaning: "A small amount of alcohol taken to cure a hangover.",
+    category: "Health & Medicine",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The full, older version of this phrase is "a hair of the dog
+    that bit you," and it originally had nothing to do with hangovers.
+    Going back at least to Roman times, there was a genuine folk medical
+    belief, described by Pliny the Elder among others, that a dog bite
+    (even from a rabid dog) could be treated by placing a hair from that
+    same dog onto the wound, on the logic that like cures like, the same
+    idea behind homeopathy. By the time English writer John Heywood
+    recorded the phrase in his 1546 collection of proverbs, it already
+    carried the modern figurative sense: curing the effects of drink with
+    a little more of the same drink.`,
+    mythVsFact: null,
+    source: "Pliny the Elder, Natural History (1st century AD), for the literal dog-bite remedy; John Heywood, A Dialogue Conteinyng the Nomber in Effect of All the Prouerbes in the Englishe Tongue (1546), for the figurative hangover sense."
+  },
+  {
+    id: "off-the-cuff",
+    phrase: "Off the Cuff",
+    meaning: "Said or done without preparation; improvised on the spot.",
+    category: "Slang & Everyday Speech",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The standard explanation is that speakers used to scribble
+    last-minute notes on their shirt cuffs, glancing down at them
+    discreetly while appearing to speak entirely from memory. It's a
+    charming image, and the phrase does date from the 1930s in American
+    usage. But some language historians are openly sceptical that this
+    was ever a widespread real habit rather than a colourful guess at
+    what the phrase "must" mean, and the earliest known use, from a 1922
+    California newspaper describing a film shot "off the cuff," is about
+    improvised filmmaking, not public speaking at all.`,
+    mythVsFact: "The shirt-cuff-notes story is repeated as settled fact, but there's real doubt among etymologists about whether anyone actually did this. The earliest citation being about unscripted filmmaking rather than speeches also complicates the tidy version of the story.",
+    source: "San Francisco Examiner (4 November 1922), earliest known citation; skepticism about the shirt-cuff practice discussed in Language Log and related etymological sources."
+  },
+  {
+    id: "pot-calling-the-kettle-black",
+    phrase: "The Pot Calling the Kettle Black",
+    meaning: "Accusing someone of a fault that you share yourself.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This image comes from Miguel de Cervantes's <em>Don
+    Quixote</em>, by way of Thomas Shelton's 1620 English translation,
+    where the phrase appears as Sancho Panza is compared to "the
+    frying-pan" telling "the kettle" to get away for having a black face.
+    In a kitchen built around open fires, both a cooking pot and a
+    kettle would be scorched black with soot from constant use, which is
+    exactly the joke: one sooty object mocking another sooty object for
+    being sooty is absurd, since neither has any standing to criticise
+    the other. The phrasing shifted over the following decades from
+    pan-and-kettle into the pot-and-kettle version used today.`,
+    mythVsFact: null,
+    source: "Miguel de Cervantes, Don Quixote (1605), translated into English by Thomas Shelton (1620)."
+  },
+  {
+    id: "rob-peter-pay-paul",
+    phrase: "Rob Peter to Pay Paul",
+    meaning: "To solve one financial problem by creating another, usually by taking from one source to cover a different debt.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A popular story claims this phrase comes from 1550s England,
+    when Westminster Abbey, dedicated to Saint Peter, briefly became a
+    cathedral before being absorbed back into the diocese of London, with
+    many of its assets redirected to pay for repairs at St Paul's
+    Cathedral, quite literally robbing (Saint) Peter to pay (Saint) Paul.
+    It's a satisfying, specific story, but the phrase is recorded in
+    English at least a century earlier, in mid-15th-century religious
+    writing, which rules out the Westminster Abbey explanation as the
+    true origin. Other theories point to a Bible passage where Paul
+    admits redirecting church funds, or simply to "Peter and Paul" being
+    a stock alliterative pairing of two well-known apostles' names used
+    to represent "one person and another" in general. No single
+    explanation has ever been confirmed.`,
+    mythVsFact: "The Westminster Abbey/St Paul's Cathedral story is repeated as if it explains everything, but the phrase is documented in English a good century before that event took place, so it can't be the true origin, however neatly it seems to fit.",
+    source: "Early citation in 15th-century Middle English religious writing, per the Oxford English Dictionary; Westminster Abbey theory and biblical theory both discussed, neither confirmed, in phrase-history references."
+  },
+  {
+    id: "up-to-scratch",
+    phrase: "Up to Scratch",
+    meaning: "Meeting the required standard; good enough.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `In the bare-knuckle boxing of the early-to-mid 1800s, a line
+    was literally scratched into the ground at the centre of the ring.
+    At the start of every round, both fighters had to walk up to that
+    scratch unaided. If a fighter was too injured or exhausted to make it
+    to the line under their own power within the allowed time after
+    being knocked down, the fight was over, and they'd lost. Being able
+    to walk up to that mark meant you were fit to continue, hence "up to
+    scratch," which drifted from the boxing ring into a general standard
+    of being good enough for anything.`,
+    mythVsFact: null,
+    source: "Documented bare-knuckle boxing rules from the early-to-mid 19th century, cited in the Oxford English Dictionary's entry for 'scratch, n.'"
+  },
+  {
+    id: "turn-over-a-new-leaf",
+    phrase: "Turn Over a New Leaf",
+    meaning: "To reform your behaviour and start afresh.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `In this phrase, a "leaf" isn't a plant leaf, it's an old and
+    still-surviving word for a page in a book (hence "loose-leaf
+    paper"). Turning over a new leaf meant physically flipping to a
+    fresh, blank page, an obvious metaphor for putting a messy or
+    unwanted chapter behind you and starting again cleanly. The phrase
+    in something close to its current form is recorded from the
+    mid-1500s, in John Heywood's 1546 collection of English proverbs,
+    with the specifically "new" wording following soon after in Roger
+    Ascham's 1570 book <em>The Scholemaster</em>.`,
+    mythVsFact: null,
+    source: "John Heywood, A Dialogue Conteinyng the Nomber in Effect of All the Prouerbes in the Englishe Tongue (1546); Roger Ascham, The Scholemaster (1570)."
+  },
+  {
+    id: "mums-the-word",
+    phrase: "Mum's the Word",
+    meaning: "Keep quiet; don't reveal a secret.",
+    category: "Theatre & Performance",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `"Mum" here has nothing to do with mothers. It's an old
+    imitation of the sound "mmm," made with the lips sealed shut, and
+    was used in Middle English (as "momme") to mean simply "silent." The
+    word turns up in William Langland's poem <em>Piers Plowman</em> in
+    the late 1300s, and Shakespeare used a close relative of the phrase
+    in <em>Henry VI, Part 2</em>: "Seal up your lips and give no words
+    but mum." There's also a nice theatrical link: medieval Christmas
+    "mummers," costumed performers who visited houses to act out plays
+    or games, were traditionally required to stay silent throughout,
+    communicating only by mime, which is very likely where "mum" picked
+    up its association with staying deliberately quiet.`,
+    mythVsFact: null,
+    source: "William Langland, Piers Plowman (c.1370-90); William Shakespeare, Henry VI, Part 2 (c.1591); mummer tradition documented in English folk custom sources."
+  },
+  {
+    id: "throw-down-the-gauntlet",
+    phrase: "Throw Down the Gauntlet",
+    meaning: "To issue a direct, formal challenge.",
+    category: "Medieval Life",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A gauntlet, from the French gantelet, was the reinforced
+    armoured glove worn by medieval knights, and throwing one down at
+    another knight's feet was a formal, deliberately public way of
+    challenging them to a duel or trial by combat. Picking the glove up
+    meant accepting the fight; leaving it on the ground meant refusing,
+    and risking being branded a coward. The figurative sense, issuing a
+    bold challenge in an argument, a competition, or anything else, is
+    recorded from the second half of the 1700s. It's easy to confuse
+    this with the completely unrelated "running the gauntlet," a brutal
+    military punishment where a man was made to run between two lines of
+    soldiers striking him; the two phrases share the word "gauntlet"
+    purely by coincidence, not by shared origin.`,
+    mythVsFact: null,
+    source: "Documented medieval European chivalric custom; figurative use recorded from the mid-to-late 18th century, per the Oxford English Dictionary."
+  },
+  {
+    id: "spick-and-span",
+    phrase: "Spick and Span",
+    meaning: "Neat, clean, and tidy.",
+    category: "Language Itself",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The full original phrase was "spick and span new," and it's
+    built from two old words for newness stacked together for emphasis.
+    "Span-new" came from Old Norse <em>spann-nyr</em>, roughly "new as a
+    freshly cut chip of wood," and was already in English by around
+    1300. "Spick" was added later, likely echoing a similar Dutch or
+    Flemish phrase, <em>spiksplinternieuw</em>, meaning "spike-splinter-
+    new." A popular story claims the phrase specifically describes a
+    newly built sailing ship, with shiny unused nails ("spikes") and
+    fresh wood shavings ("span," as in wood chips) still lying about.
+    It's a satisfying nautical image, but the Oxford English Dictionary
+    finds no real evidence connecting the phrase to shipbuilding, and
+    none of the earliest examples mention ships at all.`,
+    mythVsFact: "The 'newly built ship' story sounds authoritative and specific, which is probably why it spreads so easily, but the OED specifically notes there's no supporting evidence for it. The 'new as a wood chip' meaning behind the words has nothing to do with boats.",
+    source: "Oxford English Dictionary, entry for 'spick-and-span'; Old Norse 'spann-nyr' and Dutch 'spiksplinternieuw' cited as likely sources."
   }
 ];
 
