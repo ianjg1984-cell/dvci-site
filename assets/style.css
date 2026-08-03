@@ -618,7 +618,7 @@ nav.main-nav a.active:not(.social-pill) {
   margin-bottom: 0.8rem;
 }
 
-.comment-form .hp-field {
+.hp-field {
   position: absolute;
   left: -9999px;
   width: 1px;

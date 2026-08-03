@@ -442,13 +442,26 @@
   // file) forwards new signups to Beehiiv, which sends the welcome email.
   const newsletterForm = document.getElementById("newsletter-form");
   if (newsletterForm) {
+    newsletterForm.dataset.loadedAt = Date.now();
     newsletterForm.addEventListener("submit", async (e) => {
       e.preventDefault();
       const emailInput = document.getElementById("newsletter-email");
       const successMsg = document.getElementById("newsletter-success");
       const submitBtn = newsletterForm.querySelector("button[type=submit]");
+      const hpEl = newsletterForm.querySelector(".hp-field");
+      const loadedAt = parseInt(newsletterForm.dataset.loadedAt, 10) || 0;
       const email = emailInput.value.trim();
       if (!email) return;
+
+      // Honeypot: real visitors never see or fill this field.
+      if (hpEl.value) return;
+      // Anything submitted within 3s of the form appearing is almost
+      // certainly a bot filling the form instantly, not a person typing.
+      if (Date.now() - loadedAt < 3000) {
+        successMsg.textContent = "Please try again in a moment.";
+        successMsg.classList.add("show");
+        return;
+      }
 
       if (!SUPABASE_READY) {
         successMsg.textContent = "Signups aren't switched on yet. Check back soon.";
