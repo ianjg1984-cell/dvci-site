@@ -33,9 +33,9 @@
     };
   }
 
-  // Pool covers every idiom in the repository (98 and growing), but each
-  // playthrough only serves a random slice of it, so a full pass takes a
-  // handful of plays rather than one very long quiz.
+  // Pool covers every idiom in the repository, however large it grows, but
+  // each playthrough only serves a random slice of it, so a full pass takes
+  // a handful of plays rather than one very long quiz.
   const QUESTIONS_PER_ROUND = 10;
 
   function newRound() {
