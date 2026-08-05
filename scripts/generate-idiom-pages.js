@@ -161,7 +161,7 @@ function pageHTML(entry) {
     <p class="meaning">"${escapeHtml(entry.meaning)}"</p>
     <div class="share-row">
       <button class="share-btn copy-link-btn" type="button">Copy Link</button>
-      <a class="share-btn" href="${facebookShareUrl}" target="_blank" rel="noopener">Share on Facebook</a>
+      <a class="share-btn fb-share-btn" href="${facebookShareUrl}" target="_blank" rel="noopener" data-share-url="${url}">Share on Facebook</a>
     </div>
     <div class="story"><p>${entry.story}</p></div>
     ${entry.mythVsFact ? `<div class="myth-box"><strong>Myth vs. Fact</strong>${entry.mythVsFact}</div>` : ""}

@@ -65,9 +65,39 @@
     return `
       <div class="share-row">
         <button class="share-btn copy-link-btn" type="button">Copy Link</button>
-        <a class="share-btn" href="${facebookShareUrl(entry.id)}" target="_blank" rel="noopener">Share on Facebook</a>
+        <a class="share-btn fb-share-btn" href="${facebookShareUrl(entry.id)}" target="_blank" rel="noopener" data-share-url="${idiomUrl(entry.id)}">Share on Facebook</a>
       </div>
     `;
+  }
+
+  // On devices that support the native OS share sheet (most phones), swap
+  // the Facebook-specific link for a real share action, so tapping it opens
+  // the actual Facebook app (or Messages, WhatsApp, etc.) instead of always
+  // landing in the mobile browser. Desktop browsers mostly don't support
+  // navigator.share, so they keep the plain Facebook link untouched.
+  function wireShareButtons(scope) {
+    if (!navigator.share) return;
+    scope.querySelectorAll(".fb-share-btn").forEach((btn) => {
+      if (btn.dataset.shareWired) return;
+      btn.dataset.shareWired = "1";
+      const container = btn.closest(".share-row")?.parentElement;
+      const heading = container?.querySelector("h1, h2");
+      const meaningEl = container?.querySelector(".meaning");
+      btn.textContent = "Share";
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        navigator
+          .share({
+            title: heading ? heading.textContent : document.title,
+            text: meaningEl ? meaningEl.textContent.replace(/^"|"$/g, "") : "",
+            url: btn.dataset.shareUrl || window.location.href
+          })
+          .catch(() => {
+            // User cancelled the share sheet, or the share failed silently.
+            // Nothing to do, the button is still a normal link if they retry.
+          });
+      });
+    });
   }
 
   async function copyIdiomLink(entry, btn) {
@@ -369,6 +399,7 @@
     loadCommentList(entry.id);
     wireCommentForm(entry.id);
     wireReactionBar(entry.id);
+    wireShareButtons(modalBody);
     modalBody.querySelector(".copy-link-btn")?.addEventListener("click", (e) => copyIdiomLink(entry, e.currentTarget));
   }
 
@@ -434,6 +465,7 @@
       document
         .querySelector(".copy-link-btn")
         ?.addEventListener("click", (e) => copyIdiomLink(standaloneEntry, e.currentTarget));
+      wireShareButtons(document);
     }
   }
 
