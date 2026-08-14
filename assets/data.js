@@ -1719,11 +1719,14 @@ const IDIOMS = [
     earliest recorded sense, from the early 1700s, actually referred to a
     tavern bill or reckoning rather than food itself, and by the early
     1800s it had shifted to mean food, typically scrappy leftovers or
-    odds and ends rather than a proper spread. Most etymologists trace it
-    to Old Norse "skran," meaning junk or rubbish, though a competing
-    theory points instead to Dutch "schranzen."`,
+    odds and ends rather than a proper spread. Many etymologists point to
+    Old Norse "skran," meaning junk or rubbish, and a competing theory
+    suggests Dutch "schranzen" instead, but the Oxford English Dictionary
+    itself is cautious about the Old Norse link, noting the resemblance
+    to similar-looking Scandinavian words could just as easily be
+    coincidence as a genuine shared root.`,
     mythVsFact: "A frequently repeated claim is that SCRAN is a naval acronym for 'Sultanas, Currants, Raisins And Nuts.' It isn't. There's no documentary evidence for the acronym at all, and the word was already in use, in its food sense, more than a century before anyone suggested it stood for anything.",
-    source: "Documented in early 18th-century tavern-bill usage and 19th-century military slang; Old Norse 'skran' root discussed in etymological scholarship."
+    source: "Documented in early 18th-century tavern-bill usage and 19th-century military slang; Old Norse 'skran' root discussed, with OED-noted skepticism, in etymological scholarship."
   },
   {
     id: "ginnel",
