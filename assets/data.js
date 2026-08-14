@@ -3969,6 +3969,587 @@ const IDIOMS = [
     none of the earliest examples mention ships at all.`,
     mythVsFact: "The 'newly built ship' story sounds authoritative and specific, which is probably why it spreads so easily, but the OED specifically notes there's no supporting evidence for it. The 'new as a wood chip' meaning behind the words has nothing to do with boats.",
     source: "Oxford English Dictionary, entry for 'spick-and-span'; Old Norse 'spann-nyr' and Dutch 'spiksplinternieuw' cited as likely sources."
+  },
+  {
+    id: "wild-goose-chase",
+    phrase: "Wild Goose Chase",
+    meaning: "A hopeless or fruitless pursuit of something unattainable.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Shakespeare gets the credit for this one, from <em>Romeo and
+    Juliet</em>, where Mercutio tells Romeo, "Nay, if our wits run the
+    wild-goose chase, I am done." But the original meaning had nothing to
+    do with hunting a goose. A "wild goose chase" was a real type of horse
+    race, where riders had to follow a lead horse at a set distance,
+    mimicking the loose, changeable formation of wild geese in flight, a
+    sport documented in Gervase Markham's 1593 riding manual, published
+    just before Shakespeare's play. Only later did the phrase drift toward
+    its modern sense of a pointless, erratic pursuit.`,
+    mythVsFact: null,
+    source: "William Shakespeare, Romeo and Juliet (1592-96); Gervase Markham, A Discourse of Horsmanshippe (1593), describing the horse-racing sense."
+  },
+  {
+    id: "pandoras-box",
+    phrase: "Pandora's Box",
+    meaning: "An action that seems small or harmless but unleashes a great many unforeseen problems.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `In Greek myth, Zeus was furious after Prometheus stole fire from
+    the gods and gave it to humanity, so he had Pandora created and sent
+    to Prometheus's brother Epimetheus as a bride, along with a sealed
+    container Pandora was warned never to open. Her curiosity won out, and
+    opening it released sickness, death, and every other evil into the
+    world, with only one thing left trapped inside afterward, usually
+    translated as Hope. The story is recorded in Hesiod's <em>Works and
+    Days</em>, from around the 7th or 8th century BC. The "box" itself is
+    a mistranslation: the original Greek word was <em>pithos</em>, a large
+    storage jar, and it only became a "box" through a 16th-century
+    translation error.`,
+    mythVsFact: null,
+    source: "Hesiod, Works and Days (c.7th-8th century BC); 'box' mistranslation from Greek 'pithos' documented in classical scholarship."
+  },
+  {
+    id: "apple-of-my-eye",
+    phrase: "The Apple of My Eye",
+    meaning: "A person cherished above all others.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `One of the oldest phrases in this whole repository. It first
+    appears in Old English in a work attributed to King Alfred the Great,
+    from around 885 AD, and shows up repeatedly in the Bible, including
+    Deuteronomy 32:10 in the King James Version. Originally, "apple" here
+    meant something more literal: the word for apple and the word for a
+    round, solid object (like a pupil) were closely related in Anglo-Saxon,
+    so the "apple" of the eye was simply the pupil itself, the small,
+    precious, easily-damaged core of your vision. Something or someone
+    described as the apple of your eye was, quite literally, as important
+    to protect as your own sight.`,
+    mythVsFact: null,
+    source: "Attributed to King Alfred the Great, Gregory's Pastoral Care (c.885 AD); Deuteronomy 32:10, King James Version (1611)."
+  },
+  {
+    id: "cast-the-first-stone",
+    phrase: "Cast the First Stone",
+    meaning: "A warning against judging or condemning others when you have faults of your own.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This comes directly from the Gospel of John, chapter 8. Religious
+    leaders bring a woman accused of adultery to Jesus, reminding him that
+    the law demanded she be stoned, and challenge him to judge her. His
+    response: "He that is without sin among you, let him first cast a
+    stone at her." One by one, her accusers leave without throwing anything,
+    apparently unable to claim they were sinless themselves. The phrase has
+    survived as a compact way of saying: don't condemn others for faults
+    you share, or haven't examined in yourself first.`,
+    mythVsFact: null,
+    source: "Gospel of John 8:7, King James Version (1611)."
+  },
+  {
+    id: "salt-of-the-earth",
+    phrase: "Salt of the Earth",
+    meaning: "A person or group considered genuine, dependable, and fundamentally decent, often in an unpretentious, working-class sense.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Straight from Jesus's Sermon on the Mount, in Matthew 5:13: "Ye
+    are the salt of the earth: but if the salt have lost his savour,
+    wherewith shall it be salted?" His audience for the sermon was made up
+    of ordinary fishers, shepherds, and labourers, and the phrase was a
+    genuine compliment about their worth and integrity, not about flavour
+    but about salt's older, more practical role as a preservative,
+    something that keeps other things from spoiling. The phrase reached
+    English by the late 14th century, appearing in Chaucer's <em>The
+    Summoner's Tale</em>, and has kept its sense of quiet, unglamorous
+    decency ever since.`,
+    mythVsFact: null,
+    source: "Gospel of Matthew 5:13, King James Version (1611); Geoffrey Chaucer, The Summoner's Tale (c.1385)."
+  },
+  {
+    id: "give-up-the-ghost",
+    phrase: "Give Up the Ghost",
+    meaning: "To die, or (of a machine or object) to stop working entirely.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `In 16th- and 17th-century English, "ghost" simply meant the
+    soul or spirit, not a spooky apparition, so to "give up the ghost"
+    meant releasing your spirit at the moment of death. The phrase appears
+    repeatedly in the King James Bible of 1611, including in the Gospel of
+    Mark's account of the crucifixion: "And Jesus cried with a loud voice,
+    and gave up the ghost." It's a direct English rendering of the
+    original Greek phrase for the moment life leaves the body. The wry
+    modern extension, applying it to a car engine or an old washing
+    machine finally packing in, keeps the same core image of something
+    breathing its last.`,
+    mythVsFact: null,
+    source: "Gospel of Mark 15:37, King James Version (1611); older sense of 'ghost' as spirit documented from the 16th century."
+  },
+  {
+    id: "pen-mightier-than-sword",
+    phrase: "The Pen Is Mightier Than the Sword",
+    meaning: "Words and ideas have more lasting power to influence people than violence or force.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This exact wording comes from English author Edward
+    Bulwer-Lytton's 1839 play <em>Richelieu; Or the Conspiracy</em>, first
+    performed at London's Covent Garden. The line belongs to Cardinal
+    Richelieu, a man of the church who can't defend himself with a blade
+    against a plot on his life, and instead resolves to use his writing to
+    turn public opinion in his favour. Bulwer-Lytton wasn't working from
+    nothing, though: similar sentiments show up much earlier, including a
+    line in Shakespeare's <em>Hamlet</em> (1602) about men "afraid of
+    goose-quills," and a 1582 line comparing the "dashe of a Pen" to being
+    struck by a lance.`,
+    mythVsFact: null,
+    source: "Edward Bulwer-Lytton, Richelieu; Or the Conspiracy (1839); earlier precedents in William Shakespeare's Hamlet (1602) and George Whetstone's Heptameron of Civil Discourses (1582)."
+  },
+  {
+    id: "in-the-limelight",
+    phrase: "In the Limelight",
+    meaning: "At the centre of public attention.",
+    category: "Theatre & Performance",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Genuinely literal, and genuinely chemical. In the 1820s, English
+    inventor Goldsworthy Gurney found that heating a block of quicklime
+    (calcium oxide) with a very hot hydrogen-and-oxygen flame produced an
+    intense, brilliant white light, quickly nicknamed "limelight." Scottish
+    engineer Thomas Drummond adapted it as a surveying tool soon after, but
+    theatres saw its real potential: from 1837, when it was first used to
+    light a stage at Covent Garden, limelight let stage crews focus a
+    bright beam directly on a specific performer at the front and centre
+    of the stage. Being "in the limelight" meant literally standing in
+    that beam, the unmistakable centre of the audience's attention, long
+    before electric spotlights replaced the technology by the century's
+    end.`,
+    mythVsFact: null,
+    source: "Goldsworthy Gurney's limelight process (1820s); first theatrical use documented at Covent Garden, London (1837)."
+  },
+  {
+    id: "steal-the-show",
+    phrase: "Steal the Show",
+    meaning: "To attract all the attention, outshining everyone else in a performance or event.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A theatre phrase with a surprisingly undocumented backstory.
+    It's widely assumed to come from the world of the stage, where a
+    scene-stealing performer draws focus away from whoever the scene was
+    supposed to be about, and it dates from around the first half of the
+    1900s, as theatre productions grew larger and more elaborate. But no
+    single documented moment of coining survives, and no one has pinned
+    down exactly which production or performer first inspired it. It has
+    since spread well beyond the stage, used just as often for a standout
+    moment in sport, business, or an unexpectedly show-stealing guest at a
+    wedding.`,
+    mythVsFact: null,
+    source: "Recorded in English from the early-to-mid 20th century, cited in phrase-history references; no documented coining event survives."
+  },
+  {
+    id: "play-it-by-ear",
+    phrase: "Play It by Ear",
+    meaning: "To improvise or decide how to act as a situation unfolds, rather than planning in advance.",
+    category: "Music",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Literally a musical skill before it became a general one. To
+    "play by ear" means performing a piece of music entirely from memory
+    and listening, without ever reading it from written sheet music, a
+    sense documented from the early 1800s, with some evidence suggesting
+    the underlying idea goes back as far as the 1600s. The figurative
+    sense, improvising your way through any situation rather than
+    following a fixed plan, took hold from around the 1930s, borrowing
+    the musician's trust in instinct and adaptation over rigid
+    preparation.`,
+    mythVsFact: null,
+    source: "Musical sense documented from the early 19th century; figurative extension recorded from the 1930s, per phrase-history references."
+  },
+  {
+    id: "neck-and-neck",
+    phrase: "Neck and Neck",
+    meaning: "Very closely matched in a competition, with no clear leader.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A straightforward image from horse racing, dating to the early
+    1800s. A "neck" was already an established unit for measuring a
+    horse's lead over its rivals, the length of a horse's head and neck.
+    When two horses were so evenly matched that their necks stayed level
+    with each other the whole way down the course, spectators described
+    the race as "neck and neck." By the early 19th century, the phrase had
+    already jumped from the racetrack into general use for any tight,
+    too-close-to-call contest between people.`,
+    mythVsFact: null,
+    source: "Documented horse-racing usage from the early 19th century, cited in the Oxford English Dictionary's entry for 'neck, n.'"
+  },
+  {
+    id: "hit-below-the-belt",
+    phrase: "Hit Below the Belt",
+    meaning: "To act unfairly, cruelly, or without regard for accepted standards of decency.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A real boxing rule, long before it was a metaphor. Restrictions
+    on hitting an opponent below the waist go back to boxer Jack
+    Broughton's 1743 rules for the sport, and were formalised further by
+    the Marquess of Queensberry Rules of 1867, which limited legal punches
+    to the head and upper body. The earliest known figurative use in print
+    dates to 1832, and by the late 19th century, "hitting below the belt"
+    had become an established way to describe any underhanded, dishonourable
+    tactic, in an argument, a negotiation, or anywhere else.`,
+    mythVsFact: null,
+    source: "Jack Broughton's Rules (1743); Marquess of Queensberry Rules (1867); earliest figurative citation from 1832."
+  },
+  {
+    id: "pull-no-punches",
+    phrase: "Pull No Punches",
+    meaning: "To speak or act with complete honesty and force, holding nothing back.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `In boxing, to "pull" a punch means deliberately holding back its
+    full force, throwing it with less than your maximum power, sometimes
+    for training purposes, sometimes to avoid seriously hurting a sparring
+    partner. Someone who "pulls no punches" is doing the opposite: hitting
+    with everything they've got. The figurative sense, speaking bluntly and
+    without softening a harsh truth, spread from the boxing world into
+    general English from the 1930s onward.`,
+    mythVsFact: null,
+    source: "Boxing terminology documented from the early 20th century; figurative extension recorded from the 1930s."
+  },
+  {
+    id: "take-it-on-the-chin",
+    phrase: "Take It on the Chin",
+    meaning: "To face hardship, criticism, or defeat with resilience and without complaint.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Another boxing phrase, from early 20th-century Britain. A punch
+    to the chin was considered one of the most dangerous blows a boxer
+    could receive, capable of ending a fight outright, so a fighter who
+    could absorb one and stay standing was showing real toughness. That
+    image of enduring a direct hit without flinching or falling carried
+    smoothly into general use, describing anyone who accepts bad news,
+    criticism, or misfortune with composure rather than collapsing under
+    it.`,
+    mythVsFact: null,
+    source: "Boxing slang documented from early 20th-century Britain, cited in phrase-history references."
+  },
+  {
+    id: "axe-to-grind",
+    phrase: "Have an Axe to Grind",
+    meaning: "To have a hidden, self-interested motive behind your actions or opinions.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `This one is very often, and very incorrectly, credited to
+    Benjamin Franklin, thanks to a similar story in his autobiography
+    about a boy tricked into tediously turning a grindstone to sharpen a
+    man's axe. But Franklin never actually used the phrase "an axe to
+    grind" himself. The real coiner was Pennsylvania newspaper editor
+    Charles Miner, who published an essay called "Who'll Turn Grindstone?"
+    on 7 September 1810, writing: "When I see a merchant over-polite to
+    his customers, think I, that man has an ax to grind." The Franklin
+    mix-up persisted in books and dictionaries for well over a century.`,
+    mythVsFact: "Benjamin Franklin gets credited with this phrase constantly, thanks to a similar grindstone anecdote in his own autobiography. He never actually coined it. That distinction belongs to Charles Miner, in an 1810 newspaper essay.",
+    source: "Charles Miner, 'Who'll Turn Grindstone?', The Wilkes-Barre Gleaner (1810)."
+  },
+  {
+    id: "long-in-the-tooth",
+    phrase: "Long in the Tooth",
+    meaning: "Old, or past one's prime.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A phrase borrowed directly from horse trading. As a horse ages,
+    its gums gradually recede, making its teeth look longer than they used
+    to, and buyers and traders learned to estimate a horse's age just by
+    examining its teeth, a practice going back centuries, with similar
+    Latin phrasing recorded as early as the 1500s. The earliest known
+    English citation applying it to a person, rather than an actual horse,
+    comes from William Makepeace Thackeray in 1852, describing an ageing
+    woman. From there it spread into a general, slightly dry way of
+    calling anyone or anything past its best years.`,
+    mythVsFact: null,
+    source: "Horse-trading practice documented from the 16th century onward; earliest figurative English citation in William Makepeace Thackeray's work (1852)."
+  },
+  {
+    id: "wet-behind-the-ears",
+    phrase: "Wet Behind the Ears",
+    meaning: "Young, naive, and inexperienced.",
+    category: "Language Itself",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The image is usually explained as a newborn animal, or a
+    newborn baby, still damp from birth, with the area behind the ears
+    being one of the last spots to properly dry. It's a vivid, plausible
+    picture, but the phrase's actual roots trace back further than that
+    explanation alone: the Oxford English Dictionary points to a German
+    idiom from the 1640s meaning almost exactly the same thing, "still wet
+    behind the ears," which may be the true origin point English later
+    borrowed and adapted. The phrase first shows up in English in a
+    negative form, "not yet dry behind the ears," and became an
+    established American phrase by around 1902.`,
+    mythVsFact: null,
+    source: "German idiom documented from the 1640s, per the Oxford English Dictionary; American English usage established by 1902."
+  },
+  {
+    id: "feather-in-your-cap",
+    phrase: "A Feather in Your Cap",
+    meaning: "An achievement or honour to be proud of.",
+    category: "History & Empire",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A custom found across several unrelated cultures, all landing
+    on the same image. In parts of Hungary, a warrior who killed an enemy
+    in battle earned the right to add a feather to his cap, a custom
+    documented in Richard Hansard's 1599 account of the country. Similar
+    traditions existed among Native American warriors marking bravery, and
+    among Scottish and Welsh Highland hunters, who added a feather from
+    their first big kill to their hat as a mark of skill. The figurative
+    English sense, an achievement worth being proud of, was established by
+    the early 18th century, first clearly attested in 1734.`,
+    mythVsFact: null,
+    source: "Richard Hansard, Description of Hungary (1599); figurative English use attested from 1734."
+  },
+  {
+    id: "go-the-whole-hog",
+    phrase: "Go the Whole Hog",
+    meaning: "To do something completely and thoroughly, holding nothing back.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `First recorded in 1828, in Frederick Marryat's novel
+    <em>Japhet</em>, but its actual origin has never been settled, despite
+    several competing theories. One points to "hog" as old slang for a
+    shilling or a dime, so "going the whole hog" meant spending your
+    entire coin in one go rather than saving part of it. Another points to
+    butchers, who would ask customers which cut of pork they wanted, with
+    "the whole hog" meaning buying the entire animal rather than a single
+    joint. A third theory tries to connect it to a William Cowper poem
+    about the Islamic prohibition on eating pork, though the poem never
+    actually uses the phrase itself, undermining that explanation.`,
+    mythVsFact: null,
+    source: "Frederick Marryat, Japhet (1828), earliest known citation; coin, butcher, and poem theories all discussed without resolution in phrase-history references."
+  },
+  {
+    id: "put-a-sock-in-it",
+    phrase: "Put a Sock in It",
+    meaning: "Be quiet; stop talking, singing, or making noise.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `A popular story claims this comes from early gramophones, which
+    projected sound through a large horn with no volume control, and that
+    stuffing a balled-up sock into the horn was the simplest way to muffle
+    an unwanted record. It's a charming, very specific image, which is
+    probably exactly why it's stuck around, but it's now generally
+    regarded as a later invented explanation. The real origin appears to
+    be First World War military slang, most likely Australian in origin,
+    for telling someone to stop talking, plausibly evoking stuffing an
+    actual sock into a noisy sleeper's mouth in a shared barracks. Both
+    Britain and Australia picked up the civilian phrase around the same
+    time, in 1919, carried home by returning soldiers.`,
+    mythVsFact: "The gramophone-horn story is repeated constantly and sounds entirely plausible, but it's now considered folk etymology invented after the fact. The real source is First World War barracks slang, not a fix for noisy records.",
+    source: "First World War military slang documented from 1919, per phrase-history references; gramophone theory noted and dismissed by etymologist Michael Quinion (World Wide Words)."
+  },
+  {
+    id: "hard-and-fast",
+    phrase: "Hard and Fast Rules",
+    meaning: "Rules that are strict, fixed, and not open to exceptions.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A nautical image, describing a ship that has run aground and is
+    stuck fast on the bottom, unable to move in any direction, "hard"
+    meaning firmly, and "fast" meaning securely fixed, the same "fast" as
+    in "stuck fast" or "holding fast." The phrase itself is recorded from
+    as early as 1380, though it wasn't until the mid-1800s that it took on
+    its familiar figurative sense: a rule as immovable and unbending as a
+    beached ship, incapable of being adjusted for individual
+    circumstances.`,
+    mythVsFact: null,
+    source: "Oxford English Dictionary, earliest citation c.1380; figurative use documented from the mid-19th century."
+  },
+  {
+    id: "shot-in-the-arm",
+    phrase: "A Shot in the Arm",
+    meaning: "Something that provides a sudden, welcome boost of energy, confidence, or momentum.",
+    category: "Health & Medicine",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Drawn directly from medicine: a "shot" is an informal word for
+    an injection, and a shot in the arm is one of the most common ways to
+    administer one. The earliest known appearance in print comes from a
+    1916 article in the Lewiston Evening Journal, using the phrase in
+    roughly its modern figurative sense, something that delivers a quick,
+    effective boost. Exactly who first made the leap from literal medical
+    injections to a general metaphor for encouragement isn't recorded, but
+    the medical root of the image is well established.`,
+    mythVsFact: null,
+    source: "Lewiston Evening Journal (1916), earliest known citation; medical usage of 'shot' meaning injection documented from the early 20th century."
+  },
+  {
+    id: "get-cold-feet",
+    phrase: "Get Cold Feet",
+    meaning: "To lose your nerve and back out of a plan or commitment at the last moment.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Nobody has ever definitively settled where this one comes
+    from, despite it being in common use for well over a century. One
+    theory traces a similar Italian sense, meaning short of money rather
+    than nervous, to Ben Jonson's 1605 play <em>Volpone</em>. Another
+    points to German, where "kalte Füße bekommen" carries almost exactly
+    the same meaning, with a German novel from 1862 featuring a card
+    player who quits a game claiming his feet had gone cold. The plainest
+    theory is simply physical: fear and hesitation can make you freeze up,
+    as if your feet genuinely had turned to ice. The phrase settled into
+    its familiar English form in America around 1893.`,
+    mythVsFact: null,
+    source: "Possible Italian precedent in Ben Jonson's Volpone (1605); German 'kalte Füße' parallel documented from an 1862 novel; American English usage established by 1893."
+  },
+  {
+    id: "nick-of-time",
+    phrase: "In the Nick of Time",
+    meaning: "At the last possible moment; just in time.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A "nick" was originally a small notch or groove cut into a
+    stick or tally board, a common, everyday way of keeping records before
+    widespread literacy, used by merchants, gamblers, and timekeepers
+    alike to mark an exact point, a score, or a precise moment. "In the
+    nick" meant at that exact, pinpoint instant, a sense documented from
+    the 16th century. "Of time" was added later, spelling out the meaning
+    more explicitly, and the full phrase as we use it today is documented
+    in English from 1643 onward.`,
+    mythVsFact: null,
+    source: "Documented English usage of 'in the nick' from the 16th century, full phrase 'in the nick of time' from 1643, per phrase-history references."
+  },
+  {
+    id: "life-of-riley",
+    phrase: "The Life of Riley",
+    meaning: "A carefree, comfortable existence, free from worry or hardship.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `An American phrase, first appearing in print around 1902,
+    whose exact origin remains genuinely unresolved despite several
+    competing theories. One points to an Irish ballad from around 1795,
+    "Willy Reilly and His Colleen Bawn," about a poor Catholic farmer who
+    elopes with a wealthy heiress and eventually wins his freedom and
+    fortune. Another points to an 1880s music-hall song, "Is That Mr.
+    Reilly?" by Pat Rooney, imagining what its hero would do if he
+    suddenly came into money. A third suggests it started as unrelated
+    military slang. It became widely popular in America during the First
+    World War, though which of these threads, if any, actually started it
+    off is unknown.`,
+    mythVsFact: null,
+    source: "Earliest citation c.1902; Irish ballad, music-hall song, and military-slang theories all discussed without resolution in phrase-history references."
+  },
+  {
+    id: "vicious-circle",
+    phrase: "Vicious Circle",
+    meaning: "A self-perpetuating negative situation, where one problem causes another that makes the first one worse.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one started life as a term in formal logic, not
+    everyday speech. A "vicious circle" originally described a flawed
+    circular argument, one that tries to prove a statement using a second
+    statement whose own proof depends on the first, a logical dead end
+    logicians had been criticising since the early 1600s. The specific
+    English phrase, borrowed from the French <em>cercle vicieux</em>, is
+    documented from 1792. Doctors adopted it in the 19th century to
+    describe medical conditions where symptoms worsen each other, and
+    writers like Henry James picked it up figuratively soon after, giving
+    it the broader, self-reinforcing sense used today.`,
+    mythVsFact: null,
+    source: "French 'cercle vicieux' documented in English from 1792; logical usage traced to early 17th-century critiques of circular argument."
+  },
+  {
+    id: "riding-shotgun",
+    phrase: "Riding Shotgun",
+    meaning: "Sitting in the front passenger seat of a vehicle, or more broadly, providing support or protection alongside someone.",
+    category: "History & Empire",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Guards genuinely did ride alongside stagecoach drivers in the
+    American West, armed and ready to fend off bandits, especially when a
+    coach carried valuables like silver bullion. Shotguns suited the job
+    well, since their spread made it easier to hit a fast-moving target at
+    close range. The trouble is the actual phrase "riding shotgun" doesn't
+    show up in any 19th-century account of this practice at all; the
+    earliest known use is in a 1905 novel, and the phrase only became
+    genuinely popular decades later, through Western films of the 1930s
+    and 40s like <em>Stagecoach</em>. The practice was real; the specific
+    wording came along much later than the era it describes.`,
+    mythVsFact: "It's easy to assume 'riding shotgun' is authentic frontier-era slang, since armed stagecoach guards were entirely real. But no 19th-century source actually uses this phrase, the earliest citation is from 1905, and it was really popularised by 20th-century Western films looking back on that era.",
+    source: "Alfred Henry Lewis, The Sunset Trail (1905), earliest known citation; popularised via Western films from the 1930s-40s, including Stagecoach (1939)."
+  },
+  {
+    id: "rule-the-roost",
+    phrase: "Rule the Roost",
+    meaning: "To be the dominant, controlling figure in a household or group.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The phrase originally had nothing to do with a henhouse. From
+    at least the early 1500s, the expression was "rule the roast," referring
+    to whoever was in charge of the kitchen and its most important dish,
+    the roast meat, effectively meaning "run the show." Over the 1700s,
+    "roast" gradually gave way to "roost," as people leaned into the more
+    vivid, familiar image of a rooster lording it over the rest of the
+    henhouse. Both versions coexisted for roughly two centuries, with
+    Shakespeare's own usage in <em>Henry VI</em> genuinely ambiguous
+    between the two, before "roost" fully displaced "roast" by the 1900s.`,
+    mythVsFact: null,
+    source: "Documented as 'rule the roast' from the early 16th century; shift to 'rule the roost' traced through the 18th and 19th centuries in etymological sources."
+  },
+  {
+    id: "once-bitten-twice-shy",
+    phrase: "Once Bitten, Twice Shy",
+    meaning: "A bad experience makes you cautious about repeating it.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The underlying idea is genuinely ancient, traceable to Aesop's
+    fables via William Caxton's 1484 English translation: "He that hath
+    ben ones begyled by somme other ought to kepe hym wel fro the same."
+    But the exact, catchy modern wording, "once bitten, twice shy," took a
+    lot longer to settle into its final form, only clearly documented in
+    English from the late 19th century, appearing in phrase collections
+    and picked up by novelists including Joseph Conrad and Aldous Huxley.
+    The core wisdom is centuries older than the precise turn of phrase
+    that carries it today.`,
+    mythVsFact: null,
+    source: "Aesop's Fables via William Caxton's 1484 translation, for the conceptual root; exact modern phrasing documented from the late 19th century."
+  },
+  {
+    id: "whole-kit-and-caboodle",
+    phrase: "The Whole Kit and Caboodle",
+    meaning: "Everything; the entire lot, with nothing left out.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A very American piece of 19th-century wordplay, built by
+    pairing two words that already meant roughly the same thing for
+    emphasis. "Kit" had meant a collection or set of belongings, like a
+    soldier's kit-bag, since the mid-1700s. "Caboodle" is a play on the
+    earlier American word "boodle," which by the 1830s meant a crowd or a
+    whole lot of something. "The whole caboodle" is recorded alone from
+    1848, with "kit and caboodle" joining together by 1884, likely stuck
+    together simply because they shared that satisfying hard "k" sound.
+    Strictly speaking, the phrase is a redundancy, since either word alone
+    already meant "the whole lot."`,
+    mythVsFact: null,
+    source: "'Whole caboodle' recorded from 1848, 'kit and caboodle' from 1884, per etymological sources including etymonline.com."
   }
 ];
 

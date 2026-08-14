@@ -2056,5 +2056,305 @@ const QUIZ_QUESTIONS = [
       "It only applies to the older \"span-new\" version"
     ],
     correctIndex: 0
+  },
+  {
+    idiomId: "wild-goose-chase",
+    question: "Before Shakespeare's time, what did a \"wild goose chase\" actually refer to?",
+    options: [
+      "A horse race following a lead rider",
+      "A hunting expedition for wildfowl",
+      "A children's outdoor game"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pandoras-box",
+    question: "In the original Greek myth, what did Pandora actually open?",
+    options: [
+      "A storage jar",
+      "A wooden box",
+      "A locked chest"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "apple-of-my-eye",
+    question: "In \"the apple of my eye,\" what did \"apple\" originally refer to?",
+    options: [
+      "The pupil of the eye",
+      "A round piece of fruit",
+      "A shape of jewelry"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "cast-the-first-stone",
+    question: "In the Bible story behind \"cast the first stone,\" what was Jesus responding to?",
+    options: [
+      "A crowd about to stone a woman for adultery",
+      "A theft accusation in the temple",
+      "A dispute over an inheritance"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "salt-of-the-earth",
+    question: "In \"salt of the earth,\" what quality of salt was Jesus originally praising?",
+    options: [
+      "Its role as a preservative",
+      "Its taste",
+      "Its rarity and cost"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "give-up-the-ghost",
+    question: "In \"give up the ghost,\" what did \"ghost\" originally mean?",
+    options: [
+      "The soul or spirit",
+      "A spooky apparition",
+      "A pale complexion"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pen-mightier-than-sword",
+    question: "Who actually coined the exact phrase \"the pen is mightier than the sword\"?",
+    options: [
+      "Edward Bulwer-Lytton",
+      "William Shakespeare",
+      "Benjamin Franklin"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "in-the-limelight",
+    question: "What was \"limelight\" actually made from?",
+    options: [
+      "Heated quicklime (calcium oxide)",
+      "Burning lime fruit peel",
+      "Green-tinted glass panels"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "steal-the-show",
+    question: "What do etymologists actually know about the exact origin of \"steal the show\"?",
+    options: [
+      "No documented coining moment survives",
+      "It was coined by a specific 1920s critic",
+      "It comes from a specific Broadway flop"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "play-it-by-ear",
+    question: "What does \"play it by ear\" literally describe in music?",
+    options: [
+      "Performing without written sheet music",
+      "Tuning an instrument by listening",
+      "Composing a melody on the spot"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "neck-and-neck",
+    question: "In \"neck and neck,\" what was a \"neck\" originally a unit of measurement for?",
+    options: [
+      "A horse's lead in a race",
+      "A boxer's reach",
+      "A rower's stroke length"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hit-below-the-belt",
+    question: "Which boxing rules first restricted punches to below the waist?",
+    options: [
+      "Jack Broughton's 1743 rules",
+      "The original ancient Olympic rules",
+      "19th-century American football rules"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pull-no-punches",
+    question: "In boxing, what does it actually mean to \"pull\" a punch?",
+    options: [
+      "To hit with deliberately reduced force",
+      "To fake a punch without contact",
+      "To punch with the wrong hand"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "take-it-on-the-chin",
+    question: "Why was a punch to the chin considered so significant in boxing?",
+    options: [
+      "It could end a fight outright",
+      "It was against the rules",
+      "It only counted in later rounds"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "axe-to-grind",
+    question: "Who actually coined \"an axe to grind,\" a line often wrongly credited to Benjamin Franklin?",
+    options: [
+      "Charles Miner",
+      "Edward Bulwer-Lytton",
+      "Mark Twain"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "long-in-the-tooth",
+    question: "\"Long in the tooth\" borrows its image from judging the age of what?",
+    options: [
+      "A horse",
+      "A dog",
+      "A person's wisdom"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "wet-behind-the-ears",
+    question: "Which language has a near-identical idiom to \"wet behind the ears\" that may be its true source?",
+    options: [
+      "German",
+      "French",
+      "Latin"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "feather-in-your-cap",
+    question: "In the Hungarian custom behind \"a feather in your cap,\" what earned a warrior the right to add a feather?",
+    options: [
+      "Killing an enemy in battle",
+      "Winning a jousting tournament",
+      "Being promoted in rank"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "go-the-whole-hog",
+    question: "What do etymologists actually know about the true origin of \"go the whole hog\"?",
+    options: [
+      "It has never been settled, despite several theories",
+      "It's confirmed to reference butchers selling pork",
+      "It's confirmed to reference old coin slang"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "put-a-sock-in-it",
+    question: "What's now considered the real origin of \"put a sock in it,\" rather than the popular gramophone story?",
+    options: [
+      "First World War military slang",
+      "A children's playground rhyme",
+      "A tailor's trade expression"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hard-and-fast",
+    question: "In \"hard and fast rules,\" what nautical situation does the phrase actually describe?",
+    options: [
+      "A ship stuck fast aground",
+      "A ship sailing at full speed",
+      "A knot tied incorrectly"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "shot-in-the-arm",
+    question: "\"A shot in the arm\" draws its image directly from what?",
+    options: [
+      "A medical injection",
+      "A boxing uppercut",
+      "A marksman's rifle wound"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "get-cold-feet",
+    question: "What do etymologists actually know about the true origin of \"get cold feet\"?",
+    options: [
+      "It's genuinely disputed, with no theory confirmed",
+      "It's definitely from a German novel",
+      "It's definitely from an Italian play"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "nick-of-time",
+    question: "What was a \"nick\" originally, in \"in the nick of time\"?",
+    options: [
+      "A notch cut into a tally stick",
+      "A small cut from a razor",
+      "A gap in a fence"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "life-of-riley",
+    question: "What do etymologists actually know about the true origin of \"the life of Riley\"?",
+    options: [
+      "It's unresolved, despite several competing theories",
+      "It's confirmed to come from an Irish ballad",
+      "It's confirmed to come from a WWI song"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "vicious-circle",
+    question: "What field did \"vicious circle\" originally come from, before its everyday sense?",
+    options: [
+      "Formal logic",
+      "Medicine",
+      "Farming"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "riding-shotgun",
+    question: "What does the actual evidence show about \"riding shotgun\" as authentic Wild West slang?",
+    options: [
+      "No 19th-century source uses the phrase at all",
+      "It's confirmed in stagecoach company records",
+      "It appears in several 1870s newspaper articles"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "rule-the-roost",
+    question: "What was the original form of \"rule the roost,\" before \"roost\" replaced it?",
+    options: [
+      "\"Rule the roast\"",
+      "\"Rule the coop\"",
+      "\"Rule the flock\""
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "once-bitten-twice-shy",
+    question: "Where does the underlying idea of \"once bitten, twice shy\" trace back to?",
+    options: [
+      "Aesop's fables",
+      "A Shakespeare play",
+      "A Victorian nursery rhyme"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "whole-kit-and-caboodle",
+    question: "What does \"caboodle\" actually derive from?",
+    options: [
+      "An older American word, \"boodle\"",
+      "A Dutch word for a toolbox",
+      "A misspelling of \"cattle\""
+    ],
+    correctIndex: 0
   }
 ];
