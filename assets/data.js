@@ -4560,6 +4560,620 @@ const IDIOMS = [
     already meant "the whole lot."`,
     mythVsFact: null,
     source: "'Whole caboodle' recorded from 1848, 'kit and caboodle' from 1884, per etymological sources including etymonline.com."
+  },
+  {
+    id: "cross-the-rubicon",
+    phrase: "Cross the Rubicon",
+    meaning: "To take an irreversible step past the point of no return.",
+    category: "History & Empire",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `In 49 BC, Julius Caesar led his legion across the Rubicon, a
+    small river in northern Italy marking the boundary between his province
+    and Italy proper. Roman law forbade a general from bringing troops into
+    Italy itself, so the crossing was an open act of civil war against the
+    Senate. The historian Suetonius, writing in <em>The Twelve Caesars</em>
+    around 121 AD, records Caesar uttering "alea iacta est" (the die is
+    cast) at the moment he crossed, a line itself borrowed from an earlier
+    Greek playwright. The idiom in English, using the crossing as shorthand
+    for any decisive, irrevocable move, developed centuries later, but it
+    rests on this clearly documented classical account rather than any
+    later embellishment.`,
+    mythVsFact: null,
+    source: "Suetonius, The Twelve Caesars (De Vita Caesarum), Divus Iulius, c. 121 AD."
+  },
+  {
+    id: "sword-of-damocles",
+    phrase: "Sword of Damocles",
+    meaning: "A sense of impending danger that could strike at any moment.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The story comes from the Roman statesman Cicero, who included
+    it in his philosophical work <em>Tusculan Disputations</em>, written
+    around 45 BC. Cicero describes Damocles, a courtier of Dionysius I of
+    Syracuse, who envied his king's wealth and power. Dionysius let him
+    experience it firsthand at a lavish banquet, but had a sword suspended
+    above the seat by a single horsehair. Cicero uses the image to argue
+    that power and pleasure are worthless when constant fear hangs over
+    them. He credits an earlier, now-lost account by the Sicilian historian
+    Timaeus, so the tale may already have been circulating before Cicero
+    wrote it down, but his version is the one that survives and gave
+    English its idiom.`,
+    mythVsFact: null,
+    source: "Cicero, Tusculan Disputations, Book V, c. 45 BC."
+  },
+  {
+    id: "gordian-knot",
+    phrase: "Cut the Gordian Knot",
+    meaning: "To solve a complicated problem decisively, using a bold or unconventional method.",
+    category: "Literature",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Legend says an oracle in the Phrygian capital of Gordium
+    decreed that whoever untied an elaborate knot binding an old ox-cart to
+    a post would rule Asia. When Alexander the Great arrived in 333 BC, he
+    is said to have solved it, but ancient accounts disagree on exactly
+    how. The historians Plutarch and Arrian, both writing centuries after
+    the event, describe Alexander simply pulling out the cart's linchpin,
+    loosening the knot without cutting anything. The more dramatic version,
+    that he sliced through it with his sword, is the one popular memory has
+    kept, and it's the version that gives the modern idiom its bladed,
+    decisive edge, even though it isn't the version the more careful
+    ancient sources describe.`,
+    mythVsFact: "The 'cut it with a sword' version is what the idiom assumes, and it's the one everyone repeats. But Plutarch and Arrian, the two most-cited ancient sources for the story, both describe Alexander removing a pin rather than swinging a blade.",
+    source: "Plutarch, Life of Alexander, and Arrian, Anabasis of Alexander, both written in the 1st-2nd century AD."
+  },
+  {
+    id: "trojan-horse",
+    phrase: "Trojan Horse",
+    meaning: "A trick that gets something harmful accepted by disguising it as a welcome gift.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The wooden horse used to smuggle Greek soldiers inside the
+    walls of Troy is best known today from Virgil's <em>Aeneid</em>,
+    written in the 1st century BC, and gets a brief mention in Homer's much
+    earlier <em>Odyssey</em> (probably 8th century BC), where it's
+    referenced as something the audience would already know well rather
+    than explained from scratch. That detail matters: it means the story
+    predates both surviving poems and was already part of a shared oral
+    tradition by the time either was written down. The idiom itself only
+    needs that literary tradition to be real, and it is, regardless of
+    whether an actual deception involving an actual horse-shaped object
+    happened during any real siege of Troy.`,
+    mythVsFact: "Whether a literal wooden horse was used in an actual historical siege is a genuinely open question for archaeologists, separate from the idiom. The idiom only depends on the story being old, well-attested Greek literary tradition, which it clearly is.",
+    source: "Homer, Odyssey (probably 8th century BC); Virgil, Aeneid, Book II (1st century BC)."
+  },
+  {
+    id: "crocodile-tears",
+    phrase: "Crocodile Tears",
+    meaning: "An insincere display of grief or sympathy.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `The idea that crocodiles weep while devouring their prey goes
+    back to classical antiquity. A collection of proverbs attributed to
+    Plutarch compares a crocodile's fake sorrow to people who cause
+    someone's ruin and then publicly mourn them. The story spread through
+    medieval Europe via Latin bestiaries and travel writing, including
+    <em>The Travels of Sir John Mandeville</em> in the 14th century, and
+    Christian preachers used it as a metaphor for insincere repentance.
+    Real crocodiles do produce tears, but for eye lubrication while
+    feeding, not emotion. The "fake grief" framing was a moral fable from
+    the start, not a genuine piece of natural history that later got
+    misread.`,
+    mythVsFact: "Crocodiles really do produce tears, so the physical detail isn't invented. But the emotional meaning behind it, that they're performing sorrow, was always a moralizing fable, not a claim anyone seriously tested.",
+    source: "Proverbs attributed to Plutarch (1st-2nd century AD); repeated in medieval bestiaries and The Travels of Sir John Mandeville (14th century)."
+  },
+  {
+    id: "kangaroo-court",
+    phrase: "Kangaroo Court",
+    meaning: "A sham legal proceeding that ignores proper process to reach a predetermined outcome.",
+    category: "Law & Government",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `The phrase is American, first appearing in print in The
+    Mississippian on 12 January 1839, and firmly established by the early
+    1850s in books like Samuel Adams Hammett's 1853 <em>A Stray Yankee in
+    Texas</em>. It described the improvised, often lawless courts set up in
+    frontier mining camps and settlements, especially around the 1849
+    California Gold Rush, where accused claim-jumpers could be "tried" and
+    punished on the spot. What nobody has ever pinned down is why
+    "kangaroo" specifically. Theories point to the animal's unpredictable
+    jumping motion, or a play on claim-jumping itself, but no source from
+    the period explains the choice, and etymologists treat every theory as
+    speculation.`,
+    mythVsFact: "Confident-sounding explanations for 'kangaroo' circulate constantly, usually tying it to jumping or claim-jumping. None are backed by a documented source from the period. The word choice itself remains genuinely unexplained.",
+    source: "First print use: The Mississippian, 12 January 1839; Samuel Adams Hammett, A Stray Yankee in Texas (1853)."
+  },
+  {
+    id: "lock-stock-and-barrel",
+    phrase: "Lock, Stock, and Barrel",
+    meaning: "Completely; every part of something, with nothing left out.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A musket is built from three main components: the lock (its
+    firing mechanism), the stock (the wooden body and handle), and the
+    barrel (the tube the shot travels through). Owning all three meant
+    owning the entire weapon. The earliest confirmed figurative use, per
+    the Oxford English Dictionary, is a letter from Sir Walter Scott dated
+    29 October 1817, comparing a broken estate fountain to "the
+    Highlandman's gun," which "wants stock, lock, and barrel" to be put
+    back into repair, meaning it needed every part replaced. The word order
+    shifted into today's "lock, stock, and barrel" over the following
+    decades, but the gunsmithing origin has stayed intact and undisputed.`,
+    mythVsFact: null,
+    source: "Sir Walter Scott, letter of 29 October 1817, cited as the first OED example of the figurative use."
+  },
+  {
+    id: "point-blank",
+    phrase: "Point Blank",
+    meaning: "Direct and blunt, or, of a shot, fired from very close range.",
+    category: "War & Conflict",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `First documented in English in the 1570s, the phrase almost
+    certainly comes from French gunnery or archery terminology, but which
+    exact term is where the disagreement starts. The most repeated theory
+    says it's from "pointé à blanc," aiming at the white-painted centre of
+    a target, since "blanc" is French for white. A rival theory, favoured
+    by some etymologists, points instead to "de pointe en blanc," a term
+    for firing level into open space to test a shot's range, where "blanc"
+    means empty space rather than a white target. Both explain the same
+    modern meaning, a shot fired so close it travels straight to the target
+    with no time to drop, but historians of the phrase haven't settled
+    which French original it actually descends from.`,
+    mythVsFact: null,
+    source: "Early use documented from the 1570s; competing French-origin theories both discussed by etymological researchers including World Wide Words."
+  },
+  {
+    id: "swan-song",
+    phrase: "Swan Song",
+    meaning: "A final performance or gesture, especially one made shortly before retirement or death.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `The belief that swans, silent for most of their lives, sing
+    beautifully only as they die was proverbial in ancient Greece by the
+    3rd century BC, referenced by Socrates in Plato's <em>Phaedo</em>. It
+    was known to be false even in antiquity. The Roman naturalist Pliny the
+    Elder studied swans directly and concluded, in his <em>Natural
+    History</em> around 77 AD, that "observation shows that the story that
+    the dying swan sings is false." That didn't stop the image being
+    irresistible to poets: Chaucer used it in the 14th century, and
+    Shakespeare leaned on it in both <em>The Merchant of Venice</em> and
+    <em>Othello</em>. The English phrase "swan song" itself is later still,
+    entering the language around 1831 as a translation of the German
+    "Schwanengesang."`,
+    mythVsFact: "Swans don't sing a special song before dying, and this has been known since at least Pliny the Elder in the 1st century AD, who tested the claim and rejected it. The belief survived because poets liked the image, not because anyone thought it was accurate.",
+    source: "Pliny the Elder, Natural History, Book X, c. 77 AD; English 'swan song' dated to 1831 per etymonline.com, translating German 'Schwanengesang.'"
+  },
+  {
+    id: "pass-the-buck",
+    phrase: "Pass the Buck",
+    meaning: "To shift blame or responsibility onto someone else.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The phrase comes from American poker tables in the mid-19th
+    century. To stop any one player from dealing every hand, and to guard
+    against cheating, the role of dealer rotated around the table, marked
+    by an object placed in front of whoever's turn it was, often a knife
+    with a handle made from buck's horn. That marker became known simply as
+    "the buck." Passing it to the next player meant passing the deal, and
+    with it the responsibilities that came with it. One popular theory
+    holds that a silver dollar coin later served as the marker instead,
+    which may be part of where "buck" as slang for a dollar comes from,
+    though etymologists note several rival theories for that particular
+    leap.`,
+    mythVsFact: null,
+    source: "19th-century American poker dealer-marker custom, documented in multiple etymological references including Wiktionary and Wordorigins.org."
+  },
+  {
+    id: "blue-blood",
+    phrase: "Blue Blood",
+    meaning: "Belonging to a noble or aristocratic family.",
+    category: "History & Empire",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The phrase translates the Spanish "sangre azul," used by
+    aristocratic families of Castile to claim their lineage was pure,
+    untouched by intermarriage with the Moorish or Jewish populations of
+    medieval Spain. The reasoning was as much visual as genealogical:
+    aristocrats who stayed indoors and avoided outdoor labour kept pale
+    skin, through which their veins appeared more visibly blue than the
+    sun-darkened skin of labourers, and this was read as a mark of
+    untainted, high-status ancestry. The concept was referenced generally
+    in English by 1809, and a specific early example appears in Maria
+    Edgeworth's 1834 novel <em>Helen</em>, describing a Spanish character
+    "of the sangre azul, the blue blood." Within a few decades the phrase
+    had been adopted for aristocrats of any nationality.`,
+    mythVsFact: null,
+    source: "Maria Edgeworth, Helen (1834); general English reference to the concept documented from 1809, per etymonline.com."
+  },
+  {
+    id: "run-the-gamut",
+    phrase: "Run the Gamut",
+    meaning: "To cover the entire range of something.",
+    category: "Music",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one comes straight from medieval music theory. Around the
+    turn of the 11th century, the monk Guido of Arezzo developed a system
+    for naming musical notes using the syllables ut, re, mi, fa, sol, and
+    la, the ancestor of today's do-re-mi. The lowest note recognised in the
+    system was called "gamma ut," combining the Greek letter gamma with
+    "ut," and this contracted into "gamut," meaning the full range of notes
+    a voice or instrument could produce. By the 1620s, "gamut" meant the
+    whole musical scale in general use, and "run the gamut," covering the
+    entire range from one extreme to the other, followed naturally from
+    there.`,
+    mythVsFact: null,
+    source: "Guido of Arezzo's solmization system (11th century); 'gamut' documented in general musical use from the 1620s."
+  },
+  {
+    id: "bring-home-the-bacon",
+    phrase: "Bring Home the Bacon",
+    meaning: "To earn money to support one's family, or to achieve success.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `Two folk explanations get repeated constantly: that it comes
+    from catching a greased pig at country fairs, or from the medieval
+    English custom at Great Dunmow, Essex, of awarding a flitch of bacon to
+    married couples who could swear they hadn't regretted their marriage
+    for a year and a day. Both customs are real, but etymologists now treat
+    the phrase itself as a 20th-century American invention with no real
+    link to either. It appeared in a 1906 telegram from the mother of boxer
+    Joe Gans, urging him to win a fight and "bring home the bacon." Sports
+    writers loved the line, and it spread through newspapers from there.`,
+    mythVsFact: "The greased-pig and Dunmow-flitch stories are both real historical customs, which is exactly why they're such convincing-sounding explanations. But neither has a documented link to this specific phrase, which etymologists now trace to a 1906 boxing telegram instead.",
+    source: "1906 telegram from Joe Gans's mother, reported in period sports writing and documented in etymological references including the Christian Science Monitor's phrase history column."
+  },
+  {
+    id: "par-for-the-course",
+    phrase: "Par for the Course",
+    meaning: "Typical or expected, usually in a resigned or unsurprising sense.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `In golf, "par" is the standard number of strokes a skilled
+    player should need to complete a hole or a full course, from the Latin
+    "par," meaning equal. The figurative sense, describing anything
+    ordinary or exactly what you'd expect, developed out of that golfing
+    standard during the early-to-mid 20th century. There's a neat irony
+    built into the phrase: in golf, shooting par is a genuinely good score,
+    achieved only by a skilled player, while in everyday speech "par for
+    the course" has drifted to mean merely average or unremarkable,
+    sometimes even with a faintly disappointed tone.`,
+    mythVsFact: null,
+    source: "Golf term 'par' from Latin par ('equal'); figurative non-golf use developed during the early-to-mid 20th century, per multiple etymological references including Grammarist."
+  },
+  {
+    id: "hat-trick",
+    phrase: "Hat Trick",
+    meaning: "Three successes of the same kind achieved in a single event.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The term comes from cricket. In 1858, bowler H. H. Stephenson
+    took three wickets with three consecutive deliveries, a rare and
+    celebrated feat. Spectators held a collection and presented him with a
+    new hat bought with the proceeds, a real, documented gesture rather
+    than a folk story. The phrase itself took a few years to reach print,
+    first appearing in 1865 in the <em>Chelmsford Chronicle</em>. From
+    cricket it spread to describe any threefold achievement in a single
+    game, three goals in football, three tries in rugby, and eventually to
+    any non-sporting run of three successes.`,
+    mythVsFact: null,
+    source: "H. H. Stephenson's 1858 feat and the collection for a hat; first print use in the Chelmsford Chronicle, 1865."
+  },
+  {
+    id: "sticky-wicket",
+    phrase: "Sticky Wicket",
+    meaning: "A difficult or awkward situation.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A wicket is the strip of ground between the stumps in cricket.
+    When rain falls on an uncovered pitch and the sun then dries it, the
+    surface becomes unpredictable, the ball can grip, skid, or bounce
+    sharply, and batting becomes treacherous. This literal cricketing
+    hazard was being described in match reports from the 1880s. The
+    figurative sense, using "sticky wicket" for any awkward predicament
+    outside the game entirely, is documented somewhat later, with an early
+    example from a speech reported in the Jamaican newspaper <em>The
+    Gleaner</em> in April 1930: "I am afraid tonight... I am batting on
+    rather a sticky wicket."`,
+    mythVsFact: null,
+    source: "Literal cricketing use documented from the 1880s; early figurative use in The Gleaner (Jamaica), April 1930."
+  },
+  {
+    id: "poker-face",
+    phrase: "Poker Face",
+    meaning: "A deliberately blank, unreadable expression that gives nothing away.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `An Americanism from the game of poker, where players cultivate
+    a deliberately expressionless face so as not to give opponents any hint
+    of the strength of the hand they're holding. The term is documented
+    from the late 19th century and had crossed into general figurative use,
+    describing anyone hiding their true feelings behind a blank expression,
+    well before the 20th century. Its most famous modern moment came over a
+    hundred years later, when Lady Gaga's 2008 song of the same name
+    brought the old poker-table phrase back into everyday conversation for
+    an entirely new audience.`,
+    mythVsFact: null,
+    source: "Documented as an American poker term from the late 19th century, per multiple etymological references including Grammarist and Fox News's phrase-origin coverage."
+  },
+  {
+    id: "throw-your-hat-in-the-ring",
+    phrase: "Throw Your Hat in the Ring",
+    meaning: "To announce that you're entering a contest or competition, especially a political race.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one comes from bare-knuckle boxing, where matches were
+    often fought in a rough circle of onlookers rather than a formal ring.
+    Anyone willing to take on the champion, or to challenge for a spot,
+    would throw their hat into the circle as a visible way of announcing
+    themselves over the noise of the crowd. An early recorded example of
+    the practice appears in London's <em>The Morning Chronicle</em> on 30
+    November 1804. The phrase's most famous outing came over a century
+    later, in 1912, when Theodore Roosevelt told a group of journalists "my
+    hat is in the ring," confirming he was running for president, and
+    cementing the political sense the idiom carries today.`,
+    mythVsFact: null,
+    source: "The Morning Chronicle (London), 30 November 1804; Theodore Roosevelt's 1912 remark, widely reported at the time."
+  },
+  {
+    id: "on-tenterhooks",
+    phrase: "On Tenterhooks",
+    meaning: "In a state of anxious, uncomfortable suspense.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `After wool was woven, the finished cloth still held oil and
+    dirt from the fleece that had to be washed out, and the wet cloth would
+    then shrink and crease as it dried unless it was held taut.
+    Cloth-makers stretched it on wooden frames called tenters (from the
+    Latin "tendere," to stretch), fixed in place with hooked nails known as
+    tenterhooks. The playwright John Ford recorded the related phrase "on
+    the tenters" in his 1633 play <em>The Broken Heart</em>, and the
+    specific wording "on tenterhooks" appears in Tobias Smollett's 1748
+    novel <em>Roderick Random</em>. The metaphor is direct: someone on
+    tenterhooks is stretched tight with anxious anticipation, just like the
+    cloth on the frame.`,
+    mythVsFact: null,
+    source: "John Ford, The Broken Heart (1633); Tobias Smollett, Roderick Random (1748)."
+  },
+  {
+    id: "keep-your-powder-dry",
+    phrase: "Keep Your Powder Dry",
+    meaning: "Stay prepared and ready to act, conserving your resources until they're needed.",
+    category: "War & Conflict",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `In the age of muskets, gunpowder that got wet was useless, so
+    soldiers had to protect their powder supply to be ready to fight at
+    short notice. The advice "trust in God and keep your powder dry" is
+    almost always attributed to Oliver Cromwell, supposedly addressing his
+    troops before a river crossing during the conquest of Ireland. The
+    trouble is timing: the phrase's first appearance in print is 1834, in
+    William Blacker's poem "Oliver's Advice," nearly two centuries after
+    Cromwell's death, with no contemporary 17th-century source recording
+    him saying anything like it. The military logic behind the advice is
+    real and sound. The specific Cromwell attribution is not verifiable.`,
+    mythVsFact: "The Cromwell quote is repeated constantly as historical fact, but no source from Cromwell's own lifetime records it. It first surfaces in an 1834 poem, which strongly suggests it was invented or reconstructed long after the fact rather than genuinely remembered.",
+    source: "William Blacker, 'Oliver's Advice' (1834), the earliest known print appearance."
+  },
+  {
+    id: "warts-and-all",
+    phrase: "Warts and All",
+    meaning: "Including all faults and flaws, with nothing flattering left out.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `The story told everywhere is that Oliver Cromwell, sitting for
+    a portrait by Sir Peter Lely, instructed him: "remark all these
+    roughnesses, pimples, warts, and everything as you see me, otherwise I
+    will never pay a farthing for it." The trouble is where this quote
+    actually comes from. Its earliest appearance in print is Horace
+    Walpole's <em>Anecdotes of Painting in England</em> in 1764, more than
+    a century after Lely painted Cromwell, and Walpole attributes it not to
+    Cromwell directly but to a secondhand story from a conversation between
+    a duke and an architect. The exact phrase "warts and all" doesn't
+    appear in print until 1824, in an address delivered in Massachusetts by
+    Alpheus Cary.`,
+    mythVsFact: "Cromwell is widely credited with coining this phrase during his own lifetime. In reality, the earliest source is over a century after his death, and even that source presents it as a secondhand anecdote, not a direct quotation. Historians consider it likely apocryphal.",
+    source: "Horace Walpole, Anecdotes of Painting in England (1764); the specific phrase 'warts and all' first documented in print in 1824."
+  },
+  {
+    id: "down-to-the-wire",
+    phrase: "Down to the Wire",
+    meaning: "Undecided until the very last moment.",
+    category: "Sport & Military",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Before photo-finish cameras, judges at horse races strung a
+    thin wire across the track above the finish line to help them
+    determine which horse crossed first when runners were close together.
+    A race that stayed undecided until that wire was reached "went down to
+    the wire." The American magazine <em>Scribner's</em> used the phrase in
+    this literal racing sense in July 1889, describing two horses that
+    "raced down to the 'wire.'" An Australian source, <em>The Southern
+    Argus</em>, has also been cited using a similar racing expression as
+    early as June 1884, which would predate the American citation, though
+    which country's turf-racing culture the wider English idiom ultimately
+    spread from isn't fully settled.`,
+    mythVsFact: null,
+    source: "Scribner's Magazine, July 1889 (American citation); The Southern Argus, June 1884 (earlier Australian citation), both cited by phrase-history researchers including phrases.org.uk."
+  },
+  {
+    id: "pull-the-wool-over-your-eyes",
+    phrase: "Pull the Wool Over Someone's Eyes",
+    meaning: "To deceive or trick someone.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `The earliest known citation is American, from around 1839, but
+    the origin behind the image is genuinely unclear. The most repeated
+    theory says it refers to pulling a powdered wig ("wool") down over
+    someone's eyes to blind them, but this runs into a timing problem:
+    powdered wigs were already going out of fashion by 1839, which makes it
+    an odd image to reach for right when the phrase first appears.
+    Alternative theories point to woollen caps pulled down over the eyes,
+    or simply a person's own hair. None of the competing explanations has
+    enough documentary support to be called settled.`,
+    mythVsFact: "The powdered-wig theory is the one most commonly repeated, but its timeline doesn't fit especially well: wigs were already unfashionable by the time the phrase first appears in print, which undercuts the story rather than confirming it.",
+    source: "Earliest citation c. 1839, American origin; competing theories discussed in etymological references including Wordorigins.org."
+  },
+  {
+    id: "bury-your-head-in-the-sand",
+    phrase: "Bury Your Head in the Sand",
+    meaning: "To refuse to acknowledge an unpleasant or awkward reality.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `The Roman naturalist Pliny the Elder described ostriches hiding
+    their heads in bushes when threatened, apparently believing that if
+    they couldn't see danger, it couldn't see them, in his <em>Natural
+    History</em> around 77 AD. Over the following centuries, this evolved
+    into the more dramatic popular image of an ostrich burying its entire
+    head underground. Real ostriches do neither: they lower their heads to
+    the ground mainly to turn the eggs in their nest, which from a distance
+    can look something like head-burying, but they never actually bury
+    their heads at all. Despite being demonstrably false, the image proved
+    too good a metaphor for human denial to give up.`,
+    mythVsFact: "Ostriches don't bury their heads in the sand, and never have. The behaviour that likely inspired the myth, lowering the head to turn eggs in the nest, has nothing to do with hiding from danger.",
+    source: "Pliny the Elder, Natural History (c. 77 AD), for the original bush-hiding description that the modern sand-burying image grew from."
+  },
+  {
+    id: "jump-through-hoops",
+    phrase: "Jump Through Hoops",
+    meaning: "To go through a series of demanding or tedious steps to achieve something.",
+    category: "Theatre & Performance",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This one comes directly from circus performance. Travelling
+    circuses in the 18th and 19th centuries built entire acts around
+    trained animals, lions, dogs, and especially horses, leaping through
+    circular hoops held up for the crowd, a display of obedience and
+    discipline as much as agility. The figurative use, applying the image
+    to bureaucratic hurdles or tedious requirements rather than literal
+    circus animals, developed in the early 20th century, once the circus
+    hoop-jump was a familiar enough sight that audiences immediately
+    understood the comparison to being made to perform on command.`,
+    mythVsFact: null,
+    source: "Circus hoop-jumping acts documented from the 18th-19th centuries; figurative bureaucratic sense developed in the early 20th century."
+  },
+  {
+    id: "bone-to-pick",
+    phrase: "A Bone to Pick",
+    meaning: "An issue or grievance you need to raise and settle with someone.",
+    category: "Food & Dining",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `This phrase dates to the mid-16th century and draws its image
+    straight from dogs. A dog given a bone will focus on it
+    single-mindedly, gnawing and worrying at it until every scrap is gone,
+    and two dogs given one bone between them will often fight over it.
+    "Having a bone to pick" with someone borrows that image for a matter
+    that needs your full, undivided attention, usually an unresolved
+    grievance you intend to settle. A closely related expression, "bone of
+    contention," describing the actual subject of a dispute rather than
+    the act of raising it, comes from the same canine image and the same
+    general period.`,
+    mythVsFact: null,
+    source: "Documented from the mid-16th century; canine origin discussed in multiple etymological references including OWAD and VOA Learning English."
+  },
+  {
+    id: "in-the-doghouse",
+    phrase: "In the Doghouse",
+    meaning: "In disgrace or out of favour, especially with a partner or family member.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `A popular theory credits J. M. Barrie's 1911 play <em>Peter
+    Pan</em>, in which Mr. Darling, guilt-stricken after his children are
+    taken by Peter Pan, banishes himself to live in the family dog's kennel
+    as an act of remorse. It's a neat story, but the phrase "doghouse"
+    doesn't actually appear anywhere in the text of <em>Peter Pan</em>, and
+    "doghouse" itself is chiefly an American term. Barrie was Scottish,
+    wrote and set the play in Britain, where dogs live in kennels, not
+    doghouses, which makes the connection unlikely. The figurative sense of
+    being "in the doghouse," banished for bad behaviour, is documented in
+    American use by 1932, with no clear connection to Barrie's play at
+    all.`,
+    mythVsFact: "The Peter Pan story is repeated constantly and fits suspiciously well, which is exactly why it deserves scrutiny. The word 'doghouse' never appears in Barrie's play, and the phrase's documented use is American, from a writer who set his story in a country that calls the same structure a kennel.",
+    source: "American figurative use documented by 1932; J. M. Barrie, Peter Pan (1911), for the popular but unsupported theory."
+  },
+  {
+    id: "at-the-eleventh-hour",
+    phrase: "At the Eleventh Hour",
+    meaning: "At the very last possible moment, just before it's too late.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The phrase comes from the Parable of the Workers in the
+    Vineyard in the Gospel of Matthew (20:1-16). A landowner hires
+    labourers throughout the day, at the first hour, the third, the sixth,
+    the ninth, and finally the eleventh, the last hour of the working day
+    in the Roman reckoning of time, which ran from sunrise to sunset. At
+    day's end he pays every worker the same wage regardless of when they
+    started, to the outrage of those hired first. The parable is about
+    grace being available even to latecomers, but the specific detail of
+    the eleventh-hour labourers is what stuck in everyday English as
+    shorthand for the very last possible moment.`,
+    mythVsFact: null,
+    source: "Gospel of Matthew 20:1-16."
+  },
+  {
+    id: "spanner-in-the-works",
+    phrase: "Spanner in the Works",
+    meaning: "Something that disrupts or ruins a plan or process.",
+    category: "Trade & Industry",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The image is straightforward: a spanner (wrench) thrown into
+    working machinery would jam or wreck it. Where it gets murkier is who
+    coined the English phrase first. One popular theory credits the
+    Luddites, early 19th-century textile workers who smashed weaving
+    machines in protest, though no documented source actually ties them to
+    this specific phrase rather than the general practice of machine
+    sabotage. The British wording is confirmed in print by P. G.
+    Wodehouse's 1934 novel <em>Right Ho, Jeeves</em>: "he was throwing a
+    spanner into the works." An American version using "wrench" instead of
+    "spanner" is attested earlier, in the <em>Chicago Tribune</em> in 1907.
+    A colourful story about a dropped spanner sabotaging an early New
+    Zealand oil well is often repeated too, but has no documentary support
+    and looks like folklore built around the phrase rather than its
+    source.`,
+    mythVsFact: "The Luddite and dropped-oil-well-spanner stories both get repeated as if settled, but neither has documentary evidence tying it specifically to this phrase. The earliest confirmed print citations are Wodehouse (UK, 1934) and the Chicago Tribune (US, 1907).",
+    source: "P. G. Wodehouse, Right Ho, Jeeves (1934); Chicago Tribune, 30 July 1907, for the American 'wrench' variant."
+  },
+  {
+    id: "mad-as-a-box-of-frogs",
+    phrase: "Mad as a Box of Frogs",
+    meaning: "Eccentric, erratic, or wildly unpredictable.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A modern, distinctly British idiom, and one whose origin
+    genuinely isn't known despite it being fairly recent as idioms go. The
+    image is intuitive on its face, a box of frogs would presumably
+    produce a chaotic scene of jumping and bouncing in every direction, but
+    no one has traced a documented first use, a coining author, or an
+    original context. A related, possibly earlier expression describes
+    someone as having "a face like a box of frogs," suggesting the phrase
+    may have started as a comment on appearance before shifting to
+    describe erratic behaviour, but that connection itself isn't firmly
+    established either.`,
+    mythVsFact: "There's no shortage of guesses about where this one comes from, but nobody has produced a documented first use or original source. Treat any confident-sounding origin story for this one with real suspicion.",
+    source: "No confirmed first citation identified; discussed as an unresolved modern British idiom in phrase-history references including Wordhistories.net and the Cambridge Dictionary blog."
   }
 ];
 

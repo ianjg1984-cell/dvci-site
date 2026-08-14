@@ -2356,5 +2356,305 @@ const QUIZ_QUESTIONS = [
       "A misspelling of \"cattle\""
     ],
     correctIndex: 0
+  },
+  {
+    idiomId: "cross-the-rubicon",
+    question: "What historical event does \"cross the Rubicon\" refer to?",
+    options: [
+      "Julius Caesar leading his army into Italy in defiance of Roman law",
+      "Hannibal leading his army with elephants across the Alps",
+      "A Roman general drowning while retreating across a swollen river"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "sword-of-damocles",
+    question: "Where does the \"Sword of Damocles\" story originally come from?",
+    options: [
+      "A satirical Roman play mocking corrupt rulers",
+      "Cicero's philosophical writing about the fears that come with power",
+      "An Aesop's fable about a foolish courtier"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "gordian-knot",
+    question: "According to the two most-cited ancient historians, how did Alexander the Great actually deal with the Gordian Knot?",
+    options: [
+      "He sliced through it dramatically with his sword",
+      "He pulled out the cart's linchpin, loosening the knot",
+      "He ordered his soldiers to burn the entire cart"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "trojan-horse",
+    question: "What's true about the literary origin of the Trojan Horse story?",
+    options: [
+      "It's mentioned only in passing by Homer, already familiar to his audience, and told in full much later by Virgil",
+      "It was entirely invented by Virgil for the Aeneid with no earlier Greek source",
+      "It first appears in a lost play by Sophocles, later summarised by Roman historians"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "crocodile-tears",
+    question: "What's the real, verified fact behind \"crocodile tears\"?",
+    options: [
+      "Crocodiles produce tears for eye lubrication while feeding, not from emotion",
+      "Ancient hunters found tear-shaped stones inside crocodile stomachs",
+      "Early naturalists mistook crocodile saliva for tears during a museum dissection"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "kangaroo-court",
+    question: "What remains genuinely unexplained about the phrase \"kangaroo court\"?",
+    options: [
+      "Why the word \"kangaroo\" specifically was chosen",
+      "Which US state the first kangaroo court was held in",
+      "Whether the phrase originally referred to a court or a boxing match"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "lock-stock-and-barrel",
+    question: "What are the three parts of a musket that \"lock, stock, and barrel\" originally referred to?",
+    options: [
+      "The trigger guard, the cleaning rod, and the leather carrying sling",
+      "The firing mechanism, the wooden body, and the tube the shot travels through",
+      "The bayonet lug, the powder flask, and the ramrod used for loading"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "point-blank",
+    question: "What's the leading, though still disputed, theory behind \"point blank\"?",
+    options: [
+      "It comes from French gunnery or archery terms involving a target or aiming point",
+      "It comes from a medieval English word for a blank piece of parchment",
+      "It comes from sailors marking gun range with blank cannon shots"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "swan-song",
+    question: "What did the Roman naturalist Pliny the Elder actually conclude about swans singing before death?",
+    options: [
+      "That it was a real but rare phenomenon he'd personally witnessed",
+      "That observation showed the story to be false",
+      "That only wild swans sing, never domesticated ones"
+    ],
+    correctIndex: 1
+  },
+  {
+    idiomId: "pass-the-buck",
+    question: "In the poker tradition behind \"pass the buck,\" what was \"the buck\"?",
+    options: [
+      "A marker, often a buck's-horn-handled knife, showing whose turn it was to deal",
+      "The largest bet allowed at the table",
+      "A nickname for the house dealer employed by a saloon"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "blue-blood",
+    question: "What's the real explanation behind the Spanish origin of \"blue blood\"?",
+    options: [
+      "Aristocrats who avoided outdoor labour had paler skin, making their veins look more visibly blue",
+      "Spanish royalty were rumoured to bathe in a rare blue mineral dye",
+      "A translation error turned \"noble blood\" into \"blue blood\" in early English dictionaries"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "run-the-gamut",
+    question: "Where does the word \"gamut\" in \"run the gamut\" actually come from?",
+    options: [
+      "A contraction of \"gamma ut,\" naming the lowest note in a medieval musical system",
+      "An old French word for a full deck of playing cards",
+      "The name of a Renaissance instrument capable of every note in a scale"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "bring-home-the-bacon",
+    question: "What do etymologists now think is the real origin of \"bring home the bacon,\" despite the popular greased-pig and Dunmow-flitch stories?",
+    options: [
+      "A 1906 telegram from a boxer's mother, urging him to win a fight",
+      "A slogan used in early 20th-century meat industry advertising",
+      "A line from a popular music hall song about a butcher's apprentice"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "par-for-the-course",
+    question: "In golf, what does actually shooting \"par\" for a course mean, compared to the everyday idiom's meaning?",
+    options: [
+      "It's a genuinely good score by a skilled player, unlike the idiom's sense of merely average",
+      "It's considered a poor score, matching the idiom's slightly negative tone",
+      "It only applies to amateur tournaments, not professional ones"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hat-trick",
+    question: "What actually happened when H. H. Stephenson achieved cricket's first \"hat trick\" in 1858?",
+    options: [
+      "Spectators held a collection and bought him a new hat",
+      "He was given the match ball to keep as a permanent trophy",
+      "The opposing captain gave him his own hat as a gesture of respect"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "sticky-wicket",
+    question: "What actually makes a cricket pitch a \"sticky wicket\"?",
+    options: [
+      "Rain falling on an uncovered pitch, then drying, making the ball bounce unpredictably",
+      "Grass left uncut before a match, slowing the ball's roll",
+      "A pitch deliberately watered by groundsmen to favour spin bowlers"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "poker-face",
+    question: "What's the documented origin of \"poker face\"?",
+    options: [
+      "An American term from card players hiding their hand's strength behind a blank expression",
+      "A 1920s Hollywood term for actors trained not to blink on camera",
+      "A British term describing formal, expressionless royal portraiture"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "throw-your-hat-in-the-ring",
+    question: "Where did \"throw your hat in the ring\" originally come from?",
+    options: [
+      "Bare-knuckle boxing, where challengers threw their hat into the crowd's circle to announce themselves",
+      "Circus ringmasters throwing hats to select volunteers from the audience",
+      "An old carnival game where hats were tossed to claim a turn"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "on-tenterhooks",
+    question: "What were literal \"tenterhooks\" originally used for?",
+    options: [
+      "Fixing woven cloth to wooden frames so it dried flat without shrinking",
+      "Hanging cured meat inside a smokehouse for weeks during preservation",
+      "Holding sailcloth stretched taut on deck while being waterproofed"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "keep-your-powder-dry",
+    question: "What's the problem with the famous Oliver Cromwell attribution for \"keep your powder dry\"?",
+    options: [
+      "The phrase's first print appearance is an 1834 poem, nearly two centuries after Cromwell died",
+      "Cromwell is on record specifically denying he ever said it",
+      "The phrase was originally about keeping cooking spices dry, not gunpowder"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "warts-and-all",
+    question: "What's the actual documented source of Cromwell's famous \"warts and all\" instruction to his portrait painter?",
+    options: [
+      "Horace Walpole's 1764 book, retelling a secondhand story from over a century after Cromwell sat for the portrait",
+      "A letter written directly by Cromwell to the painter Sir Peter Lely",
+      "The painter Sir Peter Lely's own diary, published shortly after Cromwell's death"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "down-to-the-wire",
+    question: "What was the literal \"wire\" in \"down to the wire\" originally used for?",
+    options: [
+      "Strung above a horse-racing finish line to help judges determine which horse crossed first",
+      "Connecting an early telegraph office to the racetrack for live result reporting",
+      "Marking the boundary fence around a racetrack's final stretch"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pull-the-wool-over-your-eyes",
+    question: "What's the problem with the most popular theory behind \"pull the wool over someone's eyes\" (that it refers to powdered wigs)?",
+    options: [
+      "Powdered wigs were already going out of fashion by the time the phrase first appears in print",
+      "Powdered wigs were never called \"wool\" in any historical source",
+      "The phrase is recorded in print more than a century before wigs were invented"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "bury-your-head-in-the-sand",
+    question: "What are ostriches actually doing when they lower their heads to the ground, the behaviour that likely inspired this myth?",
+    options: [
+      "Turning the eggs in their nest",
+      "Listening for approaching predators through ground vibrations",
+      "Cooling their heads in loose sand during extreme heat"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "jump-through-hoops",
+    question: "What's the documented origin of \"jump through hoops\"?",
+    options: [
+      "Trained circus animals leaping through hoops as a display of obedience and discipline",
+      "Early school exams that literally required pupils to complete a physical obstacle course",
+      "A guild apprenticeship ritual involving a ceremonial wooden hoop"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "bone-to-pick",
+    question: "What image does \"having a bone to pick\" with someone actually draw on?",
+    options: [
+      "A dog gnawing single-mindedly at a bone, or two dogs fighting over one",
+      "Medieval diners picking meat from a shared bone at a feast",
+      "A butcher's method of testing meat quality by examining the bone"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "in-the-doghouse",
+    question: "What's the problem with the popular theory that \"in the doghouse\" comes from J. M. Barrie's Peter Pan?",
+    options: [
+      "The word \"doghouse\" never actually appears in the play, and it's a chiefly American term, not British",
+      "Peter Pan was published decades after the phrase was already in common use",
+      "Barrie explicitly denied any connection in a later interview"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "at-the-eleventh-hour",
+    question: "What is \"the eleventh hour\" referring to in its original Biblical source?",
+    options: [
+      "The last hour of the working day in the Roman reckoning of time, from a parable about vineyard labourers",
+      "The eleventh and final plague described in the Book of Exodus",
+      "The hour before dawn prayers in the early Christian church calendar"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "spanner-in-the-works",
+    question: "Which of these origin stories for \"spanner in the works\" is actually backed by a documented print citation?",
+    options: [
+      "P. G. Wodehouse's 1934 novel Right Ho, Jeeves",
+      "A dropped spanner sabotaging an early New Zealand oil well",
+      "Luddite textile workers specifically coining the phrase while smashing looms"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "mad-as-a-box-of-frogs",
+    question: "What's the honest state of research into the origin of \"mad as a box of frogs\"?",
+    options: [
+      "No documented first use, coining author, or original context has ever been found",
+      "It's confirmed to have started as Victorian music-hall slang",
+      "It's been traced to a specific 1970s British sitcom episode"
+    ],
+    correctIndex: 0
   }
 ];
