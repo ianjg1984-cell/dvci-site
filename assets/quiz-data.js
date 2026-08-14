@@ -169,11 +169,11 @@ const QUIZ_QUESTIONS = [
   },
   {
     idiomId: "wazzock",
-    question: "How recent is the earliest confirmed written use of \"wazzock,\" according to the Oxford English Dictionary?",
+    question: "Where does the earliest documented print use of \"wazzock\" actually appear?",
     options: [
-      "1976",
-      "1876",
-      "1576"
+      "Mike Harding's 1984 novel",
+      "A 1970s regional newspaper",
+      "An 18th-century dialect glossary"
     ],
     correctIndex: 0
   },
