@@ -389,5 +389,182 @@ const OLD_WIVES_TALES = [
     equals luck" logic along with it.`,
     mythVsFact: null,
     source: "'See a pin' pagan good-luck tradition, documented via USC's Digital Folklore Archive and related folklore references."
+  },
+  {
+    id: "willow-bark-for-pain-and-fever",
+    phrase: "Willow Bark Relieves Pain and Fever",
+    meaning: "The old folk remedy of chewing or brewing willow bark to ease pain and bring down a fever.",
+    category: "Old Wives' Tales",
+    verdict: "confirmed",
+    verdictLabel: "Actually True",
+    story: `Sumerian clay tablets from around 4,000 years ago already
+    link willow with pain relief, and the Egyptian Ebers Papyrus (c.
+    1500 BC) documents its use for pain and inflammation. Willow bark
+    contains salicin, the natural compound that is chemically the
+    direct ancestor of aspirin, once absorbed by the body it converts
+    into salicylic acid, the same pathway modern aspirin works through.
+    The line to modern medicine runs through the English vicar Edward
+    Stone, who spent five years in the 1750s-60s treating fevers with
+    dried, powdered willow bark, and on to Italian and German chemists
+    who isolated and named salicin in the 1820s. One popular detail
+    doesn't hold up, though: the widely repeated claim that Hippocrates
+    specifically recommended chewing willow bark for pain. The one
+    surviving reference to willow in the works attributed to him
+    describes burning willow leaves as smoke for an entirely different
+    purpose.`,
+    mythVsFact: "The willow-to-aspirin lineage is genuinely real and well documented. The specific 'Hippocrates recommended it for pain' detail often tacked onto the story isn't, his only surviving reference to willow describes something else entirely.",
+    source: "Ebers Papyrus (c. 1500 BC); Edward Stone's willow bark trials (1750s-60s); salicin isolated and named by Italian and German chemists (1826-28)."
+  },
+  {
+    id: "moldy-bread-on-wounds",
+    phrase: "Moldy Bread Heals Wounds",
+    meaning: "The old folk practice of pressing mould-covered bread onto a cut or wound to help it heal.",
+    category: "Old Wives' Tales",
+    verdict: "confirmed",
+    verdictLabel: "Actually True",
+    story: `Documented as far back as the Egyptian Ebers Papyrus (c.
+    1550 BC), which records moldy bread being applied directly to
+    infected wounds, and the same basic practice shows up independently
+    in ancient Serbian, Chinese, and Greek folk medicine. The tradition
+    survived for millennia, well into the modern era, some European
+    households kept a loaf of deliberately moulded bread in the kitchen
+    specifically for treating cuts. The mould involved is very often a
+    Penicillium species, the exact genus that produces real
+    antibacterial compounds, meaning the folk practice was, unknowingly,
+    applying crude penicillin centuries before Alexander Fleming
+    formally identified and isolated it in 1928.`,
+    mythVsFact: null,
+    source: "Ebers Papyrus (c. 1550 BC); documented parallel traditions in ancient Serbian, Chinese, and Greek medicine; Alexander Fleming's identification of penicillin (1928)."
+  },
+  {
+    id: "honey-soothes-a-cough",
+    phrase: "Honey Soothes a Cough and Sore Throat",
+    meaning: "The old remedy of taking a spoonful of honey, often in warm water or tea, to ease a cough or sore throat.",
+    category: "Old Wives' Tales",
+    verdict: "confirmed",
+    verdictLabel: "Actually True",
+    story: `One of the better-evidenced entries on this whole list. A
+    Cochrane systematic review, medicine's highest standard for weighing
+    evidence, found honey probably reduces cough symptoms more than
+    both placebo and no treatment at all, and even outperforms some
+    over-the-counter cough medicines for short-term relief, including
+    improving children's sleep during a cough. The effect is thought to
+    come from honey's soothing, coating texture plus its mild
+    antimicrobial properties. It comes with one serious, separate safety
+    caveat: honey should never be given to children under 12 months
+    old, due to a real risk of infant botulism, entirely unrelated to
+    whether it works as a cough remedy.`,
+    mythVsFact: null,
+    source: "Cochrane systematic review, 'Honey for acute cough in children'; supporting meta-analysis published in BMJ."
+  },
+  {
+    id: "fish-is-brain-food",
+    phrase: "Fish Is Brain Food",
+    meaning: "The old claim that eating fish makes you smarter or improves brain function.",
+    category: "Old Wives' Tales",
+    verdict: "confirmed",
+    verdictLabel: "Actually True",
+    story: `Backed by real, substantial nutrition science. DHA, an
+    omega-3 fatty acid found in fish, is a major structural component
+    of brain cell membranes, and the brain's ability to communicate
+    between cells depends on it. Children of mothers who ate more fish
+    during pregnancy show measurable improvements in verbal
+    intelligence and motor skills, and in older adults, higher omega-3
+    levels are linked to larger brain volume and up to a 50% lower risk
+    of developing dementia. One honest caveat: while fish itself shows
+    real benefit, taking fish oil supplements instead hasn't
+    consistently shown the same protective effect in clinical trials,
+    suggesting it isn't simply about the isolated compound.`,
+    mythVsFact: null,
+    source: "Multiple peer-reviewed nutrition and neurology studies, including research cited by the NIH Office of Dietary Supplements and the Alzheimer's Drug Discovery Foundation."
+  },
+  {
+    id: "stress-turns-your-hair-grey",
+    phrase: "Stress Turns Your Hair Grey",
+    meaning: "The old belief that a period of intense stress can cause your hair to turn grey, sometimes seemingly overnight.",
+    category: "Old Wives' Tales",
+    verdict: "confirmed",
+    verdictLabel: "Actually True",
+    story: `Confirmed by Harvard researchers in a 2020 study published
+    in <em>Nature</em>. Stress activates the body's fight-or-flight
+    nervous system, which releases a chemical called norepinephrine
+    near hair follicles. This causes the follicle's pigment-producing
+    stem cells to burn through their reserves far faster than normal,
+    and once those stem cells are depleted, the hair they produce grows
+    in without colour, permanently. The mechanism was demonstrated
+    directly in mice, and researchers separately documented a real
+    human case: a 30-year-old woman developed grey patches in her hair
+    that lined up exactly with the most stressful period of her year, a
+    marital separation, and the colour partially returned once the
+    stress passed.`,
+    mythVsFact: null,
+    source: "Ya-Chieh Hsu et al., Harvard University and Harvard Stem Cell Institute, published in Nature (2020)."
+  },
+  {
+    id: "chicken-soup-helps-a-cold",
+    phrase: "Chicken Soup Helps a Cold",
+    meaning: "The old remedy of eating chicken soup to help you recover from a cold.",
+    category: "Old Wives' Tales",
+    verdict: "confirmed",
+    verdictLabel: "Actually True",
+    story: `Taken seriously enough that a real pulmonologist decided to
+    test it properly. Dr. Stephen Rennard at the University of Nebraska
+    Medical Center studied chicken soup's effect in the lab, publishing
+    his findings in 1993 and again in 2000. He found that chicken soup
+    measurably inhibits the movement of neutrophils, immune cells that,
+    in excess, drive the inflammation responsible for many cold
+    symptoms. It's likely the combination of ingredients rather than
+    any single one doing the work. The honest caveat is that this was a
+    laboratory study of the soup's effect on cells, not a full clinical
+    trial tracking real patients' recovery, so "chicken soup measurably
+    calms inflammation" is well supported, even if "chicken soup cures
+    your cold faster" hasn't been directly proven in patients.`,
+    mythVsFact: "The anti-inflammatory effect is real and was measured directly in the lab. What hasn't been separately proven in a full patient trial is that this translates into recovering from a cold noticeably faster.",
+    source: "Stephen Rennard et al., University of Nebraska Medical Center, published 1993 and 2000."
+  },
+  {
+    id: "spiderwebs-stop-bleeding",
+    phrase: "Spiderwebs Stop Bleeding",
+    meaning: "The old practice of pressing a spider's web against a cut to stop the bleeding and help it heal.",
+    category: "Old Wives' Tales",
+    verdict: "partly-true",
+    verdictLabel: "Partly True",
+    story: `Extraordinarily well documented historically. Ancient Greek
+    soldiers used cobweb pads soaked in olive oil to staunch
+    battlefield wounds, Shakespeare references the remedy in <em>A
+    Midsummer Night's Dream</em>, a 1415 Gaelic medical manuscript
+    describes it directly, and English soldiers reportedly carried
+    small boxes of cobwebs into the Battle of Agincourt for exactly
+    this purpose. It remained standard practice in both folk and
+    professional medicine into the 18th century. The mechanical part
+    holds up reasonably well: a web's dense, tangled fibres can
+    genuinely help absorb blood and encourage clotting, simply by
+    giving it a structure to cling to. The specific claim that spider
+    silk has real antibacterial, infection-fighting properties, though,
+    is not well supported, and recent research has pushed back directly
+    on that part of the folklore.`,
+    mythVsFact: "The historical use is completely real, not exaggerated. But the leap from 'the web helps blood clot mechanically' to 'spider silk fights infection' is the part modern research hasn't been able to back up, and some recent studies argue against it directly.",
+    source: "Documented use from the 1st century AD onward, including a 1415 manuscript by Gaelic physician Tadhg Ó Cuinn; recent evaluation reported via ScienceDaily (2021)."
+  },
+  {
+    id: "spicy-food-clears-a-stuffy-nose",
+    phrase: "Spicy Food Clears a Stuffy Nose",
+    meaning: "The old belief that eating something spicy will unblock your nose and clear your sinuses.",
+    category: "Old Wives' Tales",
+    verdict: "partly-true",
+    verdictLabel: "Partly True",
+    story: `There's a real, direct mechanism behind this one. Capsaicin,
+    the compound that makes chilli peppers hot, activates a receptor in
+    the nasal lining that triggers mucus to thin and flow, genuinely
+    clearing a blocked nose, which is exactly why capsaicin nasal
+    sprays are used in real clinical treatments for some sinus
+    conditions. The catch is that a stuffy nose is usually caused by
+    swollen, inflamed tissue from a virus or allergy, not simply by
+    thick mucus, and capsaicin doesn't treat that inflammation at all.
+    So the relief from a spicy meal is real, but temporary and
+    cosmetic, your nose feels clearer for a while, then goes right back
+    to being blocked once the effect wears off.`,
+    mythVsFact: "The nose-clearing sensation is a real physiological effect, not a placebo. It just doesn't fix what's actually causing the congestion, so it wears off fast.",
+    source: "Clinical research on capsaicin/TRPV1 nasal receptor response; capsaicin nasal spray clinical trials, e.g. ClinicalTrials.gov NCT03952845."
   }
 ];
