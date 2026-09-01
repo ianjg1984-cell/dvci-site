@@ -144,6 +144,7 @@ function pageHTML(entry) {
       <nav class="main-nav">
         <a href="../index.html">Home</a>
         <a href="../index.html#repository">Repository</a>
+        <a href="../old-wives-tales.html">Old Wives' Tales</a>
         <a href="../a-z.html">A-Z</a>
         <a href="../quiz.html">Quiz</a>
         <a href="../about.html">About</a>
@@ -265,6 +266,7 @@ function categoryPageHTML(category, idiomsInCategory, allCategories) {
       <nav class="main-nav">
         <a href="../index.html">Home</a>
         <a href="../index.html#repository">Repository</a>
+        <a href="../old-wives-tales.html">Old Wives' Tales</a>
         <a href="../a-z.html">A-Z</a>
         <a href="../quiz.html">Quiz</a>
         <a href="../about.html">About</a>
@@ -374,6 +376,7 @@ function azIndexHTML(idioms) {
       <nav class="main-nav">
         <a href="index.html">Home</a>
         <a href="index.html#repository">Repository</a>
+        <a href="old-wives-tales.html">Old Wives' Tales</a>
         <a href="a-z.html" class="active">A-Z</a>
         <a href="quiz.html">Quiz</a>
         <a href="about.html">About</a>

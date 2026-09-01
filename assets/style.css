@@ -403,6 +403,19 @@ nav.main-nav a.active:not(.social-pill) {
 .badge.mystery::before { content: "❓ "; }
 .badge.myth::before { content: "⚠️ "; }
 
+/* Old Wives' Tales verdicts: rate the claim itself (true/false), not an
+   origin story, so they get their own badge classes rather than reusing
+   the idiom verdicts above. */
+.badge.confirmed { background: rgba(0, 217, 163, 0.14); color: var(--emerald-bright); }
+.badge.partly-true { background: rgba(255, 157, 66, 0.14); color: var(--amber-bright); }
+.badge.folklore { background: rgba(184, 172, 149, 0.14); color: var(--grey-mystery); }
+.badge.busted { background: rgba(255, 92, 122, 0.16); color: var(--burgundy-bright); }
+
+.badge.confirmed::before { content: "✅ "; }
+.badge.partly-true::before { content: "⚖️ "; }
+.badge.folklore::before { content: "🔮 "; }
+.badge.busted::before { content: "💥 "; }
+
 .no-results {
   text-align: center;
   color: var(--ivory-soft);

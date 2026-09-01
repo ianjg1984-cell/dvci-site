@@ -1,0 +1,393 @@
+/* D.V.C.I.: Old Wives' Tales
+   A separate collection from the main idiom repository, same standard of
+   honesty applied to a different kind of claim: not "where does this
+   phrase come from" but "is this actually true, and where did people
+   start believing it." Verdicts here are about the claim itself:
+   confirmed (it holds up), partly-true (real kernel, oversold), busted
+   (confidently debunked), or folklore (a superstition that was never a
+   testable claim to begin with). Kept deliberately separate from the
+   idiom repository and the quiz. */
+
+const OLD_WIVES_TALES = [
+  {
+    id: "feed-a-cold-starve-a-fever",
+    phrase: "Feed a Cold, Starve a Fever",
+    meaning: "The old advice to eat well if you have a cold, but cut back on food if you have a fever.",
+    category: "Old Wives' Tales",
+    verdict: "partly-true",
+    verdictLabel: "Partly True",
+    story: `The idea traces to Hippocratic-era medical theory, when fever
+    itself was thought to be the disease rather than a symptom of one,
+    meaning starving the sick person would starve the fever out. John
+    Withals's 1574 dictionary records exactly this logic: "fasting is a
+    great remedy of fever." Modern medicine disagrees with both halves.
+    Doctors now agree that proper nutrition and fluids matter whether
+    you have a cold or a fever, and that deliberately eating too little
+    during either can weaken your immune response rather than help it.`,
+    mythVsFact: "Neither half of the advice holds up medically. Starving yourself during a fever isn't recommended, and 'starving' was never good advice to begin with, it just reflected a genuinely different, outdated theory of how fevers worked.",
+    source: "John Withals's dictionary (1574); modern medical consensus per Cleveland Clinic and Johns Hopkins Medicine."
+  },
+  {
+    id: "apple-a-day-keeps-doctor-away",
+    phrase: "An Apple a Day Keeps the Doctor Away",
+    meaning: "The old promise that eating an apple daily will keep you healthy and out of the doctor's care.",
+    category: "Old Wives' Tales",
+    verdict: "partly-true",
+    verdictLabel: "Partly True",
+    story: `Welsh in origin. The earliest recorded version is a
+    Pembrokeshire saying from 1866: "Eat an apple on going to bed, and
+    you'll keep the doctor from earning his bread." It drifted through a
+    few variations, "an apple a day, no doctor to pay," "an apple a day
+    sends the doctor away," before settling into today's phrasing by the
+    1880s-90s. Apples were a genuinely reliable, storable food through
+    the colder months when fresh produce was scarce, real nutritional
+    value behind the saying, just oversold as literal medical
+    prevention.`,
+    mythVsFact: "No clinical trial has shown a literal apple a day prevents doctor visits, but apples are a genuinely healthy, fibre-rich food. The saying overstates specificity, not the underlying idea.",
+    source: "Pembrokeshire saying recorded 1866; modern phrasing documented in print by 1887."
+  },
+  {
+    id: "carrots-see-in-the-dark",
+    phrase: "Carrots Help You See in the Dark",
+    meaning: "The claim that eating lots of carrots significantly improves your night vision.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Not folk wisdom, deliberate wartime propaganda. In 1939 the
+    RAF began using Airborne Interception radar, letting pilots find
+    enemy bombers in total darkness, a secret Britain badly wanted to
+    protect. Britain's Air Ministry fed the press a cover story instead:
+    night-fighter ace John "Cat's Eyes" Cunningham owed his kills to
+    eating carrots. Posters followed, "Carrots keep you healthy and help
+    you see in the blackout," genuinely useful home-front messaging
+    doubling as cover for the radar secret. The myth outlived the war by
+    decades.`,
+    mythVsFact: "Carrots contain vitamin A, which supports normal eye function, but no amount of carrot-eating gives meaningfully enhanced night vision. The myth was a deliberate cover story, not a folk misunderstanding.",
+    source: "British Air Ministry WWII press campaign; documented via Smithsonian Magazine and BBC Science Focus."
+  },
+  {
+    id: "wet-hair-gives-you-a-cold",
+    phrase: "Going Out With Wet Hair Gives You a Cold",
+    meaning: "The warning that leaving the house with wet hair, especially in cold weather, will make you sick.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Colds are caused by viruses, not temperature or dampness, so
+    exposure alone can't cause one. Early 1900s studies on soldiers and
+    Canadian Arctic mounties seemed to support a chill-illness link, but
+    later controlled experiments split volunteers into freezing rooms,
+    some wet and thinly dressed, others bundled and dry, and found both
+    groups caught colds at about the same rate. One real nuance: if a
+    cold virus is already in your system, getting chilled may help
+    symptoms appear sooner, though the chill itself never causes the
+    infection.`,
+    mythVsFact: "Being cold and wet doesn't give you a virus. If you already have one circulating in your body, a chill might nudge symptoms into showing themselves faster.",
+    source: "Early 1900s military and Arctic studies; modern controlled research discussed via Mayo Clinic."
+  },
+  {
+    id: "cracking-knuckles-causes-arthritis",
+    phrase: "Cracking Your Knuckles Causes Arthritis",
+    meaning: "The warning that habitually cracking your knuckles will give you arthritis later in life.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Debunked by one man's decades-long grudge. Dr. Donald Unger
+    cracked the knuckles on his left hand at least twice a day for fifty
+    years, over 36,500 times, deliberately leaving his right hand
+    uncracked as a control, specifically to spite relatives who'd warned
+    him it would cause arthritis. In 1998 he published the results as a
+    letter to the journal <em>Arthritis and Rheumatism</em>: no arthritis
+    in either hand, no measurable difference between them. It won him an
+    Ig Nobel Prize. A larger study of 215 people since has backed up his
+    finding.`,
+    mythVsFact: null,
+    source: "Donald Unger, letter to Arthritis and Rheumatism (1998); Journal of the American Board of Family Medicine study of 215 people."
+  },
+  {
+    id: "shaving-makes-hair-grow-thicker",
+    phrase: "Shaving Makes Hair Grow Back Thicker",
+    meaning: "The belief that shaving causes hair to regrow darker, coarser, and thicker than before.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `A visual illusion, not biology. A foundational 1928 study,
+    reaffirmed decades later in the <em>Journal of Investigative
+    Dermatology</em>, found no measurable difference in regrowth after
+    shaving. What people actually notice: shaved hair is cut bluntly at
+    the skin's surface, giving it a blunt, rigid tip, unlike an unshaved
+    hair's naturally tapered end, so it looks and feels coarser at
+    first. Coincidence reinforces the myth too, a teenage boy's first
+    shave often overlaps with puberty, when hair is thickening anyway
+    for unrelated hormonal reasons.`,
+    mythVsFact: "Shaving changes how a hair's cut tip looks and feels at first, not how thick or fast it actually grows.",
+    source: "Anatomical Record (1928); reaffirmed in Journal of Investigative Dermatology."
+  },
+  {
+    id: "reading-dim-light-ruins-eyesight",
+    phrase: "Reading in Dim Light Ruins Your Eyesight",
+    meaning: "The warning that reading in poor light will permanently damage your eyes.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `No study has found dim light causes lasting eye damage,
+    confirmed repeatedly since a 2007 <em>British Medical Journal</em>
+    study on the subject. What dim light does cause is real eye strain:
+    pupils dilate and the eye's focusing muscles work harder to keep
+    text sharp, bringing on tired eyes, headaches, and dryness from
+    blinking less. All of it resolves once you stop and rest your eyes.
+    The advice to use better lighting was genuinely sound for comfort,
+    it just got mistaken for medical necessity somewhere along the
+    way.`,
+    mythVsFact: "Dim light tires your eyes out. It doesn't damage them.",
+    source: "British Medical Journal (2007), reaffirmed by subsequent ophthalmological research."
+  },
+  {
+    id: "lose-body-heat-through-head",
+    phrase: "You Lose Most of Your Body Heat Through Your Head",
+    meaning: "The belief that a large share, often cited as 40-45%, of your body's heat escapes through an uncovered head.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Traced to a 1970 US Army survival manual, which reported that
+    40-45% of body heat is lost through the head. The figure came from a
+    flawed experiment: soldiers were dressed in full arctic survival
+    suits covering everything except their heads, so almost all the
+    measurable heat loss naturally showed up there, since it was the
+    only skin left exposed. A 2008 <em>British Medical Journal</em>
+    review corrected the record: the head makes up roughly 7-10% of the
+    body's surface area, and loses heat in rough proportion to that, no
+    more special than any other uncovered patch of skin.`,
+    mythVsFact: "The original number came from a badly designed experiment, not new science. Heat escapes wherever skin is exposed, not disproportionately from the head.",
+    source: "US Army survival manual (1970); corrected in British Medical Journal (2008)."
+  },
+  {
+    id: "swallowed-gum-seven-years",
+    phrase: "Swallowed Gum Stays in Your Stomach for Seven Years",
+    meaning: "The warning that swallowed chewing gum takes seven years to pass through your digestive system.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `No medical literature supports the specific figure of seven
+    years; it reads as a parental deterrent passed down by word of
+    mouth rather than any published study. In reality, swallowed gum
+    typically exits the body within two to five days, much like most
+    other things you eat. The myth likely grew from a real fact, gum
+    base genuinely resists the stomach's chemical digestion, wrongly
+    stretched into the assumption that it must therefore get stuck
+    rather than simply pass through by ordinary muscular movement.`,
+    mythVsFact: "Gum base really does resist digestion chemically, but it still moves through your system on the normal schedule. It doesn't sit there for years.",
+    source: "Multiple medical sources including Scientific American and Mayo Clinic; no documented origin found for the specific 'seven years' figure."
+  },
+  {
+    id: "red-sky-at-night-shepherds-delight",
+    phrase: "Red Sky at Night, Shepherd's Delight",
+    meaning: "A red sky at sunset predicts fine weather the next day; a red sky at sunrise warns of bad weather coming.",
+    category: "Old Wives' Tales",
+    verdict: "confirmed",
+    verdictLabel: "Actually True",
+    story: `The one that isn't folklore at all. It's Biblical, appearing
+    in the Gospel of Matthew via the 1395 Wyclif translation, and
+    Shakespeare used a version of it in <em>Venus and Adonis</em>
+    (1593), but it also holds up meteorologically. A red sunset happens
+    when sunlight passes through dust trapped in stable, high-pressure
+    air to the west, meaning fine weather is on its way. A red sunrise
+    means that same high-pressure system has already moved through,
+    with lower pressure, often rain, now arriving from the west. It
+    holds specifically in regions like the UK, where weather systems
+    travel west to east.`,
+    mythVsFact: "This is the rare entry on this list that's genuinely, scientifically true, not just an old belief that happens to sound plausible.",
+    source: "Wyclif Bible, Matthew XVI (1395); Shakespeare, Venus and Adonis (1593); UK Met Office."
+  },
+  {
+    id: "step-on-a-crack-break-mothers-back",
+    phrase: "Step on a Crack, Break Your Mother's Back",
+    meaning: "The childhood superstition and sidewalk game that stepping on a pavement crack will bring your mother harm.",
+    category: "Old Wives' Tales",
+    verdict: "folklore",
+    verdictLabel: "Unprovable Folklore",
+    story: `The familiar rhyme has a considerably darker documented
+    ancestor. In the late 19th and early 20th century United States, an
+    earlier version of this superstition circulated with explicitly
+    racist wording, warning white children that stepping on a crack, or
+    a line, would somehow result in a Black child or a mixed-race
+    marriage, a product of the deep racial prejudice of the period. Over
+    the 20th century, as that context faded from common memory, the
+    rhyme was reworked into the racially neutral "break your mother's
+    back" version now used purely as a children's sidewalk game, with
+    little awareness among most people using it today of where it came
+    from.`,
+    mythVsFact: "The core fact, that a version of this superstition once carried explicitly racist wording, is documented, not invented. But it's worth being upfront that this lives mostly in oral history and folklore-archive accounts rather than a single dated print citation, so the exact original wording and how widespread it was is less precisely pinned down than most other entries here.",
+    source: "Oral-history and folklore-collection accounts, including USC's Digital Folklore Archive; exact original phrasing varies by regional account."
+  },
+  {
+    id: "ears-burning-someone-talking-about-you",
+    phrase: "If Your Ears Are Burning, Someone's Talking About You",
+    meaning: "A sudden burning or tingling sensation in your ear means someone, somewhere, is talking about you.",
+    category: "Old Wives' Tales",
+    verdict: "folklore",
+    verdictLabel: "Unprovable Folklore",
+    story: `Genuinely ancient, not a modern invention. Pliny the Elder
+    records the belief in his <em>Naturalis Historia</em> in the 1st
+    century AD: a burning right ear meant someone was praising you, a
+    burning left ear meant the opposite. Chaucer references the same
+    idea in <em>Troilus and Criseyde</em> in the 1380s, and a 16th
+    century poem, "Of the Burning of the Eares" by James Yates, deals
+    with it directly. There's no mechanism connecting a stray physical
+    sensation to what someone else happens to be saying elsewhere, so
+    this isn't really "busted" so much as it was never a testable claim
+    in the first place, just two thousand years of continuous
+    superstition.`,
+    mythVsFact: null,
+    source: "Pliny the Elder, Naturalis Historia (1st century AD); Geoffrey Chaucer, Troilus and Criseyde (1380s)."
+  },
+  {
+    id: "goosebumps-walking-over-your-grave",
+    phrase: "Goosebumps Mean Someone's Walking Over Your Grave",
+    meaning: "A sudden, unexplained shiver or goosebumps means someone is walking over the spot where you'll eventually be buried.",
+    category: "Old Wives' Tales",
+    verdict: "folklore",
+    verdictLabel: "Unprovable Folklore",
+    story: `Rooted in medieval English belief that a person's final
+    resting place was already predetermined, and that the living and
+    dead stayed in quiet, constant contact. The earliest recorded
+    version of the saying, "There's somebody walking over my grave!",
+    appears in Jonathan Swift's 1738 book <em>A Complete Collection of
+    Genteel and Ingenious Conversation</em>. An American variant swaps
+    in a goose, occasionally a rabbit, walking over the grave instead of
+    a person. Science has its own, much less eerie explanation for the
+    physical sensation itself: an involuntary release of adrenaline.`,
+    mythVsFact: "The shiver is real, an adrenaline response, but the grave-related explanation for it is medieval folklore, not a documented cause.",
+    source: "Jonathan Swift, A Complete Collection of Genteel and Ingenious Conversation (1738)."
+  },
+  {
+    id: "swimming-after-eating-causes-cramp",
+    phrase: "Swimming After Eating Causes Cramp and Drowning",
+    meaning: "The warning to wait roughly an hour after eating before swimming, or risk a cramp severe enough to cause you to drown.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Traceable to early Boy Scout manuals: a 1908 edition warned
+    scouts against swimming in deep water right after a meal, and the
+    1911 Boy Scouts of America manual repeated the claim directly. The
+    theory was that digestion redirects blood flow to the gut, starving
+    the muscles and causing a cramp severe enough to incapacitate a
+    swimmer. The American Red Cross has since reviewed the evidence
+    directly and concluded there's no documented drowning death ever
+    attributed to swimming within an hour of eating, and studies going
+    back to the 1960s found no measurable effect on swimming performance
+    either.`,
+    mythVsFact: "There isn't a single documented case of this actually happening. The concern traces to early-1900s scouting manuals, not medical evidence.",
+    source: "Boy Scouts of America manual (1911); American Red Cross review of available evidence."
+  },
+  {
+    id: "bulls-enraged-by-red",
+    phrase: "Bulls Are Enraged by the Colour Red",
+    meaning: "The belief that bulls become aggressive specifically because they see the colour red, as in a bullfighter's cape.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Cattle are red-green colourblind, so a bull can't physically
+    single out red the way the myth assumes. What actually provokes
+    them is movement. In controlled tests, a matador's traditional
+    muleta was replaced with capes of different colours, and bulls
+    charged whichever cape was being waved, ignoring stationary red
+    cloth entirely. Red was chosen for the muleta for a much more
+    practical reason: it disguises the bull's blood during the fight,
+    keeping the spectacle visually palatable for the crowd, nothing to
+    do with provoking the animal.`,
+    mythVsFact: "The bull is reacting to the cape's movement, not its colour, which it most likely can't even perceive the way people assume.",
+    source: "Temple Grandin, Improving Animal Welfare; controlled bullfighting-cape tests documented via Snopes and academic sources."
+  },
+  {
+    id: "touching-a-toad-gives-you-warts",
+    phrase: "Touching a Toad Gives You Warts",
+    meaning: "The warning that handling a toad or frog will cause warts to grow on your skin.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Warts are caused by human papillomavirus, a human-specific
+    virus with nothing to do with amphibians. The myth likely comes from
+    simple appearance: toads have bumpy, glandular skin, and people
+    assumed those bumps were a contagious growth much like a wart. They
+    aren't warts at all, they're glands, some of which genuinely secrete
+    mild toxins, a real, if different, reason to wash your hands after
+    handling one.`,
+    mythVsFact: "The bumps on a toad's skin aren't warts, and human warts can't be caught from an amphibian.",
+    source: "Multiple herpetological and dermatological sources, including Smithsonian Magazine and Burke Museum."
+  },
+  {
+    id: "poinsettias-are-poisonous",
+    phrase: "Poinsettias Are Poisonous",
+    meaning: "The belief that poinsettia plants are dangerously toxic if eaten, especially by children or pets.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Traces to a single 1919 incident in Hawaii, where a two-year
+    old child died and poinsettia leaves were blamed without any real
+    medical investigation at the time. The claim was then repeated as
+    fact in a 1944 book, <em>Poisonous Plants of Hawaii</em>. When a
+    Cornell University floriculture professor actually looked into the
+    original case in 1972, he found no real connection between the
+    plant and the child's death at all. There's never been a documented
+    poinsettia death since, and toxicology estimates suggest a
+    50-pound child would need to eat over 500 poinsettia leaves before
+    reaching a genuinely toxic dose.`,
+    mythVsFact: "The entire myth traces back to one unverified 1919 case that, on later investigation, had no real evidence behind it at all.",
+    source: "Harry L. Arnold, Poisonous Plants of Hawaii (1944); Cornell University investigation (1972); Poisindex Information Service."
+  },
+  {
+    id: "lightning-never-strikes-twice",
+    phrase: "Lightning Never Strikes the Same Place Twice",
+    meaning: "The reassurance that once lightning has struck somewhere, that spot is now safe from being hit again.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `The opposite is closer to the truth. Lightning takes the
+    path of least resistance to the ground, which means tall, isolated
+    structures get struck again and again, not just once. The Empire
+    State Building is the textbook example: it's hit by lightning
+    roughly 25 times a year on average, and was once struck eight times
+    in a single 24-minute storm. There's no mechanism by which a
+    location becomes "used up" after a single strike.`,
+    mythVsFact: "Height and isolation, not history, determine where lightning strikes. The same spot getting hit repeatedly is completely normal.",
+    source: "Documented Empire State Building lightning-strike frequency, per NOAA and multiple meteorological sources."
+  },
+  {
+    id: "never-wake-a-sleepwalker",
+    phrase: "Never Wake a Sleepwalker",
+    meaning: "The warning that waking someone mid-sleepwalk can cause them serious harm, even a heart attack.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Major medical bodies, including the Mayo Clinic and the
+    American Academy of Sleep Medicine, are direct on this: waking a
+    sleepwalker doesn't cause heart attacks, brain damage, or any
+    comparable medical harm. The belief has genuinely old roots,
+    though, tracing to 12th and 13th century ideas that a person's soul
+    temporarily left their body during sleep, so waking them abruptly
+    was thought to risk trapping it outside. The real, far more
+    mundane reason people still avoid it: a woken sleepwalker is often
+    confused and disoriented, which can occasionally lead to a minor
+    accidental injury, nothing supernatural about it.`,
+    mythVsFact: "There's no medical danger in waking a sleepwalker. The real risk is brief confusion, not bodily harm.",
+    source: "Mayo Clinic and American Academy of Sleep Medicine guidance; medieval 'soul departure' belief documented in sleep-history literature."
+  },
+  {
+    id: "see-a-penny-pick-it-up",
+    phrase: "See a Penny, Pick It Up, All Day Long You'll Have Good Luck",
+    meaning: "The belief that finding and picking up a stray penny brings good luck for the rest of the day.",
+    category: "Old Wives' Tales",
+    verdict: "folklore",
+    verdictLabel: "Unprovable Folklore",
+    story: `A relatively modern American twist on a much older
+    superstition. The original version wasn't about pennies at all, it
+    was "see a pin and pick it up," tied to a pagan belief that metal
+    was a protective gift from the gods, and a stray pin might have been
+    used in a good-luck spell. As coins became the everyday
+    precious-metal object people actually encountered, the rhyme drifted
+    from pins to pennies, carrying the same underlying "found metal
+    equals luck" logic along with it.`,
+    mythVsFact: null,
+    source: "'See a pin' pagan good-luck tradition, documented via USC's Digital Folklore Archive and related folklore references."
+  }
+];
