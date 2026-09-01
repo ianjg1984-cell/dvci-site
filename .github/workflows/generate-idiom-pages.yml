@@ -35,5 +35,9 @@ jobs:
             echo "No changes to generated pages."
           else
             git commit -m "Auto-generate idiom pages"
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push && break
+              echo "Push attempt $i failed, retrying after pull --rebase..."
+              sleep 5
+            done
           fi
