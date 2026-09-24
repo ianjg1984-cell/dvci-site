@@ -566,5 +566,454 @@ const OLD_WIVES_TALES = [
     to being blocked once the effect wears off.`,
     mythVsFact: "The nose-clearing sensation is a real physiological effect, not a placebo. It just doesn't fix what's actually causing the congestion, so it wears off fast.",
     source: "Clinical research on capsaicin/TRPV1 nasal receptor response; capsaicin nasal spray clinical trials, e.g. ClinicalTrials.gov NCT03952845."
+  },
+  {
+    id: "sugar-makes-children-hyperactive",
+    phrase: "Sugar Makes Children Hyperactive",
+    meaning: "The common belief that eating sugary food or drinks causes children to become wild, restless, or unable to concentrate.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `The link between sugar and hyperactive behaviour has been
+    tested directly and repeatedly, and it doesn't hold up. A 1995
+    meta-analysis in the Journal of the American Medical Association
+    combined 23 separate double-blind, placebo-controlled experiments
+    and found that sugar had no measurable effect on children's
+    behaviour or cognitive performance. A second major review that same
+    year, in the New England Journal of Medicine, reached the same
+    conclusion using 23 randomised controlled trials covering over
+    1,400 children. What actually seems to drive the belief is
+    expectation rather than sugar itself: in one study, mothers who
+    were simply told their child had been given sugar (when none
+    actually had) rated their child as noticeably more hyperactive than
+    mothers who were told the truth.`,
+    mythVsFact: "The behaviour doesn't come from the sugar. It comes from what the adults in the room already expect to see once sugar is mentioned.",
+    source: "Journal of the American Medical Association meta-analysis (1995); New England Journal of Medicine meta-analysis of 23 randomised controlled trials (1995)."
+  },
+  {
+    id: "full-moon-causes-strange-behavior",
+    phrase: "The Full Moon Causes Strange Behaviour",
+    meaning: "The belief that a full moon leads to a measurable rise in crime, accidents, hospital visits, or erratic behaviour.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Decades of research have looked for a real connection
+    between the full moon and crime rates, psychiatric admissions,
+    emergency room visits, births, and more, and the pattern
+    essentially isn't there. Meta-analyses combining results across
+    many individual studies have found full moons to be statistically
+    unrelated to the events people most often blame on them; one
+    dataset even showed a slight dip in homicides during a full moon
+    rather than a rise. There is one small, genuine effect: a 2013
+    study found people sleep somewhat less deeply around the full moon,
+    roughly 20 minutes less sleep and about 30% less deep sleep, though
+    the effect size is modest. The belief itself persists largely
+    through confirmation bias: an unusual incident on a full-moon night
+    gets remembered and retold, while an ordinary night, full moon or
+    not, doesn't.`,
+    mythVsFact: "The one real, measurable effect is a small dip in sleep quality, nothing close to the crime waves and chaos the myth usually claims.",
+    source: "Meta-analyses of crime, psychiatric, and hospital data discussed in Scientific American and Wikipedia's 'Lunar effect' entry; 2013 sleep study cited via Healthline."
+  },
+  {
+    id: "swallow-spiders-in-sleep",
+    phrase: "You Swallow Eight Spiders a Year in Your Sleep",
+    meaning: "The claim that the average person unknowingly swallows several live spiders annually while sleeping.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `There's no research behind this one at all, and the exact
+    number, eight, has no traceable scientific source. The claim seems
+    to have spread through 1990s trivia culture, including an
+    appearance as a "Real Fact" on a Snapple bottle cap, and a widely
+    reprinted 1993 magazine article that stated it as fact without
+    citing any actual study. Once repeated enough times in classrooms,
+    trivia games, and articles, it hardened into something that sounds
+    like established science. It also runs against basic biology in
+    both directions: spiders generally avoid the vibration, warmth, and
+    breathing of a sleeping person rather than seeking it out, and
+    there's no medical record of anyone regularly swallowing spiders in
+    their sleep going back to check.`,
+    mythVsFact: "Nobody has ever traced this statistic to an actual study, because there isn't one. It's often cited today specifically as an example of how easily a fake number can become 'common knowledge' once repeated enough times.",
+    source: "Traced to 1990s trivia culture, including a Snapple bottle-cap 'Real Fact' and a 1993 magazine article with no cited research, per Scientific American and Discover Magazine."
+  },
+  {
+    id: "breaking-a-mirror-seven-years-bad-luck",
+    phrase: "Breaking a Mirror Brings Seven Years of Bad Luck",
+    meaning: "The superstition that shattering a mirror curses the person responsible with seven years of misfortune.",
+    category: "Old Wives' Tales",
+    verdict: "folklore",
+    verdictLabel: "Unprovable Folklore",
+    story: `Traces to ancient Rome, where mirrors weren't thought to
+    simply reflect a face, they were believed to capture a piece of the
+    soul itself. Breaking one meant damaging that soul-image, and
+    Romans also believed the body and soul underwent a complete renewal
+    every seven years, giving the exact length of the supposed bad
+    luck. There's a more practical layer too: mirrors were extremely
+    expensive for most of history, and breaking one could genuinely
+    cost close to seven years' worth of an ordinary person's wages,
+    which may have reinforced the superstition long after anyone
+    remembered the original Roman soul-belief. The superstition spread
+    far more widely once mirrors became mass-produced and affordable in
+    the late 1800s, putting them into ordinary households for the first
+    time.`,
+    mythVsFact: null,
+    source: "Ancient Roman mirror and soul-renewal beliefs, documented via FolkloreThursday and multiple mirror-history sources; mass production of mirrors from the late 19th century."
+  },
+  {
+    id: "umbrella-indoors-bad-luck",
+    phrase: "Opening an Umbrella Indoors Is Bad Luck",
+    meaning: "The superstition that opening an umbrella inside a building will bring misfortune.",
+    category: "Old Wives' Tales",
+    verdict: "folklore",
+    verdictLabel: "Unprovable Folklore",
+    story: `Two very different explanations compete for this one. The
+    older points to ancient Egypt, around 1200 BC, where early
+    umbrellas made from feathers and papyrus were used by priests and
+    royalty specifically to block the sun, meaning opening one indoors,
+    away from the sun, could be seen as an insult to the sun god Ra, or
+    to the sky goddess Nut, whose protective shade the umbrella was
+    meant to represent. The more practical theory points to the
+    Victorian era, when Samuel Fox's steel-ribbed umbrella design
+    became popular. A rigid, spring-loaded umbrella suddenly opening in
+    a cramped room was a genuine way to injure someone or break
+    something, which may have hardened an older superstition into a
+    very sensible household rule.`,
+    mythVsFact: null,
+    source: "Ancient Egyptian umbrella use documented via HowStuffWorks and Mental Floss; Samuel Fox's Paragon steel-ribbed umbrella frame (Victorian era)."
+  },
+  {
+    id: "garlic-fights-infection",
+    phrase: "Garlic Fights Off Infection",
+    meaning: "The old remedy of eating raw or crushed garlic to help ward off or fight infections.",
+    category: "Old Wives' Tales",
+    verdict: "confirmed",
+    verdictLabel: "Actually True",
+    story: `Garlic has been used as a folk remedy across many different
+    cultures for thousands of years, and modern chemistry has actually
+    found a real mechanism behind it. Crushing or chewing raw garlic
+    releases a compound called allicin, first identified in 1944, which
+    has been shown in laboratory studies to have genuine antibacterial,
+    antifungal, and antiviral activity, including against some
+    antibiotic-resistant bacterial strains. Allicin works by reacting
+    with and disabling key enzymes that bacteria and fungi need to
+    survive. One important practical catch: allicin is unstable and
+    breaks down quickly once heated above about 80°C, so cooked garlic
+    loses most of this specific antimicrobial effect that raw garlic
+    has.`,
+    mythVsFact: null,
+    source: "Allicin identified by Cavallito (1944); antimicrobial activity documented in multiple peer-reviewed studies including PLOS ONE and Scientific Reports."
+  },
+  {
+    id: "turkey-tryptophan-sleepy",
+    phrase: "Turkey Makes You Sleepy",
+    meaning: "The belief that eating turkey causes drowsiness because of its tryptophan content, especially associated with big Thanksgiving dinners.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Turkey does contain tryptophan, an amino acid the body uses
+    to help make serotonin, but there's nothing special about turkey
+    specifically: chicken, beef, and even cheddar cheese all contain
+    comparable or higher amounts of it. There's also a biological catch
+    that undercuts the whole theory: tryptophan has to compete with
+    several other, more abundant amino acids to cross into the brain,
+    and eating a protein-heavy meal like turkey actually makes that
+    competition harder, not easier, meaning a turkey dinner shouldn't
+    meaningfully raise brain tryptophan levels at all. The much simpler
+    explanation for the post-dinner slump is the sheer size of the meal
+    itself, plus the carbohydrate-heavy sides and any alcohol, a
+    combination well known to cause drowsiness regardless of what
+    protein is on the plate.`,
+    mythVsFact: "Turkey isn't unique in its tryptophan content, and the biology of a big meal actually works against tryptophan reaching the brain in any meaningful extra amount. The nap is from the meal's size, not the bird itself.",
+    source: "USDA tryptophan comparisons and amino-acid competition mechanism, documented via CNN and multiple nutrition-science sources."
+  },
+  {
+    id: "vitamin-c-prevents-colds",
+    phrase: "Vitamin C Prevents Colds",
+    meaning: "The popular belief that taking vitamin C, especially at the first sign of a cold, will stop you from getting sick.",
+    category: "Old Wives' Tales",
+    verdict: "partly-true",
+    verdictLabel: "Partly True",
+    story: `This one owes its fame to the Nobel laureate Linus Pauling,
+    who became a vocal advocate for high-dose vitamin C in the 1970s.
+    Large-scale reviews since, including a Cochrane review covering
+    nearly 30 trials and over 11,000 participants, found that regular
+    vitamin C makes no real difference to how often an ordinary person
+    catches a cold. There is a real, if narrower, effect: regular
+    supplementation modestly shortens how long a cold lasts once you
+    have one, and in people under intense short-term physical stress,
+    marathon runners and skiers in the studied trials, it roughly
+    halved the risk of catching a cold at all. Taking vitamin C only
+    after symptoms have already started, the way most people actually
+    use it, showed no consistent benefit in the trials.`,
+    mythVsFact: "Pauling's confidence ran well ahead of the evidence for ordinary cold prevention. The real, replicated benefits are narrower: a shorter cold once you have one, and real prevention specifically under extreme physical stress.",
+    source: "Cochrane systematic review, 'Vitamin C for preventing and treating the common cold'; Linus Pauling's original 1971 meta-analysis, discussed via McGill University's Office for Science and Society."
+  },
+  {
+    id: "eight-glasses-of-water-a-day",
+    phrase: "You Need to Drink Eight Glasses of Water a Day",
+    meaning: "The widely repeated health rule that everyone should drink eight 8-ounce glasses of water daily.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `The number traces to a 1945 recommendation from the US Food
+    and Nutrition Board, which suggested about 2.5 litres of water
+    intake a day, roughly eight glasses. Crucially, the same
+    recommendation explicitly noted that most of that amount is already
+    contained in ordinary food, a detail that appears to have been
+    dropped as the advice got passed along, leaving only "drink eight
+    glasses" behind. No actual research produced the specific 8x8
+    figure in the first place, and a review of 18 separate trials on
+    the subject found a genuinely mixed picture, with about half
+    showing a benefit and half showing none, and most studies too small
+    or short to be conclusive either way.`,
+    mythVsFact: "The famous number comes from a 1945 recommendation that already counted food as part of your water intake. Later retellings just quietly dropped that part.",
+    source: "1945 US Food and Nutrition Board recommendation, documented via Harvard Health and the American Journal of Physiology."
+  },
+  {
+    id: "toilet-water-coriolis-effect",
+    phrase: "Toilets Flush in Opposite Directions in Each Hemisphere",
+    meaning: "The claim that the Coriolis effect makes water swirl clockwise down drains in the Southern Hemisphere and counterclockwise in the Northern Hemisphere.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `The Coriolis effect is real, and it genuinely does shape
+    the rotation of huge systems like hurricanes, spinning them
+    counterclockwise north of the equator and clockwise south of it.
+    The problem is scale: a toilet bowl or bathroom sink is far too
+    small, and the water drains far too quickly, for a force that weak
+    to have any measurable influence on which way it swirls. In
+    reality, the direction water spins down a drain is almost entirely
+    determined by the shape of the basin and the angle at which water
+    is jetted into it when it's flushed or filled, not which hemisphere
+    it's in. Both clockwise and counterclockwise drains can be found in
+    either hemisphere, and the "proof" demonstrations sometimes staged
+    for tourists at the equator are rigged rather than genuine.`,
+    mythVsFact: "The Coriolis effect is real science, misapplied to something far too small and fast-draining for it to matter. Bowl shape and the angle of the water jets decide the direction, not geography.",
+    source: "Coriolis-effect scale analysis discussed via Scientific American, Snopes, and the Library of Congress's 'Everyday Mysteries' series."
+  },
+  {
+    id: "dog-mouth-cleaner-than-human",
+    phrase: "A Dog's Mouth Is Cleaner Than a Human's",
+    meaning: "The belief that a dog's mouth carries fewer or less harmful germs than a human's, often used to justify letting a dog lick a wound or your face.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Dogs' mouths carry roughly as many bacterial species as
+    human mouths do, somewhere around 600 in dogs compared with over
+    600 documented in humans, so "cleaner" in the sense of having fewer
+    germs simply isn't accurate. The real difference is that most of a
+    dog's oral bacteria are specifically adapted to live in dogs and
+    don't easily colonise humans, which is probably where the "cleaner"
+    reputation comes from: cross-species infection from casual contact
+    is genuinely uncommon. That's different from harmless, though. A
+    dog bite that breaks the skin carries a real risk of infection from
+    bacteria dogs do host, and the old observation that dogs heal well
+    after licking their own wounds isn't unique to dogs either, saliva
+    from most mammals, humans included, shows some of the same mild
+    wound-healing properties.`,
+    mythVsFact: "Similar germ counts, different germs. The apparent safety comes from most dog bacteria not being well suited to infecting humans, not from a dog's mouth actually being germ-free.",
+    source: "Comparative oral bacteria research discussed via PetMD, AKC, and a 2024 genetic analysis of canine dental plaque bacteria."
+  },
+  {
+    id: "left-handed-people-die-younger",
+    phrase: "Left-Handed People Die Younger",
+    meaning: "The claim, based on a widely reported 1991 study, that left-handed people have significantly shorter average lifespans than right-handed people.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `The claim comes from a real 1991 study by Halpern and
+    Coren, which found that left-handed people in their sample had
+    died, on average, nine years younger than right-handed people, a
+    result that got picked up widely in both popular media and serious
+    scientific journals. The problem turned out to be the study's
+    method, not its data: because social pressure to write with the
+    right hand was strong for most of the 20th century, many people
+    alive earlier in the century who were naturally left-handed had
+    been forced to switch, meaning genuinely left-handed people were
+    undercounted among older, longer-lived generations in the sample.
+    That created the statistical illusion of left-handers dying young,
+    when really there were just fewer of them left to count among the
+    elderly. Later, better-designed studies, including one tracking
+    twin pairs of opposite handedness, found no real difference in
+    lifespan tied to handedness at all.`,
+    mythVsFact: "The original 1991 finding was a real result from real data, but the data itself was skewed by decades of forced hand-switching, not by any actual health difference tied to left-handedness.",
+    source: "Halpern and Coren (1991); statistical correction discussed in Significance journal and a 2023 study in Archives of Public Health."
+  },
+  {
+    id: "wait-24-hours-to-report-missing-person",
+    phrase: "You Have to Wait 24 Hours to Report Someone Missing",
+    meaning: "The widely believed rule that police won't accept a missing person report until the person has been gone for a full day.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `There has never been a law anywhere in the United States
+    requiring a 24-hour wait before filing a missing person report, for
+    a child or an adult. Police departments and missing-persons
+    organisations are consistent and direct on this point. The myth
+    appears to have spread largely through television and film,
+    particularly crime procedurals, where a "24-hour rule" is a
+    convenient plot device, repeated so often on screen that it
+    hardened into something audiences assumed was real police
+    procedure. The belief isn't just harmless misinformation either:
+    because the first hours after someone goes missing are often the
+    most important for locating them safely, the myth has genuinely
+    delayed real investigations, which is why some places, including
+    Illinois from 2026, have passed laws explicitly requiring police to
+    accept and act on missing person reports immediately.`,
+    mythVsFact: "This isn't just an incorrect but harmless belief. Acting on it has genuinely delayed real missing-persons investigations, which is exactly why several police departments and news outlets have pushed hard to correct it.",
+    source: "Documented lack of any 24-hour legal waiting period, per Police Magazine and multiple missing-persons advocacy organisations; Illinois's 2026 immediate-report law."
+  },
+  {
+    id: "bats-are-blind",
+    phrase: "Bats Are Blind",
+    meaning: "The belief, reflected in the phrase 'blind as a bat,' that bats cannot see and rely entirely on hearing to get around.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `Every bat species studied has fully functional eyes,
+    complete with a working retina, lens, and optic nerve, and many
+    bats are believed to see more sharply in low light than humans do.
+    The confusion comes from echolocation, the genuinely remarkable
+    biological sonar many bats use to track fast-moving prey in
+    complete darkness, which is so effective that people assumed it
+    must be compensating for blindness rather than working alongside
+    functioning eyes. In practice, the two senses divide the labour:
+    vision tends to handle long-range navigation, spotting the horizon,
+    and watching for predators, while echolocation takes over for the
+    fine, split-second work of chasing insects in the dark.`,
+    mythVsFact: null,
+    source: "Comparative bat vision and echolocation research discussed via Britannica and peer-reviewed studies in Frontiers in Ecology and Evolution."
+  },
+  {
+    id: "salt-water-gargle-sore-throat",
+    phrase: "Gargling Salt Water Soothes a Sore Throat",
+    meaning: "The old home remedy of gargling warm water mixed with salt to relieve a sore throat.",
+    category: "Old Wives' Tales",
+    verdict: "confirmed",
+    verdictLabel: "Actually True",
+    story: `This one holds up well in actual clinical trials. A
+    randomised trial comparing a 3% salt solution against a standard
+    treatment found statistically significant improvements in pain,
+    swallowing difficulty, and throat swelling in the salt-water group.
+    Separate research has found that regular gargling, including plain
+    salt water, is associated with fewer upper respiratory infections
+    generally, and patients who gargled with warm saline after certain
+    throat procedures reported measurably less soreness afterward. The
+    recommended mix, roughly a teaspoon of salt in a cup of warm water,
+    is inexpensive, has no meaningful side effects, and is specifically
+    recommended by health bodies including the CDC as a genuine,
+    evidence-backed way to ease a sore throat.`,
+    mythVsFact: null,
+    source: "Randomised clinical trials on saline gargling for pharyngitis; CDC recommendation for salt-water gargling; Satomura et al. gargling study (2005)."
+  },
+  {
+    id: "daddy-long-legs-most-venomous-spider",
+    phrase: "Daddy Long Legs Are the World's Most Venomous Spiders, but Their Fangs Can't Bite You",
+    meaning: "The claim that daddy long legs have the deadliest venom of any spider, but are harmless to humans because their fangs are too small or weak to pierce skin.",
+    category: "Old Wives' Tales",
+    verdict: "busted",
+    verdictLabel: "Busted",
+    story: `This one is wrong on several levels at once. "Daddy long
+    legs" is actually a common name loosely applied to at least three
+    completely different creatures: harvestmen, which aren't even true
+    spiders and have no fangs or venom glands at all; crane flies,
+    which are insects, and many species can't bite anything because
+    they have no mouthparts; and cellar spiders, the one actual spider
+    among the three. Even for cellar spiders, the specific creature the
+    myth most often means, their venom is far less potent than a black
+    widow's, not more, and while their fangs are genuinely small, a
+    2019 study confirmed they can and occasionally do bite people,
+    producing nothing worse than a mild, brief sting.`,
+    mythVsFact: "The myth is confused about which animal it's even describing, wrong about the venom being unusually dangerous, and wrong that the fangs can't physically bite at all. All three parts of the claim fall apart independently.",
+    source: "Species identification and venom-potency research documented via the Burke Museum, UC Riverside Department of Entomology, and a 2019 Frontiers in Ecology and Evolution study."
+  },
+  {
+    id: "knock-on-wood-for-luck",
+    phrase: "Knock on Wood for Good Luck",
+    meaning: "The superstition of touching or knocking on a wooden surface to avoid bad luck, especially after mentioning good fortune out loud.",
+    category: "Old Wives' Tales",
+    verdict: "folklore",
+    verdictLabel: "Unprovable Folklore",
+    story: `The most commonly repeated explanation traces the habit to
+    ancient pagan Europe, where various cultures, including the Celts,
+    believed spirits or gods lived inside certain sacred trees, oak,
+    ash, hazel, hawthorn, and willow among them. Knocking was thought
+    to either summon a protective spirit's attention or, in a related
+    theory, to make enough noise to drive away evil spirits who might
+    otherwise overhear someone tempting fate by boasting about good
+    fortune. Christian tradition later gave the same physical gesture a
+    new meaning, touching wood as a stand-in for touching the wood of
+    the cross, seeking God's protection instead of a tree-spirit's. No
+    solid documentary evidence actually confirms either the pagan or
+    Christian version as the true origin, and the practice may simply
+    be older and more diffuse than any single explanation captures.`,
+    mythVsFact: "Every origin story for this one, pagan tree-worship or Christian cross symbolism, is repeated with total confidence and neither is actually backed by solid historical evidence. Nobody really knows for certain.",
+    source: "Pagan tree-spirit and Christian cross theories both discussed via History.com and The Conversation; no documentary evidence confirmed for either."
+  },
+  {
+    id: "friday-the-13th-unlucky",
+    phrase: "Friday the 13th Is an Unlucky Day",
+    meaning: "The superstition that Friday the 13th specifically is a day prone to bad luck or misfortune.",
+    category: "Old Wives' Tales",
+    verdict: "folklore",
+    verdictLabel: "Unprovable Folklore",
+    story: `Bad luck attached to the number 13 and to Fridays both have
+    long, separate folklore histories, well before they were ever
+    combined into a single unlucky date. Norse mythology tells of the
+    trickster god Loki crashing a banquet of twelve gods as an
+    uninvited thirteenth guest, setting off a chain of events that gets
+    one of the other gods killed. Christian tradition points to the
+    Last Supper, where Judas, whose betrayal led directly to the
+    crucifixion the next day, a Friday, is remembered as the thirteenth
+    person at the table. The specific combination of Friday and the
+    13th as one unlucky date, rather than two separate superstitions,
+    seems to be a more modern invention, commonly linked to the 1907
+    American novel <em>Friday, the Thirteenth</em>, which helped cement
+    the pairing in popular culture.`,
+    mythVsFact: null,
+    source: "Norse and Christian folklore sources discussed via History.com and National Geographic; Thomas W. Lawson's novel Friday, the Thirteenth (1907)."
+  },
+  {
+    id: "marry-in-may-rue-the-day",
+    phrase: "Marry in May and You'll Rue the Day",
+    meaning: "The old wedding superstition that getting married in the month of May brings bad luck to the marriage.",
+    category: "Old Wives' Tales",
+    verdict: "folklore",
+    verdictLabel: "Unprovable Folklore",
+    story: `Traces to ancient Rome, where the month of May was
+    dedicated to Lemuria, a solemn festival for honouring and appeasing
+    the restless dead. Weddings, a celebration of new life and joy,
+    were considered inappropriate and unlucky to hold during a month
+    set aside for mourning and warding off spirits, a clash of moods
+    that made a May wedding feel like tempting fate. The superstition
+    long outlived the Roman festival that inspired it and spread across
+    Europe as part of a wider tradition of wedding-month rhymes, "Marry
+    in May, rue the day," being the most famous line from a longer folk
+    poem ranking every month's marital luck.`,
+    mythVsFact: null,
+    source: "Roman Lemuria festival tradition, documented via Refinery29 and multiple wedding-folklore sources; the longer traditional wedding-month rhyme."
+  },
+  {
+    id: "cold-showers-boost-immune-system",
+    phrase: "Cold Showers Boost Your Immune System",
+    meaning: "The belief that regularly finishing your shower with cold water strengthens your immune system and helps you avoid getting sick.",
+    category: "Old Wives' Tales",
+    verdict: "partly-true",
+    verdictLabel: "Partly True",
+    story: `The best evidence on this comes from a large Dutch
+    randomised controlled trial with over 3,000 participants, who were
+    assigned to finish their normal shower with 30, 60, or 90 seconds
+    of cold water, or to a no-cold-water control group. The result was
+    a genuine, fairly striking finding: people in the cold-shower
+    groups took 29% fewer sick days from work than the control group.
+    The important catch is what didn't change: the cold-shower groups
+    didn't actually get sick less often or recover faster once they
+    did, their illness rates and durations were statistically the same
+    as everyone else's. The most likely explanation isn't a stronger
+    immune system at all, but something closer to resilience:
+    cold-shower takers seemed more willing to push through mild
+    symptoms and go to work anyway.`,
+    mythVsFact: "The sick-day reduction is real and was measured in a genuinely large trial. What isn't supported is the specific claim that it comes from a stronger immune system, since actual illness rates didn't budge at all.",
+    source: "Buijze et al., 'The Effect of Cold Showering on Health and Work: A Randomized Controlled Trial,' PLOS ONE (2016)."
   }
 ];
