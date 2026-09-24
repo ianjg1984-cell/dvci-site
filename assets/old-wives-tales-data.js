@@ -575,20 +575,25 @@ const OLD_WIVES_TALES = [
     verdict: "busted",
     verdictLabel: "Busted",
     story: `The link between sugar and hyperactive behaviour has been
-    tested directly and repeatedly, and it doesn't hold up. A 1995
-    meta-analysis in the Journal of the American Medical Association
-    combined 23 separate double-blind, placebo-controlled experiments
-    and found that sugar had no measurable effect on children's
-    behaviour or cognitive performance. A second major review that same
-    year, in the New England Journal of Medicine, reached the same
-    conclusion using 23 randomised controlled trials covering over
-    1,400 children. What actually seems to drive the belief is
-    expectation rather than sugar itself: in one study, mothers who
-    were simply told their child had been given sugar (when none
-    actually had) rated their child as noticeably more hyperactive than
-    mothers who were told the truth.`,
+    tested directly and repeatedly, and it doesn't hold up. The
+    landmark study is a 1995 meta-analysis in the Journal of the
+    American Medical Association, led by Mark Wolraich, which combined
+    23 separate double-blind, placebo-controlled experiments from 16
+    published reports and found that sugar had no measurable effect on
+    children's behaviour or cognitive performance across 14 different
+    behavioural and cognitive measures. Wolraich had also run a direct
+    trial the year before, published in the New England Journal of
+    Medicine in 1994, feeding children, including some whose parents
+    specifically described them as "sugar-sensitive", diets high in
+    sucrose, aspartame, or saccharin in turn, and tracking 39 behavioural
+    and cognitive measures. It found no meaningful differences either.
+    What actually seems to drive the belief is expectation rather than
+    sugar itself: in a separate study, mothers who were simply told
+    their child had been given sugar (when none actually had) rated
+    their child as noticeably more hyperactive than mothers who were
+    told the truth.`,
     mythVsFact: "The behaviour doesn't come from the sugar. It comes from what the adults in the room already expect to see once sugar is mentioned.",
-    source: "Journal of the American Medical Association meta-analysis (1995); New England Journal of Medicine meta-analysis of 23 randomised controlled trials (1995)."
+    source: "Wolraich, Wilson, and White, 'The Effect of Sugar on Behavior or Cognition in Children: A Meta-analysis,' JAMA 274(20):1617-1621 (1995); Wolraich et al., New England Journal of Medicine (1994)."
   },
   {
     id: "full-moon-causes-strange-behavior",
