@@ -5668,12 +5668,12 @@ const IDIOMS = [
     than that pool could cover, the table was closed and covered with a
     black cloth, and the player was said to have "broken the bank." The
     phrase's most famous real-world example is the Englishman Joseph
-    Jagger, who won roughly $350,000 at the Casino de Monte Carlo in
-    1873 after working out a mechanical bias in one of the roulette
-    wheels, a genuine bank-breaking win still referenced in gambling
-    history today.`,
+    Jagger, who won over 2 million francs (roughly £80,000 at the time)
+    at the Casino de Monte Carlo in 1881 after working out a mechanical
+    bias in one of the roulette wheels, a genuine bank-breaking win
+    still referenced in gambling history today.`,
     mythVsFact: null,
-    source: "19th-century casino 'bank' terminology; Joseph Jagger's 1873 win at the Casino de Monte Carlo, documented in multiple gambling-history sources."
+    source: "19th-century casino 'bank' terminology; Joseph Jagger's 1881 win at the Casino de Monte Carlo, documented via Wikipedia and multiple gambling-history sources."
   },
   {
     id: "cut-and-dried",
