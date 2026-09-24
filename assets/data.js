@@ -5174,6 +5174,608 @@ const IDIOMS = [
     established either.`,
     mythVsFact: "There's no shortage of guesses about where this one comes from, but nobody has produced a documented first use or original source. Treat any confident-sounding origin story for this one with real suspicion.",
     source: "No confirmed first citation identified; discussed as an unresolved modern British idiom in phrase-history references including Wordhistories.net and the Cambridge Dictionary blog."
+  },
+  {
+    id: "beat-a-dead-horse",
+    phrase: "Beat a Dead Horse",
+    meaning: "To keep pursuing an issue or argument that's already been settled, with no hope of achieving anything further.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `In the days when horses provided the power for farms,
+    transport, and industry, flogging a stubborn or exhausted horse was
+    a real, if brutal, method for forcing it back to work. Beating a
+    horse that had actually died achieved nothing at all, an image so
+    obvious it needed little explanation to a 19th-century audience.
+    Samuel Johnson used an early version of the phrase, "to beat a
+    horse that is dead," in his 1755 <em>Dictionary of the English
+    Language</em>. The specific wording "flogging a dead horse" is
+    first recorded in 1859, describing the English politician John
+    Bright growing frustrated with a stalled reform campaign.`,
+    mythVsFact: null,
+    source: "Samuel Johnson, A Dictionary of the English Language (1755); first recorded use of 'flogging a dead horse' in 1859, describing John Bright's reform campaign."
+  },
+  {
+    id: "ballpark-figure",
+    phrase: "Ballpark Figure",
+    meaning: "A rough estimate that's roughly accurate, even if not exact.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Comes from baseball, though not quite how most people
+    assume. The Oxford English Dictionary traces the figurative phrase
+    "in the ballpark" to 1943, as United States Air Force slang for a
+    general, inexact geographical area, well before it had anything to
+    do with numbers. According to lexicographer Stuart Flexner, the
+    idea then shifted to estimates: being "in the ballpark" meant
+    landing somewhere in a reasonable range, much like a batted ball
+    that's hit too far to be exact but still lands inside the stadium.
+    The specific phrase "ballpark figure" followed later, first
+    recorded in the Seattle Times in 1968.`,
+    mythVsFact: null,
+    source: "Oxford English Dictionary citation from US Air Force slang (1943); 'ballpark figure' first recorded in the Seattle Times (1968)."
+  },
+  {
+    id: "dark-horse",
+    phrase: "Dark Horse",
+    meaning: "An unexpected contender who wins or succeeds despite being little known or overlooked beforehand.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Began as horse racing slang for a horse that gamblers knew
+    nothing about, making it genuinely hard to set odds on. The
+    concept's first known appearance in print is Benjamin Disraeli's
+    1831 novel <em>The Young Duke</em>: "A dark horse, which had never
+    been thought of... rushed past the grand stand in sweeping
+    triumph." Some etymologists trace an earlier, unattributed use of
+    the term to 1821. From racing, the phrase spread naturally to any
+    contest where a little-known entrant suddenly does well, including
+    politics: James K. Polk, in 1844, is generally considered the first
+    "dark horse" candidate for the American presidency.`,
+    mythVsFact: null,
+    source: "Benjamin Disraeli, The Young Duke (1831); James K. Polk's 1844 presidential nomination, widely cited as the first political 'dark horse.'"
+  },
+  {
+    id: "dead-ringer",
+    phrase: "Dead Ringer",
+    meaning: "Someone or something that looks exactly like another person or thing.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Comes from 19th-century horse racing fraud. Dishonest
+    trainers would occasionally swap in a faster horse to secretly run
+    in place of a slower one entered under false papers, hoping to win
+    bets on a horse nobody suspected was a substitute. That substitute,
+    chosen specifically to look identical to the real entrant, was
+    called a "ringer." "Dead" was already common slang for exact or
+    precise, as in "dead centre" or "dead heat," so a "dead ringer" was
+    a perfect, exact double. The earliest documented use of the full
+    phrase appears in the Manitoba Free Press in October 1882.`,
+    mythVsFact: "A popular story claims the phrase comes from coffins fitted with bell-pulls so people buried alive could ring for help. It's pure invention, traced to a 1999 chain email called 'Life in the 1500s,' and has no connection to either horse racing or the real phrase's history.",
+    source: "Manitoba Free Press (October 1882); horse-racing 'ringer' fraud documented in multiple etymological references including Wikipedia and World Wide Words."
+  },
+  {
+    id: "dyed-in-the-wool",
+    phrase: "Dyed in the Wool",
+    meaning: "Someone whose beliefs, habits, or characteristics are so deeply ingrained they're unlikely to ever change.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A genuine piece of textile trade knowledge. Dyeing raw wool
+    before it's spun into yarn lets the colour penetrate far more
+    deeply and permanently than dyeing finished cloth, which only takes
+    colour on the surface and fades faster. England's wool and cloth
+    industry was a major part of the economy by the 1300s, and writers
+    by the 16th century had begun using the deep, lasting dye job as an
+    image for a person's ingrained character. The earliest documented
+    figurative use is in Richard Hooker's <em>Of the Lawes of
+    Ecclesiasticall Politie</em> (1597).`,
+    mythVsFact: null,
+    source: "Richard Hooker, Of the Lawes of Ecclesiasticall Politie (1597); English wool-dyeing trade practices documented from the 14th century onward."
+  },
+  {
+    id: "fly-off-the-handle",
+    phrase: "Fly Off the Handle",
+    meaning: "To suddenly become very angry, often without much warning.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A real, dangerous hazard of working with hand tools. Wood
+    shrinks and swells with humidity and temperature, and an axe head
+    that had loosened on its handle could, with one hard swing, detach
+    entirely and go flying, a genuine occupational danger of frontier
+    and farm life. The figurative sense, describing a person suddenly
+    losing control the same way, began appearing in American English
+    print by the 1830s, with an early example in Thomas Haliburton's
+    <em>The Attaché; or, Sam Slick in England</em> (1843-44).`,
+    mythVsFact: null,
+    source: "Thomas C. Haliburton, The Attaché; or, Sam Slick in England (1843-44); figurative use documented in American English from the 1830s."
+  },
+  {
+    id: "get-your-ducks-in-a-row",
+    phrase: "Get Your Ducks in a Row",
+    meaning: "To get organised and fully prepared before starting something.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `A phrase with no shortage of confident theories and no
+    actual proof behind any of them. Candidates include a mother duck
+    leading her ducklings in a neat line, the fairground game of
+    shooting at a row of mechanical ducks, and duckpin bowling, where
+    pins are nicknamed "ducks," though that game wasn't popular until
+    decades after the phrase was already in use. A billiards theory,
+    where an easy shot near the pocket is called a "duck," has been
+    suggested too, with no supporting evidence. The figurative phrase
+    is documented in print from 1932, in the Washington Post, but its
+    likely 19th-century North American roots remain genuinely unclear.`,
+    mythVsFact: "Every explanation for this one sounds plausible and none of them has solid documentary backing, including the popular mother-duck image, which is the version people assume without question.",
+    source: "Washington Post (1932); competing origin theories discussed in etymological references including World Wide Words and Grammarphobia."
+  },
+  {
+    id: "give-the-green-light",
+    phrase: "Give the Green Light",
+    meaning: "To grant permission or approval for something to go ahead.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Rooted in real railway signalling. Coloured lights were
+    adopted by railroads in the 19th century to tell engineers whether
+    it was safe to proceed, and green came to mean go. Interestingly,
+    green wasn't the original "go" colour on railways, white was used
+    first, before safety concerns (a broken red lens could be mistaken
+    for white) led to the colour scheme being revised. Road traffic
+    signals adopted the same red-amber-green logic in the early 20th
+    century, standardised further once agencies began regulating
+    traffic lights, and the phrase moved into general figurative use
+    for granting permission in the first half of the 1900s.`,
+    mythVsFact: null,
+    source: "19th-century railway signalling colour conventions; figurative use of 'green light' for permission documented from the early-to-mid 20th century."
+  },
+  {
+    id: "ivory-tower",
+    phrase: "Ivory Tower",
+    meaning: "A state of privileged isolation from the practical realities of everyday life, often used to describe academics or intellectuals.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A direct translation of the French "tour d'ivoire." The
+    French literary critic Charles Augustin Sainte-Beuve coined the
+    phrase in 1837 to describe the poet Alfred de Vigny's retreat into
+    private, art-for-art's-sake seclusion, in pointed contrast to the
+    more socially and politically engaged Victor Hugo. The image itself
+    likely draws on much older religious tradition: medieval Christian
+    writers had long described the Virgin Mary using the phrase "tower
+    of ivory" from the Song of Solomon. The English phrase entered the
+    language via a 1911 translation of the French philosopher Henri
+    Bergson's <em>Laughter</em>.`,
+    mythVsFact: null,
+    source: "Charles Augustin Sainte-Beuve (1837); Song of Solomon 7:4; English usage traced to a 1911 translation of Henri Bergson's Laughter."
+  },
+  {
+    id: "mind-your-own-beeswax",
+    phrase: "Mind Your Own Beeswax",
+    meaning: "A playful, softened way of telling someone to stop prying into your business.",
+    category: "Slang & Everyday Speech",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Most likely nothing more than a jokey, rhyming stand-in for
+    "business," probably chosen specifically because it sounds less
+    harsh than telling someone off directly. The word "beeswax" is
+    documented as 1930s American slang. One etymologist, Mark Forsyth,
+    has pointed out that "beeswax" was also 19th-century slang for a
+    tedious bore, raising the possibility the phrase originally meant
+    something closer to "mind your own business, you bore." A popular
+    story claiming women with smallpox scars used beeswax to smooth
+    their skin, and snapped at anyone who stared, is well travelled but
+    has no evidence behind it.`,
+    mythVsFact: "The smallpox-and-beeswax cosmetics story is a widely repeated explanation with no historical evidence supporting it. The much simpler explanation, that 'beeswax' is just a rhyming, softened substitute for 'business,' is the one etymologists actually favour.",
+    source: "1930s American slang documentation; smallpox-cosmetics theory addressed and rejected by etymological researchers including World Wide Words."
+  },
+  {
+    id: "over-a-barrel",
+    phrase: "Over a Barrel",
+    meaning: "In a powerless position, forced to do whatever someone else wants.",
+    category: "Slang & Everyday Speech",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `An American phrase first documented in the Seattle
+    Post-Intelligencer in June 1890. The leading theory ties it to the
+    old practice of draping someone face-down over a barrel as a form
+    of flogging or physical discipline, a position that leaves a person
+    genuinely helpless either way. A rival theory connects it to
+    resuscitating a near-drowning victim by rolling them over a barrel
+    to clear water from their lungs, but this doesn't fit the sense of
+    being under someone else's power quite as well. A commonly repeated
+    claim that it comes from naval flogging punishments doesn't hold up
+    either: navies of the period used a grating for that purpose, not a
+    barrel.`,
+    mythVsFact: "The naval-flogging explanation gets repeated often but isn't supported by any documented connection to actual naval discipline practices, which used a grating rather than a barrel.",
+    source: "Seattle Post-Intelligencer (6 June 1890); competing theories discussed in World Wide Words and Wordhistories.net."
+  },
+  {
+    id: "peanut-gallery",
+    phrase: "Peanut Gallery",
+    meaning: "A source of unwelcome, often unqualified criticism or heckling.",
+    category: "Theatre & Performance",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Comes from American vaudeville theatre. The cheapest seats
+    were high up in the gallery, where patrons snacked on inexpensive
+    peanuts and had a reputation for heckling performers, sometimes
+    literally throwing peanuts at acts they didn't enjoy. The phrase is
+    documented in an 1867 New Orleans Times-Picayune theatre review,
+    with the Oxford English Dictionary recording it by 1876. There's a
+    real, unresolved question about how much of the phrase's origin is
+    about class versus race: gallery seating during this period was
+    genuinely occupied by a mix of poorer white patrons, immigrants,
+    and, in many venues, Black patrons under segregated seating
+    policies. Historians are divided on how central that racial
+    dimension was to the phrase's coining, rather than it being a
+    broader classist put-down.`,
+    mythVsFact: "It's often stated flatly that the phrase has racist origins, and separately, flatly denied. The honest answer is that historians are genuinely divided. Segregated seating in that era is well documented, but so is poorer, non-segregated working-class use of the cheap gallery seats, and no source definitively settles which association actually drove the phrase.",
+    source: "New Orleans Times-Picayune (1867); Oxford English Dictionary citation (1876); racial-origin debate discussed in The Conversation (2020)."
+  },
+  {
+    id: "read-between-the-lines",
+    phrase: "Read Between the Lines",
+    meaning: "To infer a hidden or deeper meaning from something beyond what's literally stated.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Rooted in real cryptographic practice. One early method of
+    sending a secret message was to write it in invisible ink between
+    the visible lines of an ordinary-looking letter, ink that would
+    only appear once warmed over a flame. In times of political danger,
+    when intercepted letters could implicate the sender, hiding the
+    real message this way kept it safe from anyone but the intended
+    reader. A related theory holds that some coded letters were written
+    so that only every second line, read in sequence, revealed the true
+    message. The figurative sense, understanding an unstated meaning in
+    ordinary writing or speech, developed through the 19th century.`,
+    mythVsFact: null,
+    source: "Invisible-ink cryptographic practice documented from the early 19th century; figurative development discussed in Grammarist and etymological references."
+  },
+  {
+    id: "rest-on-your-laurels",
+    phrase: "Rest on Your Laurels",
+    meaning: "To become complacent about past achievements instead of continuing to strive.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traces to ancient Greece, where wreaths made from laurel
+    leaves were awarded to victors at the Pythian Games, an important
+    precursor to the Olympics. The plant carried extra symbolic weight
+    through its association with Apollo, tied to the myth of the nymph
+    Daphne, who transformed into a laurel tree to escape his pursuit;
+    Apollo wore laurel ever after in her memory. Over time, "laurels"
+    became shorthand in English for any hard-earned honour or
+    achievement, and "resting" on them, rather than building on them,
+    took on its modern, faintly critical edge: enjoying past success
+    instead of pushing further.`,
+    mythVsFact: null,
+    source: "Ancient Greek Pythian Games laurel-wreath tradition; Apollo and Daphne myth, documented in classical sources and Wikipedia's history of the laurel wreath."
+  },
+  {
+    id: "talk-turkey",
+    phrase: "Talk Turkey",
+    meaning: "To speak frankly and get straight to business.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `One of the odder genuine mysteries in American English. The
+    most commonly told story involves a colonial-era hunting trip
+    between a settler and a Native American man, in which the settler
+    tried to divide up the day's catch by handing over the inedible
+    birds and keeping the turkeys for himself, only for his companion
+    to call him out with something like "you're not talking turkey to
+    me." It's a vivid tale, but etymologists consider it apocryphal, an
+    invented origin story rather than a documented event. The phrase is
+    recorded in print from 1824, and reached a wider audience once it
+    was printed in Niles' Weekly Register in 1837, but no source has
+    ever confirmed where it actually began.`,
+    mythVsFact: "The colonial hunting-trip story is told constantly as if it were documented history. It isn't; etymologists treat it as an invented folk tale attached to the phrase after the fact, not its real origin.",
+    source: "First recorded use, 1824; reprinted in Niles' Weekly Register (1837); hunting-trip story addressed as apocryphal by multiple etymological sources."
+  },
+  {
+    id: "tie-the-knot",
+    phrase: "Tie the Knot",
+    meaning: "To get married.",
+    category: "Medieval Life",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Draws on a genuinely old and widespread tradition of using
+    a physical knot as a symbol of marriage. In the Celtic handfasting
+    ceremony, the bride and groom's hands were bound together with cord
+    or ribbon to represent their union, a practice that gave English
+    the phrase "tying the knot" quite literally. Ancient Egyptian
+    symbolism treated knots similarly, representing an unbroken,
+    eternal bond. The English phrase itself is recorded by 1717, in the
+    poet Matthew Prior's poem "Alma; or, The Progress of the Mind": "So
+    to the priest their case they tell: He ties the knot."`,
+    mythVsFact: null,
+    source: "Celtic handfasting tradition; Matthew Prior, 'Alma; or, The Progress of the Mind' (1717)."
+  },
+  {
+    id: "jump-the-shark",
+    phrase: "Jump the Shark",
+    meaning: "The moment a creative work, show, or trend starts declining, often by resorting to a desperate or absurd gimmick.",
+    category: "Theatre & Performance",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `An unusually precisely dated idiom. It refers to a real
+    1977 episode of the American sitcom <em>Happy Days</em>, in which
+    the character Fonzie, on water skis, literally jumps over a shark.
+    The stunt happened because actor Henry Winkler was a genuine
+    water-skier and wanted to show it off, not because the writers were
+    struggling for ideas at that point. The phrase itself was coined
+    years later, in 1985, by radio personality Jon Hein and his college
+    roommates, discussing exactly when TV shows start going downhill,
+    and cemented into wider use once Hein launched the website
+    JumpTheShark.com in 1997.`,
+    mythVsFact: null,
+    source: "Happy Days, 'Hollywood: Part 3' (1977); phrase coined by Jon Hein (1985); JumpTheShark.com (1997)."
+  },
+  {
+    id: "pull-the-plug",
+    phrase: "Pull the Plug",
+    meaning: "To deliberately end or stop something, often abruptly.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `The literal image could come from either of two everyday
+    sources, and etymologists genuinely can't say which one gave rise
+    to the phrase first. Plugs and stoppers on tubs, basins, and even
+    early flushing cisterns are centuries old, so "pulling the plug" to
+    drain water is at least an 18th-century practice. Electrical plugs
+    offer an equally plausible source, since cutting power to a machine
+    by unplugging it produces the same instant, decisive stop. The
+    figurative sense, meaning to end a project or withdraw support, is
+    documented from around the 1940s, with the specific medical sense,
+    taking someone off life support, following in the 1960s.`,
+    mythVsFact: null,
+    source: "Figurative use documented from the 1940s (general) and 1960s (life support); competing water/electrical origin theories discussed in World Wide Words."
+  },
+  {
+    id: "throw-under-the-bus",
+    phrase: "Throw Someone Under the Bus",
+    meaning: "To betray or blame someone, often to protect yourself, especially someone you'd otherwise be expected to support.",
+    category: "Law & Government",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Likely British in origin, and specifically political. An
+    early relative, "push someone under a bus," is attributed to the
+    British Prime Minister Harold Wilson in a 1971 television
+    interview, and by the early 1980s, variations like "under the bus
+    theory" were showing up regularly in British political journalism.
+    Julian Critchley used the phrase directly in The Times of London in
+    June 1982, writing that a political rival had been pushed "under
+    the bus." From British politics, the expression crossed to America,
+    took hold in sports and business commentary, and became especially
+    popular in political coverage during the 2008 US presidential
+    election.`,
+    mythVsFact: null,
+    source: "Harold Wilson television interview (1971); Julian Critchley, The Times (June 1982); documented spread to American political usage, per NPR and Merriam-Webster."
+  },
+  {
+    id: "wear-heart-on-sleeve",
+    phrase: "Wear Your Heart on Your Sleeve",
+    meaning: "To openly show your emotions rather than concealing them.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `First appears in Shakespeare's <em>Othello</em> (1604),
+    spoken by the villain Iago, who is actually describing the opposite
+    of sincerity: he plans to fake openness as a manipulative disguise,
+    saying "I will wear my heart upon my sleeve / For daws to peck at,"
+    meaning he'll make himself look vulnerable purely to deceive
+    people. The image itself likely predates the play. In medieval
+    jousting tournaments, a knight would sometimes tie a token from a
+    chosen lady to his sleeve before competing, a visible, wearable
+    declaration of devotion that Shakespeare's phrase probably draws
+    on.`,
+    mythVsFact: null,
+    source: "William Shakespeare, Othello (1604), Act I, Scene I; medieval jousting-token tradition discussed in Smithsonian Magazine."
+  },
+  {
+    id: "fish-out-of-water",
+    phrase: "A Fish Out of Water",
+    meaning: "Someone who feels awkward or completely out of place in an unfamiliar situation.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `One of the oldest idioms still in common English use.
+    Geoffrey Chaucer used a version of the image in the general
+    prologue to <em>The Canterbury Tales</em> (written 1387-1400),
+    describing a monk outside his monastery as being "like to a fish
+    that is waterless." The more familiar modern wording appears later,
+    in Samuel Purchas's travel writing <em>Pilgrimage</em> (1613): "The
+    Arabians out of the desarts are as Fishes out of the Water." The
+    metaphor has stayed essentially unchanged for over six centuries
+    because the image is so immediately understandable.`,
+    mythVsFact: null,
+    source: "Geoffrey Chaucer, The Canterbury Tales, General Prologue (c. 1387-1400); Samuel Purchas, Pilgrimage (1613)."
+  },
+  {
+    id: "grasping-at-straws",
+    phrase: "Grasping at Straws",
+    meaning: "Trying increasingly desperate, unlikely solutions when a situation seems hopeless.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Traced to Sir Thomas More's <em>A Dialogue of Comfort
+    Against Tribulation</em> (1534), which describes a drowning man
+    clutching at "a stick or straw" in sheer desperation. A straw was a
+    deliberately chosen image of futility, flimsy, worthless, and
+    obviously incapable of saving anyone from actually drowning, making
+    it the perfect symbol for a plan with almost no real chance of
+    working. The phrase stayed close to its literal, life-or-death
+    meaning for well over a century before broadening into today's more
+    general use for any last-ditch, unlikely effort by the late 1600s.`,
+    mythVsFact: null,
+    source: "Sir Thomas More, A Dialogue of Comfort Against Tribulation (1534)."
+  },
+  {
+    id: "tip-of-the-iceberg",
+    phrase: "Tip of the Iceberg",
+    meaning: "A small, visible part of a much larger problem or situation that's mostly hidden.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `Icebergs keep roughly 88% of their mass underwater, hidden
+    from view, a striking enough natural fact to become shorthand for
+    anything where the visible portion is only a small fraction of the
+    real scale. The figurative phrase is documented in American use by
+    1912, and the sense had clearly become familiar enough to use
+    casually by then. Given the timing, right after the Titanic sank in
+    1912 after striking an iceberg, it's an easy assumption that the
+    disaster inspired the phrase. There's no actual evidence for that
+    connection. The figurative use of "iceberg" for something largely
+    hidden was already established before the ship ever set sail.`,
+    mythVsFact: "The Titanic connection feels almost too neat to resist, and gets assumed constantly. But the figurative phrase is independently documented at almost exactly the same time as the sinking, with no evidence tying the two together, and the underlying 'iceberg' metaphor for hidden scale predates 1912 regardless.",
+    source: "Figurative American usage documented by 1912, per multiple etymological sources including Wordhistories.net; no documented connection found to the 1912 sinking of the Titanic."
+  },
+  {
+    id: "cash-cow",
+    phrase: "Cash Cow",
+    meaning: "A reliable, ongoing source of income, requiring relatively little further investment to keep producing.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Descends from the older phrase "milch cow," recorded from
+    the early 1600s, describing a cow kept specifically and
+    continuously for milking rather than meat, a steady, low-effort
+    source of income for a farmer. The modern business sense was
+    formalised much later, in 1968, when Boston Consulting Group
+    founder Bruce Henderson developed the "growth-share matrix," a tool
+    for categorising business products by market share and growth rate.
+    In Henderson's framework, popularised in his 1970 essay "The
+    Product Portfolio," a "cash cow" specifically means a product with
+    high market share in a slow-growing market: dependable,
+    low-maintenance profit.`,
+    mythVsFact: null,
+    source: "'Milch cow' recorded from the early 1600s; Bruce Henderson's BCG growth-share matrix (1968), popularised in 'The Product Portfolio' (1970)."
+  },
+  {
+    id: "break-the-bank",
+    phrase: "Break the Bank",
+    meaning: "To cost far more than is affordable, or (in gambling) to win more than the house can pay out.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A genuine gambling term dating to around 1600. In
+    19th-century casinos, "the bank" referred to the pool of money the
+    house kept on hand to pay out winning bets. If a player won more
+    than that pool could cover, the table was closed and covered with a
+    black cloth, and the player was said to have "broken the bank." The
+    phrase's most famous real-world example is the Englishman Joseph
+    Jagger, who won roughly $350,000 at the Casino de Monte Carlo in
+    1873 after working out a mechanical bias in one of the roulette
+    wheels, a genuine bank-breaking win still referenced in gambling
+    history today.`,
+    mythVsFact: null,
+    source: "19th-century casino 'bank' terminology; Joseph Jagger's 1873 win at the Casino de Monte Carlo, documented in multiple gambling-history sources."
+  },
+  {
+    id: "cut-and-dried",
+    phrase: "Cut and Dried",
+    meaning: "Completely settled, decided, or predictable, with no room left for discussion.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Comes from herbalists' trade language. Herbs that had
+    already been harvested, cut, and dried for sale in an apothecary's
+    shop were, quite literally, "cut and dried," ready to use, as
+    opposed to herbs still growing and unprepared. The image
+    transferred naturally to anything equally finished and ready-made,
+    with no spontaneity left in it. An early figurative use appears in
+    a 1710 letter, describing a sermon that had been prepared well in
+    advance as "ready cut and dried," meaning competent but predictable
+    rather than freshly inspired.`,
+    mythVsFact: "Alternative folk explanations involving dried meat (jerky) or seasoned, cut timber get repeated sometimes, but neither shows up anywhere in the historical record connected to this phrase. The herbalist-shop origin is the one actually documented.",
+    source: "Herbalist trade usage documented from the mid-17th century; figurative use recorded in a 1710 letter, per the Oxford English Dictionary."
+  },
+  {
+    id: "on-thin-ice",
+    phrase: "On Thin Ice",
+    meaning: "In a risky or precarious situation where one wrong move could cause things to go badly.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Rooted in the very literal danger of skating or walking
+    across a frozen river or lake where the ice hasn't fully hardened.
+    Skating itself has deep roots in the Netherlands, where frozen
+    waterways were historically used for winter travel, making the risk
+    of thin ice a genuinely common, well-understood hazard. The
+    American writer Ralph Waldo Emerson gave the phrase an early
+    figurative outing in his 1841 essay "Prudence": "In skating over
+    thin ice our safety is in our speed." The Oxford English Dictionary
+    treats the phrase as a US colloquialism, with its earliest
+    confirmed written use in this sense dating to 1871.`,
+    mythVsFact: null,
+    source: "Ralph Waldo Emerson, 'Prudence' (1841); Oxford English Dictionary citation (1871)."
+  },
+  {
+    id: "fifth-wheel",
+    phrase: "Fifth Wheel",
+    meaning: "An unwanted, unnecessary extra person or thing that only gets in the way.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A standard horse-drawn wagon or carriage needed exactly
+    four wheels to function; a fifth wheel carried along for no clear
+    reason was simply dead weight, awkward and pointless under normal
+    circumstances. One of the earliest documented uses of the image
+    comes from Thomas Dekker's 1631 play <em>Match Me in London</em>,
+    comparing an unnecessary addition to "a fifth wheel" on a chariot.
+    Brewer's Dictionary of Phrase and Fable, first published in 1894,
+    notes that while a spare wheel was cumbersome most of the time, it
+    could genuinely save the day in an emergency, adding a little
+    nuance to an otherwise purely negative image.`,
+    mythVsFact: null,
+    source: "Thomas Dekker, Match Me in London (1631); Brewer's Dictionary of Phrase and Fable (1894)."
+  },
+  {
+    id: "hit-the-ground-running",
+    phrase: "Hit the Ground Running",
+    meaning: "To start a new task or role immediately and effectively, without a slow build-up.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `Frequently credited to World War II paratroopers,
+    supposedly instructed to start running the moment their boots
+    touched the ground after a jump. It's a compelling image, but the
+    timeline doesn't support it: the phrase is documented in American
+    newspapers as early as April 1895, describing someone literally
+    hitting the ground and running from gunfire in a syndicated
+    adventure story, nearly half a century before World War II. Other
+    proposed origins include hobos jumping from moving trains and
+    needing to run immediately to avoid being caught, and Pony Express
+    riders hitting the ground running to swap horses without losing
+    time. None has been definitively confirmed, but all of them predate
+    or have nothing to do with paratroopers.`,
+    mythVsFact: "The paratrooper story is the one almost everyone repeats, but the phrase is documented in print decades before World War II even started, which rules it out as the true origin, whatever role it may have played in later popularising the phrase.",
+    source: "The Evening News (23 April 1895); competing hobo and Pony Express theories discussed in Phrases.org.uk; widespread popularity from the 1970s onward."
+  },
+  {
+    id: "in-hot-water",
+    phrase: "In Hot Water",
+    meaning: "In trouble, or facing serious difficulty.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `First used figuratively as early as the 1530s, with the
+    exact origin genuinely uncertain even that far back. Several
+    competing theories exist. One simply points to cooking: being
+    plunged into hot water means being boiled, an intuitively
+    unpleasant fate. Another ties it to medieval trial by ordeal, where
+    an accused person's arm might be plunged into boiling water, with a
+    clean, fast-healing burn taken as a sign of innocence. A third
+    theory points to the old defensive practice of pouring boiling
+    water down from castle walls or upper windows onto unwanted
+    visitors, an unambiguous, painful way of saying "leave." No single
+    theory has ever been confirmed over the others.`,
+    mythVsFact: null,
+    source: "Figurative use documented from the 1530s; competing cooking, trial-by-ordeal, and castle-defence theories discussed in Grammarist and related etymological sources."
   }
 ];
 

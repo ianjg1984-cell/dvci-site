@@ -2656,5 +2656,305 @@ const QUIZ_QUESTIONS = [
       "It's been traced to a specific 1970s British sitcom episode"
     ],
     correctIndex: 0
+  },
+  {
+    idiomId: "beat-a-dead-horse",
+    question: "What did the phrase \"beat a dead horse\" literally refer to before it became a figure of speech?",
+    options: [
+      "Whipping a horse to force it back to a task it had already stopped doing",
+      "A punishment used on soldiers who fell asleep on watch",
+      "A jockey continuing to whip a horse after losing a race"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "ballpark-figure",
+    question: "Before it meant a rough number, what did being \"in the ballpark\" originally describe?",
+    options: [
+      "A general, inexact geographical area, in US Air Force slang",
+      "A baseball player's approximate batting average",
+      "The rough seating capacity of early baseball stadiums"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "dark-horse",
+    question: "Where does the term \"dark horse\" come from?",
+    options: [
+      "Horse racing slang for a horse gamblers knew nothing about",
+      "A mourning tradition of dyeing funeral horses black",
+      "A nickname for horses that only raced at night"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "dead-ringer",
+    question: "What was a \"ringer\" in 19th-century horse racing fraud?",
+    options: [
+      "A substitute horse made to look identical to the one it was replacing",
+      "A bell rung to signal the start of a fixed race",
+      "A trainer who bribed jockeys to lose deliberately"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "dyed-in-the-wool",
+    question: "Why did dyeing wool before spinning it produce a more lasting colour than dyeing finished cloth?",
+    options: [
+      "The dye penetrated the raw fibres more deeply and evenly",
+      "Raw wool was treated with a chemical fixative unavailable for cloth",
+      "It was dyed twice, once as wool and once as finished cloth"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "fly-off-the-handle",
+    question: "What real, physical danger does \"fly off the handle\" describe?",
+    options: [
+      "A loose axe head detaching from its handle mid-swing",
+      "A wagon wheel breaking free while travelling at speed",
+      "A rifle's firing mechanism jamming and misfiring"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "get-your-ducks-in-a-row",
+    question: "What's the honest state of the evidence behind \"get your ducks in a row\"?",
+    options: [
+      "Several plausible theories exist, but none has real documentary proof",
+      "It's definitively traced to a specific 19th-century fairground game",
+      "It comes from a well-documented military drill formation"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "give-the-green-light",
+    question: "What colour was originally used to mean \"go\" on early railway signals, before green took over?",
+    options: [
+      "White",
+      "Blue",
+      "Yellow"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "ivory-tower",
+    question: "Who coined \"tour d'ivoire\" (ivory tower), and to describe what?",
+    options: [
+      "Critic Charles Augustin Sainte-Beuve, describing a poet's retreat from public life",
+      "Playwright Victor Hugo, describing his own writing studio",
+      "Philosopher Henri Bergson, describing academic philosophy generally"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "mind-your-own-beeswax",
+    question: "What's the most credible explanation etymologists give for \"mind your own beeswax\"?",
+    options: [
+      "\"Beeswax\" is likely just a rhyming, softened substitute for \"business\"",
+      "It refers to beekeepers guarding their hives from thieves",
+      "It comes from a 19th-century candle-making trade dispute"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "over-a-barrel",
+    question: "Which explanation for \"over a barrel\" does NOT hold up under scrutiny?",
+    options: [
+      "That it comes from naval flogging punishments",
+      "That it relates to being physically restrained face-down over a barrel",
+      "That it echoes the position used when reviving a near-drowning victim"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "peanut-gallery",
+    question: "What's genuinely unresolved about the history of \"peanut gallery\"?",
+    options: [
+      "How much its origin was specifically about race versus general class snobbery",
+      "Which specific theatre first used cheap upper-balcony seating",
+      "Whether the phrase originally referred to a snack or a type of seat"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "read-between-the-lines",
+    question: "What real cryptographic practice does \"read between the lines\" come from?",
+    options: [
+      "Writing secret messages in invisible ink between ordinary visible lines of text",
+      "Reading only the first letter of each line to spell out a code",
+      "A World War II military code involving reversed sentences"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "rest-on-your-laurels",
+    question: "In ancient Greece, what were laurel wreaths awarded for?",
+    options: [
+      "Victory at the Pythian Games",
+      "Completing a philosophy degree",
+      "Surviving a year as a soldier"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "talk-turkey",
+    question: "What's the truth about the popular colonial hunting-trip origin story for \"talk turkey\"?",
+    options: [
+      "Etymologists consider it an invented tale, not a documented event",
+      "It's confirmed by a surviving 18th-century diary entry",
+      "It was recorded firsthand by the man who supposedly said it"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "tie-the-knot",
+    question: "What historical wedding tradition does \"tie the knot\" literally describe?",
+    options: [
+      "Celtic handfasting, where a couple's hands were bound with cord or ribbon",
+      "Victorian brides tying a ribbon around the groom's wrist for luck",
+      "A dowry contract literally sealed with a knotted rope"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "jump-the-shark",
+    question: "What's true about the famous Happy Days scene that gave this idiom its name?",
+    options: [
+      "Henry Winkler was a real water-skier and wanted to show it off",
+      "It was a last-minute rewrite forced by a writers' strike",
+      "It never actually aired and only exists as show folklore"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pull-the-plug",
+    question: "What's the honest answer to where \"pull the plug\" comes from?",
+    options: [
+      "Etymologists can't say for certain whether it's from water or electrical plugs",
+      "It's definitively traced to early 20th-century electricians' slang",
+      "It comes specifically from unplugging early telephone switchboards"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "throw-under-the-bus",
+    question: "Where does \"throw someone under the bus\" most likely originate?",
+    options: [
+      "British political journalism and commentary",
+      "American sports broadcasting",
+      "Wall Street financial slang"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "wear-heart-on-sleeve",
+    question: "In Shakespeare's Othello, what is Iago actually planning when he says he'll \"wear his heart upon his sleeve\"?",
+    options: [
+      "To fake openness as a deliberate manipulation, not to be genuinely sincere",
+      "To publicly declare his love for Desdemona",
+      "To retire from military service out of heartbreak"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "fish-out-of-water",
+    question: "Who used an early version of \"a fish out of water\" in The Canterbury Tales?",
+    options: [
+      "Geoffrey Chaucer, describing a monk outside his monastery",
+      "Geoffrey Chaucer, describing a knight without his horse",
+      "William Langland, describing a pilgrim without a map"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "grasping-at-straws",
+    question: "What image did Sir Thomas More use in 1534 that gave us \"grasping at straws\"?",
+    options: [
+      "A drowning man clutching at a stick or straw",
+      "A farmer trying to save a burning haystack",
+      "A gambler betting his last coin on a weak hand"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "tip-of-the-iceberg",
+    question: "What's the truth about the popular assumption that \"tip of the iceberg\" was inspired by the Titanic?",
+    options: [
+      "The figurative phrase is documented at the same time as the sinking, with no evidence connecting the two",
+      "It's confirmed, first appearing in a 1912 newspaper report on the disaster",
+      "The phrase wasn't used figuratively until decades after the Titanic sank"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "cash-cow",
+    question: "What business tool formalised the modern meaning of \"cash cow\" in 1968?",
+    options: [
+      "The Boston Consulting Group's growth-share matrix",
+      "The Dow Jones Industrial Average",
+      "The first modern stock options contract"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "break-the-bank",
+    question: "In 19th-century casinos, what did \"the bank\" actually refer to?",
+    options: [
+      "The pool of money the house kept on hand to pay out winning bets",
+      "A literal bank building attached to the casino",
+      "The dealer's personal savings, used as a betting guarantee"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "cut-and-dried",
+    question: "What trade does \"cut and dried\" actually come from?",
+    options: [
+      "Herbalists, describing herbs already harvested and ready for sale",
+      "Butchers, describing meat cured and ready to eat",
+      "Carpenters, describing timber seasoned and ready to use"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "on-thin-ice",
+    question: "Which writer gave \"on thin ice\" an early figurative outing in 1841?",
+    options: [
+      "Ralph Waldo Emerson",
+      "Charles Dickens",
+      "Henry Wadsworth Longfellow"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "fifth-wheel",
+    question: "Why was a literal \"fifth wheel\" on a horse-drawn carriage considered useless?",
+    options: [
+      "A four-wheeled carriage only needed four wheels to function",
+      "It made the carriage too wide to fit through gates",
+      "It added weight without adding any extra seating"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hit-the-ground-running",
+    question: "What's the problem with the popular WWII-paratrooper origin story for \"hit the ground running\"?",
+    options: [
+      "The phrase is documented in print decades before World War II began",
+      "Paratroopers were actually ordered to do the opposite when landing",
+      "The phrase only became common after the Vietnam War, not WWII"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "in-hot-water",
+    question: "How many competing, unconfirmed theories exist for the origin of \"in hot water\"?",
+    options: [
+      "Three, including cooking, trial by ordeal, and castle defence",
+      "None, its origin is one of the best-documented in English",
+      "Exactly two, both tied to naval punishment"
+    ],
+    correctIndex: 0
   }
 ];
