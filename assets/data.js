@@ -5776,6 +5776,420 @@ const IDIOMS = [
     theory has ever been confirmed over the others.`,
     mythVsFact: null,
     source: "Figurative use documented from the 1530s; competing cooking, trial-by-ordeal, and castle-defence theories discussed in Grammarist and related etymological sources."
+  },
+  {
+    id: "cook-someones-goose",
+    phrase: "Cook Someone's Goose",
+    meaning: "To ruin someone's plans or chances completely.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Various forms of the phrase, including "do his goose for
+    him" and "cook his goose," began appearing in British writing
+    during the 1830s, with the first clearly recorded use of the
+    modern phrase dated to 1851. What actually inspired the image has
+    never been settled. One story claims a besieged medieval town
+    displayed a goose from its walls to show it still had plenty of
+    food, prompting furious attackers to burn the town down in
+    response, effectively "cooking" that goose. Another ties it to the
+    Bohemian religious reformer Jan Hus, whose name resembles "husa,"
+    the Czech word for goose, and who was burned at the stake in 1415.
+    A third points, unconvincingly, to Aesop's fable of the goose that
+    laid the golden eggs. None of these stories has ever been verified
+    against the period when the phrase actually appears.`,
+    mythVsFact: "Every explanation for this one comes with a vivid, specific story attached, the besieged town, the burned reformer, Aesop's fable, and none of them has ever been documented as the actual source. Treat all of them as folklore, not fact.",
+    source: "British usage documented from the 1830s, with the modern phrase recorded from 1851; competing origin theories discussed via World Wide Words."
+  },
+  {
+    id: "cut-off-nose-spite-face",
+    phrase: "Cut Off Your Nose to Spite Your Face",
+    meaning: "To take a self-destructive action out of anger or spite, hurting yourself more than whoever you were trying to punish.",
+    category: "Medieval Life",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The underlying idea, that revenge which harms yourself
+    worse than your target is irrational, appears in a Latin proverb
+    from around the year 1200. It has a genuinely grim historical basis
+    too: cutting off someone's nose was a real, documented punishment
+    for treachery and adultery in the Middle Ages, deliberately marking
+    the victim's face as a permanent, visible sign of dishonour. The
+    precise English wording "cut off your nose to spite your face"
+    doesn't appear in print until the 18th century, first defined by
+    the antiquary Francis Grose in his 1788 Classical Dictionary of the
+    Vulgar Tongue. A popular legend also credits the saint Æbbe the
+    Younger, said to have disfigured herself and her nuns to avoid
+    assault by Viking raiders, but the theme of that story doesn't
+    actually match the idiom's meaning of self-destructive spite,
+    making the connection unconvincing.`,
+    mythVsFact: "The Saint Æbbe legend gets repeated as an origin story, but her act was self-sacrifice to avoid harm, not spiteful self-harm out of anger, the opposite emotional logic to what the idiom actually describes.",
+    source: "Latin proverb documented from c. 1200; Francis Grose, A Classical Dictionary of the Vulgar Tongue (1788)."
+  },
+  {
+    id: "lock-horns",
+    phrase: "Lock Horns",
+    meaning: "To become involved in a stubborn conflict or confrontation with someone.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Drawn directly from nature. Stags, rams, and other horned
+    animals genuinely fight head-to-head during mating season,
+    interlocking their horns or antlers and pushing against each other
+    in prolonged, often exhausting stand-offs, sometimes even becoming
+    stuck together. The figurative phrase is an American one, first
+    appearing in print in the early 19th century and turning up
+    regularly in newspapers, local histories, and political writing by
+    the 1830s-40s. One of the earliest documented examples is in
+    <em>The History of Virgil A. Stewart</em>, compiled by H. R. Howard
+    and published in New York in 1839.`,
+    mythVsFact: null,
+    source: "The History of Virgil A. Stewart, compiled by H. R. Howard (1839); American 19th-century usage documented via multiple etymological references."
+  },
+  {
+    id: "nail-colours-to-mast",
+    phrase: "Nail Your Colours to the Mast",
+    meaning: "To publicly and firmly commit to a position or opinion, making clear you won't back down.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Rooted in a real Age of Sail naval practice. A warship's
+    flag, its "colours," legally had to be flying for the ship to keep
+    fighting; lowering it was the recognised signal of surrender.
+    Nailing the flag to the mast made it physically difficult to
+    lower, a visible declaration that the crew intended to fight to the
+    end rather than surrender under fire. The earliest known figurative
+    use of the phrase in print is in Sir Walter Scott's 1808 poem
+    <em>Marmion</em>, in a passage praising the politician Charles
+    James Fox's defiant stand against Napoleonic France: "And nail'd
+    her colours to the mast!"`,
+    mythVsFact: null,
+    source: "Sir Walter Scott, Marmion, Canto I, Introduction (1808); naval 'nailing the colours' practice documented via Wikipedia and multiple naval-history sources."
+  },
+  {
+    id: "on-the-wagon",
+    phrase: "On the Wagon",
+    meaning: "Abstaining from alcohol.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Began life in the early 20th-century United States as "on
+    the water-wagon" or "on the water cart," a real horse-drawn vehicle
+    used to spray unpaved city streets with water during dry summer
+    months to keep the dust down. Someone who'd sworn off alcohol was
+    said to be so committed that they'd rather drink from the
+    water-wagon's tank than touch a drink, a vivid, slightly
+    exaggerated image of total abstinence. Over time the "water" was
+    dropped, leaving simply "on the wagon." A genuine link to the era's
+    active temperance movement seems likely given the timing, though
+    it's never been definitively documented.`,
+    mythVsFact: null,
+    source: "Early 20th-century American 'water-wagon' usage documented via World Wide Words and Phrase Finder."
+  },
+  {
+    id: "pull-yourself-up-by-bootstraps",
+    phrase: "Pull Yourself Up by Your Bootstraps",
+    meaning: "To improve your situation through your own effort alone, without outside help.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Originally meant the exact opposite of today's
+    encouraging, can-do sense. In 1834, a Tennessee inventor named
+    Nimrod Murphree took out a newspaper announcement claiming he'd
+    invented perpetual motion. A rival paper, the Mobile Advertiser,
+    mocked him in print, joking that he'd probably also managed to
+    hoist himself over the Cumberland river "by the straps of his
+    boots." The phrase spread from there as a byword for a physically
+    impossible boast, reinforced by an 1888 physics textbook that used
+    "why can't a man lift himself by pulling up on his bootstraps?" as
+    a stock example of a logical impossibility. The shift to today's
+    meaning, describing something difficult but genuinely achievable
+    through self-reliance, only developed in the early 20th century.`,
+    mythVsFact: "The phrase originally mocked an impossible boast, not praised hard work. It's since been flipped into an inspirational idiom, the opposite of what it was coined to mean.",
+    source: "Mobile Advertiser response to Nimrod Murphree's 1834 claim, documented via etymologist Barry Popik; Joel Dorman Steele, Popular Physics (1888)."
+  },
+  {
+    id: "out-on-a-limb",
+    phrase: "Out on a Limb",
+    meaning: "In a risky, exposed position, especially by taking a stance others haven't supported.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A limb, in the sense of a tree branch, is a genuinely risky
+    place to be: climb far enough out along one and it can bend, crack,
+    or simply snap under your weight, especially if someone below
+    decides to "shake it or saw it off." The figurative use is
+    American, appearing at the end of the 19th century. The earliest
+    confirmed citation recognised by the Oxford English Dictionary is
+    from 1897, though an earlier, disputed example from the Steubenville
+    Daily Herald in October 1895 uses almost identical imagery,
+    discussing cutting off a political rival's supporters: "if we get
+    the 14 votes of Hamilton we've got 'em out on a limb... shake it or
+    saw it off."`,
+    mythVsFact: null,
+    source: "Oxford English Dictionary citation (1897); disputed earlier example from the Steubenville Daily Herald (October 1895), discussed via Phrase Finder."
+  },
+  {
+    id: "pass-with-flying-colours",
+    phrase: "Pass With Flying Colours",
+    meaning: "To succeed at something impressively, especially a test or challenge.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A naval image. "Colours" has referred to a ship's flags
+    since at least the late 16th century, and a ship returning from a
+    victorious battle or a successful voyage would sail into harbour
+    with its flags fully unfurled and flying high, a visible
+    announcement of triumph. A defeated or unsuccessful ship, by
+    contrast, would strike, or lower, its colours. The specific phrase
+    "flying colours" is documented from the early 1700s in this
+    triumphant sense, and "pass with flying colours" followed as a
+    more general idiom for success by the later 1800s.`,
+    mythVsFact: null,
+    source: "Naval 'colours' terminology documented from the late 16th century; 'flying colours' in triumphant use from the early 1700s, per multiple etymological references."
+  },
+  {
+    id: "cart-before-the-horse",
+    phrase: "Put the Cart Before the Horse",
+    meaning: "To do things in the wrong order, especially by treating a result as if it were the cause.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `An old idea with classical roots. The Roman statesman
+    Cicero references the same reversed-order logic in his essay
+    <em>On Friendship</em> (44 BC), and the Ancient Greeks had their
+    own term for it, "hysteron proteron," reversing the natural order
+    of events. In English, John Heywood's 1546 collection of proverbs
+    records "set the cart before the horse" directly, and the writer
+    George Puttenham explicitly links the English phrase to its Greek
+    equivalent in his 1589 work <em>The Arte of English Poesie</em>. A
+    medieval version of the same idea used oxen and a yoke instead of a
+    cart and horse.`,
+    mythVsFact: null,
+    source: "Cicero, On Friendship (44 BC); John Heywood, A Dialogue Conteynyng Prouerbes (1546); George Puttenham, The Arte of English Poesie (1589)."
+  },
+  {
+    id: "smell-a-rat",
+    phrase: "Smell a Rat",
+    meaning: "To sense that something is wrong or suspicious, even without proof.",
+    category: "Language Itself",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `First documented in the English poet John Skelton's 1540
+    poem "The Image of Ipocrysy," which pairs the phrase directly with
+    cats: "But then beware the catte; For yf they smell a ratt, They
+    grisely chide and chatt." The most repeated theory is
+    straightforward: cats hunt largely by smell and can sense a nearby
+    rat long before they see one, an image transferred naturally to a
+    person sensing trouble they can't yet prove. A rival theory points
+    instead to rat-catching terriers, especially popular from the early
+    1800s onward. A third, less convincing theory suggests the phrase
+    is a garbled mistranslation of an old German expression, "unrath
+    wittern" (to scent mischief), reshaped into "eine ratte wittern"
+    (to smell a rat).`,
+    mythVsFact: null,
+    source: "John Skelton, The Image of Ipocrysy (1540); competing cat, terrier, and German-mistranslation theories discussed via Word Histories."
+  },
+  {
+    id: "stick-to-your-guns",
+    phrase: "Stick to Your Guns",
+    meaning: "To hold firmly to your position or beliefs, especially under pressure to give in.",
+    category: "Sport & Military",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A military phrase from the age of muzzle-loaded cannon.
+    Gun crews were expected to remain at their post and keep firing
+    even as an enemy closed in or a position came under heavy attack,
+    rather than abandoning the weapon and retreating. "Sticking to your
+    guns" meant holding that position no matter how frightening the
+    situation became. The phrase is documented from the 17th-18th
+    centuries in this literal military sense, and its figurative use,
+    holding firm to an opinion or decision under pressure, was well
+    established by the early 19th century.`,
+    mythVsFact: null,
+    source: "17th-18th century military 'stand to your guns' usage; figurative use documented from the early 19th century via multiple etymological references."
+  },
+  {
+    id: "wind-out-of-your-sails",
+    phrase: "Take the Wind Out of Someone's Sails",
+    meaning: "To suddenly undermine someone's confidence or momentum, often by pre-empting them.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A genuine sailing tactic from the Age of Sail. A ship could
+    deliberately manoeuvre to windward of a rival, literally blocking
+    the wind from reaching the other vessel's sails and leaving it
+    slowed or stalled dead in the water, a real and sometimes decisive
+    advantage in naval combat and racing alike. The phrase was used in
+    this literal nautical sense until around 1800, and Sir Walter Scott
+    gave it an early figurative outing in his 1822 novel <em>The
+    Fortunes of Nigel</em>: "He would take the wind out of the sail of
+    every gallant."`,
+    mythVsFact: null,
+    source: "Sir Walter Scott, The Fortunes of Nigel (1822); literal naval usage documented via multiple maritime-history sources."
+  },
+  {
+    id: "vanish-into-thin-air",
+    phrase: "Vanish Into Thin Air",
+    meaning: "To disappear completely and mysteriously, leaving no trace.",
+    category: "Literature",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `Built from two separate Shakespeare lines rather than one
+    single source. In <em>Othello</em>, a character uses the phrase
+    "vanish into air," while in <em>The Tempest</em>, Prospero says of
+    the vanishing spirits, "these our actors... are melted into air,
+    into thin air." Neither play actually contains the exact modern
+    wording. The phrase as we know it today appears to have been
+    assembled later, by writers combining "vanish" from one
+    Shakespearean line with "into thin air" from the other; one of the
+    earliest examples of the fully combined phrase is from The
+    Edinburgh Advertiser in April 1822.`,
+    mythVsFact: "Shakespeare gets full credit for this phrase constantly, but he never actually wrote 'vanish into thin air' in either play. Later writers stitched the modern wording together from two separate lines.",
+    source: "Shakespeare, Othello and The Tempest; combined phrase documented in The Edinburgh Advertiser (April 1822)."
+  },
+  {
+    id: "wet-blanket",
+    phrase: "Wet Blanket",
+    meaning: "Someone who dampens the mood or enthusiasm of a group.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A real firefighting technique long before modern
+    extinguishers existed. A wet blanket, being heavy, flexible, and
+    damp, could be thrown over flames to smother them, cooling the
+    burning material and cutting off its air supply. The earliest
+    known mention of the term appears as far back as 1618, in published
+    instructions for sailors on an expedition led by Sir Walter Raleigh
+    to South America. The figurative sense, describing a person who
+    dampens other people's enthusiasm, developed by the late 18th
+    century; one 1775 magazine piece calls certain dull people "wet
+    blankets to the imagination," and English author George Keate used
+    the phrase in an 1779 travel book to describe relatives who
+    smothered a budding romance.`,
+    mythVsFact: null,
+    source: "Instructions for Sir Walter Raleigh's 1618 expedition; George Keate's 1779 travel writing, per multiple etymological references including Etymonline."
+  },
+  {
+    id: "whistle-stop-tour",
+    phrase: "Whistle-Stop Tour",
+    meaning: "A brief political campaign trip involving quick visits to many small towns.",
+    category: "Law & Government",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Comes directly from railway practice. A train wouldn't
+    normally stop at a small station unless someone needed to board or
+    get off; if it was going to stop, the engineer sounded the whistle
+    to alert the town. The term "whistle stop" for these minor railway
+    halts was in use by the 1920s. It became a political phrase
+    specifically through President Harry Truman's 1948 re-election
+    campaign, when he travelled by train and made numerous short
+    speeches from the observation platform at the back of the carriage
+    in one small town after another, sometimes delivering up to eight
+    speeches in a single day.`,
+    mythVsFact: null,
+    source: "Railway 'whistle stop' terminology from the 1920s; President Truman's 1948 campaign tour, widely documented in period newspapers including the Bradford Era."
+  },
+  {
+    id: "leopard-cant-change-spots",
+    phrase: "A Leopard Can't Change Its Spots",
+    meaning: "A person's fundamental character or nature doesn't really change, no matter what they claim.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Directly Biblical. The Book of Jeremiah (13:23) poses the
+    rhetorical question "Can the Ethiopian change his skin, or the
+    leopard his spots?", using it to argue that people deeply set in
+    bad habits can't simply choose to become good. The phrase entered
+    English via the Geneva Bible of 1560, which renders the line as
+    "Can the blacke More change his skin? or the leopard his spottes?"
+    A near-identical phrase actually appears slightly earlier, in John
+    Bale's 1546 religious pamphlet <em>The First Examination of Anne
+    Askew</em>, though it's unclear whether Bale was drawing on an
+    existing Latin Bible translation or whether the Geneva translators
+    were echoing him.`,
+    mythVsFact: null,
+    source: "Geneva Bible, Jeremiah 13:23 (1560); John Bale, The First Examination of Anne Askew (1546)."
+  },
+  {
+    id: "bite-the-dust",
+    phrase: "Bite the Dust",
+    meaning: "To die, fail, or come to an end, especially suddenly or dramatically.",
+    category: "Popular Myths",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The image of a defeated warrior falling face-first into
+    the dirt is ancient, and several classical sources compete for
+    credit. Homer's <em>Iliad</em> describes slain fighters with dust
+    between their teeth, though whether that image really counts as
+    the origin of this specific English idiom is debated. A biblical
+    source is also proposed, Psalm 72:9 describes enemies who "lick the
+    dust." The earliest confirmed English-language citation is from
+    1578, with the exact modern wording appearing in Tobias Smollett's
+    1750 novel <em>The Adventures of Gil Blas of Santillane</em>. The
+    phrase was popularised much later by 1930s American Western films,
+    showing cowboys or their opponents thrown from horses onto the
+    dusty ground, but it was already centuries old by then.`,
+    mythVsFact: "Western films get the credit for this one constantly, but they only popularised an idiom that was already hundreds of years old, with roots that may go back to Homer and the Bible.",
+    source: "Earliest English citation documented from 1578; Tobias Smollett, The Adventures of Gil Blas of Santillane (1750)."
+  },
+  {
+    id: "feather-your-own-nest",
+    phrase: "Feather Your Own Nest",
+    meaning: "To enrich or benefit yourself, usually through dishonest or self-serving means.",
+    category: "Slang & Everyday Speech",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Draws on the very real bird behaviour of lining a nest
+    with soft material, feathers, down, fur, to make it comfortable and
+    ready before eggs are laid. The English idiom applies that same
+    image to people who quietly make themselves comfortable, typically
+    at someone else's expense, while appearing to serve some other
+    purpose. It's a genuinely old phrase, appearing in the 1553 play
+    <em>Respublica</em> and turning up in several other works of the
+    period, well established enough to be considered a cliché by the
+    18th century.`,
+    mythVsFact: null,
+    source: "Respublica (1553); documented as an established cliché by the 18th century via multiple etymological references."
+  },
+  {
+    id: "have-your-cake-and-eat-it",
+    phrase: "Have Your Cake and Eat It Too",
+    meaning: "To want two incompatible things at once, typically to keep something while also using it up.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `One of English's older surviving proverbs, first recorded
+    in a 1538 letter from Thomas Howard, third Duke of Norfolk, to
+    Thomas Cromwell: "a man can not have his cake and eat his cake." It
+    appears again, more famously, in John Heywood's 1562 proverb
+    collection, phrased the other way round from how we say it today:
+    "Wolde ye bothe eate your cake, and haue your cake?" That original
+    word order actually makes the logic clearer, once you've eaten the
+    cake, you obviously can't still have it, and the now-standard "have
+    it and eat it too" ordering only became the more common form in the
+    20th century.`,
+    mythVsFact: null,
+    source: "Thomas Howard, letter to Thomas Cromwell (1538); John Heywood, A Dialogue Conteynyng Prouerbes and Epigrammes (1562)."
+  },
+  {
+    id: "mountain-out-of-molehill",
+    phrase: "Make a Mountain Out of a Molehill",
+    meaning: "To exaggerate a minor problem into something far more serious than it really is.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `The core idea of blowing something tiny wildly out of
+    proportion goes back to the Greek satirist Lucian, in the 2nd
+    century AD, though his original version compared an elephant to a
+    fly rather than a mountain to a molehill. The Dutch scholar Erasmus
+    included the same idea in his influential collection of classical
+    proverbs, <em>Adagia</em> (1500-1536), and when the English cleric
+    Nicholas Udall translated Erasmus's work in 1548, he's credited
+    with introducing the specific mountain-and-molehill imagery English
+    still uses today: "The Sophistes of Grece coulde through their
+    copiousness make an Elephant of a flye, and a mountaine of a
+    molehill."`,
+    mythVsFact: null,
+    source: "Lucian, Ode to a Fly (2nd century AD); Nicholas Udall's 1548 translation of Erasmus's Adagia."
   }
 ];
 

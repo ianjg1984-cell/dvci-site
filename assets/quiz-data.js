@@ -2956,5 +2956,205 @@ const QUIZ_QUESTIONS = [
       "Exactly two, both tied to naval punishment"
     ],
     correctIndex: 0
+  },
+  {
+    idiomId: "cook-someones-goose",
+    question: "What's true about the origin of \"cook someone's goose\"?",
+    options: [
+      "Several vivid origin stories exist, but none has ever been verified",
+      "It's definitively traced to a specific 1415 execution",
+      "It comes from a well-documented Aesop's fable"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "cut-off-nose-spite-face",
+    question: "What real medieval practice sits behind \"cut off your nose to spite your face\"?",
+    options: [
+      "Nose-cutting was an actual, documented punishment for treachery and adultery",
+      "Monks cut their own noses as a form of religious penance",
+      "Farmers marked stolen livestock by cutting the thief's nose"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "lock-horns",
+    question: "Where does \"lock horns\" get its imagery from?",
+    options: [
+      "Stags and rams genuinely fighting head-to-head, sometimes getting stuck together",
+      "A blacksmith's term for two pieces of metal fusing in the forge",
+      "An old wrestling move used at country fairs"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "nail-colours-to-mast",
+    question: "What does nailing a ship's flag to the mast actually prevent?",
+    options: [
+      "The flag being lowered, which was the recognised signal of surrender",
+      "The flag blowing away in a storm",
+      "Enemy sailors boarding and stealing the flag"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "on-the-wagon",
+    question: "What was the original \"wagon\" in \"on the wagon\"?",
+    options: [
+      "A water-wagon used to spray dusty American streets",
+      "A prison transport wagon for convicted drunks",
+      "A travelling temperance-movement preaching wagon"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pull-yourself-up-by-bootstraps",
+    question: "What did \"pull yourself up by your bootstraps\" originally mean, before its meaning flipped?",
+    options: [
+      "A mocking way to describe an obviously impossible boast",
+      "Sincere praise for a hardworking self-made person",
+      "A literal instruction used in 19th-century boot-making"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "out-on-a-limb",
+    question: "What's the disputed detail about the earliest use of \"out on a limb\"?",
+    options: [
+      "A disputed 1895 example may predate the usual 1897 citation",
+      "It was first used in a British parliamentary debate",
+      "The idiom was coined specifically for a court case"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pass-with-flying-colours",
+    question: "In naval tradition, what did a defeated ship do with its \"colours\"?",
+    options: [
+      "Struck (lowered) them",
+      "Painted them a different colour",
+      "Burned them before surrendering"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "cart-before-the-horse",
+    question: "Which ancient Roman statesman referenced this same reversed-order idea in 44 BC?",
+    options: [
+      "Cicero",
+      "Julius Caesar",
+      "Marcus Aurelius"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "smell-a-rat",
+    question: "In the phrase's earliest recorded use (1540), what animal is directly paired with \"smell a rat\"?",
+    options: [
+      "A cat",
+      "A dog",
+      "A ferret"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "stick-to-your-guns",
+    question: "What did gun crews literally do to \"stick to their guns\" in its original military sense?",
+    options: [
+      "Remain at their post and keep firing under attack rather than retreat",
+      "Physically chain themselves to the cannon before battle",
+      "Refuse to be issued a replacement weapon"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "wind-out-of-your-sails",
+    question: "What real naval tactic does \"take the wind out of your sails\" describe?",
+    options: [
+      "Sailing to windward of a rival ship to block wind from reaching its sails",
+      "Cutting a rival ship's sail with cannon fire",
+      "Racing ahead so a rival's own wake disrupted their sails"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "vanish-into-thin-air",
+    question: "What's the twist in the Shakespeare connection to \"vanish into thin air\"?",
+    options: [
+      "He never wrote that exact phrase, it was assembled later from two separate lines",
+      "He used the exact phrase in three separate plays",
+      "The phrase actually predates Shakespeare by a century"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "wet-blanket",
+    question: "What was a literal wet blanket originally used for?",
+    options: [
+      "Smothering fires",
+      "Wrapping injured sailors",
+      "Insulating ship hulls"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "whistle-stop-tour",
+    question: "Which US president's 1948 campaign made \"whistle-stop tour\" a political term?",
+    options: [
+      "Harry Truman",
+      "Franklin D. Roosevelt",
+      "Dwight Eisenhower"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "leopard-cant-change-spots",
+    question: "Where does \"a leopard can't change its spots\" come from?",
+    options: [
+      "The Book of Jeremiah",
+      "Aesop's Fables",
+      "A medieval bestiary"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "bite-the-dust",
+    question: "What's true about 1930s Western films and \"bite the dust\"?",
+    options: [
+      "They popularised an idiom that was already centuries old",
+      "They coined the phrase for the first time",
+      "They borrowed it directly from a specific Homer translation"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "feather-your-own-nest",
+    question: "What real bird behaviour does \"feather your own nest\" draw on?",
+    options: [
+      "Lining a nest with soft material like feathers and down",
+      "Birds stealing feathers from rival nests",
+      "Migrating birds preparing a nest before winter"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "have-your-cake-and-eat-it",
+    question: "In John Heywood's original 1562 wording, what order were \"eat\" and \"have\" actually in?",
+    options: [
+      "Eat your cake, and have your cake, the reverse of today's phrasing",
+      "Exactly the same order used today",
+      "Neither word appeared, only 'keep' and 'consume'"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "mountain-out-of-molehill",
+    question: "What did the Greek satirist Lucian originally compare in his 2nd-century version of this idea?",
+    options: [
+      "An elephant and a fly",
+      "A mountain and a pebble",
+      "A giant and a mouse"
+    ],
+    correctIndex: 0
   }
 ];
