@@ -6190,6 +6190,461 @@ const IDIOMS = [
     molehill."`,
     mythVsFact: null,
     source: "Lucian, Ode to a Fly (2nd century AD); Nicholas Udall's 1548 translation of Erasmus's Adagia."
+  },
+  {
+    id: "hobsons-choice",
+    phrase: "Hobson's Choice",
+    meaning: "A choice that is really no choice at all: take what's offered or nothing.",
+    category: "Trade & Industry",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The traditional story centres on Thomas Hobson (c. 1544 to
+    1631), a livery stable owner in Cambridge who is said to have
+    offered customers either the horse in the stall nearest the door or
+    none at all, supposedly so the best horses wouldn't be overworked. A
+    plaque beneath a painting of Hobson at Cambridge Guildhall repeats
+    the detail, and Milton helped make both Hobson and the phrase well
+    known by mocking him in several mock epitaphs. The Oxford English
+    Dictionary's earliest written example, though, is Samuel Fisher's
+    <em>The rustick's alarm to the Rabbies</em> (1660), which says
+    "choose whether you will have this or none" and calls it "the
+    Proverb," without mentioning Hobson, stables, or horses. Joseph
+    Addison later wrote in <em>The Spectator</em> (1712) that it became
+    a proverb from Hobson. So the stable story is the traditional
+    explanation, but the earliest surviving use doesn't actually tie
+    the saying to him.`,
+    mythVsFact: "The stable-door story is usually told as settled fact, but the earliest written use (1660) never mentions Hobson or horses, and the link to him only appears in later accounts. Treat it as a traditional explanation rather than proven history.",
+    source: "Samuel Fisher, The rustick's alarm to the Rabbies (1660), the Oxford English Dictionary's earliest citation; Joseph Addison, The Spectator (1712); Hobson's dates and the stable story as documented on Wikipedia."
+  },
+  {
+    id: "worth-your-salt",
+    phrase: "Worth Your Salt",
+    meaning: "Good enough at a job to deserve your pay.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `The popular explanation is that Roman soldiers were paid in
+    salt, and that this is why we have both the word "salary" and the
+    phrase "worth your salt." Latin <em>salarium</em> does come from
+    <em>sal</em>, "salt," but Wikipedia describes the exact connection
+    as unknown, calls the claim that Roman legions were sometimes paid
+    in salt "baseless," and says even a salt allowance isn't supported
+    by ancient sources. The idiom itself is far younger than Rome.
+    Wiktionary gives its first attestation as 1786, in Alexander
+    Dalrymple's pamphlet about the East India Company and its
+    shipowners, which refers to "all the Shipwrights that will ever be
+    worth their salt!" The phrase may simply play on salt having been a
+    fairly valuable commodity in pre-modern times, with or without a
+    nod to the word "salary."`,
+    mythVsFact: "The Roman soldiers-paid-in-salt story is repeated almost everywhere, but Wikipedia's article on salary calls it baseless. The idiom itself is first attested in 1786, according to Wiktionary.",
+    source: "Alexander Dalrymple, A Fair State of the Case between the East India Company and the Owners of Ships Now in Their Service (1786), first attestation per Wiktionary; the Roman salt-pay claim assessed in Wikipedia's 'Salary' article and in Peter Gainsford's 2017 article 'Salt and salary: were Roman soldiers paid in salt?', cited by Wiktionary."
+  },
+  {
+    id: "hold-the-fort",
+    phrase: "Hold the Fort",
+    meaning: "To keep things running, or stay in position, while someone else is away or help is on its way.",
+    category: "War & Conflict",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The standard explanation is the Battle of Allatoona Pass in
+    Georgia on 5 October 1864, where a Union garrison under Brigadier
+    General John Corse was attacked by Confederate forces. General
+    William T. Sherman sent signals to the garrison urging it to stay
+    strong, and accounts give the wording as things like "Sherman is
+    coming. Hold out" and "General Sherman says hold fast. We are
+    coming." The evangelist Philip P. Bliss turned the story into a
+    hymn, "Hold the Fort," written in 1870, with the chorus "Hold the
+    fort, for I am coming," and it was the hymn that made the phrase a
+    common expression. Wikipedia's article on the battle also notes a
+    persistent myth that Sherman's promise was only a bluff and that no
+    reinforcements were ever sent. One account, citing Etymonline's
+    entry for "fort," says the phrase can be traced back as far as the
+    1590s, so Allatoona may have popularised the wording more than
+    created it.`,
+    mythVsFact: "Sherman is often quoted as signalling exactly 'hold the fort.' The accounts we checked give different wording for the signal, and it was Bliss's 1870 hymn that turned the phrase into a catchphrase.",
+    source: "Battle of Allatoona Pass, 5 October 1864; Philip P. Bliss, 'Hold the Fort' (1870); documented via Wikipedia's article on the Battle of Allatoona and Mental Floss."
+  },
+  {
+    id: "to-the-bitter-end",
+    phrase: "To the Bitter End",
+    meaning: "To the very last, however grim or difficult it gets.",
+    category: "Sailing & the Sea",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The usual explanation is nautical. On a sailing ship, the
+    "bitter end" was the inboard end of the anchor cable, fastened to
+    the bitts, the sturdy deck posts used to secure lines; if the
+    windlass brake slipped in a storm and the cable ran out, it could
+    reach "the bitter end." "Bitter" in this nautical sense is recorded
+    in Captain John Smith's <em>Seaman's Grammar</em> (1627), and
+    Wikipedia's article on the anchor windlass states flatly that this
+    is the origin of "to the bitter end." World Wide Words is more
+    cautious. It calls the nautical account "almost universally given,"
+    says there is enough evidence to cast some doubt on it, and notes
+    that the Oxford English Dictionary regards the phrase's history as
+    uncertain. It suggests the figurative sense may owe something to
+    the Bible, where Proverbs 5 in the 1611 King James translation
+    describes an end "bitter as wormwood," and points out that the
+    phrase wasn't only a sailor's expression.`,
+    mythVsFact: "The anchor-cable story is often stated as fact, but the Oxford English Dictionary describes the history as uncertain, and World Wide Words argues a biblical influence on the figurative sense is also possible.",
+    source: "Captain John Smith, Seaman's Grammar (1627); Wikipedia's 'Anchor windlass' article; World Wide Words, noting the OED regards the history as uncertain."
+  },
+  {
+    id: "by-and-large",
+    phrase: "By and Large",
+    meaning: "On the whole; in general.",
+    category: "Sailing & the Sea",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `A sailing phrase. In the days of square-rigged ships, a
+    vessel sailing "by the wind" was pointed towards the wind, while
+    sailing "large" meant having the wind from behind the beam, a freer,
+    easier course. World Wide Words explains that "by and large" in
+    sailors' language referred to all possible points of sailing, which
+    is how it came to mean "in all possible circumstances" and then, in
+    landsmen's speech, "all things considered." That last step is the
+    author's own explanation rather than a documented change, and we
+    couldn't verify a dated early citation for the nautical phrase, so
+    the sailing origin is widely accepted but not nailed down.`,
+    mythVsFact: null,
+    source: "World Wide Words, 'By and large: A Nautical Origin Explained'; no dated early citation verified."
+  },
+  {
+    id: "clean-bill-of-health",
+    phrase: "A Clean Bill of Health",
+    meaning: "A formal or informal all-clear, especially after an inspection or medical check.",
+    category: "Health & Medicine",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A bill of health was a real document: a certificate issued
+    by the consul or public authorities of the port a ship sailed from,
+    describing the health of the port at the time the vessel cleared. An
+    1879 handbook for consuls, Lewis Joel's <em>A Consul's Manual and
+    Shipowner's and Shipmaster's Practical Guide in Their Transactions
+    Abroad</em>, spells out what the two kinds meant. A clean bill
+    certified that no infectious disease was known to exist in the port
+    or its neighbourhood, while "a foul bill of health or the absence
+    of a clean bill of health implies that the place the vessel cleared
+    from was infected with a contagious disease." The phrase later came
+    ashore to mean any all-clear, from a doctor's check-up to a
+    company's accounts. We couldn't verify an exact date for that
+    figurative shift.`,
+    mythVsFact: null,
+    source: "Lewis Joel, A Consul's Manual and Shipowner's and Shipmaster's Practical Guide in Their Transactions Abroad (1879), quoted on Wikipedia's 'Bill of health' article."
+  },
+  {
+    id: "pipe-down",
+    phrase: "Pipe Down",
+    meaning: "To stop making noise and calm down.",
+    category: "Sailing & the Sea",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `A navy phrase. A ship's boatswain (bosun) blew a pipe, or
+    whistle, to signal orders, changes of duty, and the end of the
+    day's main work. Wikipedia's article on the boatswain's call lists
+    "Pipe Down" among the standard calls, meaning dismissal of all the
+    crew not on watch. From that command to stand down, the phrase
+    broadened into the everyday request to be quiet, a shift that is
+    easy to imagine with a crew dismissed for the night. We couldn't
+    find a verified early printed citation for either the naval call or
+    the figurative use, so we can't say when the change in meaning
+    happened.`,
+    mythVsFact: null,
+    source: "Boatswain's call commands as listed on Wikipedia; Wayword Radio on the nautical origin. No dated early citation verified."
+  },
+  {
+    id: "shot-across-the-bows",
+    phrase: "A Shot Across the Bows",
+    meaning: "A warning that serious consequences will follow unless someone changes course.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A genuine naval tactic: firing a warning shot so that it
+    lands across the bows of another ship rather than hitting it, a
+    clear message that the next one won't miss. The figurative use is in
+    print by the mid-19th century. Wiktionary quotes <em>Graham's
+    American Monthly Magazine</em> (March 1856), which joked that
+    President Franklin Pierce, "like a great war ship, fired two shots
+    across the bows of the Congress, to bring matters to." That is the
+    earliest figurative example we found, though earlier ones may
+    exist.`,
+    mythVsFact: null,
+    source: "Graham's American Monthly Magazine of Literature and Art, vol. XLVIII, no. 3 (March 1856), p. 267, as cited on Wiktionary."
+  },
+  {
+    id: "dead-as-a-doornail",
+    phrase: "Dead as a Doornail",
+    meaning: "Completely and unmistakably dead.",
+    category: "Literature",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `The phrase is much older than Shakespeare or Dickens.
+    Phrase Finder dates it to at least the 14th century, pointing to a
+    mid-14th-century English translation of the French poem
+    <em>Guillaume de Palerne</em> (c. 1350) and to <em>Piers
+    Plowman</em> (c. 1370-90), which has "ded as a dore-nayl."
+    Shakespeare gave it to the rebel Jack Cade in <em>Henry VI, Part
+    2</em> (1592), and Dickens made a joke of it in <em>A Christmas
+    Carol</em> (1843): "Old Marley was as dead as a door-nail." The
+    usual explanation for the image is medieval door construction:
+    large-headed nails were driven through a door and bent over on the
+    other side, a process called clenching, which left a nail that
+    couldn't be reused. Phrase Finder offers that only as a
+    possibility, and admits it isn't obvious why a doornail was chosen.`,
+    mythVsFact: null,
+    source: "Phrase Finder on the 14th-century citations (an English translation of Guillaume de Palerne, c. 1350, and Piers Plowman, c. 1370-90); Shakespeare, Henry VI, Part 2 (1592); Charles Dickens, A Christmas Carol (1843)."
+  },
+  {
+    id: "dog-days",
+    phrase: "Dog Days",
+    meaning: "The hottest, most sultry part of summer.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Nothing to do with dogs being hot and bothered. According to
+    Wikipedia, the English term is a calque, a word-for-word loan
+    translation, of the Latin <em>dies caniculares</em> ("the puppy
+    days"), itself modelled on the ancient Greek <em>kynades
+    hemerai</em>. The "dog" is the star Sirius, the Dog Star, and the dog
+    days were historically the period following Sirius's heliacal
+    rising, when it first becomes visible again just before sunrise,
+    in the hottest part of summer. The phrase is in English by the 16th
+    century: a 1564 book called <em>Hope of Health</em> uses "Dogge
+    daies," and 16th-century English liturgies observed canonical "dog
+    daies" from 7 July to 5 September.`,
+    mythVsFact: null,
+    source: "Wikipedia, 'Dog days' (calque of Latin dies caniculares and Greek kynades hemerai; the 1564 Hope of Health; 16th-century English liturgies)."
+  },
+  {
+    id: "fly-in-the-ointment",
+    phrase: "A Fly in the Ointment",
+    meaning: "A small flaw that spoils something otherwise good.",
+    category: "Literature",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A direct allusion to Ecclesiastes 10:1 in the King James
+    Bible: "Dead flies cause the ointment of the apothecary to send
+    forth a stinking savour." The "ointment" there is a perfumed
+    cosmetic or scented oil rather than medicine, so the picture is of
+    a ruined fragrance, one small thing spoiling something valuable. No
+    Bible translation actually says "fly in the ointment"; the phrase
+    is a later, figurative shorthand, and Wayword Radio says English
+    speakers were using it metaphorically by the 18th century.`,
+    mythVsFact: null,
+    source: "Ecclesiastes 10:1 (King James Version, 1611); Wayword Radio on the metaphorical use by the 18th century."
+  },
+  {
+    id: "hue-and-cry",
+    phrase: "Hue and Cry",
+    meaning: "A noisy public outcry; originally, a legal call to chase a criminal.",
+    category: "Law & Government",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A real medieval legal duty. "Hue" comes from Old French
+    <em>huer</em>, "to shout," and "cry" from Old French
+    <em>crier</em>; Wikipedia also mentions the possibility that the
+    phrase is an Anglicisation, via Anglo-French, of the Latin
+    <em>hutesium et clamor</em>, "a horn and shouting." Under the
+    Statute of Winchester of 1285, anyone who witnessed a crime,
+    whether a constable or a private citizen, was required to raise the
+    hue and cry, which had to be kept up against the fleeing criminal
+    from town to town and county to county until the felon was caught
+    and handed to the sheriff. The phrase later loosened into a general
+    word for a public outcry or commotion.`,
+    mythVsFact: null,
+    source: "Statute of Winchester (1285), 13 Edw. 1 St. 2 c. 4, as summarised on Wikipedia's 'Hue and cry' article."
+  },
+  {
+    id: "run-amok",
+    phrase: "Run Amok",
+    meaning: "To go berserk, or behave in a wild, uncontrolled way.",
+    category: "History & Empire",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `From Malay <em>amuk</em>, "rushing in a frenzy" or, in
+    Wiktionary's gloss, "to go on a killing spree," borrowed into
+    English via Portuguese <em>amouco</em>. The word is associated with
+    the people of Malaysia and Java and appears in the Portuguese
+    <em>Book of Duarte Barbosa</em> (c. 1516-18), which says "These are
+    called Amuco." Wikipedia's list of English words of Malay origin
+    gives the earliest known English use as 1665, as a noun for a Malay
+    in a homicidal frenzy. A story that "amok" comes from sailors
+    running a ship aground is a false etymology.`,
+    mythVsFact: null,
+    source: "Duarte Barbosa, Book of Duarte Barbosa (c. 1516-18); Wikipedia's 'List of English words of Malay origin' (earliest known English use, 1665); Wiktionary and Mental Floss on the Malay and Portuguese forms."
+  },
+  {
+    id: "round-robin",
+    phrase: "Round Robin",
+    meaning: "Something done in rotation, or a petition signed in a circle so no signer stands out as leader.",
+    category: "Sailing & the Sea",
+    verdict: "disputed",
+    verdictLabel: "Likely Origin (Disputed)",
+    story: `A petition signed in a circle so that no signatory could be
+    singled out as the ringleader, a trick associated with sailors
+    protesting to their officers. The earliest citation for that sense
+    on Wiktionary is Charles Johnson's <em>A General History of the
+    Pyrates</em> (second edition, 1724), which describes a petition
+    drawn up "in the Manner of what they call a Round Robin." Where
+    "robin" comes from is the weak point. One suggestion is that it
+    corrupts the French <em>ruban rond</em>, "round ribbon," from
+    17th-century France, where petitions were supposedly signed on
+    ribbons attached in a circle, but Wiktionary notes that this
+    doesn't explain the term's other, unrelated senses and gives the
+    main etymology as simply "round" plus "robin." Wikipedia flags the
+    sailors-and-French-ribbon story as needing a citation, and the
+    earliest attested sense of the term is actually something else
+    entirely: a consecrated host, recorded in 1659.`,
+    mythVsFact: null,
+    source: "Charles Johnson, A General History of the Pyrates (2nd ed., 1724), as cited on Wiktionary; Thomas Fuller, The Appeal of Iniured Innocence (1659); Wikipedia's 'Round-robin (document)' article."
+  },
+  {
+    id: "back-to-square-one",
+    phrase: "Back to Square One",
+    meaning: "Back at the very beginning, having made no progress.",
+    category: "Popular Myths",
+    verdict: "myth",
+    verdictLabel: "Popular Myth (Probably)",
+    story: `The most repeated story is that it comes from early BBC
+    radio football commentary. Phrase Finder confirms the real
+    background: in January 1927 <em>The Radio Times</em> referred to a
+    numbered grid of squares printed so listeners could follow the
+    commentary. But Phrase Finder points out that at no point in any
+    existing commentary is the phrase "back to square one" used, and a
+    discussion on Wiktionary adds that the system was dropped soon
+    after it began. The earliest print use Phrase Finder knows of is
+    from the <em>Economic Journal</em> in 1952, which specifically
+    cites snakes and ladders, with a second example in the
+    <em>Liverpool Echo</em> in November 1959. Phrase Finder concludes
+    that the snakes and ladders derivation has the strongest claim,
+    though the true origin remains unproven, and hopscotch is another
+    suggestion.`,
+    mythVsFact: "The football-commentary story is told as fact, even by the BBC, but no surviving commentary uses the phrase and it isn't recorded in print until 1952. Snakes and ladders is the better-supported guess.",
+    source: "Phrase Finder, 'Back to square one'; Economic Journal (1952); Liverpool Echo (November 1959); The Radio Times (January 1927) on the BBC commentary grid."
+  },
+  {
+    id: "feeling-blue",
+    phrase: "Feeling Blue",
+    meaning: "Feeling sad or low in spirits.",
+    category: "Still Unsolved",
+    verdict: "mystery",
+    verdictLabel: "Still a Mystery",
+    story: `Nobody knows for certain. The most-repeated explanation is
+    naval: a ship that lost its captain at sea supposedly returned
+    flying blue flags and perhaps a blue band painted along its hull,
+    and the mourning symbol became shorthand for sadness. The History of
+    English notes this is "believed by many" but gives no source for
+    it, and we found no early documentary evidence for the custom. A
+    better-documented thread is "blue devils," a term dating back to the
+    17th century for the hallucinations of severe alcohol withdrawal,
+    which is one suggested route to "the blues." The same source says
+    Washington Irving was credited with using "the blues" as a synonym
+    for sadness in 1807, and that being "blue" or looking blue has been
+    in dictionaries since at least 1785.`,
+    mythVsFact: "The flag-and-hull-stripe story is told confidently, but no source we found documents the custom. Treat it as a plausible-sounding theory, not a fact.",
+    source: "Richard Barker, The History of English, 'Feeling blue' (2026), which says the precise origin is not known; no early citation for the naval custom found."
+  },
+  {
+    id: "pecking-order",
+    phrase: "Pecking Order",
+    meaning: "A ranking of status within a group, from top to bottom.",
+    category: "Language Itself",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A zoology term that became a social one. The Norwegian
+    zoologist Thorleif Schjelderup-Ebbe described the dominance
+    hierarchy among hens, which he called <em>Hackliste</em>, later
+    rendered in German as <em>Hackordnung</em>. Sources differ on when:
+    Wikipedia credits a 1913 paper, "The Voices of Chickens," with first
+    describing it, while Phrase Finder points to his 1921 doctoral
+    dissertation. The English "pecking order" is recorded in K. C.
+    Creasy's 1927 English translation of Friedrich Alverdes's <em>Social
+    Life in Animal World</em>: "Such 'pecking orders' give the society
+    concerned a certain degree of organization." The earliest figurative
+    use outside poultry that Phrase Finder cites is from the
+    <em>Pittsburgh Sun-Telegraph</em> in October 1929, about a woman
+    whose "position of number two in the pecking order would never have
+    been questioned." Schjelderup-Ebbe also reported cycles within
+    dominance structures, so the neat ladder the phrase suggests isn't
+    quite what he found.`,
+    mythVsFact: null,
+    source: "Phrase Finder on Schjelderup-Ebbe (1921 dissertation), K. C. Creasy's 1927 translation of Alverdes, and the Pittsburgh Sun-Telegraph (October 1929); Wikipedia's article on Schjelderup-Ebbe (1913 paper)."
+  },
+  {
+    id: "pin-money",
+    phrase: "Pin Money",
+    meaning: "A small amount of money for incidentals; originally an allowance for a wife's personal expenses.",
+    category: "Trade & Industry",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `Not originally small change. "Pin money" was an allowance,
+    often provided for in a marriage contract, that a husband gave his
+    wife (or a father his daughter) for personal expenses; Wiktionary
+    dates that sense from the 16th century. The editors of Merriam-Webster,
+    answering a reader in 1996, noted that in the 17th and 18th
+    centuries, when "pin money" was a legal term, the sum was often
+    written into a marriage contract, and gave an example of a
+    16th-century father allowing his daughter the income from the lease
+    of a parsonage to "by her pynnes." The pins in question are
+    presumably the ones used to fasten clothing, once a notable expense;
+    the same article quotes a proverb of the time, "a pin a day is a
+    groat a year." One often-cited allowance, that of the princess of
+    Orange, was allegedly 50,000 pounds a year. The meaning later
+    shrank to a small sum for incidentals. Wiktionary's earliest dated
+    quotation is from Charles Walker's 1723 <em>Memoirs of Sally
+    Salisbury</em>: "Shall you wear such Things, and I want
+    Pin-Money?"`,
+    mythVsFact: null,
+    source: "Merriam-Webster editors, quoted in the Deseret News (30 June 1996); Wiktionary's entry for 'pin money,' including its 1723 quotation from Charles Walker's Memoirs of Sally Salisbury."
+  },
+  {
+    id: "hand-over-fist",
+    phrase: "Hand Over Fist",
+    meaning: "Very quickly, especially when making money.",
+    category: "Sailing & the Sea",
+    verdict: "well-documented",
+    verdictLabel: "Well Documented",
+    story: `A sailors' phrase from hauling rope. Phrase Finder says it is
+    probably of naval origin, from the action of hauling on a rope, and
+    that it grew out of the earlier "hand over hand." That form is
+    recorded in 1736 in a piece by Cooke in the Royal Society's
+    <em>Philosophical Transactions</em>: "A lusty young Man attempted to
+    go down (hand over hand, as the Workmen call it)." William
+    Falconer's <em>An Universal Dictionary of the Marine</em> (1769)
+    defines an order to pull on a rope hand-over-hand. The "fist"
+    version appears in William Glascock's <em>The Naval Sketch-Book</em>
+    (1825): "coming up with us, 'hand over fist', in three divisions."
+    The money sense, rapid gain, is recorded in Seba Smith's <em>The
+    Life and Writings of Major Jack Downing</em> (1833), in which people
+    "clawed the money off of his table, hand over fist."`,
+    mythVsFact: null,
+    source: "Phrase Finder on 'hand over fist' (Cooke, Philosophical Transactions, 1736; William Falconer, An Universal Dictionary of the Marine, 1769; William Glascock, The Naval Sketch-Book, 1825; Seba Smith, Major Jack Downing, 1833)."
+  },
+  {
+    id: "square-meal",
+    phrase: "A Square Meal",
+    meaning: "A full, satisfying, proper meal.",
+    category: "Food & Dining",
+    verdict: "myth",
+    verdictLabel: "Popular Myth",
+    story: `The popular story is that "square meal" comes from the
+    square wooden plates once used in the Royal Navy. Grammarphobia's
+    verdict: "Forget about it." Quick and Dirty Tips adds that neither
+    <em>The Sailor's Word Book</em> nor the Oxford English Dictionary
+    connects the phrase to the navy. The likelier source is the
+    adjective "square" meaning fair, just, or honest, which the Oxford
+    English Dictionary traces to Robert Greene's <em>The Defence of
+    Conny Catching</em> (1592) and which also gave us "fair and
+    square." The phrase itself is American. The OED's earliest example
+    is from <em>All the Year Round</em>, the magazine edited by Charles
+    Dickens, on 19 September 1868: "'square meals': by which is meant
+    full meals." Earlier examples turn up online, including an
+    advertisement in the <em>Mountain Democrat</em> of Placerville,
+    California, on 8 November 1856 for a "square meal" at the Hope and
+    Neptune, and a letter in the <em>Georgetown News</em> of 7 February
+    1856 that tells readers to "get a square meal."`,
+    mythVsFact: "The Royal Navy square-plates story is repeated as fact, but there's no evidence connecting the phrase to naval dining. 'Square' meaning fair or honest is the likelier source.",
+    source: "Grammarphobia (21 June 2019) on the OED's 1868 citation and the 1856 Placerville advertisement; Quick and Dirty Tips on the 1856 Georgetown News letter and the lack of any naval link; Robert Greene, The Defence of Conny Catching (1592)."
   }
 ];
 

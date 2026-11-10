@@ -3156,5 +3156,205 @@ const QUIZ_QUESTIONS = [
       "A giant and a mouse"
     ],
     correctIndex: 0
+  },
+  {
+    idiomId: "hobsons-choice",
+    question: "What's notable about the earliest written use of \"Hobson's choice\" (1660)?",
+    options: [
+      "It doesn't mention Hobson, stables, or horses",
+      "It names Thomas Hobson's Cambridge stable directly",
+      "It appears in a poem by Milton"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "worth-your-salt",
+    question: "What does Wikipedia's article on \"salary\" say about the claim that Roman soldiers were paid in salt?",
+    options: [
+      "It calls the claim baseless",
+      "It confirms it from surviving Roman pay records",
+      "It says soldiers were paid in salt only on campaign"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hold-the-fort",
+    question: "Which battle is usually credited with inspiring \"hold the fort\"?",
+    options: [
+      "Allatoona Pass, Georgia, in 1864",
+      "Gettysburg, Pennsylvania, in 1863",
+      "Bunker Hill, Massachusetts, in 1775"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "to-the-bitter-end",
+    question: "In the nautical explanation, what was the \"bitter end\"?",
+    options: [
+      "The end of an anchor cable fastened to the bitts",
+      "The last barrel of rum in a ship's stores",
+      "The stern of a ship, where the wake trails off"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "by-and-large",
+    question: "In sailors' language, what did sailing \"large\" mean?",
+    options: [
+      "Having the wind from behind the beam",
+      "Sailing a ship at full cargo capacity",
+      "Sailing in deep, open water"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "clean-bill-of-health",
+    question: "What did a \"clean bill of health\" certify about a ship's port of departure?",
+    options: [
+      "That no infectious disease was known there",
+      "That the crew had been medically examined",
+      "That the ship's water supply was fresh"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pipe-down",
+    question: "What did the naval call \"Pipe Down\" signal, according to Wikipedia's list of boatswain's calls?",
+    options: [
+      "Dismissal of all crew not on watch",
+      "Silence on the lower decks",
+      "An order to lower the sails"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "shot-across-the-bows",
+    question: "What was a naval \"shot across the bows\"?",
+    options: [
+      "A warning shot fired in front of another ship, not at it",
+      "A shot that struck the other ship's rigging",
+      "A signal of surrender fired into the water"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "dead-as-a-doornail",
+    question: "Who gave \"dead as a doornail\" to the rebel Jack Cade?",
+    options: [
+      "Shakespeare, in Henry VI, Part 2",
+      "Charles Dickens, in A Christmas Carol",
+      "William Langland, in Piers Plowman"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "dog-days",
+    question: "Which star gave the \"dog days\" their name?",
+    options: [
+      "Sirius, the Dog Star",
+      "Polaris, the North Star",
+      "Betelgeuse, in Orion"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "fly-in-the-ointment",
+    question: "Which biblical book describes dead flies spoiling the apothecary's ointment?",
+    options: [
+      "Ecclesiastes",
+      "Proverbs",
+      "Psalms"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hue-and-cry",
+    question: "What did the Statute of Winchester (1285) require of anyone who witnessed a crime?",
+    options: [
+      "Raise the hue and cry and pursue the criminal",
+      "Report it to the local priest within a day",
+      "Pay a fine unless they testified"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "run-amok",
+    question: "Which language does \"amok\" come from, via Portuguese?",
+    options: [
+      "Malay",
+      "Hindi",
+      "Swahili"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "round-robin",
+    question: "Why were round robin petitions signed in a circle?",
+    options: [
+      "So no signatory could be singled out as the ringleader",
+      "To save space on a single sheet",
+      "To follow a naval tradition of seniority"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "back-to-square-one",
+    question: "What does Phrase Finder say about the BBC football commentary theory for \"back to square one\"?",
+    options: [
+      "No existing commentary uses the phrase",
+      "The BBC confirmed it from 1927 records",
+      "The phrase was first printed in a 1927 Radio Times"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "feeling-blue",
+    question: "What's the problem with the story that \"feeling blue\" comes from ships flying blue flags after a captain's death?",
+    options: [
+      "No early documentary evidence for the custom has been found",
+      "The phrase is first recorded in the 1960s",
+      "Naval records explicitly contradict the custom"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pecking-order",
+    question: "Who first described the dominance hierarchy among hens that gave us \"pecking order\"?",
+    options: [
+      "Thorleif Schjelderup-Ebbe",
+      "Konrad Lorenz, the ethologist",
+      "Charles Darwin, the naturalist"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "pin-money",
+    question: "What was \"pin money\" originally?",
+    options: [
+      "A personal allowance, often set in a marriage contract",
+      "A small coin used to buy sewing pins",
+      "A fine paid for losing a tailor's tools"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "hand-over-fist",
+    question: "Which earlier phrase did \"hand over fist\" grow out of?",
+    options: [
+      "Hand over hand",
+      "Hand to mouth",
+      "Hand in glove"
+    ],
+    correctIndex: 0
+  },
+  {
+    idiomId: "square-meal",
+    question: "What's the likelier source of \"square\" in \"square meal\"?",
+    options: [
+      "The adjective meaning fair, just, or honest",
+      "The square wooden plates of the Royal Navy",
+      "The square shape of a Victorian dining table"
+    ],
+    correctIndex: 0
   }
 ];
